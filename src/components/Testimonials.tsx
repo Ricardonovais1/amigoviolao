@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Reveal from "./Reveal";
 
 const testimonials = [
   {
@@ -30,44 +31,45 @@ export default function Testimonials() {
   return (
     <section className="bg-charcoal py-20">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="mb-12 text-center">
+        <Reveal className="mb-12 text-center" delay={0}>
           <div className="mb-4 flex justify-center gap-1 text-2xl text-amber-400">
             {"★★★★★"}
           </div>
           <h2 className="text-3xl font-extrabold text-white">
             Professores aprovam a metodologia
           </h2>
-        </div>
+        </Reveal>
 
         <div className="grid gap-6 md:grid-cols-3">
-          {testimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="flex flex-col rounded-2xl bg-white/5 p-6"
-            >
-              <blockquote className="flex-1 text-sm italic leading-relaxed text-white/85">
-                &ldquo;{t.quote}&rdquo;
-              </blockquote>
-              <figcaption className="mt-6 flex items-center gap-3">
-                {t.avatar ? (
-                  <Image
-                    src={t.avatar}
-                    alt={t.name}
-                    width={44}
-                    height={44}
-                    className="h-11 w-11 rounded-full object-cover"
-                  />
-                ) : (
-                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">
-                    {t.name.charAt(0)}
-                  </span>
-                )}
-                <div>
-                  <p className="text-sm font-semibold text-white">{t.name}</p>
-                  <p className="text-xs text-white/60">{t.city}</p>
-                </div>
-              </figcaption>
-            </figure>
+          {testimonials.map((t, i) => (
+            <Reveal key={t.name} delay={i * 80}>
+              <figure className="flex h-full flex-col rounded-2xl bg-white/5 p-6">
+                <blockquote className="flex-1 text-sm italic leading-relaxed text-white/85">
+                  &ldquo;{t.quote}&rdquo;
+                </blockquote>
+                <figcaption className="mt-6 flex items-center gap-3">
+                  {t.avatar ? (
+                    <Image
+                      src={t.avatar}
+                      alt={t.name}
+                      width={44}
+                      height={44}
+                      className="h-11 w-11 rounded-full object-cover"
+                    />
+                  ) : (
+                    <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">
+                      {t.name.charAt(0)}
+                    </span>
+                  )}
+                  <div>
+                    <p className="text-sm font-semibold text-white">
+                      {t.name}
+                    </p>
+                    <p className="text-xs text-white/60">{t.city}</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </Reveal>
           ))}
         </div>
       </div>

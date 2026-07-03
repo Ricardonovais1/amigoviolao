@@ -1,20 +1,23 @@
 import Image from "next/image";
+import Reveal from "./Reveal";
 
 export default function About() {
   return (
     <section className="bg-white pb-20">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
-        <div className="mx-auto w-full max-w-sm overflow-hidden rounded-full border-4 border-charcoal">
-          <Image
-            src="https://amigoviolao.com/wp-content/uploads/2018/05/Foto-No-Escrit%C3%B3rio-MENOR-diferente.png"
-            alt="Ricardo Novais"
-            width={600}
-            height={654}
-            className="h-auto w-full"
-          />
-        </div>
+        <Reveal>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-full border-4 border-charcoal">
+            <Image
+              src="https://amigoviolao.com/wp-content/uploads/2018/05/Foto-No-Escrit%C3%B3rio-MENOR-diferente.png"
+              alt="Ricardo Novais"
+              width={600}
+              height={654}
+              className="h-auto w-full"
+            />
+          </div>
+        </Reveal>
 
-        <div>
+        <Reveal delay={100}>
           <h2 className="text-3xl font-extrabold text-charcoal">
             Ricardo Novais
           </h2>
@@ -36,7 +39,7 @@ export default function About() {
               antes de tudo autodidatas, pois buscam o conhecimento.
             </p>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
