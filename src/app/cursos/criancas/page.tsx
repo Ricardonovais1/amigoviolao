@@ -12,6 +12,7 @@ import CommonMistakes from "@/components/sales/CommonMistakes";
 import WhoIsItFor from "@/components/sales/WhoIsItFor";
 import PricingCTA from "@/components/sales/PricingCTA";
 import Faq from "@/components/sales/Faq";
+import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
 
 export const metadata: Metadata = {
   title: "Curso de Violão para Crianças - Amigo Violão",
@@ -37,6 +38,7 @@ export default function CursoParaCriancasPage() {
         <Faq />
       </main>
       <Footer />
+      <StickyMobileCTA />
     </>
   );
 }

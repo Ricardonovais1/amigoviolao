@@ -2,6 +2,15 @@ import Image from "next/image";
 import Reveal from "../Reveal";
 import { HOTMART_CHECKOUT_URL } from "@/lib/links";
 
+const inclusions = [
+  "Curso completo de violão para crianças (5 módulos + violão GOSPEL)",
+  "Jogos musicais interativos (quizzes)",
+  "Certificado a cada módulo concluído",
+  "Acesso por 2 anos na plataforma NAVE",
+  "Suporte da comunidade Amigo Violão",
+  "Garantia incondicional de 30 dias",
+];
+
 export default function PricingCTA() {
   return (
     <section id="comprar" className="bg-cream py-16">
@@ -10,6 +19,17 @@ export default function PricingCTA() {
           <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
             O melhor curso de violão para crianças por apenas:
           </h2>
+        </Reveal>
+
+        <Reveal delay={40}>
+          <ul className="mx-auto mt-8 max-w-md space-y-2 text-left">
+            {inclusions.map((item) => (
+              <li key={item} className="flex gap-2 text-sm text-foreground/80">
+                <span className="text-green-600">✓</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </Reveal>
 
         <Reveal delay={80}>

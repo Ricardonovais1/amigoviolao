@@ -8,7 +8,7 @@ const badges = [
 
 export default function FeatureBadges() {
   return (
-    <div className="bg-dark pb-12 md:pb-16">
+    <div className="-mt-px bg-dark pb-12 md:pb-16">
       <div className="mx-auto grid max-w-6xl gap-4 px-6 sm:grid-cols-3">
         {badges.map((badge, i) => (
           <Reveal key={badge} delay={i * 60}>

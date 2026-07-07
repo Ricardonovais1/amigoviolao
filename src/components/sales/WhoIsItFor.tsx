@@ -10,7 +10,7 @@ const audience = [
 
 export default function WhoIsItFor() {
   return (
-    <section className="bg-white pb-16">
+    <section className="bg-teal/15 py-16">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
         <Reveal>
           <Image
