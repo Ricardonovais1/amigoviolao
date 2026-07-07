@@ -27,14 +27,20 @@ const defaultItems = [
 type CrossSellProps = {
   heading?: string | null;
   items?: { title: string; image: string; subtitle?: string }[];
+  columns?: 3 | 4;
+  topPadding?: "normal" | "none";
 };
 
 export default function CrossSell({
   heading = "Aprenda também:",
   items = defaultItems,
+  columns = 4,
+  topPadding = "normal",
 }: CrossSellProps) {
   return (
-    <section className="bg-white py-16">
+    <section
+      className={`bg-white pb-16 ${topPadding === "none" ? "pt-0" : "pt-16"}`}
+    >
       <div className="mx-auto max-w-6xl px-6 text-center">
         {heading && (
           <Reveal>
@@ -44,7 +50,11 @@ export default function CrossSell({
           </Reveal>
         )}
 
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div
+          className={`grid gap-4 sm:grid-cols-2 ${
+            heading ? "mt-8" : "mt-0"
+          } ${columns === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}
+        >
           {items.map((item, i) => (
             <Reveal key={item.title} delay={i * 60}>
               <div>
@@ -53,7 +63,11 @@ export default function CrossSell({
                     src={item.image}
                     alt={item.title}
                     fill
-                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    sizes={
+                      columns === 3
+                        ? "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                        : "(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    }
                     className="object-cover"
                   />
                 </div>

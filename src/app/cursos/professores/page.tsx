@@ -269,19 +269,28 @@ export default function CursoParaProfessoresPage() {
         <ProvicTeachers />
         <TextTestimonials />
 
+        <div className="bg-white pt-2">
+          <hr className="mx-auto max-w-4xl border-primary/40" />
+        </div>
+
         <div className="bg-white pt-16">
           <Reveal className="mx-auto max-w-2xl px-6 text-center">
             <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
               Bônus:
             </h2>
-            <p className="mt-2 text-foreground/70">
+            <p className="mt-6 text-foreground/70">
               Fazendo as atividades propostas no curso você poderá obter o
               certificado do Amigo Violão, para atuar como Professor de
               Violão para Crianças
             </p>
           </Reveal>
         </div>
-        <CrossSell heading={null} items={bonusItems} />
+        <CrossSell
+          heading={null}
+          items={bonusItems}
+          columns={3}
+          topPadding="none"
+        />
 
         <NaveCourses />
         <About paragraphs={bio} />
