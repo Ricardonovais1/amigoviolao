@@ -74,7 +74,7 @@ export default function HowItWorks() {
         <Reveal delay={160}>
           <div
             key={active}
-            className="mt-6 rounded-2xl bg-primary p-8 text-left shadow-lg [animation:tab-content-in_220ms_var(--ease-snappy)_both] motion-reduce:[animation:none]"
+            className="mt-6 rounded-2xl bg-primary p-8 text-left shadow-lg [animation:tab-content-in_220ms_cubic-bezier(0.23,1,0.32,1)_both] motion-reduce:[animation:none]"
           >
             <ul className="space-y-3 text-white">
               {tabs[active].items.map((item, i) => (
