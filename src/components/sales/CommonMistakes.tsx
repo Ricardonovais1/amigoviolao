@@ -12,7 +12,7 @@ export default function CommonMistakes() {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
-        <Reveal>
+        <Reveal className="order-2 md:order-1">
           <h2 className="text-3xl font-extrabold">
             <span className="text-primary">Principais erros</span>{" "}
             <span className="text-charcoal">
@@ -29,7 +29,7 @@ export default function CommonMistakes() {
           </ol>
         </Reveal>
 
-        <Reveal delay={100}>
+        <Reveal delay={100} className="order-1 md:order-2">
           <Image
             src="https://amigoviolao.com/wp-content/uploads/2021/12/Criancas-com-violao-NAVE.png"
             alt="Ilustração de crianças aprendendo violão"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Reveal from "../Reveal";
 import { HOTMART_CHECKOUT_URL } from "@/lib/links";
 
@@ -34,10 +35,13 @@ export default function PricingCTA() {
         </Reveal>
 
         <Reveal delay={200}>
-          <div className="mt-6 flex items-center justify-center gap-2 text-sm text-foreground/60">
-            <span className="text-amber-400">★★★★★</span>
-            <span>Compra segura via Hotmart</span>
-          </div>
+          <Image
+            src="https://amigoviolao.com/wp-content/uploads/2023/12/cOMPRA-SEGURA-HOTMART-1.png.webp"
+            alt="Compra segura via Hotmart"
+            width={350}
+            height={87}
+            className="mx-auto mt-6 h-auto w-full max-w-[280px]"
+          />
         </Reveal>
       </div>
     </section>

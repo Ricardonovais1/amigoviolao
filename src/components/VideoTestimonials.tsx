@@ -17,7 +17,7 @@ export default function VideoTestimonials() {
           </h2>
         </Reveal>
 
-        <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {videos.map((video, i) => (
             <Reveal key={i} delay={i * 60}>
               <div className="group relative flex aspect-[9/16] items-center justify-center overflow-hidden rounded-xl bg-dark transition-transform duration-150 ease-snappy active:scale-[0.97]">
