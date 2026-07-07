@@ -1,7 +1,18 @@
 import Image from "next/image";
 import Reveal from "./Reveal";
 
-export default function About() {
+const defaultParagraphs = [
+  "Tocar violão sempre foi minha paixão. E há 20 anos venho ensinando.",
+  "As crianças abriram as portas para que eu me tornasse um didata do instrumento.",
+  "O Amigo Violão abriu as portas do mundo para meu trabalho, através da internet.",
+  "Eu valorizo os alunos que, apesar de terem um professor, são antes de tudo autodidatas, pois buscam o conhecimento.",
+];
+
+export default function About({
+  paragraphs = defaultParagraphs,
+}: {
+  paragraphs?: string[];
+}) {
   return (
     <section className="bg-white py-20">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
@@ -22,22 +33,9 @@ export default function About() {
             Ricardo Novais
           </h2>
           <div className="mt-4 space-y-4 text-foreground/80">
-            <p>
-              Tocar violão sempre foi minha paixão. E há 20 anos venho
-              ensinando.
-            </p>
-            <p>
-              As crianças abriram as portas para que eu me tornasse um didata
-              do instrumento.
-            </p>
-            <p>
-              O Amigo Violão abriu as portas do mundo para meu trabalho,
-              através da internet.
-            </p>
-            <p>
-              Eu valorizo os alunos que, apesar de terem um professor, são
-              antes de tudo autodidatas, pois buscam o conhecimento.
-            </p>
+            {paragraphs.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
           </div>
         </Reveal>
       </div>

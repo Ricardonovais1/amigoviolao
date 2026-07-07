@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Reveal from "../Reveal";
 
-const items = [
+const defaultItems = [
   {
     title: "Organização do estudo",
     image:
@@ -24,27 +24,42 @@ const items = [
   },
 ];
 
-export default function CrossSell() {
+type CrossSellProps = {
+  heading?: string;
+  items?: { title: string; image: string; subtitle?: string }[];
+};
+
+export default function CrossSell({
+  heading = "Aprenda também:",
+  items = defaultItems,
+}: CrossSellProps) {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-6xl px-6 text-center">
         <Reveal>
           <h2 className="text-2xl font-extrabold text-charcoal">
-            Aprenda também:
+            {heading}
           </h2>
         </Reveal>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => (
             <Reveal key={item.title} delay={i * 60}>
-              <div className="relative aspect-video overflow-hidden rounded-lg shadow-sm">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  fill
-                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                  className="object-cover"
-                />
+              <div>
+                <div className="relative aspect-video overflow-hidden rounded-lg shadow-sm">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+                {item.subtitle && (
+                  <p className="mt-2 text-sm font-medium text-foreground/70">
+                    {item.subtitle}
+                  </p>
+                )}
               </div>
             </Reveal>
           ))}

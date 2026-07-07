@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "amigoviolao.com",
         pathname: "/wp-content/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "img.youtube.com",
+        pathname: "/vi/**",
+      },
     ],
   },
 };
