@@ -116,7 +116,14 @@ export default function CursoParaIniciantesPage() {
           eyebrow="APROVEITE ESTA OFERTA!"
           heading="Acesso completo a este curso e a toda a plataforma, por apenas:"
           ctaText="SIM! QUERO MUITO APRENDER VIOLÃO!"
-          inclusions={null}
+          inclusions={[
+            "Curso completo de violão para iniciantes (cifras, solos e melodias)",
+            "Acesso a toda a plataforma NAVE (cursos para crianças, avançar e ensinar também)",
+            "Mentorias com feedback personalizado",
+            "Acesso por 2 anos",
+            "Suporte direto com o professor",
+            "Garantia incondicional de 30 dias",
+          ]}
           trustImage={{
             src: "https://amigoviolao.com/wp-content/uploads/2018/05/Imagem-abaixo-do-bot%C3%A3o-de-compra.png",
             alt: "Formas de pagamento aceitas e compra 100% segura",
