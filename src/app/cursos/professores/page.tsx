@@ -285,12 +285,7 @@ export default function CursoParaProfessoresPage() {
             </p>
           </Reveal>
         </div>
-        <CrossSell
-          heading={null}
-          items={bonusItems}
-          columns={3}
-          topPadding="none"
-        />
+        <CrossSell heading={null} items={bonusItems} columns={3} />
 
         <NaveCourses />
         <About paragraphs={bio} />
