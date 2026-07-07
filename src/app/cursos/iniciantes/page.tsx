@@ -123,12 +123,6 @@ export default function CursoParaIniciantesPage() {
             "Suporte direto com o professor",
             "Garantia incondicional de 30 dias",
           ]}
-          trustImage={{
-            src: "https://amigoviolao.com/wp-content/uploads/2018/05/Imagem-abaixo-do-bot%C3%A3o-de-compra.png",
-            alt: "Formas de pagamento aceitas e compra 100% segura",
-            width: 640,
-            height: 46,
-          }}
         />
         <CourseModules
           heading="Conteúdos do curso de violão para iniciantes:"
