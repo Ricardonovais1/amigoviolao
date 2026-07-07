@@ -1,13 +1,19 @@
 import Reveal from "./Reveal";
 
-const videos = [
+const defaultVideos = [
   { duration: "00:37", name: "Flávia Pietro" },
   { duration: "02:05", name: "Leandro Cesar Miguel" },
   { duration: "00:31", name: "LIPE" },
   { duration: "00:59", name: "Verônica" },
 ];
 
-export default function VideoTestimonials() {
+type VideoTestimonialsProps = {
+  videos?: { duration: string; name: string }[];
+};
+
+export default function VideoTestimonials({
+  videos = defaultVideos,
+}: VideoTestimonialsProps) {
   return (
     <section className="bg-cream py-16">
       <div className="mx-auto max-w-6xl px-6 text-center">

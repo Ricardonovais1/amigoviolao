@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Reveal from "../Reveal";
 
-const modules = [
+const defaultModules = [
   {
     title: "Músicas de cordas soltas",
     image:
@@ -34,13 +34,21 @@ const modules = [
   },
 ];
 
-export default function CourseModules() {
+type CourseModulesProps = {
+  heading?: string;
+  modules?: { title: string; image: string }[];
+};
+
+export default function CourseModules({
+  heading = "Conteúdos do curso de violão para crianças:",
+  modules = defaultModules,
+}: CourseModulesProps) {
   return (
     <section className="bg-cream py-16">
       <div className="mx-auto max-w-6xl px-6 text-center">
         <Reveal>
           <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
-            Conteúdos do curso de violão para crianças:
+            {heading}
           </h2>
         </Reveal>
 

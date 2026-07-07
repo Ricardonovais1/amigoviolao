@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Reveal from "../Reveal";
 
-const faqs = [
+const defaultFaqs = [
   {
     question: "Este curso funciona para quais idades?",
     answer:
@@ -40,7 +40,11 @@ const faqs = [
   },
 ];
 
-export default function Faq() {
+type FaqProps = {
+  faqs?: { question: string; answer: string }[];
+};
+
+export default function Faq({ faqs = defaultFaqs }: FaqProps) {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
