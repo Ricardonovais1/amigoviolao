@@ -5,7 +5,6 @@ import { HOTMART_CHECKOUT_URL } from "@/lib/links";
 const defaultInclusions = [
   "Curso completo de violão para crianças (5 módulos + violão GOSPEL)",
   "Jogos musicais interativos (quizzes)",
-  "Certificado a cada módulo concluído",
   "Acesso por 2 anos na plataforma NAVE",
   "Suporte da comunidade Amigo Violão",
   "Garantia incondicional de 30 dias",
