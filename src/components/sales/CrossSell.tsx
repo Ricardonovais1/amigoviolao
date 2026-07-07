@@ -25,7 +25,7 @@ const defaultItems = [
 ];
 
 type CrossSellProps = {
-  heading?: string;
+  heading?: string | null;
   items?: { title: string; image: string; subtitle?: string }[];
 };
 
@@ -36,11 +36,13 @@ export default function CrossSell({
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-6xl px-6 text-center">
-        <Reveal>
-          <h2 className="text-2xl font-extrabold text-charcoal">
-            {heading}
-          </h2>
-        </Reveal>
+        {heading && (
+          <Reveal>
+            <h2 className="text-2xl font-extrabold text-charcoal">
+              {heading}
+            </h2>
+          </Reveal>
+        )}
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => (

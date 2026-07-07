@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: "img.youtube.com",
         pathname: "/vi/**",
       },
+      {
+        protocol: "https",
+        hostname: "i.vimeocdn.com",
+        pathname: "/video/**",
+      },
     ],
   },
 };

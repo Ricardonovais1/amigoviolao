@@ -14,14 +14,17 @@ type PricingCTAProps = {
   eyebrow?: string;
   heading?: string;
   ctaText?: string;
+  checkoutUrl?: string;
   inclusions?: string[] | null;
   trustImage?: { src: string; alt: string; width: number; height: number };
+  sectionId?: string;
 };
 
 export default function PricingCTA({
   eyebrow,
   heading = "O melhor curso de violão para crianças por apenas:",
   ctaText = "SIM! QUERO INSCREVER MEU FILHO!",
+  checkoutUrl = HOTMART_CHECKOUT_URL,
   inclusions = defaultInclusions,
   trustImage = {
     src: "https://amigoviolao.com/wp-content/uploads/2023/12/cOMPRA-SEGURA-HOTMART-1.png.webp",
@@ -29,9 +32,10 @@ export default function PricingCTA({
     width: 350,
     height: 87,
   },
+  sectionId = "comprar",
 }: PricingCTAProps) {
   return (
-    <section id="comprar" className="bg-cream py-16">
+    <section id={sectionId} className="bg-cream py-16">
       <div className="mx-auto max-w-2xl px-6 text-center">
         <Reveal>
           {eyebrow && (
@@ -73,7 +77,7 @@ export default function PricingCTA({
 
         <Reveal delay={140}>
           <a
-            href={HOTMART_CHECKOUT_URL}
+            href={checkoutUrl}
             className="mt-6 inline-block w-full rounded-full bg-green-600 px-8 py-4 text-center text-lg font-bold text-white transition-[background-color,transform] duration-150 ease-snappy hoverable:bg-green-700 active:scale-[0.97] sm:w-auto sm:px-16"
           >
             {ctaText}
