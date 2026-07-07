@@ -37,11 +37,13 @@ const defaultModules = [
 type CourseModulesProps = {
   heading?: string;
   modules?: { title: string; image: string }[];
+  columns?: 3 | 4;
 };
 
 export default function CourseModules({
   heading = "Conteúdos do curso de violão para crianças:",
   modules = defaultModules,
+  columns = 3,
 }: CourseModulesProps) {
   return (
     <section className="bg-cream py-16">
@@ -52,7 +54,11 @@ export default function CourseModules({
           </h2>
         </Reveal>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div
+          className={`mt-10 grid gap-6 sm:grid-cols-2 ${
+            columns === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"
+          }`}
+        >
           {modules.map((module, i) => (
             <Reveal key={module.title} delay={i * 60}>
               <div className="overflow-hidden rounded-xl bg-white shadow-sm">

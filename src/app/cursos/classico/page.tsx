@@ -173,18 +173,26 @@ export default function CursoDeClassicoPage() {
         <CourseModules
           heading="Cursos presentes no programa de violão clássico:"
           modules={modules}
+          columns={4}
         />
 
-        <div className="bg-white pb-10">
+        <div className="bg-white pb-10 pt-6">
           <Reveal className="mx-auto max-w-3xl px-6 text-center">
-            <p className="text-lg font-bold text-charcoal">
+            <p className="text-xl font-bold text-charcoal sm:text-2xl">
               Acesso completo a este curso e a toda a plataforma, hoje!
             </p>
           </Reveal>
         </div>
 
-        <WhyLearn />
-        <VideoTestimonials videos={videos} />
+        <WhyLearn
+          image={{
+            src: "https://amigoviolao.com/wp-content/uploads/2022/01/Violao-classico.png",
+            alt: "Ilustração de pessoa tocando violão clássico",
+            width: 600,
+            height: 400,
+          }}
+        />
+        <VideoTestimonials videos={videos} aspect="video" />
         <RicardoPlaying />
         <CommonMistakes
           headingHighlight="5 obstáculos do violão"
@@ -210,19 +218,19 @@ export default function CursoDeClassicoPage() {
             height: 538,
           }}
           imagePosition="left"
+          bgColor="cream"
         />
         <CrossSell heading="Aprenda de bônus:" items={bonusCourses} />
+
+        <div className="bg-white py-2">
+          <hr className="mx-auto max-w-4xl border-black/10" />
+        </div>
+
         <About paragraphs={bio} />
         <PricingCTA
           heading="Aproveite a promoção, adquirindo o curso de violão clássico por apenas:"
           ctaText="SIM! QUERO TOCAR VIOLÃO CLÁSSICO"
           inclusions={inclusions}
-          trustImage={{
-            src: "https://amigoviolao.com/wp-content/uploads/2018/05/Imagem-abaixo-do-bot%C3%A3o-de-compra.png",
-            alt: "Formas de pagamento aceitas e compra 100% segura",
-            width: 640,
-            height: 46,
-          }}
         />
         <Faq faqs={faqs} />
       </main>

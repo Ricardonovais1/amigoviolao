@@ -8,6 +8,7 @@ type LearnForRealProps = {
   paragraph?: string;
   image?: { src: string; alt: string; width: number; height: number };
   imagePosition?: "left" | "right";
+  bgColor?: "white" | "cream" | "teal-15";
 };
 
 export default function LearnForReal({
@@ -22,6 +23,7 @@ export default function LearnForReal({
     height: 500,
   },
   imagePosition = "right",
+  bgColor = "white",
 }: LearnForRealProps) {
   const textOrder = imagePosition === "right" ? "order-1" : "order-2";
   const imageOrder = imagePosition === "right" ? "order-2" : "order-1";
@@ -29,9 +31,15 @@ export default function LearnForReal({
     <span className="text-primary">{headingHighlight}</span>
   );
   const rest = <span className="text-charcoal">{headingRest}</span>;
+  const bgClass =
+    bgColor === "cream"
+      ? "bg-cream"
+      : bgColor === "teal-15"
+        ? "bg-teal/15"
+        : "bg-white";
 
   return (
-    <section className="bg-white py-16">
+    <section className={`${bgClass} py-16`}>
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
         <Reveal className={textOrder}>
           <h2 className="text-3xl font-extrabold">

@@ -24,7 +24,18 @@ const features = [
   },
 ];
 
-export default function WhyLearn() {
+type WhyLearnProps = {
+  image?: { src: string; alt: string; width: number; height: number };
+};
+
+export default function WhyLearn({
+  image = {
+    src: "https://amigoviolao.com/wp-content/uploads/2022/01/Amigo-Violao.png.webp",
+    alt: "Pessoas aprendendo violão juntas",
+    width: 480,
+    height: 320,
+  },
+}: WhyLearnProps) {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-6xl px-6">
@@ -37,10 +48,10 @@ export default function WhyLearn() {
             </Reveal>
             <Reveal delay={100}>
               <Image
-                src="https://amigoviolao.com/wp-content/uploads/2022/01/Amigo-Violao.png.webp"
-                alt="Pessoas aprendendo violão juntas"
-                width={480}
-                height={320}
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
                 className="mt-8 h-auto w-full max-w-sm"
               />
             </Reveal>

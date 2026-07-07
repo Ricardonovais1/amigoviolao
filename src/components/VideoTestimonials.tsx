@@ -9,10 +9,12 @@ const defaultVideos = [
 
 type VideoTestimonialsProps = {
   videos?: { duration: string; name: string }[];
+  aspect?: "portrait" | "video";
 };
 
 export default function VideoTestimonials({
   videos = defaultVideos,
+  aspect = "portrait",
 }: VideoTestimonialsProps) {
   return (
     <section className="bg-cream py-16">
@@ -27,7 +29,11 @@ export default function VideoTestimonials({
           {videos.map((video, i) => (
             <Reveal key={i} delay={i * 60}>
               <div>
-                <div className="group relative flex aspect-[9/16] items-center justify-center overflow-hidden rounded-xl bg-dark transition-transform duration-150 ease-snappy active:scale-[0.97]">
+                <div
+                  className={`group relative flex items-center justify-center overflow-hidden rounded-xl bg-dark transition-transform duration-150 ease-snappy active:scale-[0.97] ${
+                    aspect === "video" ? "aspect-video" : "aspect-[9/16]"
+                  }`}
+                >
                   <span className="absolute left-2 top-2 rounded bg-black/60 px-2 py-0.5 text-xs text-white">
                     {video.duration}
                   </span>
