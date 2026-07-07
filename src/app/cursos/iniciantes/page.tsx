@@ -119,7 +119,6 @@ export default function CursoParaIniciantesPage() {
           inclusions={[
             "Curso completo de violão para iniciantes (cifras, solos e melodias)",
             "Acesso a toda a plataforma NAVE (cursos para crianças, avançar e ensinar também)",
-            "Mentorias com feedback personalizado",
             "Acesso por 2 anos",
             "Suporte direto com o professor",
             "Garantia incondicional de 30 dias",
