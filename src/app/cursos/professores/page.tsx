@@ -225,6 +225,10 @@ export default function CursoParaProfessoresPage() {
           }}
         />
 
+        <div className="bg-white py-2">
+          <hr className="mx-auto max-w-4xl border-primary/40" />
+        </div>
+
         <LearnForReal
           headingHighlight="aulas de violão:"
           headingRest="Seja eficiente nas suas"
