@@ -278,7 +278,7 @@ export default function CursoParaProfessoresPage() {
             <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
               Bônus:
             </h2>
-            <p className="mt-6 text-foreground/70">
+            <p className="mt-2 text-foreground/70">
               Fazendo as atividades propostas no curso você poderá obter o
               certificado do Amigo Violão, para atuar como Professor de
               Violão para Crianças
