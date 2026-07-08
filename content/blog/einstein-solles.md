@@ -8,23 +8,19 @@ categories:
   - como-tocar-violao
   - professores
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/05/Einstein-Solles-Amigo-Violão.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/05/Einstein-Solles-Amigo-Violão.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/einstein-solles'
 wpId: 1795
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Einstein-Solles.jpg)O professor Einstein Solles é de Paracatu MG, entrou no mundo da musica em 2009, com 10 anos, como trompetista na Banda Lira paracatuense. Posteriormente passou a atuar como violonista e guitarrista na Terceira Igreja Presbiteriana de Paracatu, onde também desenvolve um trabalho com canto coral. Foi jurado da pré-seleção de músicas do 3º Festival do Patrimônio Cultural de Paracatu e vem desenvolvendo um trabalho solo como compositor e cantor. Optou por lecionar violão para adultos e crianças como profissão por considerar uma missão pessoal, além de ser uma forma de preparar o futuro musical artístico do cenário brasileiro.
+![](/images/blog/2018/05/Einstein-Solles.jpg)O professor Einstein Solles é de Paracatu MG, entrou no mundo da musica em 2009, com 10 anos, como trompetista na Banda Lira paracatuense. Posteriormente passou a atuar como violonista e guitarrista na Terceira Igreja Presbiteriana de Paracatu, onde também desenvolve um trabalho com canto coral. Foi jurado da pré-seleção de músicas do 3º Festival do Patrimônio Cultural de Paracatu e vem desenvolvendo um trabalho solo como compositor e cantor. Optou por lecionar violão para adultos e crianças como profissão por considerar uma missão pessoal, além de ser uma forma de preparar o futuro musical artístico do cenário brasileiro.
 
 ## Contato – Professor Einstein Solles:
 
 **WhatsApp:** 038. 99188-4035
 
 **E-mail:** [](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Einstein Solles:
 
 ### O que te dá mais satisfação ao dar aulas?
 

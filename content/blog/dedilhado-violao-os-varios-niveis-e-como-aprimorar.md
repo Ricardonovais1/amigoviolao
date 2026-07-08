@@ -9,8 +9,8 @@ slug: dedilhado-violao-os-varios-niveis-e-como-aprimorar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2021/08/CAPA-DEDILHADO-VIOLAO.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2021/08/CAPA-DEDILHADO-VIOLAO.jpg'
+featured_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.jpg
+og_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.jpg
 canonical: >-
   https://amigoviolao.com/blog/dedilhado-violao-os-varios-niveis-e-como-aprimorar
 wpId: 38534
@@ -41,7 +41,7 @@ Aqui, você já é capaz de tocar **peças para violão solo** mais simples (de 
 
 Neste nível, você já é capaz de tocar bem uma boa quantidade de arranjos para violão solo, conseguindo até mesmo **criar e improvisar** os seus próprios. Aqui, peças para violão solo mais simples já estão **bem dominadas**, e você já pode se arriscar em peças mais complexas, indo dos estudos do Brouwer até os prelúdios do Villa Lobos, peças de Dilermando Reis, arranjos bem elaborados de canções populares etc. A sua mão esquerda e direita **se coordenam** “em um só mecanismo”, não havendo grandes dificuldades em **variar combinações** de dedilhados e de notas na mão esquerda, de acordo com seu interesse. Seu tocar aqui já é **firme e ágil**.
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/08/dedilhado-violao-1024x682.jpg)
+ ![](/images/blog/2021/08/dedilhado-violao-1024x682.jpg)
 
 Dedilhado violão: é necessário praticar da maneira correta!
 
@@ -64,13 +64,12 @@ Isto é; se o dedilhado é p i m a, por exemplo, o i **deve estar pronto na cord
 
 Isso fará com que sua mão sempre tenha ao menos um dedo apoiando no instrumento (o que traz firmeza a ela) e seus dedos estejam sempre prontos para tocar.
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/08/violao-dedilhar-1024x682.jpg)
+ ![](/images/blog/2021/08/violao-dedilhar-1024x682.jpg)
 
 Tem algo mais bonito do que um violão bem dedilhado?
 
 **Mas atenção!**
 
 Não significa que você deva tocar sempre assim, esta técnica é **somente para estudo**! Você deve praticá-la bastante, com **diversos dedilhados** (e com metrônomo, sempre em um andamento bem confortável), e a sua técnica de dedilhado **irá melhorar** **naturalmente**! Treine desta forma então com dedilhados fáceis e também com os mais difíceis, aumentando a velocidade do metrônomo aos poucos, conforme o andamento mais lento for ficando fácil.
-
 
 Caso você queira se desenvolver bem nos dedilhados, conheça os cursos do **Amigo Violão**! São cursos que atendem às demandas dos mais iniciantes até aquelas de quem pretende alcançar níveis mais avançados no violão. Ficou interessado? [Clique aqui para saber mais!](https://amigoviolao.com/)

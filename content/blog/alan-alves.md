@@ -8,21 +8,19 @@ categories:
   - como-tocar-violao
   - professores
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2017/07/Alan-Alves-Amigo-Violão.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2017/07/Alan-Alves-Amigo-Violão.jpg'
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/alan-alves'
 wpId: 1994
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Alan-Alves-Cut-2-1.jpg)O professor Alan Alves é de Divinópolis (MG), formado em Educação Musical pela Universidade Federal de São João Del-Rei. Dentro deste curso participou de matérias voltadas para a musicalização através do violão, estudando  metodologias para a iniciação deste instrumento.  Desde sua formação vem trabalhando com a iniciação ao violão e se dedicando a cursos voltados para o ensino de música para crianças.
+![](/images/blog/2018/05/Alan-Alves-Cut-2-1.jpg)O professor Alan Alves é de Divinópolis (MG), formado em Educação Musical pela Universidade Federal de São João Del-Rei. Dentro deste curso participou de matérias voltadas para a musicalização através do violão, estudando  metodologias para a iniciação deste instrumento.  Desde sua formação vem trabalhando com a iniciação ao violão e se dedicando a cursos voltados para o ensino de música para crianças.
 
 ## Contato –  Professor Alan Alves:
 
 **WhatsApp:** (37)9160-2985
 
 **E-mail:** [](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Alan Alves:
 
 ### O que te dá mais satisfação ao dar aulas?
 

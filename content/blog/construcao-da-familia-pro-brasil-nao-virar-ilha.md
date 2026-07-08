@@ -22,8 +22,8 @@ tags:
   - eu-quero-e-paz
   - importancia-da-familia
   - qual-lado-escolher
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2016/03/Brasil-não-virar-ilha.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2016/03/Brasil-não-virar-ilha.jpg'
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/construcao-da-familia-pro-brasil-nao-virar-ilha'
 wpId: 732
 ---
@@ -39,5 +39,3 @@ E antes de tudo isso, tive a honra de contar com o auxílio do meu amigo Mateus 
 Por esse seu talento, lhe telefonei e apresentei a ideia. Em poucos dias ele me retornou com o seu poema, que logo ajustamos, e eu decidi também acrescentar minhas linhas, fazendo do roteiro do vídeo um trabalho a 4 mãos.
 
 Depois disso, contei com outras 35 pessoas, que aceitaram participar do vídeo, e compus uma melodia para cantar. A parte cantada foi a que o Mateus escreveu (O que nos torna parceiros em uma canção pela primeira vez!), e a parte falada pelas pessoas foi a que eu escrevi.
-
-## “E ai? gostou do vídeo? Lembre-se da mensagem principal “Pro Brasil Não Virar Ilha, Começa na Família”. e se quiser levar mais momentos de qualidade e cultura para sua casa ainda hoje tenho um material bem bacana para você. Meu ebook gratuito sobre como viver mais momentos de qualidade em família”, aproveite e clique no banner abaixo para solicitar o download gratuito, grande abraço”

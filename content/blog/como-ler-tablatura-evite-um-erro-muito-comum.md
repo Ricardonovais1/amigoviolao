@@ -13,8 +13,8 @@ categories:
 tags:
   - como-ler-tablatura
   - simbolos-tablatura
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/12/Design-sem-nome-3.png'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/12/Design-sem-nome-3.png'
+featured_image: /images/blog/2018/12/Design-sem-nome-3.png
+og_image: /images/blog/2018/12/Design-sem-nome-3.png
 canonical: 'https://amigoviolao.com/blog/como-ler-tablatura-evite-um-erro-muito-comum'
 wpId: 3233
 ---
@@ -23,7 +23,7 @@ A tablatura é uma forma de ler música mais simples do que a partitura, muito u
 
 Vamos observar a seguinte imagem para entender, de uma vez por todas, como ler tablatura :
 
-![Como-ler-tablatura-pantera-cor-de-rosa](https://amigoviolao.com/wp-content/uploads/2018/03/Como-ler-tablatura-pantera-cor-de-rosa.jpg "Como-ler-tablatura-pantera-cor-de-rosa")
+![Como-ler-tablatura-pantera-cor-de-rosa](/images/blog/2018/03/Como-ler-tablatura-pantera-cor-de-rosa.jpg)
 
 Trecho de “Pantera Cor-de-Rosa”
 
@@ -48,7 +48,7 @@ Primeiramente, ouça a música e se familiarize com ela, cante-a várias vezes a
 
 Depois, veja a tablatura e tente tocar, como se estivesse cantando :
 
-![Como-ler-tablatura-nona-sinfonia](https://amigoviolao.com/wp-content/uploads/2018/03/Nona-Sinfonia.jpg "Como-ler-tablatura-nona-sinfonia")
+![Como-ler-tablatura-nona-sinfonia](/images/blog/2018/03/Nona-Sinfonia.jpg)
 
 ## Principais Símbolos da Tablatura e Seus Significados:
 
@@ -65,8 +65,6 @@ Existem dezenas de símbolos que podemos encontrar em tablaturas, muitos importa
 **\\ = Arrastar** (glissar) até uma nota vindo de outra mais **AGUDA**;
 
 Veja a imagem, onde ilustramos a utilização dos símbolos citados acima:
-
-![como-ler-tablatura-simbolos](https://amigoviolao.com/wp-content/uploads/2018/05/Símbolos-TAB.jpg)
 
 ## Como Ler Tablatura: Evite Este Erro!
 

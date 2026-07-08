@@ -30,9 +30,7 @@ canonical: 'https://amigoviolao.com/blog/momentos-em-familia'
 wpId: 201
 ---
 
-Em uma postagem recente, expliquei que a [música para crianças](http://tresamigosead.com.br/blog/musica-para-criancas/) não é tão diferente da música que é boa para adultos. Falei como é importante a percepção do mundo real que a criança encontra nas músicas. Por isso, neste post separei 10 vídeos de músicas que já compartilhei com minhas filhas e foram bons momentos em família! É interessante como uma pequena história pode cativar as crianças, mas também como é grande o poder da música. Ah, e eu mostro para elas os mesmos vídeos que compartilho aqui. Ver o vídeo é um passo que aproxima ainda mais a criança em sua relação com a música!
-
-## Veja a seleção que separei para você ter bons momentos em família:
+Em uma postagem recente, expliquei que a música para crianças não é tão diferente da música que é boa para adultos. Falei como é importante a percepção do mundo real que a criança encontra nas músicas. Por isso, neste post separei 10 vídeos de músicas que já compartilhei com minhas filhas e foram bons momentos em família! É interessante como uma pequena história pode cativar as crianças, mas também como é grande o poder da música. Ah, e eu mostro para elas os mesmos vídeos que compartilho aqui. Ver o vídeo é um passo que aproxima ainda mais a criança em sua relação com a música!
 
 ## #1 – Heal the World (Michael Jackson)
 

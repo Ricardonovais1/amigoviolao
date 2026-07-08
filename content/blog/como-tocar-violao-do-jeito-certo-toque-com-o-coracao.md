@@ -9,8 +9,8 @@ slug: como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2021/10/CAPA-tecnica-coracao.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2021/10/CAPA-tecnica-coracao.jpg'
+featured_image: /images/blog/2021/10/CAPA-tecnica-coracao.jpg
+og_image: /images/blog/2021/10/CAPA-tecnica-coracao.jpg
 canonical: >-
   https://amigoviolao.com/blog/como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 wpId: 39704
@@ -27,7 +27,7 @@ Aprender a tocar da maneira correta é, na verdade, **apropriar-se de uma tradi�
 
 Dito isto, falemos de alguns erros muito correntes entre os iniciantes:
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/09/tecnica-coracao-1024x680.jpg)
+ ![](/images/blog/2021/09/tecnica-coracao-1024x680.jpg)
 
 Como tocar violão do jeito certo? Bom, é importante posicionar os dedos corretamente!
 
@@ -35,11 +35,9 @@ Polegar da mão esquerda tenso e muito elevado
 
 Este é um erro muito comum. Muitos iniciantes acabam por colocar demasiada força na “pinça” da mão esquerda e, ao invés de utilizarem o polegar como um leve apoio na parte de trás do braço, apoiam-no como se estivessem segurando um taco de baseball. Não é isso! O polegar deve apenas encostar **levemente** na parte de trás do braço! É também muito comum o polegar querer abraçar o braço do violão (também como se segura um taco de baseball), querendo envolvê-lo todo. Não é adequado, já que isso tira toda a sua flexibilidade e liberdade de movimento da mão! O polegar deve estar posicionado, em média, no meio do braço, na altura em que ficam as cordas sol e ré. Quando se pressiona cordas mais graves (lá, mizona etc.), o polegar deve descer levemente, enquanto que quando se pressiona cordas mais agudas, deve subir levemente.
 
-
 Dedos da mão esquerda tensos e não arqueados
 
 Em se tratando dos outros dedos da mão esquerda, também vemos muitos problemas. Geralmente, os dedos tendem a ficar demasiadamente duros e **pouco arqueados**, o que, além de provocar lesões, faz com que você toque pior e de um jeito mais difícil. Pense que os dedos, ao pressionarem as cordas, devem **formar um arco**, tal como aqueles arcos que vemos nas grandes catedrais ou em monumentos romanos. Isto porque o arco é uma estrutura muito **estável**, em que a tensão é bem distribuída por um “movimento circular”, fazendo com que não recaia sobre um único ponto e desmorone. Os seus dedos devem **imitar** esses arcos clássicos, porque assim a tensão não se concentrará toda em uma única parte, mas fluirá de maneira **equilibrada** por toda a mão.
-
 
 Dedo da mão direita encostando no tampo
 

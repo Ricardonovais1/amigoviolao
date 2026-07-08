@@ -21,12 +21,8 @@ tags:
   - inteligencia
   - inteligencia-emocional
   - mindset
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/Mindset-tipos-cut-logo.jpg
-  "reforco-positivo-infografico-fixo-construtivo"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/Mindset-tipos-cut-logo.jpg
-  "reforco-positivo-infografico-fixo-construtivo"
+featured_image: ''
+og_image: ''
 canonical: >-
   https://amigoviolao.com/blog/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar
 wpId: 595
@@ -114,8 +110,6 @@ Uma destas coisas é dizer: Vamos repetir esta parte da música 10 vezes.
 
 Esta abordagem tem um efeito muito positivo: **Crianças gostam de ter desafios, ainda mais quando são facilmente mensuráveis.** Além disso, é uma forma de dizer: “Sem repetição você não vai aprender, portanto nem precisa se frustrar se não conseguir tocar de primeira”.
 
-![reforco-positivo-mindset-construtivo](https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/Mindset-construtivo1.jpg "reforco-positivo-mindset-construtivo")
-
 ## Reforço positivo: Quando elogiar, cuidado pra não piorar
 
 Portanto a mensagem é esta:
@@ -123,5 +117,3 @@ Portanto a mensagem é esta:
 Elogiar a criança é bom quando é um elogio ao mérito, e não à identidade da criança. Quando dizemos: “Como você é especial”, depois não podemos nos surpreender se aquela criança apresentar dificuldades de adequação por exemplo.
 
 Achou interessante? Deixe sua opinião nos comentários, ela é muito importante para nós!
-
-[![cta-meio-post-curso-amigo-violao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png)](https://amigoviolao.com.br/baixar-ebook-gratis)

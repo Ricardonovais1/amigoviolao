@@ -17,12 +17,8 @@ tags:
   - percepcao-musical
   - ricardo-novais
   - tres-amigos-ead
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/10/concentracao-crianca-tres-amigos-ricardo-novais.jpg
-  "crianca-concentrada-piano-tres-amigos-desenvolvimento-da-crianca"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/10/concentracao-crianca-tres-amigos-ricardo-novais.jpg
-  "crianca-concentrada-piano-tres-amigos-desenvolvimento-da-crianca"
+featured_image: ''
+og_image: ''
 canonical: >-
   https://amigoviolao.com/blog/desenvolvimento-da-crianca-por-que-a-musica-e-importante
 wpId: 4120

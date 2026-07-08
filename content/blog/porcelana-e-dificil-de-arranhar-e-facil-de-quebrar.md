@@ -19,12 +19,8 @@ tags:
   - saude-infantil
   - super-protetor
   - super-protetores
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/Porcelana-criança.jpg
-  "porcelana-crianca"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/Porcelana-criança.jpg
-  "porcelana-crianca"
+featured_image: ''
+og_image: ''
 canonical: >-
   https://amigoviolao.com/blog/porcelana-e-dificil-de-arranhar-e-facil-de-quebrar
 wpId: 639
@@ -43,10 +39,8 @@ Se você também acha que esta é uma atitude muito agressiva para as crianças 
 
 Meu pai e minha mãe nos educaram de forma mais liberal do que eu venho criando minhas filhas. Meu pai às vezes acha que somos muito duros com elas. Creio simplesmente que talvez não vivemos em épocas tão otimistas, e se quero a felicidade delas, preciso ensinar que elas é que são responsáveis por serem felizes.
 
-![porcelana-aurora](https://tresamigosead.com.br/blog/wp-content/uploads/2016/02/Aurora-300x200.jpg "porcelana-aurora")Ontem, a Aurora (2 anos – foto), caiu do balanço, vocês podem imaginar como ela chorou. Acho que pais (homens) são mais “frios”, eu simplesmente não demonstrei minha aflição. Mas eu senti. E me veio: Qual é a melhor maneira de dizer que “não foi nada”? E então me veio a resposta, enquanto limpava as mãos, o cabelo, a barriga e as pernas dela (ela se esborrachou na terra, só de fralda): Perguntei pra ela: Quer que eu te coloque de novo no balanço? E ela aceitou.
+Ontem, a Aurora (2 anos – foto), caiu do balanço, vocês podem imaginar como ela chorou. Acho que pais (homens) são mais “frios”, eu simplesmente não demonstrei minha aflição. Mas eu senti. E me veio: Qual é a melhor maneira de dizer que “não foi nada”? E então me veio a resposta, enquanto limpava as mãos, o cabelo, a barriga e as pernas dela (ela se esborrachou na terra, só de fralda): Perguntei pra ela: Quer que eu te coloque de novo no balanço? E ela aceitou.
 
 Poucos segundos depois já estava rindo, e mais do que isso: Estava tirando uma das mãos, o que justamente tinha feito ela cair na primeira vez. Ela estava se desafiando, buscando resolver aquele nó, instintivamente, e brincando com isso: Aprendendo, e não reclamando alimentando algum medo…
 
 A porcelana é difícil de arranhar mas muito fácil de quebrar. Sejamos de carne, osso e pele que arranha, e não de porcelana que quebra. Apreciemos os arranhões…
-
-[![cta-meio-post-curso-amigo-violao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png)](https://amigoviolao.com.br/baixar-ebook-gratis)

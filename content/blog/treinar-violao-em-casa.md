@@ -25,12 +25,8 @@ tags:
   - crianca-com-talento
   - curso-de-violao-para-criancas
   - ensinar-disciplina
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/as-300x207.jpg
-  "treinar-violao-Pai-e-filho"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/as-300x207.jpg
-  "treinar-violao-Pai-e-filho"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/treinar-violao-em-casa'
 wpId: 4117
 ---
@@ -43,7 +39,7 @@ Muitos pais de alunos meus,demonstram (algumas vezes abertamente) que levam os f
 
 Mas se o pai ou a mãe, algum dia já quiseram tocar violão, e por algum motivo não puderam, então porque não aproveitar a oportunidade para aprender junto com o filho?! Não existe maneira melhor de, não somente cativar o filho, como também aprender o maravilhoso instrumento que é o violão.
 
-Eu acredito que esta seja uma prática ainda rara, basicamente porque há poucos professores com esta visão onde se valoriza o intercâmbio com os pais, o que abordo de forma detalhada em uma entrevista com [Kênia Chantal, professora de violino,](http://tresamigosead.com.br/blog/aprender-um-instrumento-desde-cedo-kenia-chantal-explica/) sobre o método Suzuki.
+Eu acredito que esta seja uma prática ainda rara, basicamente porque há poucos professores com esta visão onde se valoriza o intercâmbio com os pais, o que abordo de forma detalhada em uma entrevista com Kênia Chantal, professora de violino, sobre o método Suzuki.
 
 ## Pai e mãe: Se você não tem 10 minutos, você não tem uma vida!
 
@@ -53,7 +49,7 @@ Uma das piores coisas que o **excesso de compromissos dos pais** gera nas crian
 
 ## O que é, e como cativar?
 
-![treinar-violao-lira](https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/Lira-com-o-Violão-300x300.jpg "treinar-violao-lira")Certa vez, ouvi um homem caboclo, chamado Francisco, destilar sabedoria, ao explicar o que é cativar:
+Certa vez, ouvi um homem caboclo, chamado Francisco, destilar sabedoria, ao explicar o que é cativar:
 
 “Quando você quer dar milho pra uma galinha, no começo ela fica longe, então você joga o milho pra ela. Com o tempo ela se aproxima um pouco. Até chegar, um dia, a comer na palma da sua mão. Isso é cativar…”. Essa é uma simples analogia, nos mostrando como podemos ser cada vez mais uma fonte de orientação, cativando nossos filhos.
 
@@ -61,15 +57,13 @@ Cativar é análogo a espelhar. Que pai ou mãe, por diferente que seja a relaç
 
 É como ser um herói desinteressado, estranho. Mas o importante é que não importa o quanto você erre, ou se considere imperfeito, você ainda é visto como herói pelo seu filho. Heróis são personagens criados pela emoção e pelo sentimento, e não pela simples compreensão racional.
 
-## Agora sim: 5 dicas para cativar seu filho(a) para treinar violão:
-
 #### 1 – Aprenda o violão também:
 
 Aprenda o violão. Isso mesmo! Não quer dizer que você precisa gastar mais dinheiro e arrumar tempo que não tem e um professor. Apenas participe de algumas aulas do seu filho, procure aprender as mesmas músicas que ele(a). Lembra que falei de ser um espelho? Essa é uma forma de praticar isso.
 
 #### 2 – Ensine a valorizar:
 
-![treinar-violao-pai-e-bebe](https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/Pai-e-bebê-com-violão-300x300.jpg "treinar-violao-pai-e-bebe")Ensine a criança a ver no violão um objeto de desejo. Vou usar o exemplo de uma fantasia de super herói. Suponhamos que seu filho tenha uma fantasia, mas você só deixa ele usar em dias de festa. Sendo assim, aposto que ele fica bem animado quando pode vesti-la! Pois bem, este é um fator que se chama ESCASSEZ.
+Ensine a criança a ver no violão um objeto de desejo. Vou usar o exemplo de uma fantasia de super herói. Suponhamos que seu filho tenha uma fantasia, mas você só deixa ele usar em dias de festa. Sendo assim, aposto que ele fica bem animado quando pode vesti-la! Pois bem, este é um fator que se chama ESCASSEZ.
 
 Sempre que algo se torna mais raro, tendemos a valorizar mais, não é mesmo? É a mesma lógica por trás da lei da oferta e da procura, um clássico da economia. **Quanto mais raro, mais caro!** 
 
@@ -89,13 +83,13 @@ As crianças se soltam quando não existem protocolos. E aprendem muitas vezes d
 
 #### 4 – Elogie o esforço
 
-Em outro post, falei da importância de não elogiar a identidade das crianças, mas sim o esforço em fazer melhor. Chamar uma criança de inteligente com frequência, facilmente a levará a achar que não precisa se esforçar, e isso cobra preços altos, a curto, médio e longo prazo… Veja mais [neste link.](http://tresamigosead.com.br/blog/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar/)
+Em outro post, falei da importância de não elogiar a identidade das crianças, mas sim o esforço em fazer melhor. Chamar uma criança de inteligente com frequência, facilmente a levará a achar que não precisa se esforçar, e isso cobra preços altos, a curto, médio e longo prazo… Veja mais neste link.
 
 Mas é claro que vale elogiar! É super importante reconhecer na criança seus méritos, o que a ajudará a se situar no lado dos que se empenham.
 
 #### 5 – Guarde o instrumento em lugar acessível
 
-![treinar-violao-menina-no-sofa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/Menina-com-violão-no-sofá.jpg "treinar-violao-menina-no-sofa")É claro que é importante guardar e preservar o instrumento. Mas antes de tudo ele precisa ser tocado, o que ocorrerá com muito mais frequência se ele estiver ao alcance das mãos. O ideal é ter um lugar ao alcance das crianças para guardar, e não exigir que após cada uso se guarde o violão dentro da capa. Isso desanima a criança na hora de tocar. Pense em guardar apenas de noite, ou quando a criança estiver realmente fazendo alguma atividade em que o violão vai precisar esperar.
+É claro que é importante guardar e preservar o instrumento. Mas antes de tudo ele precisa ser tocado, o que ocorrerá com muito mais frequência se ele estiver ao alcance das mãos. O ideal é ter um lugar ao alcance das crianças para guardar, e não exigir que após cada uso se guarde o violão dentro da capa. Isso desanima a criança na hora de tocar. Pense em guardar apenas de noite, ou quando a criança estiver realmente fazendo alguma atividade em que o violão vai precisar esperar.
 
 Uma das grandes vantagens do violão sobre a maioria dos instrumentos é o fato dele ser pouco ruidoso. Portanto a criança começar a tocá-lo não representa um distúrbio do silêncio dentro de casa.
 

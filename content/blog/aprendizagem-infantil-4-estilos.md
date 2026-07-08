@@ -22,12 +22,8 @@ tags:
   - fazer-para-casa-com-os-filhos
   - filho-agitado
   - perfil-auditivo
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Menina-7-anos-300x225.jpg
-  "aprendizagem-infantil-menina-7-anos-2"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Menina-7-anos-300x225.jpg
-  "aprendizagem-infantil-menina-7-anos-2"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/aprendizagem-infantil-4-estilos'
 wpId: 323
 ---
@@ -96,7 +92,7 @@ Em casa é possível e bem divertido inventar músicas. Aliás, uma **SUPER DICA
 
 ## Tipos de aprendizagem infantil #3 – Cinestésico
 
-![aprendizagem-infantil-menino-7-anos-2](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Menino-7-anos-247x300.jpg "aprendizagem-infantil-menino-7-anos-2")O perfil cinestésico é aquele em que a pessoa gosta de se movimentar, em geral demonstrando afeto, abraçando ou tocando um instrumento por exemplo. Alunos com este perfil terão mais dificuldade de ficar horas sentados na mesma posição em uma sala de aula.
+O perfil cinestésico é aquele em que a pessoa gosta de se movimentar, em geral demonstrando afeto, abraçando ou tocando um instrumento por exemplo. Alunos com este perfil terão mais dificuldade de ficar horas sentados na mesma posição em uma sala de aula.
 
 – Palavras usadas pelo cinestésico: “Sinto que”, “me parece”, “percebo”.
 
@@ -145,6 +141,6 @@ O perfil de aprendizagem tátil é próprio de pessoas que gostam de atividades 
 
 Como foi dito no início deste post, vale a pena reunir informações na escola para fazer um quadro mais completo do perfil de seu filho mas lembre-se:  **aprender a aprender é uma arma de sobrevivência.** Não devemos reforçar um estilo de aprendizagem e sim buscar um equilíbrio.
 
-O principal para poder ajudar seu filho no desenvolvimento dele você já tem: [o amor](http://tresamigosead.com.br/blog/natal-em-familia-papai-e-mamae/).
+O principal para poder ajudar seu filho no desenvolvimento dele você já tem: o amor.
 
 Você tem enfrentado desafios relativos a este tema? Este conteúdo foi útil para você resolvê-los? Espero poder sempre contribuir para sua jornada como mãe, pai ou familiar e lembre-se sempre: o principal para poder ajudar seu filho no desenvolvimento dele já está em você e se chama “amor”.

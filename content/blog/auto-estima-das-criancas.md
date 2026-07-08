@@ -22,12 +22,8 @@ tags:
   - como-lidar-com-bullying
   - dicas-para-pais-e-maes
   - inteligencia-emocional
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/matemática-300x169.jpg
-  "auto-estima-matematica"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/matemática-300x169.jpg
-  "auto-estima-matematica"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/auto-estima-das-criancas'
 wpId: 449
 ---
@@ -46,7 +42,7 @@ Justamente quando meus pais pareciam ter “desistido” de insistir, eu finalme
 
 ## Auto estima = Independência emocional
 
-![auto-estima-pai-e-filha](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Baixa-auto-estima-300x226.jpg "auto-estima-pai-e-filha")A independência emocional é uma conquista que não pode ser alcançada antes dos 7 anos de idade, mas seu plantio é mais eficaz justamente nesta fase.
+A independência emocional é uma conquista que não pode ser alcançada antes dos 7 anos de idade, mas seu plantio é mais eficaz justamente nesta fase.
 
 Depois dos dois anos de idade, é muito importante iniciar um processo de incentivar a independência dos filhos. Até os 7 anos será bem acentuado o efeito deste plantio. Isso porque neste período a criança já possui um grande acesso ao raciocínio lógico, embora limitado. Antes dos 7 anos, por exemplo, as crianças ainda não conseguem entender que existem diversos pontos de vista para uma mesma situação, o que gera incompreensões e frustrações. É fundamental que estes momentos sejam usados para permitir, gradativamente, que a criança adquira sua independência emocional. **Dizer não, quando for justo e sempre com amor.** 
 
@@ -66,11 +62,7 @@ Alguns pontos chave para favorecer o desenvolvimento da auto estima das criança
 4.  Quando der uma punição, acrescente a explicação;
 5.  Em casos de desavenças externas dos filhos, nunca incentivar o revide ou a vingança.
 
-![auto-estima-para-examinar-1](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Para-examinar-1.png "auto-estima-para-examinar-1")
-
 Ser controlador é acreditar que o mundo é domável. Mas acredito que só podemos aprender a domar a nós mesmos. Culpar o mundo é adiar o próprio progresso pessoal. Os filhos tem melhor auto estima quando aprendem a se responsabilizar.
-
-![auto-estima-para-examinar-2](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Para-examinar-2.png "auto-estima-para-examinar-2")
 
 Então, como ensinar os filhos a se responsabilizarem? Para responder, vamos à segunda reflexão:
 
@@ -79,8 +71,6 @@ Então, como ensinar os filhos a se responsabilizarem? Para responder, vamos à 
 Gosto de uma frase de Tony Robbins, onde ele diz que **“as pessoas não são as suas atitudes”.** Ao falar sobre pais participativos ou omissos, devemos lembrar que **todos nós, sem a mínima exceção, temos atitudes omissas e também atitudes participativas.** O importante é refletir sobre onde podemos melhorar, e não simplesmente apontar o dedo ou julgar com excessiva rigidez a nós mesmos e aos outros.
 
 Elaborei o quadro abaixo justamente para auxiliar nesta reflexão. É uma lista de atitudes. Eu mesmo reconheço que tenho atitudes omissas algumas vezes. O importante é reconhecer e melhorar:
-
-![auto-estima-pai-participativo-pai-omisso](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Infográfico_logo_5.png "auto-estima-pai-participativo-pai-omisso")
 
 ## 5 Outras causas de baixa auto estima
 

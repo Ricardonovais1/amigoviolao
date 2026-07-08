@@ -38,8 +38,6 @@ O canto e a letra tornam a música menos abstrata e mais concreta, tangível. Ma
 
 Esta é a principal sacada. O vínculo afetivo é o principal meio de ligação das crianças com a música. E ele se dá pela percepção do lado humano na música, e não o seu lado estético, conceitual.
 
-![Musica educa musica para criancas](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Música-educa.gif "Musica-educa-musica-para-criancas")
-
 ## #1 – Música para crianças – A importância da música instrumental:
 
 Tendo em vista o que foi dito acima, a apreciação de uma música instrumental nem sempre é tão fácil para as crianças, não por ser complexa, mas pelo fato de ser abstrata e não haver voz, o que explicitaria a presença humana.
@@ -58,9 +56,7 @@ Mas nós adultos devemos saber que a validade destas habilidades não se restrin
 
 É muito legal assistir vídeos de música. Ao ver os músicos tocando, a empatia é bem maior. Eu, por exemplo,  gosto de deitar na cama com o Ipad ou o celular e mostrar algumas músicas para as minhas filhas. Outra dica é contar um pouco da história do(a) artista, pois os ajuda a ver pessoas reais por trás da arte.
 
-## #2 – Música para crianças – Música Clássica:
-
-## ![Menina escutando musica para criancas](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Menina-escutando.jpg "Menina-escutando-musica-para-criancas")
+## 
 
 A música clássica é o gênero mais amplo que existe e compreende muitos séculos de produção no mundo inteiro. São diversos estilos e a música popular brasileira não fica de fora, você sabia que existem músicas “clássicas” influenciadas pelo samba, o choro, o baião? Esse é o caso do compositor brasileiro [Heitor Villa-Lobos](https://www.youtube.com/watch?v=QRNq2wJ1RRQ), assim como de outros menos conhecidos como [Ronaldo Miranda](https://www.youtube.com/watch?v=eeZ0aY9_cL4) e [César Guerra-Peixe](https://www.youtube.com/watch?v=bHwBDgdJ16k).
 
@@ -82,26 +78,21 @@ Segue abaixo uma lista de artistas, grupos e trabalhos que mais escutamos em min
 
 -   #### Weber Lopes e Giovane Sasá
 
-
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=nbgrkRsIjcE)
 
 -   #### Duo Rodapião
-
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=iCjz6Xf79T8)
 
 -   #### Rubinho do Vale e Cláudia Duarte
 
-
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=3KSHm9PBH3Y)
 
 -   #### Trio Amaranto
 
-
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=avlywECI4WA)
 
 -   #### Palavra Cantada
-
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=ulPiPYwEPJM)
 

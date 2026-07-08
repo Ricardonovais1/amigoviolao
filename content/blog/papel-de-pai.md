@@ -21,12 +21,8 @@ tags:
   - pae
   - pai-ausente
   - pai-nao-ajuda
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Eu-com-ananda-300x300.jpg
-  "papel-de-pai-eu-com-ananda"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Eu-com-ananda-300x300.jpg
-  "papel-de-pai-eu-com-ananda"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/papel-de-pai'
 wpId: 416
 ---
@@ -57,8 +53,6 @@ No início, quem mais queria era a Ananda. Eu não deixava de querer, mas posso 
 
 ## Papel de pai é não esperar nada em troca
 
-![papel-de-pai-eu-com-as-meninas](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Eu-com-as-meninas-300x300.jpg "papel-de-pai-eu-com-as-meninas")
-
 Quando eu ainda conseguia carregar Rosa, Lira e Aurora juntas.
 
 Não esperar nada em troca é fazer o que tiver que ser feito, ciente de que o maior beneficiário é você mesmo.
@@ -81,8 +75,6 @@ Cuidando dos nossos filhos junto comigo ele não faz mais do que obrigação del
 ## Qual é o papel do pai?
 
 Essa pergunta tem duas respostas: Uma bastante óbvia e outra que não é tão óbvia (mas é fundamental).
-
-![apel-de-pai-eu-com-aurora](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Palhaço-com-a-Aurora-300x300.jpg "apel-de-pai-eu-com-aurora")
 
 Eu e Aurora.
 
@@ -119,5 +111,3 @@ Na verdade, **muitas mulheres não percebem que insistir para o marido ser mais 
 **É preciso ver que cada um se transforma primeiramente para si mesmo. Não há melhor motivação do que esta.**
 
 Claro, o ideal seria não termos que educar o marido, ou a esposa. Mas quer saber? Acredito que de certa forma é pra isso que serve o casamento. Se não for para aprender um com o outro, fica sem graça, não é?
-
-[![cta-meio-post-curso-amigo-violao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png)](https://amigoviolao.com.br/baixar-ebook-gratis)

@@ -15,8 +15,8 @@ categories:
   - como-ler-partitura
   - violao-classico
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/06/Como-Ler-Partitura.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/06/Como-Ler-Partitura.jpg'
+featured_image: /images/blog/2018/06/Como-Ler-Partitura.jpg
+og_image: /images/blog/2018/06/Como-Ler-Partitura.jpg
 canonical: >-
   https://amigoviolao.com/blog/como-ler-partitura-no-violao-1-entendendo-as-notas-2
 wpId: 4604
@@ -26,7 +26,7 @@ Olá, essa é a primeira aula do blog Amigo Violão de como ler partitura no vio
 
 A primeira coisa que vou explicar é a clave de sol, e como é seu funcionamento.
 
-![como-ler-partitura-no-violão-1](https://amigoviolao.com/wp-content/uploads/2018/04/Slide1-1.png)
+![como-ler-partitura-no-violão-1](/images/blog/2018/04/Slide1-1.png)
 
 É importante que você entenda que o **pentagrama é uma organização das alturas dos sons**, ou seja, as notas musicais, e não das cordas do violão. E por isso, a partitura é uma notação musical **universal**, que funciona da mesma forma para todos os instrumentos. Aqui estou te mostrando o posicionamento das notas utilizando a **clave de sol**, que é **sempre** utilizada para o violão.
 
@@ -41,7 +41,7 @@ Dessa forma, se você aprender e automatizar a leitura de todas as notas **nos e
 
 ## Leitura de notas nos espaços :
 
-![como-ler-partitura-no-violão-2](https://amigoviolao.com/wp-content/uploads/2018/04/partitura-explicativa-2.png)
+![como-ler-partitura-no-violão-2](/images/blog/2018/04/partitura-explicativa-2.png)
 
 Se você automatizar, por exemplo, que o **Fá** corresponde ao **primeiro espaço de baixo para cima**, e o **Lá** corresponde ao **segundo**, se tornará implícito na sua mente que o Sol corresponde à linha entre eles.
 

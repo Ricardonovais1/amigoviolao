@@ -13,8 +13,8 @@ slug: adelita-francisco-tarrega-aula-de-violao-classico
 categories:
   - violao-classico
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2019/03/Cópia-de-Sem-nome.png'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2019/03/Cópia-de-Sem-nome.png'
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/adelita-francisco-tarrega-aula-de-violao-classico'
 wpId: 25198
 ---
@@ -30,5 +30,3 @@ Receba o acesso a esta tablatura e muitas outras, além de um curso completo e p
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=b5BelZlRjOs)
 
 Veja esta aula onde são abordados alguns aspectos técnicos e interpretativos da música Adelita de Francisco Tárrega. Uma linda peça no legítimo estilo romântico.
-
-[![](https://amigoviolao.com/wp-content/uploads/2019/03/Iniciação-ao-Violão-Clássico-Banner-1024x215.png)](https://amigoviolao.com/classico)

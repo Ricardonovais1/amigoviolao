@@ -24,12 +24,8 @@ tags:
   - como-fazer-kazoo
   - instrumentos-de-sucata
   - kazoo
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/O-que-precisa-melhor-2-300x200.jpg
-  "Kazoo-material-necessario-2-brincadeiras-para-fazer-em-casa"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/O-que-precisa-melhor-2-300x200.jpg
-  "Kazoo-material-necessario-2-brincadeiras-para-fazer-em-casa"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/brincadeiras-para-fazer-em-casa-kazoo'
 wpId: 4122
 ---
@@ -57,11 +53,9 @@ O kazoo de papel é o mais fácil de fazer, aprenda como fazer um abaixo:
 
 **Como fazer, em dois passos:**
 
-![Kazoo-furos-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Furos-150x150.jpg "Kazoo-furos-brincadeiras-para-fazer-em-casa")
-
 **Passo 1:** Pegue o rolo de papel toalha e com uma tesoura de ponta faça alguns furos na lateral do rolinho, como mostra a foto. (Atenção: cuidado com as crianças perto da tesoura). Os furos são apenas para o ar que sai da boca não expulsar o papel que estará preso na outra extremidade.
 
-![Kazoo-pronto-com-forminha-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Pronto-com-forminha-150x150.jpg "Kazoo-pronto-com-forminha-brincadeiras-para-fazer-em-casa")**Passo 2:** Prenda o papel em uma das extremidades usando a gominha.
+**Passo 2:** Prenda o papel em uma das extremidades usando a gominha.
 
 Este kazoo é super legal por ser o mais fácil de fazer, porém ele é frágil, especialmente o de papel alumínio, embora eu goste mais do som dele…  A seguir a “receita de kazoo” que dá um resultado ainda melhor:
 
@@ -71,8 +65,6 @@ Esta versão do instrumento ainda é muito fácil de fazer e possui a durabilida
 
 **Material necessário:**
 
-![Garrafas-pet-kazoo-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Garrafas-150x150.jpg "Garrafas-pet-kazoo-brincadeiras-para-fazer-em-casa")![Tampinhas-kazoo-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Tampinhas-150x150.jpg "Tampinhas-kazoo-brincadeiras-para-fazer-em-casa")![saco-plastico-supermecado-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/saco-plastico-supermecado-150x150.jpg "saco-plastico-supermecado-brincadeiras-para-fazer-em-casa")![Estilete-kazoo-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Estilete-150x150.jpg "Estilete-kazoo-brincadeiras-para-fazer-em-casa")
-
 -   Uma garrafa de plástico (tamanho que quiser);
 -   A tampa da garrafa;
 -   Um saco plástico comum;
@@ -80,11 +72,11 @@ Esta versão do instrumento ainda é muito fácil de fazer e possui a durabilida
 
 **Como fazer:**
 
-**![Bico-garrafa-kazoo-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Garrafa-com-bico-150x150.jpg "Bico-garrafa-kazoo-brincadeiras-para-fazer-em-casa")Passo 1:** Corte a garrafa e fique com a parte que inclui o bico da garrafa:
+**Passo 1:** Corte a garrafa e fique com a parte que inclui o bico da garrafa:
 
-**![Tampinha-com-furo-kazoo-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Tampinha-com-furo.jpg "Tampinha-com-furo-kazoo-brincadeiras-para-fazer-em-casa")Passo 2:** Faça um furo grande (como indicado ao lado) na tampinha. Eu aqueci a faca no fogo para cortar o plástico com facilidade. Eu aconselho isso pra evitar movimentos bruscos com um objeto cortante.
+**Passo 2:** Faça um furo grande (como indicado ao lado) na tampinha. Eu aqueci a faca no fogo para cortar o plástico com facilidade. Eu aconselho isso pra evitar movimentos bruscos com um objeto cortante.
 
-**![Kazoo-de-pet-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Kazoo-de-pet-150x150.jpg "Kazoo-de-pet-brincadeiras-para-fazer-em-casa")Passo 3:** Coloque a tampinha furada na parte que sobrou da garrafa, com um pedaço de plástico da sacolinha preso lá dentro.
+**Passo 3:** Coloque a tampinha furada na parte que sobrou da garrafa, com um pedaço de plástico da sacolinha preso lá dentro.
 
 Note que nesta foto o Kazoo tem um furo extra, menor. Ele não é obrigatório, mas serve para que o ar escape por ele.
 
@@ -100,9 +92,9 @@ Aconselho perfeitamente a construção destas duas versões de Kazoo. Muitas cri
 
 ## Kazoo de cabaça e Kazoo “industrializado”
 
-![Kazoo-de-cabaca-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Kazoo-com-foco-300x200.jpg "Kazoo-de-cabaca-brincadeiras-para-fazer-em-casa")O meu primeiro contato com o Kazoo foi em Buenos Aires. Comprei um de cabaça. Ao invés da membrana, a cabaça é dividida em duas partes e uma vibra sobre a outra. O som é incrível.
+O meu primeiro contato com o Kazoo foi em Buenos Aires. Comprei um de cabaça. Ao invés da membrana, a cabaça é dividida em duas partes e uma vibra sobre a outra. O som é incrível.
 
-[![kazoo-industrializado-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/kazoo-industrializado-300x219.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2015/11/kazoo-industrializado.jpg)O Kazoo “industrializado” pode ser encontrado em algumas lojas de música. É esse na foto abaixo, mas vale a pena mesmo é fazer o seu e se divertir com os pequenos.
+O Kazoo “industrializado” pode ser encontrado em algumas lojas de música. É esse na foto abaixo, mas vale a pena mesmo é fazer o seu e se divertir com os pequenos.
 
 ## Novas brincadeiras para fazer em casa são sempre bem-vindas!
 

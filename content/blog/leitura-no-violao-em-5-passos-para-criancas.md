@@ -12,10 +12,8 @@ categories:
   - como-tocar-violao
   - criancas
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/05/Módulo-2-imagem-ilustrativa.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/05/Módulo-2-imagem-ilustrativa.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/leitura-no-violao-em-5-passos-para-criancas'
 wpId: 4072
 ---
@@ -38,7 +36,7 @@ Vamos a cada um deles:
 
 ## 1 – Leitura musical no violão AUDITIVA:
 
-![leitura-musical-orelha](https://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Orelha.jpg "leitura-musical-orelha")A leitura auditiva, no senso comum não seria considerada como leitura. Mas no contexto que estou apresentando é leitura. No sentido de que a imitação e uso de palavras para apreensão de ritmos, não passam pela leitura de um texto escrito, mas ainda assim configuram uma apreensão de símbolos que são transformados em outros símbolos.
+A leitura auditiva, no senso comum não seria considerada como leitura. Mas no contexto que estou apresentando é leitura. No sentido de que a imitação e uso de palavras para apreensão de ritmos, não passam pela leitura de um texto escrito, mas ainda assim configuram uma apreensão de símbolos que são transformados em outros símbolos.
 
 Eu considero este o ponto central de tudo. Compreender, antes de tudo, que a leitura é a decodificação de símbolos em outros símbolos, levando a compreensões individuais.
 
@@ -68,13 +66,9 @@ Ao fazer o jogo de imitação, você verá que seu aluno estará com “tudo em 
 
 A leitura gráfica será um prato cheio também para se trabalhar o canto. Eu gosto de usar melodias de 4 compassos, com uma letra e apenas 2 notas (uma presa e uma solta no violão). É exatamente o caso da música Nova Iorque que você vê acima, e pode ouvir nesse link: _Nova Iorque(Amigo Violão – Ricardo Novais)._
 
-[http://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Nova-Iorque\_Com-voz.mp3](http://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Nova-Iorque_Com-voz.mp3)
-
 Este é um assunto que merece mais detalhamento, e por isso farei um vídeo apenas para explicar este tópico.
 
 ## 3 – Leitura Musical no Violão ESPACIAL:
-
-![como-ler-tablatura-rock-do-rick](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Rock-do-Rick-300x225.png "leitura-musical-no-violao")![como-ler-tablatura-imagem-destacada](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Valsa-do-Walter1-300x228.png "leitura-musical-no-violao")
 
 No caso do violão, a leitura espacial é a tablatura. A tablatura representa as cordas do violão (ex. imagem ao lado), e exerce um papel importante na didática, para que o aluno conheça melhor o seu instrumento. Há tablaturas de outros instrumentos também, e cada professor deve buscar maneiras de exercitar a visão espacial de seus alunos.
 
@@ -86,8 +80,6 @@ O que eu faço é iniciar com apenas uma corda (ex. imagem ao lado). Desta forma
 
 1.  Fáceis a ponto de você poder ser exigente com seu aluno;
 2.  Bonitas, o que se consegue quando você cria acompanhamentos criativos para tocar em duo com seu aluno. Ouça um exemplo disso: _Lembranças (Amigo Violão – Ricardo Novais)_
-
-[http://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Lembranças\_Rápido.mp3](http://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Lembranças_Rápido.mp3)
 
 Quando sabemos ler uma tablatura, ganhamos um maior grau de independência no instrumento. No caso do violão, o aluno já pode usar o braço inteiro do instrumento, antes de saber ler sequer uma nota na partitura. E já pode aprender algumas músicas sozinho.
 
@@ -101,17 +93,11 @@ A leitura relativa é quando as notas não tem alturas predefinidas. Podemos esc
 
 **4.1. Leitura Relativa Gráfica:** Eu inicio a leitura relativa com uma escrita gráfica (como os tracinhos da leitura gráfica), para treinar a compreensão do movimento sonoro, sendo que quando sobe e desce o dedo deve ser movido uma casa por vez. Para alunos a partir de 7 anos é uma excelente estratégia. Veja um exemplo:
 
-![Montanha Russa](https://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Montanha-Russa-2.jpg)
-
 Existem algumas estratégias fantásticas que tornam a atividade da Montanha Russa, além de super eficaz no ensino da leitura, algo que os alunos realmente adoram fazer. Já experimentei muitas vezes, e esta atividade cobre desde a percepção e leitura do movimento sonoro simples até a leitura de uma escala completa com tons e semitons (escala diatônica). Por ser muito conteúdo, deixarei para explicar em outro momento.
 
 **4.2. Leitura Relativa no Pentagrama:** Esta leitura relativa consiste em escrever notas em um pentagrama e não fixar o lugar das notas, treinando mais a leitura dos intervalos. Na partitura abaixo, por exemplo, a primeira nota é o Mi. Mas podemos, num exercício de leitura relativa chamá-la de Dó, ou Fá, por exemplo. E podemos escolher livremente onde esta nota será tocada no violão. Assim, treinamos o conhecimento do braço do violão. Podemos escolher ler apenas em uma corda, ou deixando a mão parada em uma posição e encontrando as notas em cordas diferentes. São diferentes abordagens que não seria possível detalhar neste pequeno espaço.
 
-![leitura-musical-melodia](https://tresamigosead.com.br/blog/wp-content/uploads/2016/08/Melodia.jpg)
-
 **4.3. Leitura relativa usando o Bigrama:** O Bigrama (imagem abaixo) é um sistema de duas linhas, ideal para introduzir o conhecimento das linhas e espaços de uma partitura. Desta forma simplificada o professor pode trabalhar com poucas notas e ainda assim obter um ótimo resultado didático. Este é um recurso ao qual podemos recorrer quando notamos uma dificuldade ao reconhecer o movimento melódico no pentagrama, ou ao iniciar a leitura relativa, logo após o jogo da Montanha Russa. Eu uso o Bigrama junto com a Montanha Russa, fazendo essa transição para chegar ao pentagrama completo.
-
-![leitura-musical-bigrama](https://tresamigosead.com.br/blog/wp-content/uploads/2016/08/bigrama.jpg)
 
 ## 5 – Leitura Musical no Violão ABSOLUTA:
 
@@ -121,7 +107,7 @@ Mas ainda assim, quero salientar a importância, mesmo neste ponto, de se trabal
 
 É normal ensinar uma ou outra música mais difícil pelo prazer do aluno, mesmo que essa música ainda não seja muito fácil para ele ler. Mas o ideal é ter repertórios que ele consiga de fato ler. Assim, ele não perderá o que aprendeu, podendo reler quando quiser, e terá uma evolução sólida.
 
-O livro [“Curso de Violão para Crianças”](http://tresamigosead.com.br/blog/livro-curso-de-violao-para-criancas/) cobre repertório que utiliza escrita gráfica e espacial. Considero que são as principais bases, e que diferenciam este método de outros mais tradicionais, para crianças. As escritas gráfica e espacial são responsáveis por uma vivência musical sem bloqueios através do violão.
+O livro “Curso de Violão para Crianças” cobre repertório que utiliza escrita gráfica e espacial. Considero que são as principais bases, e que diferenciam este método de outros mais tradicionais, para crianças. As escritas gráfica e espacial são responsáveis por uma vivência musical sem bloqueios através do violão.
 
 ## Conclusão:
 

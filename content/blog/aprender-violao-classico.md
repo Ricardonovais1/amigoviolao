@@ -9,10 +9,8 @@ slug: aprender-violao-classico
 categories:
   - violao-classico
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2020/02/Violão-Clássico-INVIC-Amigo-Violão.png
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2020/02/Violão-Clássico-INVIC-Amigo-Violão.png
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/aprender-violao-classico'
 wpId: 31711
 ---
@@ -25,7 +23,7 @@ Uma sensação maravilhosa e o coração batendo mais forte ao simplesmente escu
 
 Você não sabe como, mas parece que aquele som conversa com você e não dá vontade de fazer outra coisa, a não ser tocar e escutar mais.
 
-![Aprender Violão Clássico ](https://amigoviolao.com/wp-content/uploads/2020/02/Violão-Clássico-INVIC-Amigo-Violão-300x268.png)Eu senti isso nas primeiras vezes que toquei o violão, ainda criança. E também ao ouvir a [Bourré da Suíte BWV de Bach.](https://www.youtube.com/watch?v=z4A6XVTGns4)
+Eu senti isso nas primeiras vezes que toquei o violão, ainda criança. E também ao ouvir a [Bourré da Suíte BWV de Bach.](https://www.youtube.com/watch?v=z4A6XVTGns4)
 
 Nessa época, com 19 anos, eu me perguntava: Será que eu vou conseguir **aprender violão clássico**? Era tudo que eu queria, um desejo tão forte que pautou muitas decisões tomadas por mim nos últimos 20 anos.
 
@@ -49,7 +47,7 @@ Você já percebeu que este artigo é uma mina de ouro. Então continue lendo pa
 
 ## 1 – Porque todo violonista deve aprender violão clássico, ainda que de forma básica;
 
-![](https://amigoviolao.com/wp-content/uploads/2020/02/Professor-de-Violão-ACADEMY-aMIGO-VIOLÃO-300x268.png)Aprender violão clássico pode parecer algo distante, difícil. De fato, ser um concertista virtuoso é algo realmente desafiador até mesmo para músicos formados em violão. Mas será que a técnica do violão clássico, a leitura musical e o conhecimento teórico são algo tão inacessível assim?
+Aprender violão clássico pode parecer algo distante, difícil. De fato, ser um concertista virtuoso é algo realmente desafiador até mesmo para músicos formados em violão. Mas será que a técnica do violão clássico, a leitura musical e o conhecimento teórico são algo tão inacessível assim?
 
 Te garanto que não. Em todas as áreas do conhecimento humano se destacar é para poucos. É inerente que seja assim. Mas aprender a arte do violão clássico é para todos que almejam subir de nível como violonistas. Vencer a si mesmo. E este é o primeiro ponto que quero trabalhar com você aqui.
 
@@ -72,7 +70,7 @@ A princípio, não há conhecimento musical que não seja importante para um vio
 
 Alturas são as gradações entre grave e agudo, portando as notas. A notação das mesmas, na partitura, requer o conhecimento dos seguintes tópicos:
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Partitura-de-violao-300x113.png)
+ ![](/images/blog/2020/07/Partitura-de-violao-300x113.png)
 
 1.  **Automatismo das notas** – Capacidade de dizer as notas na ordem certa, seja do grave para o agudo (Dó, ré, mi, fá, etc) ou do agudo para o grave (Dó, si, lá, sol, fá, etc.)
 2.  **Pentagrama**  – As cinco linhas do pentagrama são o palco das notas que ficam sobre linhas ou nos espaços (entre uma linha e outra).
@@ -84,7 +82,7 @@ Alturas são as gradações entre grave e agudo, portando as notas. A notação 
 
 Notas curtas ou longas? O jogo entre as durações é o que chamamos de ritmo.  Para se obter o domínio da leitura e escrita rítmicas é necessário conhecer:
 
- ![Notas pontuadas aprender violão clássico](https://amigoviolao.com/wp-content/uploads/2020/07/Notas-pontuadas.png)
+ ![Notas pontuadas aprender violão clássico](/images/blog/2020/07/Notas-pontuadas.png)
 
 Notas pontuadas
 
@@ -94,10 +92,9 @@ Notas pontuadas
 4.  **Notas pontuadas** – Notas que duram 1,5 a duração da figura rítmica normal (imagem).
 5.  **Quiálteras** – Conjuntos de notas que permitem agrupar um número de notas em um único tempo, fora do padrão da peça em questão. Na imagem abaixo, você vê quiálteras de 3. Onde normalmente caberiam 2 colcheias, foram encaixadas 3, através das quiálteras.
 
-     ![Quiálteras Aprender Violão Clássico](https://amigoviolao.com/wp-content/uploads/2020/07/Quiálteras.png)
+     
 
     Quiálteras de 3
-
 
 ### 3 – Diferentes tonalidades 
 
@@ -112,7 +109,7 @@ A tonalidade, ou tom de uma música, é determinada através do conhecimento da 
 
 Sistema de acordes que funcionam de forma lógica entre si, servindo para análises musicais. A compreensão harmônica é de fundamental importância para a elevação do nível da performance. A interpretação musical, os fraseados e a dinâmica, são pautados muitas vezes por esta dimensão da música.
 
- ![Aprender Violão Clássico](https://amigoviolao.com/wp-content/uploads/2020/07/Aprender-Violão-Clássico-Campo-Harmonico.png)
+ 
 
 1.  **Formação de tríades** – Sobreposição de 3 notas, em terças, para formação de acordes.
 2.  **Nomeação dos acordes** – Como saber se um acorde é um C ou Cm?
@@ -122,9 +119,7 @@ Sistema de acordes que funcionam de forma lógica entre si, servindo para análi
 6.  **Funções Harmônicas** – Existem 3 funções harmônicas e somente 3: Tônica, Dominante e Subdominante. Estas funções são inicialmente reconhecidas nos graus dos campos harmônicos. O objetivo é saber reconhece-las auditivamente. O entendimento do caráter de cada uma é que será determinante na interpretação musical.
 7.  **Cadências principais** – Existem cadências harmônicas que reincidem nas obras musicais. Independente de estilos, estas cadências são como que padrões. Ao serem identificados tais padrões começamos a enxergar a harmonia de forma mais simplificada. É quando muitos músicos passam de interpretes a compositores. Experimentar com cadências e ousar com novos acordes é um prazer que vale a pena conquistar.
 
-## 3 – Técnica necessária para aprender violão clássico
-
-###   ![](https://amigoviolao.com/wp-content/uploads/2020/07/Técnica-de-Violão-Aprender-Violão-Clássico-300x169.jpg)1 – Princípio técnico 
+###   1 – Princípio técnico 
 
 Um caminho assertivo sem um princípio simples e claro dependeria de muita sorte. O mais comum é começar errado e consertar depois, o que muitas vezes acarreta em uma técnica com falhas que duram a vida toda.
 
@@ -146,7 +141,7 @@ Ao tocar arpejos ou peças polifônicas (com mais de uma melodia tocadas simulta
 
 Arpejar é tocar as notas de um acorde uma de cada vez. No violão há técnicas simples e avançadas de arpejo. O fato é que é impossível tocar violão clássico sem dominar algumas destas técnicas.
 
-###   ![](https://amigoviolao.com/wp-content/uploads/2020/07/Mão-esquerda-Aprender-Violão-Clássico-300x225.jpg)6 – Escalas 
+###   6 – Escalas 
 
 O estudo das escalas no violão clássico é bem diferente daquele usado por guitarristas ou músicos de jazz. No nosso caso a abordagem é mais nos desenhos que podemos fazer sem abrir muito os dedos da mão esquerda. Esta é uma das principais diferenças entre escalas no violão clássico e na guitarra. Além disso há algumas técnicas muito eficazes para a mão direita.
 
@@ -154,7 +149,7 @@ O estudo das escalas no violão clássico é bem diferente daquele usado por gui
 
 Ligados são técnicas fundamentais de mão esquerda para articulação de melodias. Ligados ascendentes e descendentes, úteis em trinados, ornamentos, melodias e escalas.
 
- [![](https://amigoviolao.com/wp-content/uploads/2020/07/Curso-Online-Iniciação-ao-Violão-Clássico-INVIC.png)](https://amigoviolao.com/classico)
+ 
 
 ## 4 – 10 Violonistas eruditos que você precisa conhecer ao aprender violão clássico
 
@@ -240,73 +235,73 @@ Esta é uma lista que não deve ser encarada como obrigatória, mas apenas uma s
 
 Este estudo de arpejo é muito bonito e trabalha o dedilhado p i m i na mão esquerda.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Estudo-10-Aguado.png)
+ ![](/images/blog/2020/07/Estudo-10-Aguado.png)
 
 **2 – Valsa em Dó Maior – Ferdinando Carulli**
 
 Trabalha acordes na primeira posição e um ritmo de valsa (3 por 4).
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Valsa-em-Dó-Maior-–-Ferdinando-Carulli-300x46.jpg)
+ 
 
 **3 – Estudo 11 Dionísio Aguado – Dionísio Aguado**
 
 Estudo de melodia acompanhada com movimentos simples de mão esquerda, em valsa e notas acidentadas que apimentam a harmonia. Trabalha controle de diferentes timbres.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Estudo-11-Aguado-300x33.jpg)
+ ![](/images/blog/2020/07/Estudo-11-Aguado-300x33.jpg)
 
 **4 – Greensleeves – Anônimo**
 
 Um clássico da música medieval.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Greensleeves-300x34.jpg)
+ ![](/images/blog/2020/07/Greensleeves-300x34.jpg)
 
 **5 – Espagnoleta – Gaspar Sanz**
 
 Um clássico da música medieval espanhola.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Espagnoleta-Gaspar-Sanz-300x38.jpg)
+ ![](/images/blog/2020/07/Espagnoleta-Gaspar-Sanz-300x38.jpg)
 
 **6 – Romance de Amor – Anônimo**
 
 Trabalha regiões agudas do violão, campo Harmônico Maior e menor e arpejos.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Romance-de-Amor-300x46.png)
+ ![](/images/blog/2020/07/Romance-de-Amor-300x46.png)
 
 **7 – Estudo em Si menor – Fernando Sor**
 
 Melodia acompanhada com um belíssimo discurso harmônico. Apesar de ser uma obra tecnicamente simples, é tocada em discos e concertos por grandes nomes do violão erudito.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/estudio-en-si-menor-fernando-sor-1-638-300x42.jpg)
+ ![](/images/blog/2020/07/estudio-en-si-menor-fernando-sor-1-638-300x42.jpg)
 
 **8 – Estudo em Dó Maior – Francisco Tárrega**
 
 Melodia acompanhada com arpejos.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Estudo-em-Dó-Maior-–-Francisco-Tárrega-300x49.jpg)
+ 
 
 **9 – Lágrima – Francisco Tárrega**
 
  Obra de caráter romântico muito conhecida pelo grande público.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Lágrima-–-Francisco-Tárrega-300x45.jpg)
+ 
 
 **10 – Adelita – Francisco Tárrega**
 
 Esta é uma peça mais elaborada, sua técnica desafia mais pelos ornamentos.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Adelita-–-Francisco-Tárrega-300x71.png)
+ 
 
 **11 – Valsa em Lá Maior – Dionísio Aguado**
 
 Trabalha ligados, dinâmicas e regiões do violão que requerem maior esforço do violonista.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Valsa-em-Lá-Maior-–-Dionísio-Aguado-300x46.jpg)
+ 
 
 **12 – Prelúdio 3 – Heitor Villa-Lobos**
 
 Uma das peças tecnicamente mais acessíveis de Villa-Lobos. Embora musicalmente envolva conteúdos bem elaborados.
 
- ![](https://amigoviolao.com/wp-content/uploads/2020/07/Preludio-3-Villa-300x55.jpg)
+ ![](/images/blog/2020/07/Preludio-3-Villa-300x55.jpg)
 
 ## 7 –  Indo além: Mentalidade de um violonista erudito.
 

@@ -22,12 +22,8 @@ tags:
   - diferenca-entre-escutar-e-ouvir
   - escutar-e-ouvir
   - importancia-da-musica
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/escutar-300x200.jpg
-  "apreciacao-musical-1"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/escutar-300x200.jpg
-  "apreciacao-musical-1"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/apreciacao-musical'
 wpId: 478
 ---
@@ -58,7 +54,7 @@ Escolham uma música juntos e combine que não trocarão de música neste dia, q
 
 ## Use desenhos
 
-![apreciacao-musical-desenho-infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/desenho-infantil.jpg "apreciacao-musical-desenho-infantil")Crianças até 7 anos funcionarão muito bem se você pedir que elas desenhem o som. **É próprio desta faixa etária gostar de desenhar.** Além de ajudá-las a se concentrarem mais, fará que de fato elas se libertem para ouvir o som e se expressarem sob sua influência. O desenho pode ser útil em qualquer faixa etária, inclusive para os adultos.
+Crianças até 7 anos funcionarão muito bem se você pedir que elas desenhem o som. **É próprio desta faixa etária gostar de desenhar.** Além de ajudá-las a se concentrarem mais, fará que de fato elas se libertem para ouvir o som e se expressarem sob sua influência. O desenho pode ser útil em qualquer faixa etária, inclusive para os adultos.
 
 ## Faça perguntas
 
@@ -75,7 +71,7 @@ Algumas perguntas que você pode lançar:
 
 ## Estimule a movimentação corporal
 
-![apreciacao-musical-2](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/escutar-1-300x245.jpg "apreciacao-musical-2")A dança é também muito legal para entreter as crianças e deve ser usada de forma bastante livre, buscando respeitar a expressividade de cada um.
+A dança é também muito legal para entreter as crianças e deve ser usada de forma bastante livre, buscando respeitar a expressividade de cada um.
 
 Mesmo em momentos mais calmos, a meia luz, é possível usar os movimentos dos braços, das mãos de forma a representar o som.
 
@@ -88,7 +84,3 @@ Busque aquilo que se adapte melhor na sua vida em família. **Isso faz parte da 
 Use os sinais das crianças para interpretar a compreensão que já são capazes de ter. Não use para cobrar. Divirta-se e depois deixe um comentário me contado como foi hein?
 
 Deixo para você essa reflexão do Rubem Alves. Quem indicou foi um leitor do Blog, o Eduardo Augusto:
-
-![apreciacao-musical-escuta-rubem-alves](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Escuta.jpg "apreciacao-musical-escuta-rubem-alves")
-
-[![cta-meio-post-curso-amigo-violao-vendas](https://tresamigosead.com.br/blog/wp-content/uploads/2016/02/cta-meio-post-curso-amigo-violao-vendas.png)](https://amigoviolao.com.br)

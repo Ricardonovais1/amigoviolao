@@ -9,10 +9,8 @@ slug: aprenda-a-organizar-o-conteudo-das-aulas-de-violao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/11/CAPA-organizar-aulas-violao.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/11/CAPA-organizar-aulas-violao.jpg
+featured_image: /images/blog/2021/11/CAPA-organizar-aulas-violao.jpg
+og_image: /images/blog/2021/11/CAPA-organizar-aulas-violao.jpg
 canonical: >-
   https://amigoviolao.com/blog/aprenda-a-organizar-o-conteudo-das-aulas-de-violao
 wpId: 39889
@@ -26,7 +24,7 @@ Embora os elementos essenciais, como mencionado, sejam **CAP**, preferimos, no m
 
 Tendo dito isso, passemos para os tópicos, na ordem que preferimos:
 
- ![organizar aulas de violao crianças](https://amigoviolao.com/wp-content/uploads/2021/10/organizar-aulas-violao-1024x768.jpg)
+ ![organizar aulas de violao crianças](/images/blog/2021/10/organizar-aulas-violao-1024x768.jpg)
 
 No caso de crianças, é mais importante ainda saber organizar o conteúdo das aulas de violão.
 
@@ -44,7 +42,7 @@ Podemos dizer que a apreciação é uma **escuta orientada**, isto é, uma escut
 
 Uma boa apreciação pode se dar, por exemplo, pedindo para que o(a) aluno(a) tente descobrir quantas partes há em uma música (é particularmente interessante pedir para que ele tente desenhar as partes da música), uma habilidade que, se bem desenvolvida, o auxiliará muito na **memorização** das peças ou canções que for aprender.Uma boa apreciação também pode vir acompanhada de um estudo da **literatura musical**, apresentando peças de variados estilos e partituras/cifras de vários níveis ao aluno(a), a fim de que se habitue a repertórios e notações aos quais talvez ainda não esteja acostumado.
 
- ![aula violao crianças](https://amigoviolao.com/wp-content/uploads/2021/10/organizar-aula-violao-683x1024.jpg)
+ ![aula violao crianças](/images/blog/2021/10/organizar-aula-violao-683x1024.jpg)
 
 Dar aula de violão para crianças não é fácil!
 

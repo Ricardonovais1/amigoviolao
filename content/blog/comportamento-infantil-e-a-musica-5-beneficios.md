@@ -32,7 +32,6 @@ Sendo assim, uma das bases do conhecimento musical é a percepção e o conhecim
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=01XK-zB_CNc)
 
-
 Cabeça, ombro, joelho e pé, joelho e pé (2x)
 Olhos, ouvidos, boca e nariz
 Cabeça, ombro, joelho e pé, joelho e pé.
@@ -44,8 +43,6 @@ A auto estima é o reconhecimento de seu próprio valor. Tocar um instrumento é
 Me lembro das primeiras notas que aprendi. O prazer de emitir sons com o violão era diretamente proporcional ao fato de que eu não acreditava muito no meu potencial. Mas ao aprender, via um novo mundo se descortinando.
 
 Quando pude tocar uma música do início ao fim pela primeira vez, lembro da minha sensação de ter aquele poder sobre mim mesmo. E esta sensação continuou sendo o combustível pra que eu chegasse ao [ponto em que cheguei](https://www.youtube.com/watch?v=HJsDtVANtlc).
-
-![Menino lendo partitura desenvolvimento infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/images-1.jpg "Menino-lendo-partitura-desenvolvimento-infantil")
 
 ## #3 – Pertencimento perante a coletividade:
 
@@ -74,8 +71,6 @@ Sabemos que para saber mandar é preciso saber obedecer. A música ensina estas 
 Orquestras e outros tipos de conjunto musical possuem esta mesma hierarquia, com combinações diferentes. E estas funções, apesar de claras, não são rígidas. Quando há um solo de bateria, ela sai do fundo e aparece como protagonista por exemplo.
 
 A prática musical ao contemplar esta dimensão é um tremendo exercício de liderança. O “band leader” (líder da banda) geralmente é o cantor mas nos bastidores e também na prática do palco, cada integrante tem o seu lugar no brilho do trabalho musical.
-
-![Meninos tocando violão desenvolvimento infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/gallery_guitar_0.jpg "Meninos-tocando-violao-desenvolvimento-infantil")
 
 ## Música na escola regular e em cursos livres.
 

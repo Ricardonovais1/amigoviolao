@@ -9,10 +9,8 @@ slug: como-aprender-a-tocar-violao-do-zero-os-5-niveis
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.jpg
+featured_image: /images/blog/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.jpg
+og_image: /images/blog/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.jpg
 canonical: 'https://amigoviolao.com/blog/como-aprender-a-tocar-violao-do-zero-os-5-niveis'
 wpId: 38652
 ---
@@ -21,7 +19,7 @@ Aqueles que estão pretendendo dar os primeiros passos no instrumento talvez se 
 
 Justamente a fim de aclarar esse caminho, podemos dividir o aprendizado em **6 níveis**, como você verá abaixo:
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/08/aprender-violao-do-zero-1024x683.jpg)
+ ![](/images/blog/2021/08/aprender-violao-do-zero-1024x683.jpg)
 
 Independentemente da idade, aprender violão exige esforço e comprometimento!
 
@@ -49,7 +47,7 @@ Nível 5:
 
 Neste nível, sua técnica e experiência já lhe permitirá tocar e criar arranjos mais sofisticados de **chord melody**, sendo capaz de tocar praticamente todo o repertório de pop e rock. Aqui, já poderá partir para áreas do violão mais específicas, como o chorinho, violão clássico, jazz ou fingerstyle. Convém dizer que cada uma dessas áreas é um **mundo próprio**, que requer anos e anos de prática regular para que se alcance um nível de excelência.
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/08/aprender-do-zero-violao-1024x575.jpg)
+ ![](/images/blog/2021/08/aprender-do-zero-violao-1024x575.jpg)
 
 Para aprender a tocar violão do zero, é necessário ter uma boa orientação!
 

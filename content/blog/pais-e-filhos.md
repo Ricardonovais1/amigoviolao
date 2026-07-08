@@ -21,12 +21,8 @@ tags:
   - ensinar-pelo-exemplo
   - exemplos-de-paia-para-filho
   - pais-e-filhos
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/APRENDI-COM-MEU-PAI-1-191x300.jpg
-  "pais-e-filhos-capa"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/APRENDI-COM-MEU-PAI-1-191x300.jpg
-  "pais-e-filhos-capa"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/pais-e-filhos'
 wpId: 358
 ---
@@ -43,13 +39,13 @@ No caso de Britto, ele criou o próprio conselho consultivo para sanar a ausênc
 
 ## O amor pela música, entre pais e filhos
 
-![pais-e-filhos-ivete-sangalo](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Ivete-Sangalo-300x174.jpg "pais-e-filhos-ivete-sangalo")[Ivete Sangalo](https://www.youtube.com/watch?v=_cNCD9CRS1Y) aprendeu violão com seu pai aos 11 anos de idade. Segundo ela, aos 15 anos a música já lhe dava “moral” nas festinhas da escola. Em seu depoimento, Ivete conta como seu pai transferiu para ela a sua paixão pela música e ensinou que o gosto musical pode e deve ser eclético. Cada membro da família tinha seu gosto, passando por Djavan, Gil, Caetano, Zé Ramalho, Elba Ramalho, João Gilberto e Kid Abelha. Essas foram influências que passadas de pai para filha desencadearam grande desenvoltura em sua vida musical.
+[Ivete Sangalo](https://www.youtube.com/watch?v=_cNCD9CRS1Y) aprendeu violão com seu pai aos 11 anos de idade. Segundo ela, aos 15 anos a música já lhe dava “moral” nas festinhas da escola. Em seu depoimento, Ivete conta como seu pai transferiu para ela a sua paixão pela música e ensinou que o gosto musical pode e deve ser eclético. Cada membro da família tinha seu gosto, passando por Djavan, Gil, Caetano, Zé Ramalho, Elba Ramalho, João Gilberto e Kid Abelha. Essas foram influências que passadas de pai para filha desencadearam grande desenvoltura em sua vida musical.
 
 Segundo ela, para comprar discos fazia-se um verdadeiro evento: Família toda presente, com direito a almoço e voltar pra casa para escutar todos juntos. Percebemos aqui como a música foi mais do que uma influência de gêneros e estilos para se ouvir, ela se expande para uma ação de união entre os membros da família e pode simbolizar afeto, carinho e amor entre pais e filhos.
 
 ## **Superação de pai para filho**
 
-![pais-e-filhos-joao-carlos-martins-2](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/maestro_joao_carlos_martins-300x200.jpg "pais-e-filhos-joao-carlos-martins-2")O pianista [João Carlos Martins](http://www.fundacaobachiana.org.br/) , que já foi considerado um dos maiores intérpretes de Bach do mundo, possui um caso conhecido e impressionante de superação. Depois de alguns acidentes, perdeu quase todos os movimentos das mãos e ainda hoje se dedica à música como maestro.
+O pianista [João Carlos Martins](http://www.fundacaobachiana.org.br/) , que já foi considerado um dos maiores intérpretes de Bach do mundo, possui um caso conhecido e impressionante de superação. Depois de alguns acidentes, perdeu quase todos os movimentos das mãos e ainda hoje se dedica à música como maestro.
 
 No livro, o músico conta que seu pai, que era perfumista, o ensinou determinação e superação, em um caso onde reverteu uma situação considerada perdida. Seu pai, assim, o inspirou, conseguindo criar uma fragrância da noite para o dia, que venceu uma concorrência (que já havia perdido no dia anterior) em uma grande empresa do ramo na época, a Gessy.
 
@@ -57,7 +53,7 @@ João Carlos Martins é conhecido exatamente pela capacidade de superação e tr
 
 ## **Meu filho, a vida é sua, estrague-a como quiser…**
 
-![pais-e-filhos-andre-abujamra](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/André-Abujamra-300x169.jpg "pais-e-filhos-andre-abujamra")O ensinamento que o músico [André Abujamra](https://pt.wikipedia.org/wiki/Andr%C3%A9_Abujamra) conta ter recebido de seu pai é curto e grosso:  A vida é sua, estrague-a como quiser.
+O ensinamento que o músico [André Abujamra](https://pt.wikipedia.org/wiki/Andr%C3%A9_Abujamra) conta ter recebido de seu pai é curto e grosso:  A vida é sua, estrague-a como quiser.
 
 Em um acontecimento citado no livro, André conta que seu pai negou-lhe ajuda financeira durante uma viagem que ele fez com um amigo pelo Egito. O pai lhe disse, por telefone: “Meu filho, te amo. Te adoro. Mas não tenho dinheiro, lamento. Além disso você está aí porque quer”.
 

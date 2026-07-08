@@ -12,10 +12,8 @@ slug: musica-percussiva-com-cordas-soltas-banda-dos-bichos
 categories:
   - como-tocar-violao
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/04/Banda-dos-Bichos-Amigo-Violão.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/04/Banda-dos-Bichos-Amigo-Violão.jpg
+featured_image: ''
+og_image: ''
 canonical: >-
   https://amigoviolao.com/blog/musica-percussiva-com-cordas-soltas-banda-dos-bichos
 wpId: 1372

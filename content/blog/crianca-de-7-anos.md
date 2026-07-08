@@ -21,12 +21,8 @@ tags:
   - dificuldades-para-aprender-a-ler
   - dificuldades-para-ler
   - filha-agitada
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/menino7anos-225x300.jpg
-  "crianca-de-7-anos-menino"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/menino7anos-225x300.jpg
-  "crianca-de-7-anos-menino"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/crianca-de-7-anos'
 wpId: 533
 ---
@@ -55,7 +51,7 @@ A personalidade aos 7 anos já está formada, isto significa que **é saudável 
 
 Mas ainda é tempo de aparar arestas também. **Nesta idade é bastante comum as crianças preferirem brincar com outras crianças e excluírem os pais**. Aliás, os pais continuam sendo alvos dos sentimentos mais tempestuosos das crianças nesta idade.
 
-![crianca-de-7-anos-feminina](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Menina-feminina-150x150.jpg "crianca-de-7-anos-feminina")E acentua-se a distinção entre os gêneros, de forma que as brincadeiras também vem fortalecer a identidade feminina ou masculina. As crianças desta idade observam muito o mundo e a vida dos adultos, até mais do que pode parecer.  Por isso nosso lugar de “espelhos” de nossos filhos se acentua e com ela nossa responsabilidade:
+E acentua-se a distinção entre os gêneros, de forma que as brincadeiras também vem fortalecer a identidade feminina ou masculina. As crianças desta idade observam muito o mundo e a vida dos adultos, até mais do que pode parecer.  Por isso nosso lugar de “espelhos” de nossos filhos se acentua e com ela nossa responsabilidade:
 
 _“(…) as crianças de sete anos tem dificuldades em lidar com sentimentos contraditórios, mas nós podemos ajuda-las a entender que no mundo real ninguém é totalmente bom e nem totalmente mau. Os contos de fada continuarão a ter sua função de assegurar às crianças que o bem pode triunfar.”_ (p. 47).
 
@@ -68,5 +64,3 @@ Nesta idade já se pode esperar uma obediência maior à necessidade de discipli
 Eu ainda não tenho filhos de 7 anos, minhas filhas mais velhas estão com 4. Mas crianças com esta idade são bem presentes na minha vida. Dou aulas de violão para crianças a partir dos  5 anos. Mas é aos 7 que noto claramente uma facilidade de abordar o instrumento com desenvoltura. É uma idade onde eu noto claramente esta mudança. Por isso eu quis abordá-la aqui, pensando nos pais cujos filhos se aproximam desta idade podendo se beneficiar com estas reflexões.
 
 Deixe sua contribuição, perguntando ou trazendo novas reflexões, o que será benéfico para outros pais que também nos lêem.
-
-[![cta-meio-post-curso-amigo-violao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png)](https://amigoviolao.com.br/baixar-ebook-gratis)

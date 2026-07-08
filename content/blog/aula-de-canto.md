@@ -152,6 +152,6 @@ Não é à toa que existe o ditado “quem canta os seus males espanta”, mas p
 
 Envolve ritmo, afinação e dicção. É tão natural que nem nos damos conta da gama de coisas que são trabalhadas. Mas se você está lendo, é porque já sabe a importância!
 
-Mãos à obra! E lembre-se que diariamente temos novas atrações aqui no [blog da Três Amigos](http://tresamigosead.com.br/blog/). Confira também o nosso [post com 10 vídeos de música pra você assistir com as crianças](http://tresamigosead.com.br/blog/momentos-em-familia/).
+Mãos à obra! E lembre-se que diariamente temos novas atrações aqui no blog da Três Amigos. Confira também o nosso post com 10 vídeos de música pra você assistir com as crianças.
 
-E também o [post com 12 instrumentos musicais ótimos para dar de presente para as crianças](http://tresamigosead.com.br/blog/brinquedo-educativo/).
+E também o post com 12 instrumentos musicais ótimos para dar de presente para as crianças.

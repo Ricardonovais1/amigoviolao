@@ -9,10 +9,8 @@ slug: 3-erros-ao-ensinar-violao-as-criancas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/10/CAPA-erros-ensinar-violao-criancas.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/10/CAPA-erros-ensinar-violao-criancas.jpg
+featured_image: /images/blog/2021/10/CAPA-erros-ensinar-violao-criancas.jpg
+og_image: /images/blog/2021/10/CAPA-erros-ensinar-violao-criancas.jpg
 canonical: 'https://amigoviolao.com/blog/3-erros-ao-ensinar-violao-as-criancas'
 wpId: 39829
 ---
@@ -29,7 +27,7 @@ Antes de tudo, convém aclarar o que são esses tais conteúdos explícitos e im
 
 É porque o conteúdo implícito de “Tempo Perdido” (em versão simplificada) será mais fácil e eficiente do que o explícito. Em outras palavras, não é necessário (e nem recomendado) ensinar músicas demasiadamente infantis à criança (isso será pouco estimulante para ela). Pelo contrário, **adapte** uma música “de adulto” ao nível dela, tendo em mente aquilo que ela realmente **deve desenvolver** (sobre isso, falaremos no tópico 3).
 
- ![organizar aulas de violao crianças](https://amigoviolao.com/wp-content/uploads/2021/10/organizar-aulas-violao-1024x768.jpg)
+ ![organizar aulas de violao crianças](/images/blog/2021/10/organizar-aulas-violao-1024x768.jpg)
 
 Para ensinar violão às crianças, é necessário mantê-las motivadas!
 
@@ -40,8 +38,6 @@ Me responda uma coisa: você aprendeu a escrever e a ler antes de falar? Com cer
 3) Fazer exercícios de técnica isolada
 
 Exercícios de escala, de técnica da mão direita… Bom, todos esses exercícios são excelentes para **quem já sabe tocar** e quer alcançar um nível alto no instrumento, mas para quem não sabe tocar são péssimos e **desestimulantes**. É muito mais valioso ter uma criança inspirada e motivada a aprender do que uma que consiga cumprir os exercícios. A criança motivada, correndo tudo certo, seguirá no aprendizado por anos e anos, enquanto que a criança desmotivada largará o violão! Ao invés de focar em técnica isolada, portanto, foque em mantê-la motivada no aprendizado e, sem que ela sequer perceba, vá introduzindo elementos de técnica **nas próprias músicas** que ensina. É muito melhor, sobretudo em um estágio inicial, transmitir a técnica **por meio da música**, e não separadamente.
-
-
 
 Bem sabemos que ensinar crianças a tocar violão não é fácil! Sabendo disso também, Ricardo Novais desenvolveu, ao longo de anos e anos de experiência, o **método PROVIC**, do site **Amigo Violão**,destinado a preparar professores de violão no ensino às crianças. O método é o resultado de pesquisas e tentativas e mais tentativas, e vem sendo elogiado há anos por vários professores que aderiram a ele!
 

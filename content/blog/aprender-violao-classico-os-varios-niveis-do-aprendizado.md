@@ -9,10 +9,8 @@ slug: aprender-violao-classico-os-varios-niveis-do-aprendizado
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/09/CAPA-aprender-violao-classico.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/09/CAPA-aprender-violao-classico.jpg
+featured_image: /images/blog/2021/09/CAPA-aprender-violao-classico.jpg
+og_image: /images/blog/2021/09/CAPA-aprender-violao-classico.jpg
 canonical: >-
   https://amigoviolao.com/blog/aprender-violao-classico-os-varios-niveis-do-aprendizado
 wpId: 39630
@@ -28,7 +26,7 @@ E, entre as diversas vantagens de aprender violão clássico, convém dizer que 
 
 Falemos agora dos níveis de violão clássico:
 
- ![aprender violão clássico](https://amigoviolao.com/wp-content/uploads/2021/09/aprender-violao-classico-1024x682.jpg)
+ ![aprender violão clássico](/images/blog/2021/09/aprender-violao-classico-1024x682.jpg)
 
 Aprender violão clássico é bom para tocar qualquer estilo!
 
@@ -54,11 +52,9 @@ Este é o nível em que o aluno aprenderá peças como a Bourrée (Bach), alguns
 
 Claro que não podemos dizer que o estudo acaba por aqui. Há peças muito complexas, que podem demandar anos de estudo até dos mais virtuosos, e peças, como as que já foram citadas, que são constantemente revisitadas e aprimoradas. Devemos pensar que o aprendizado do violão (aliás, praticamente qualquer aprendizado) é um **grande espiral**, em que se retorna várias vezes às fases iniciais para **preencher brechas** e **aprofundar o entendimento**. Neste nível, o aluno será capaz de tocar bem os prelúdios de Villa Lobos, poderá arriscar os estudos para violão do mesmo compositor, aprender suítes difíceis do Bach e por aí em diante. É um estudo para toda a vida.
 
- ![saber tocar violão clássico](https://amigoviolao.com/wp-content/uploads/2021/09/violao-classico-1024x682.jpg)
+ ![saber tocar violão clássico](/images/blog/2021/09/violao-classico-1024x682.jpg)
 
 O estudo do violão é uma espiral!
-
-
 
 Como foi dito, o aprendizado do violão é uma **espiral**, em que o violonista vai revisitando peças já estudadas anteriormente e aprimorando-as cada vez mais, além de sempre se arriscar em repertórios mais difíceis.
 Entre as várias habilidades que um violonista clássico deve ter, podemos citar a **leitura de partituras ao violão** como algo fundamental. Sabendo ler partituras, você será capaz de aprender músicas por conta própria, se tornando mais proativo quanto ao seu desenvolvimento!

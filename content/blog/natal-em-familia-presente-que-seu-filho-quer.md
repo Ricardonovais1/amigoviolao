@@ -22,12 +22,8 @@ tags:
   - natal-de-2015
   - natal-em-familia
   - natal-nascimento-de-jesus
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Bebê-entre-pai-e-mãe.jpg
-  "natal-em-família-filho-e-pais"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Bebê-entre-pai-e-mãe.jpg
-  "natal-em-família-filho-e-pais"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/natal-em-familia-presente-que-seu-filho-quer'
 wpId: 303
 ---

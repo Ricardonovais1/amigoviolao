@@ -26,12 +26,8 @@ tags:
   - educacao-dos-filhos
   - educacao-musical-infantil
   - jogo-musical
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Mestre-Lira-296x300.png
-  "Mestre-Lira-brincadeiras-para-fazer-em-casa"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Mestre-Lira-296x300.png
-  "Mestre-Lira-brincadeiras-para-fazer-em-casa"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/brincadeiras-para-fazer-em-casa-siga-o-mestre'
 wpId: 263
 ---
@@ -53,9 +49,7 @@ De todas as brincadeiras para fazer em casa, esta é uma das mais fáceis, diver
 -   **Como é a brincadeira?** Cada hora um dos participantes será o mestre. E os demais farão sons de acordo com o movimento do mestre.
 -   **Quem vence?** O mestre que conseguir ajudar os outros participantes a acertar mais. Como saber? Você saberá… Mas se preferir não precisa necessariamente ter o caráter competitivo.
 
-## Siga o Mestre – Nível 1: (Som longo e som curto)
-
-##    ![Mestre-Lira-2-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Mestre-Lira-2-300x126.jpg "Mestre-Lira-2-brincadeiras-para-fazer-em-casa")
+##    
 
 Quando o mestre abre o tecido, os demais devem emitir um som com a  voz, até o mestre fechar os braços, quando todos devem fazer silêncio. Neste nível estamos trabalhando apenas a duração do som.
 
@@ -63,7 +57,7 @@ O participante que estiver no lugar do mestre verá como é a sensação de coor
 
 ## Siga o Mestre – Nível 2: (som forte e som fraco**)**
 
-![Forte-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Forte-300x161.png "Forte-brincadeiras-para-fazer-em-casa")       ![Piano-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Piano-300x161.png "Piano-brincadeiras-para-fazer-em-casa")
+       
 
 Neste nível a nova variável é: Quanto mais abertos estão os braços, mais forte é o som, e vice versa.
 
@@ -71,11 +65,9 @@ A importância de se trabalhar esta variável, assim como a que você verá a se
 
 ## Siga o Mestre – Nível 3: (som agudo e som grave)
 
-![flauta-de-embolo-brincadeiras-para-fazer-em-casa](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/flauta-de-embolo-brinquedo-educativo-21.jpg "flauta-de-embolo-brincadeiras-para-fazer-em-casa")
-
 Agora, entra a terceira variável, que exige um pouco mais de percepção musical: Se o mestre levantar os braços, o som deve ser agudo. Quando abaixa os braços, o som é grave.
 
-Uma excelente pedida é usar a flauta de êmbolo (imagem) para isso. É mais divertido, pois o som é engraçado, e é muito fácil aprender a tocar graves e agudos neste instrumento. Embolo aberto, grave. Êmbolo fechado, agudo. É simples assim. [Veja o post sobre brinquedos educativos](http://tresamigosead.com.br/blog/brinquedo-educativo/): 12 instrumentos musicais, incluindo esse, ótimos para as crianças terem em casa.
+Uma excelente pedida é usar a flauta de êmbolo (imagem) para isso. É mais divertido, pois o som é engraçado, e é muito fácil aprender a tocar graves e agudos neste instrumento. Embolo aberto, grave. Êmbolo fechado, agudo. É simples assim. Veja o post sobre brinquedos educativos: 12 instrumentos musicais, incluindo esse, ótimos para as crianças terem em casa.
 
 ## Brincadeiras para fazer em casa: Cidadania
 

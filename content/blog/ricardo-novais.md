@@ -16,19 +16,17 @@ tags:
   - professores
   - ricardo
   - ricardo-novais
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/05/Ricardo-Novais.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/05/Ricardo-Novais.jpg'
+featured_image: /images/blog/2018/05/Ricardo-Novais.jpg
+og_image: /images/blog/2018/05/Ricardo-Novais.jpg
 canonical: 'https://amigoviolao.com/blog/ricardo-novais'
 wpId: 97
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Ricardo-Novais-1.jpg)O professor **Ricardo Novais** é de Belo Horizonte, formado em violão pela UFMG e autor da metodologia **Amigo Violão,** do livro “**Curso de Violão para Crianças**“, e dos cursos online **PROVIC** (Professor de Violão para Crianças) e **Violão para Pais e Filhos**. dedica a simplificar a **iniciação ao violão**, especialmente para crianças, além de criar materiais de estudo do instrumento com alta qualidade. Ricardo já gravou 4 álbuns como compositor, cantor e violonista. Já se apresentou no Chile e Itália e venceu o XIII Concurso Nacional de Violão Souza Lima em São Paulo.
+![](/images/blog/2018/05/Ricardo-Novais-1.jpg)O professor **Ricardo Novais** é de Belo Horizonte, formado em violão pela UFMG e autor da metodologia **Amigo Violão,** do livro “**Curso de Violão para Crianças**“, e dos cursos online **PROVIC** (Professor de Violão para Crianças) e **Violão para Pais e Filhos**. dedica a simplificar a **iniciação ao violão**, especialmente para crianças, além de criar materiais de estudo do instrumento com alta qualidade. Ricardo já gravou 4 álbuns como compositor, cantor e violonista. Já se apresentou no Chile e Itália e venceu o XIII Concurso Nacional de Violão Souza Lima em São Paulo.
 
 ## Contato – Professor Ricardo Novais
 
 **Email:**[](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Ricardo:
 
 ### O que te dá mais satisfação ao dar aulas?
 

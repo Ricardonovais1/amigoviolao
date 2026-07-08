@@ -16,15 +16,13 @@ categories:
   - professores
 tags:
   - leandro-mourao
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/08/Leandro-Mourão-Amigo-Violão.png
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/08/Leandro-Mourão-Amigo-Violão.png
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/leandro-mourao'
 wpId: 2017
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Leandro-Mourão-150x150.png)Leandro Mourão Diamantino natural de Goiânia –GO, possui graduação em Música – Bacharelado em Violão – pela Escola de Música e Artes Cênicas da Universidade Federal de Goiás (UFG 2015) na classe do Prof. Dr. Werner Aguiar.
+Leandro Mourão Diamantino natural de Goiânia –GO, possui graduação em Música – Bacharelado em Violão – pela Escola de Música e Artes Cênicas da Universidade Federal de Goiás (UFG 2015) na classe do Prof. Dr. Werner Aguiar.
 
 Participou de importantes festivais de música como a Semana do Violão/UFG, Festival Nacional de Música da UFG, nos quais assistiu master classes de violão dos professores Judicäel Perroy (FRA), Jorge Caballero (PER), Paulo Porto Alegre (UEM), Daniel Wolff (UFRGS), Luis Mantovani (UDESC), Giacomo Bartoloni (UNESP).
 
@@ -35,8 +33,6 @@ Desde de 2010, atua como professor em aulas de violão em escolas de música par
 **WhatsApp:** (62)98323-9878
 
 **E-mail:** [](/cdn-cgi/l/email-protection)
-
-## **Conheça m**elhor o Professor Leandro Mourão:
 
 ### O que te dá mais satisfação ao dar aulas?
 

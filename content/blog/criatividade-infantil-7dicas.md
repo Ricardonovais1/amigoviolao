@@ -23,19 +23,13 @@ tags:
   - criatividade-musical
   - criatividade-na-infancia
   - desenvolver-a-criatividade
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Radio-antigo-300x199.jpg
-  "Radio-antigo-criatividade-infantil"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Radio-antigo-300x199.jpg
-  "Radio-antigo-criatividade-infantil"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/criatividade-infantil-7dicas'
 wpId: 277
 ---
 
 O humorista Murilo Gun ficou conhecido por suas 7 dicas de criatividade. São dicas super interessantes de como se tornar uma pessoa mais criativa. Na primeira vez que o vi falando disso fiquei encantado, porque ele de fato reuniu alguns fatores bem práticos que induzem a uma atuação mais criativa. Ele mostra claramente que a criatividade pode ser treinada, e é para todos. O que farei neste post é trazer estas 7 dicas de Murilo Gun sobre criatividade para o universo da música e da educação infantil (e além). É uma daquelas coisas que combinam perfeitamente e revelam saídas bem legais na educação das crianças. Confira!
-
-## Segue a minha “releitura” das 7 dicas de Murilo Gun: Música e criatividade infantil:
 
 ## #1 – Repertório diversificado:
 
@@ -49,7 +43,7 @@ Uma forma de colocar isto em prática é habituar as crianças a ouvir rádio, o
 
 ## #2 – Processamento inconsciente:
 
-![brincando-com-tinta-criatividade-infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Criança-brincando.jpg "brincando-com-tinta-criatividade-infantil")Pensamento inconsciente é aquele que temos ao fazermos atividades onde não estamos nem um pouco preocupados com resultados. É o lazer, a diversão, a descontração. Todos nós tivemos alguma experiência em que, bem na hora de descanso, encontramos a solução para algum problema pendente. Este é o “processamento inconsciente”.
+Pensamento inconsciente é aquele que temos ao fazermos atividades onde não estamos nem um pouco preocupados com resultados. É o lazer, a diversão, a descontração. Todos nós tivemos alguma experiência em que, bem na hora de descanso, encontramos a solução para algum problema pendente. Este é o “processamento inconsciente”.
 
 Atividades com a música têm um enorme poder de descortinar o inconsciente. Estudando violão, já tive inúmeras experiências em que lembranças, aparentemente esquecidas, vinham à tona sem que eu escolhesse. Questões pessoais ou profissionais, nas quais alguma compreensão que antes passara desapercebida se tornava evidente.
 
@@ -57,7 +51,7 @@ O mesmo é possível simplesmente escutando música. Mas que fique claro. Não a
 
 ## #3 – Transformar situações em charadas
 
-![Interrogacao-criatividade-infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Interrogação-300x300.jpg "Interrogacao-criatividade-infantil")Perguntas como “qual é a semelhança” e “qual é a diferença” possuem um poder de revelar coisas interessantes. Transforma simples questionamentos em charadas.
+Perguntas como “qual é a semelhança” e “qual é a diferença” possuem um poder de revelar coisas interessantes. Transforma simples questionamentos em charadas.
 
 Um exemplo clássico de charada (bobinha) deste tipo:
 
@@ -82,7 +76,7 @@ O ato de comparar é uma forma de potencializar a atenção, a percepção, aume
 
 ## #4- Pensamento não linear
 
-![Brainstorm-criatividade-infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Brainstorm.png "Brainstorm-criatividade-infantil")O pensamento não linear é aquele onde existe divergência, liberdade para errar, e onde não há um resultado esperado.
+O pensamento não linear é aquele onde existe divergência, liberdade para errar, e onde não há um resultado esperado.
 
 Percebo o pensamento não linear das crianças quando coloco um violão no colo delas e vejo que o que mais querem naquele momento é experimentar. Tocar sem  restrições, e sem instruções.
 
@@ -102,7 +96,7 @@ O que importa é falar de coisas que estão no universo da criança. A criativid
 
 ## #5- Treinar criatividade: resolver problemas que não são seus
 
-![Resolver-problemas-criatividade-infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Resolver-problemas-300x281.jpg "Resolver-problemas-criatividade-infantil")Vejamos um exemplo hipotético: Ao voltar para casa eu vejo um caminhão de carga virado e atravessado no meio da rua, com a carga toda esparramada na via e o trânsito bloqueado, em plena hora do rush…
+Vejamos um exemplo hipotético: Ao voltar para casa eu vejo um caminhão de carga virado e atravessado no meio da rua, com a carga toda esparramada na via e o trânsito bloqueado, em plena hora do rush…
 
 Eu sei que existem órgãos e profissionais especialmente designados para resolver tal situação, como a polícia, os bombeiros e o órgão de trânsito. Mas enquanto estou ali, obrigado a esperar a liberação, começo a me questionar: O que eu faria para resolver esta situação da melhor maneira possível?
 
@@ -120,7 +114,7 @@ Fazer isso é uma excelente forma de dar repertório e vocabulário às criança
 
 ## #6- Resolver o problema certo (pensamento lateral)
 
-![Afeto-criatividade-infantil](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/AFETO-300x207.jpg "Afeto-criatividade-infantil")No caso da educação de filhos o pensamento lateral é de fundamental importância. Mas o que é o pensamento lateral?
+No caso da educação de filhos o pensamento lateral é de fundamental importância. Mas o que é o pensamento lateral?
 
 É quando fugimos da resposta óbvia para um determinado problema. Crianças trazem problemas constantemente, onde a reclamação pressupõe uma solução. O desafio é saber ver onde realmente está a solução.
 

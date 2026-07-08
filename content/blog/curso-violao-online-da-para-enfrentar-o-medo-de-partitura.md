@@ -9,8 +9,8 @@ slug: curso-violao-online-da-para-enfrentar-o-medo-de-partitura
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2021/09/CAPA-medo-de-partitura.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2021/09/CAPA-medo-de-partitura.jpg'
+featured_image: /images/blog/2021/09/CAPA-medo-de-partitura.jpg
+og_image: /images/blog/2021/09/CAPA-medo-de-partitura.jpg
 canonical: >-
   https://amigoviolao.com/blog/curso-violao-online-da-para-enfrentar-o-medo-de-partitura
 wpId: 38609
@@ -26,7 +26,7 @@ Ou seja, essa “aversão à partitura” se deve ou à **frustração** de já 
 Porém, independentemente de qual seja o seu motivo para não aprender, uma coisa é certa:
 **Sem saber ler partitura, você será como um motorista cego!**
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/08/motorista-cego-1024x682.jpg)
+ ![](/images/blog/2021/08/motorista-cego-1024x682.jpg)
 
 Vale a pena dirigir de olhos fechados?
 
@@ -48,7 +48,7 @@ A música é uma arte que **transcorre no tempo** (e que, consequentemente, é a
 
 Mas, claro, não para por aí! Aprender partitura também é abrir-se a uma **tradição milenar** (e, no caso específico do violão, multi centenária). Significa abraçar a possibilidade de tocar um repertório violonístico **fascinante**, que inaugura-se com a melancolia renascentista de John Dowland, enriquece-se com a nobreza virtuosa de Bach, desenvolve-se no “violonismo” tão característico de Tárrega e emociona com as belas melodias de Dilermando Reis, seguindo muito além. Saber partitura é estar aberto a todo este mundo vasto de repertório, desfrutando dele naquilo que ele tem de mais precioso, seja no que diz respeito ao **desenvolvimento técnico** (o qual, aliás, nenhum outro repertório iguala) ou no deleite estético que proporciona.
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/08/ler-partitura-1024x682.jpg)
+ ![](/images/blog/2021/08/ler-partitura-1024x682.jpg)
 
 Um bom curso de violão online deve ensinar a ler partitura!
 

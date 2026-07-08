@@ -9,10 +9,8 @@ slug: melhor-curso-online-de-violao-videoaulas-tira-duvidas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/07/CAPA-melhor-curso-online-de-violao.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/07/CAPA-melhor-curso-online-de-violao.jpg
+featured_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.jpg
+og_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.jpg
 canonical: >-
   https://amigoviolao.com/blog/melhor-curso-online-de-violao-videoaulas-tira-duvidas
 wpId: 38359
@@ -24,7 +22,7 @@ Bom, podemos, a princípio, dizer que **todos esses fatores** contribuem para a 
 
 Você pode então dizer: “Mas isso é geral demais, não esclarece o problema!”, e eu só tenho a **concordar** com você, afinal de contas, não é tão fácil saber o que auxiliará o aluno a realizar seus anseios, não é mesmo? Os vários alunos têm _diversos_ objetivos, _diversos_ interesses, apresentam _diversos_ níveis, e querer estabelecer para todos um caminho absolutamente idêntico significa, no fundo, **desprezar a individualidade de cada um**.
 
-![aprender violão](https://amigoviolao.com/wp-content/uploads/2021/07/melhor-curso-de-violao-1024x680.jpg)
+![aprender violão](/images/blog/2021/07/melhor-curso-de-violao-1024x680.jpg)
 
 A impessoalidade é um impeditivo para que algum curso seja o melhor curso online de violão!
 
@@ -48,7 +46,6 @@ Além de ter acesso a todos os cursos do site, você também terá, **à sua dis
 Veja, a seguir, um trecho de um dos encontros que vêm ocorrendo no Zoom!
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=WcW_6VWNkL0)
-
 
 Estas 2 qualidades da NAVE resolvem os 2 problemas comuns aos cursos online. Você terá, então, por um lado, o **conforto** de assistir às aulas gravadas quando bem desejar, e, por outro, a **disponibilidade diária** do professor para resolver as dificuldades que surgirem no caminho!
 

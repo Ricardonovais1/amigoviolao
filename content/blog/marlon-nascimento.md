@@ -14,13 +14,13 @@ slug: marlon-nascimento
 categories:
   - como-tocar-violao
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/05/Marlon-quadrado-2.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/05/Marlon-quadrado-2.jpg'
+featured_image: /images/blog/2018/05/Marlon-quadrado-2.jpg
+og_image: /images/blog/2018/05/Marlon-quadrado-2.jpg
 canonical: 'https://amigoviolao.com/blog/marlon-nascimento'
 wpId: 1733
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Marlon-quadrado.jpg)O professor Marlon Nascimento está cursando bacharelado em música com habilitação em violão na UEMG. Paralelamente faz aulas particulares com os violonistas: Alessandro Penezzi, Fabio Zanon, Guilherme Vincens e Ronaldo Cadeu. Na UEMG participa do grupo de música contemporânea e de música de câmara com duo de violões e duo de violão e cello.
+![](/images/blog/2018/05/Marlon-quadrado.jpg)O professor Marlon Nascimento está cursando bacharelado em música com habilitação em violão na UEMG. Paralelamente faz aulas particulares com os violonistas: Alessandro Penezzi, Fabio Zanon, Guilherme Vincens e Ronaldo Cadeu. Na UEMG participa do grupo de música contemporânea e de música de câmara com duo de violões e duo de violão e cello.
 
 Em paralelo aos estudos, o Professor Marlon dá aulas presenciais e via Skype de violão clássico e popular.
 
@@ -29,8 +29,6 @@ Em paralelo aos estudos, o Professor Marlon dá aulas presenciais e via Skype de
 **WhatsApp:** 97306-2154
 
 **E-mail:** [](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Marlon Nascimento:
 
 ### O que te dá mais satisfação ao dar aulas?
 

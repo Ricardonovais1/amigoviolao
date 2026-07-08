@@ -44,23 +44,15 @@ Eu utilizo a tablatura para que alunos, inclusive e principalmente crianças, po
 
 -   **As linhas representam as cordas do violão;**
 
-![como-ler-tablatura-sample-1](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Tablatura-sample.png "como-ler-tablatura-sample-1")
-
 Obs.: As linhas de baixo (ligeiramente mais grossas) representam as cordas mais grossas, ou seja as mais graves.
 
-![como-ler-tablatura-casas](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Casas-do-braço-do-violão.png "como-ler-tablatura-casas")
-
 -   **Os números representam as casas do violão;** **Os dedos que você vai usar são especificados nos números em cima da tablatura. Veja a imagem:**
-
-![como-ler-tablatura-dedos](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Dedos.png "como-ler-tablatura-dedos")
 
 -   Os números (fora das linhas) indicam dedos da mão esquerda. Em alguns casos, serão indicados dedos da mão direita, através das letras i, m, a, como mostra a imagem acima.Existem outras técnicas e nuances que podem ser mostradas em uma tablatura, mas este post é para quem quer aprender o básico de forma simples, incluindo crianças.Vamos às duas músicas que eu prometi:
 
     ## 1-    Rock do Rick:
 
 -   Pra você que é adulto, esta aí é extremamente fácil para começar a ler tablaturas, e é bem divertida de tocar. No curso Amigo Violão ela não é a primeira, pois para as crianças os desafios são diferentes. Há músicas mais fáceis para os pequenos.O Rock do Rick usa apenas a corda 6 (corda de cima, a mais grave de todas). Então será trabalhada a movimentação pelo braço do violão, e serão usados os dedos 1, 2, e 3 da mão esquerda, e cordas soltas, indicadas pelo número zero:
-
-![como-ler-tablatura-rock-do-rick](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Rock-do-Rick.png "como-ler-tablatura-rock-do-rick")
 
 -   Observações:
     1.  O ritmo é constante. Não há notas mais longas ou curtas, todas duram o mesmo tanto.
@@ -75,9 +67,6 @@ Obs.: As linhas de baixo (ligeiramente mais grossas) representam as cordas mais 
 
         Entre a música anterior e esta há um salto significativo. O objetivo deste post é demonstrar a simplicidade que o uso da tablatura pode oferecer para você. E de quebra te ensinar duas músicas do meu método Amigo Violão®.
 
-
-![como-ler-tablatura-valsa-do-walter](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Valsa-do-Walter.png "como-ler-tablatura-valsa-do-walter")
-
 -   Observações:
 
     1.  O ritmo é constante. Note que cada compasso (espaço separado por duas linhas) contêm três ataques. No primeiro, por exemplo, o primeiro ataque é na casa 3 da corda 6. E os outros 2 ocorrem nas três primeiras cordas soltas, usando os dedos i, m, a da mão direita (indicador, médio e anular).
@@ -86,10 +75,6 @@ Obs.: As linhas de baixo (ligeiramente mais grossas) representam as cordas mais 
 
         [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=1diDqQFo3bE)
 
-
     A minha parte eu já comecei. Agora é você tocar e trazer as suas dúvidas. Eu terei um imenso prazer em te auxiliar. Ah, e se vocë for da turma das pessoas tímidas pode enviar de forma privada para: [](/cdn-cgi/l/email-protection).
 
-
 Um grade abraço!
-
-[![cta-meio-post-curso-amigo-violao-vendas](https://tresamigosead.com.br/blog/wp-content/uploads/2016/02/cta-meio-post-curso-amigo-violao-vendas.png)](https://amigoviolao.com.br/)

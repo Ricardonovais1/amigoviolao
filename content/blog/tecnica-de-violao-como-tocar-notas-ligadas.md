@@ -9,8 +9,8 @@ slug: tecnica-de-violao-como-tocar-notas-ligadas
 categories:
   - como-tocar-violao
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/07/Violão-Capa-Home.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/07/Violão-Capa-Home.jpg'
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/tecnica-de-violao-como-tocar-notas-ligadas'
 wpId: 3293
 ---
@@ -21,11 +21,11 @@ Essa técnica é utilizada “entre as notas”, para conectar duas notas sem qu
 
 Pode-se ligar a nota para cima, como mostra a imagem :
 
-![técnica-de-violão-1](https://amigoviolao.com/wp-content/uploads/2018/04/imagem-ligada-para-cima.png)
+![técnica-de-violão-1](/images/blog/2018/04/imagem-ligada-para-cima.png)
 
 Ou para baixo :
 
-![técnica-de-violão-2](https://amigoviolao.com/wp-content/uploads/2018/04/imagem-ligada-para-baixo.png)
+![técnica-de-violão-2](/images/blog/2018/04/imagem-ligada-para-baixo.png)
 
 ## Como tocar utilizando essa técnica de violão?
 
@@ -46,5 +46,3 @@ A seguir, a tablatura de **Parabéns pra você** para que você treine as notas 
 (o **h** representa o _hammer on_, que consiste no “tocar para cima”, o **p** representa o _pull of_, que consiste no “tocar para baixo”).
 
 **Parabéns pra você**
-
-![técnica-de-violão-3](https://amigoviolao.com/wp-content/uploads/2018/04/parabéns-pra-voce-tab-2.png)

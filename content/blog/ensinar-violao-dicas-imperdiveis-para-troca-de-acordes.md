@@ -9,10 +9,8 @@ slug: ensinar-violao-dicas-imperdiveis-para-troca-de-acordes
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/11/CAPA-3-dicas-trocar-acordes.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2021/11/CAPA-3-dicas-trocar-acordes.jpg
+featured_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.jpg
+og_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.jpg
 canonical: >-
   https://amigoviolao.com/blog/ensinar-violao-dicas-imperdiveis-para-troca-de-acordes
 wpId: 39977
@@ -32,7 +30,7 @@ Esta daqui consiste no “outro lado da moeda”. Se, na dica do rolo compressor
 
 Aplicando as duas técnicas, seu aluno desenvolverá a habilidade que cada uma delas permite desenvolver. Perceba que estamos isolando as partes do problema, a fim de que ele(a), corrigindo cada uma de uma vez, seja capaz de resolvê-lo por inteiro.
 
- ![ensinar violao](https://amigoviolao.com/wp-content/uploads/2021/10/ensinar-violao-1024x682.jpg)
+ ![ensinar violao](/images/blog/2021/10/ensinar-violao-1024x682.jpg)
 
 Ensinar violão deve ter como objetivo tornar o aluno independente de você!
 
@@ -45,7 +43,6 @@ Desta maneira, o aluno aprenderá automatizará as mudanças de acorde, tornando
 Essas 3 dicas podem ser aplicadas em **qualquer música**, mas exemplificaremos aqui uma possível aplicação nos dois primeiros acordes de **Garota de Ipanema**.
 
 Nesta música, inicia-se com os acordes F7M e G7(13), tocados como mostra a imagem:
-![](https://lh5.googleusercontent.com/5rIMuxpg2f3DU55azq2iJiQS42xS3KcPx9Tp4i6k6GjVHpdhFRnx7EAzTO9qAVyOxauYz94v-EdQBEg_DAUQ5gScJL_qEPeLrB9vw37G2WxVNpuEXbtwRCiOrjZIMDCspTz4o2LJ)
 
 Aqui você pode ver que **todos os dedos** se movimentam. A passagem de um acorde para o outro não é simples para um iniciante, portanto. Seguindo as dicas que foram apresentadas, pediremos ao aluno que, primeiramente, toque a música **sem se preocupar em acertar** todas as notas com perfeição (rolo compressor), depois para que só toque quando tiver todos os **dedos do acorde preparados** na mão esquerda (dica do ônibus) e, por fim, para que pratique a mudança de acordes **sem sequer tocar**!
 

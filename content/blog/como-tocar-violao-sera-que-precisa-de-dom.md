@@ -9,8 +9,8 @@ slug: como-tocar-violao-sera-que-precisa-de-dom
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2021/08/CAPA-Precisa-de-dom.png'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2021/08/CAPA-Precisa-de-dom.png'
+featured_image: /images/blog/2021/08/CAPA-Precisa-de-dom.png
+og_image: /images/blog/2021/08/CAPA-Precisa-de-dom.png
 canonical: 'https://amigoviolao.com/blog/como-tocar-violao-sera-que-precisa-de-dom'
 wpId: 38387
 ---
@@ -23,7 +23,7 @@ Com isso, não quero dizer que você deva praticar 10 horas por dia e nem que is
 
 Porém, existe algo além da disciplina…
 
-![aprender a tocar violão](https://amigoviolao.com/wp-content/uploads/2021/08/ter-dom-para-tocar-violao-1024x682.jpg)
+![aprender a tocar violão](/images/blog/2021/08/ter-dom-para-tocar-violao-1024x682.jpg)
 
 É necessária a disciplina do aluno e a boa orientação do professor!
 
@@ -36,7 +36,6 @@ O estudo de um instrumento (no caso, o violão), apresenta algumas **particulari
 
 Isto é o caso das belas artes em geral, pode-se dizer. Como a beleza, que é a finalidade da música, não é algo que se atinge por meio de uma fórmula, você pode acabar na ilusão de estar tocando perfeitamente quando, na verdade, está **tocando mal**. Uma determinada técnica (como aquela do violão clássico) não é fundamental para **todos os violonistas**, afinal de contas, você pode tocar muito bem sem aquela técnica específica. Ela não é, neste sentido, algo estritamente necessário, mas sim **conveniente**. Isto é, não estamos falando que para tocar violão é **necessário** tocar estritamente de um jeito predeterminado (diferentes violonistas utilizam diferentes técnicas), mas sim que este “_jeito predeterminado”_ é fruto de **séculos de experimentações**, e, portanto, **não convém desprezá-lo** na sua própria caminhada.
 
-
 Assim, você pode estar tocando (e conseguindo tocar) com determinada técnica (e não há nada **objetivamente** errado nela), mas esta técnica que você está utilizando intuitivamente bem provavelmente será **pior** do que aquela desenvolvida ao longo de **séculos** de escola violonística, não é mesmo? Neste sentido, o professor será quem **perceberá** (já que você muito dificilmente perceberá isso sozinho) o que, no seu tocar, está te **limitando**, e, assim, irá apresentar maneiras de **contornar as suas limitações**, a fim de que você atinja níveis **mais altos** (pense no aprendizado do violão como um labirinto, e o professor como aquele que conhece os bons caminhos nele).
 
 Você dificilmente será capaz de perceber o que está te limitando, e, portanto, muito menos capaz ainda de descobrir, por conta própria, como resolver de maneira melhor os seus problemas técnicos. Um bom professor, então, baseando-se no conhecimento de uma experiência herdada de **inúmeras gerações**, será capaz de dar o melhor caminho para que você progrida no instrumento.
@@ -45,7 +44,7 @@ Sem o elemento da orientação, você verá os outros tocando muito melhor do qu
 
 Porém…
 
-![ter dom tocar violão](https://amigoviolao.com/wp-content/uploads/2021/08/ter-dom-violao-1024x682.jpg)
+![ter dom tocar violão](/images/blog/2021/08/ter-dom-violao-1024x682.jpg)
 
 Não vamos deixar o violão de lado!
 

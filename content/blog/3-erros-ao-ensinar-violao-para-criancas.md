@@ -9,10 +9,8 @@ slug: 3-erros-ao-ensinar-violao-para-criancas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2015/12/Dar-aula-de-violao-Iniciando-o-metodo-Amigo-Violao.png
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2015/12/Dar-aula-de-violao-Iniciando-o-metodo-Amigo-Violao.png
+featured_image: /images/blog/2015/12/Dar-aula-de-violao-Iniciando-o-metodo-Amigo-Violao.png
+og_image: /images/blog/2015/12/Dar-aula-de-violao-Iniciando-o-metodo-Amigo-Violao.png
 canonical: 'https://amigoviolao.com/blog/3-erros-ao-ensinar-violao-para-criancas'
 wpId: 33220
 ---

@@ -35,5 +35,3 @@ Bateria no sofá é uma brincadeira super simples. Aprendi numa festa da escola 
 **Desafio adicional:**
 
 No vídeo eu mostro como fazer, mas você pode também escolher uma música, depois de aprender, e ver se consegue fazer a brincadeira de acompanhar a música. É um desafio adicional, mas muito bem vindo e divertido. Este funcionará melhor com crianças a partir de 7 anos. É uma legítima maneira de fazer um ritmo semelhante ao de uma bateria sobre uma música da sua escolha.
-
-[![cta-meio-post-curso-amigo-violao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png)](https://amigoviolao.com.br/baixar-ebook-gratis)

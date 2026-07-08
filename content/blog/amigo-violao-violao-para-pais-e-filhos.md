@@ -32,7 +32,7 @@ Olá, eu sou o Prof. Ricardo! O Curso Amigo Violão é uma produção da Três A
 
 ## Como e porque surgiu o Amigo Violão?
 
-![papel-de-pai-eu-com-as-meninas](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/Eu-com-as-meninas-300x300.jpg)Nos últimos 12 trabalhando exclusivamente como professor de música, notei que a música é uma disciplina que se aprende com os sentidos, mas também aprendi que a verdadeira conexão do ser humano com a arte é o sentimento de pertencimento.
+Nos últimos 12 trabalhando exclusivamente como professor de música, notei que a música é uma disciplina que se aprende com os sentidos, mas também aprendi que a verdadeira conexão do ser humano com a arte é o sentimento de pertencimento.
 
 Percebi que este sentimento de pertencimento é germinado dentro de casa. Quando comecei a refletir a respeito disso eu ainda não tinha filhos. Mas era evidente para mim a relação entre o desempenho dos alunos com a forma com que as suas famílias se apresentavam perante aquela criança ou a atividade que estávamos trabalhando.
 
@@ -44,7 +44,7 @@ Esta é uma parte da minha história e da minha percepção de mundo. Quem traba
 
 ## Quem nunca tocou violão consegue fazer o curso?
 
-![poster-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/imagem-pre-ins-188x300.jpg "poster-pais-e-filhos")A resposta é sim. E o curso é pensado justamente para este público. Mas irei além, pra ficar mais completa a compreensão deste assunto. O curso foi elaborado com repertórios usados em aulas reais com alunos reais, sendo na sua maioria absoluta crianças de 5 a 12 anos. Quando comecei a chamar os pais para a sala de aula, eu ensinava a eles as músicas e muitos nem percebiam que estavam aprendendo violão, pois para estes pais e mães o objetivo era apenas ajudar o filho.
+A resposta é sim. E o curso é pensado justamente para este público. Mas irei além, pra ficar mais completa a compreensão deste assunto. O curso foi elaborado com repertórios usados em aulas reais com alunos reais, sendo na sua maioria absoluta crianças de 5 a 12 anos. Quando comecei a chamar os pais para a sala de aula, eu ensinava a eles as músicas e muitos nem percebiam que estavam aprendendo violão, pois para estes pais e mães o objetivo era apenas ajudar o filho.
 
 **A escrita musical adotada é gráfica, pautada pela percepção _concreta_ própria das crianças, não chegando a abordar a partitura.**
 
@@ -52,11 +52,9 @@ Quando dizemos que as crianças aprendem melhor, devemos nos lembrar em que cont
 
 Por outro lado, o adulto mediano é capaz de aprender o que é ensinado às crianças com grande facilidade e de forma natural, como se diz “com o pé nas costas”. O conteúdo do Amigo Violão neste sentido é único, não apenas no meio digital, uma vez que este é o primeiro curso online de violão para crianças do Brasil, mas também no presencial, pois esta metodologia vem suprindo uma carência de repertórios que vem capacitando professores de violão no dia a dia com as crianças. O curso deu origem ao livro “Curso de Violão para Crianças”, voltado para professores de violão e disponível em formato digital na Amazon. Clique na imagem abaixo, para fazer uma pré-inscrição:
 
-[![cta-meio-post-curso-amigo-violao-pais e filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/02/cta-meio-post-curso-amigo-violao-vendas.png)](https://amigoviolao.com.br/pre-cadastro-amigo-violao)
-
 ## Envolvimento entre pais e filhos: Suzuki
 
-![suzuki-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Suzuki.jpg "suzuki-pais-e-filhos")Uma das principais contribuições que recebi para que este curso se tornasse realidade foi ter conhecido o método Suzuki. Aliás, mais que um método, se trata de uma filosofia de vida. O que Shinichi Suzuki (imagem) fez foi colocar em prática este princípio de que o aprendizado da música pode se dar no **seio da língua materna.**
+Uma das principais contribuições que recebi para que este curso se tornasse realidade foi ter conhecido o método Suzuki. Aliás, mais que um método, se trata de uma filosofia de vida. O que Shinichi Suzuki (imagem) fez foi colocar em prática este princípio de que o aprendizado da música pode se dar no **seio da língua materna.**
 
 A realidade do Japão não é a mesma do Brasil. Suzuki era professor de violino e seu objetivo era formar concertistas. O Brasil possui uma cultura diferente, com hábitos, rotinas e configurações familiares diferentes. Mas há algo que é universal: A mãe e o pai são a principal presença da vida de uma criança.
 
@@ -70,21 +68,17 @@ O Curso Amigo Violão é adepto do método Suzuki à medida em que se vale de re
 
 \*Os depoimentos abaixo são exemplos presentes na página do livro [“Curso de Violão para Crianças”](https://www.amazon.com.br/product-reviews/B01FWBYR0U/ref=cm_cr_dp_see_all_btm?ie=UTF8&showViewpoints=1&sortBy=recent), voltado para professores, e à venda na loja virtual da Amazon, para leitura no Kindle.
 
-![depoimentos-livro-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Depoimentos-Amazon.jpg)
-
 ## Vídeo de Apresentação do Amigo Violão – Violão para pais e filhos:
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=Ms0AMy4iOS4)
 
 ## Conteúdo Programático do Curso:
 
-![conteudo-programatico-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Conteúdo-Programático.jpg "conteudo-programatico-amigo-violao-pais-e-filhos")
-
 O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-violao) equivale a 1 ano de aulas, e é disponibilizado em formato 100% digital, em 5 módulos.
 
 É importante salientar que **o curso inclui também acompanhamento e suporte** **por e-mail e grupo secreto exclusivo no Facebook,** diretamente comigo. Para você que quer receber maiores informações, inscreva-se [aqui](https://amigoviolao.com.br/pre-cadastro-amigo-violao).
 
-![modulo-introdutorio-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Módulo-Introdutório.jpg "modulo-introdutorio-amigo-violao-pais-e-filhos")**Módulo Introdutório**
+**Módulo Introdutório**
 
 -   Video aula: Como afinar o violão.
 -   Video aula: Violão para canhotos: O que fazer?
@@ -93,7 +87,7 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 -   Video aula: 4 parâmetros sonoros
 -   Texto: Como cativar as crianças e engajá-las com o curso.
 
-**![modulo-1-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Tocar-Brincando.jpg "modulo-1-amigo-violao-pais-e-filhos")Módulo 1** – TOCAR BRINCANDO (CORDAS SOLTAS E PRINCÍPIOS TÉCNICOS DA MÃO DIREITA)
+**Módulo 1** – TOCAR BRINCANDO (CORDAS SOLTAS E PRINCÍPIOS TÉCNICOS DA MÃO DIREITA)
 
 1.  Apresentação do módulo 1
 2.  Vídeo aula “Dedão no Misão”.
@@ -103,7 +97,7 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 6.  Vídeo aula “Violão no Sofá”
 7.  Aula e texto e áudios: Jogo da Memória.
 
-**![modulo-2-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Tapete-Mágico.jpg "modulo-2-amigo-violao-pais-e-filhos")Módulo 2** – TAPETE MÁGICO (INTRODUÇÃO À MÃO ESQUERDA – MÚSICAS DE 2 NOTAS)
+**Módulo 2** – TAPETE MÁGICO (INTRODUÇÃO À MÃO ESQUERDA – MÚSICAS DE 2 NOTAS)
 
 1.  Apresentação do módulo 2
 2.  Vídeo aula “Oásis”.
@@ -113,7 +107,7 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 6.  Vídeo aula “São Francisco”,
 7.  Vídeo aula “Espanha”.
 
-**![modulo-3-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Pelo-Braço-do-Violão.jpg "modulo-3-amigo-violao-pais-e-filhos")Módulo 3** – PELO BRAÇO DO VIOLÃO
+**Módulo 3** – PELO BRAÇO DO VIOLÃO
 
 1.  Apresentação do módulo 3
 2.  Vídeo aula “Campaínha”
@@ -124,7 +118,7 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 7.  Vídeo aula “Lembranças”
 8.  Vídeo aula “Vovô Inácio”
 
-**![modulo-4-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Pelas-Cordas-do-Violão.jpg "modulo-4-amigo-violao-pais-e-filhos")Módulo 4** – PELAS CORDAS DO VIOLÃO
+**Módulo 4** – PELAS CORDAS DO VIOLÃO
 
 1.  Apresentação módulo 4
 2.  Vídeo aula “Rock do Rick”
@@ -136,7 +130,7 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 8.  Vídeo aula “Blues do Bruce”
 9.  Vídeo aula “Choro do Chico”
 
-**![modulo-5-amigo-violao-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Músicas-de-Acordes.jpg "modulo-5-amigo-violao-pais-e-filhos")Módulo 5** – MÚSICAS DE ACORDES
+**Módulo 5** – MÚSICAS DE ACORDES
 
 1.  Apresentação módulo 5
 2.  Vídeo aula “A Horse With no Name” (America)
@@ -158,20 +152,20 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 
 ## Conteúdo Bônus:
 
-**![bonus-1-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/BANDAS.jpg)Bônus 1: Solos Famosos (PDF)**
+**Bônus 1: Solos Famosos (PDF)**
 1- Eye of the tiger (Survivor)
 2- Smoke on the water (Deep Purple)
 3- Seven Nation Army (White Stripes)
 4- Iron Man (Black Sabath)
 5- Come as you are (Nirvana)
 
-**![bonus-2-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/Jardim_das_Cirandas.jpg "bonus-2-pais-e-filhos")Bônus 2: Jogo das Cirandas (PDF)**
+**Bônus 2: Jogo das Cirandas (PDF)**
 
 1.  Exercitar de forma gradual a leitura das três últimas cordas do violão em tablatura;
 2.  Exercitar a visão espacial no instrumento, em exercícios de coordenação motora;
 3.  Cantar e tocar músicas conhecidas no violão.
 
-**![bonus-3-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/YOUTUBE.jpg "bonus-3-pais-e-filhos")Bônus 3: Tocando junto com os ídolos no YouTube (PDF)**
+**Bônus 3: Tocando junto com os ídolos no YouTube (PDF)**
 
 1- What Makes You Beautiful (One Direction)
 2- Velha Infância (Tribalistas)
@@ -179,14 +173,10 @@ O conteúdo do [Amigo Violão](https://amigoviolao.com.br/pre-cadastro-amigo-vio
 4- With or Without You (U2)
 5- Aquarela (Toquinho)
 
-**![bonus-4-pais-e-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/07/FILMES.jpg "bonus-4-pais-e-filhos")Bônus 4: Temas de Filmes**
+**Bônus 4: Temas de Filmes**
 
 1.  Star Wars – tema do Darth Vader
 2.  Harry Potter
 3.  Pantera Cor de Rosa
 4.  Piratas do Caribe
 5.  Missão Impossível
-
-## Para maiores informações, clique na imagem abaixo:
-
-[![cta-meio-post-curso-amigo-violao-pais e filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2016/02/cta-meio-post-curso-amigo-violao-vendas.png)](https://amigoviolao.com.br/pre-cadastro-amigo-violao)

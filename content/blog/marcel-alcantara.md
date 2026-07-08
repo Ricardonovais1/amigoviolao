@@ -11,15 +11,13 @@ categories:
   - professores
 tags:
   - marcel-alcantara
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/05/16807285_374783122908983_2358611002114413072_n.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/05/16807285_374783122908983_2358611002114413072_n.jpg
+featured_image: /images/blog/2018/05/16807285_374783122908983_2358611002114413072_n.jpg
+og_image: /images/blog/2018/05/16807285_374783122908983_2358611002114413072_n.jpg
 canonical: 'https://amigoviolao.com/blog/marcel-alcantara'
 wpId: 5341
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Marcel-Alcantara.jpg)Professor Marcel é de Ribeirão Preto – SP formado em música pela UNAERP e pós graduado em metodologia do ensino de artes pela universidade Barão de Mauá. Trabalha a mais de 10 anos como professor de violão com alunos individuais e aulas em grupo. Atualmente trabalha como instrumentista divulgando o estilo musical Choro brasileiro formando um trio Saxofone, violão 7 cordas e percussão apresentando  história do choro com  música em espaços escolares e em espaços públicos com envolvimento social. Também mantém estudos para formação de repertórios para a violão, vibrafone  e Marimba. Professor também desenvolve trabalhos com viola caipira e bandolim.
+![](/images/blog/2018/05/Marcel-Alcantara.jpg)Professor Marcel é de Ribeirão Preto – SP formado em música pela UNAERP e pós graduado em metodologia do ensino de artes pela universidade Barão de Mauá. Trabalha a mais de 10 anos como professor de violão com alunos individuais e aulas em grupo. Atualmente trabalha como instrumentista divulgando o estilo musical Choro brasileiro formando um trio Saxofone, violão 7 cordas e percussão apresentando  história do choro com  música em espaços escolares e em espaços públicos com envolvimento social. Também mantém estudos para formação de repertórios para a violão, vibrafone  e Marimba. Professor também desenvolve trabalhos com viola caipira e bandolim.
 
 ## Contato – Professor Marcel Alcântara:
 
@@ -28,8 +26,6 @@ wpId: 5341
 **WhatsApp:** (016) 988084623.
 
 **Email:**[](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Marcel Alcântara:
 
 ### O que te dá mais satisfação ao dar aulas?
 

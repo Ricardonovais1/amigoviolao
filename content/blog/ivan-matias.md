@@ -8,15 +8,13 @@ categories:
   - como-tocar-violao
   - professores
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/08/Ivan-Matias-Oliveira-Amigo-Violão.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/08/Ivan-Matias-Oliveira-Amigo-Violão.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/ivan-matias'
 wpId: 2004
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Ivan-Matias-1.jpg)O professor Ivan Matias é de Blumenau e teve seus primeiros contatos com o estudo da música, aos 11 anos, quando entrou para a Banda Municipal de Bituruna – Pr, como clarinetista. Depois disso, veio a paixão pelo violão e pela guitarra. Atualmente é guitarrista e compositor da banda Legião Urbana Cover SC, que faz shows em todo o Brasil, em especial nas regiões Sul e Sudeste. Além disso, ainda encontra tempo para atuar como professor de crianças carentes.
+![](/images/blog/2018/05/Ivan-Matias-1.jpg)O professor Ivan Matias é de Blumenau e teve seus primeiros contatos com o estudo da música, aos 11 anos, quando entrou para a Banda Municipal de Bituruna – Pr, como clarinetista. Depois disso, veio a paixão pelo violão e pela guitarra. Atualmente é guitarrista e compositor da banda Legião Urbana Cover SC, que faz shows em todo o Brasil, em especial nas regiões Sul e Sudeste. Além disso, ainda encontra tempo para atuar como professor de crianças carentes.
 
 ## Contato –  Professor Ivan Matias:
 
@@ -25,8 +23,6 @@ Telefone:  **47 9 9145-9199**
 WhatsApp: **47 9 9689-2832**
 
 E-mail: **[](/cdn-cgi/l/email-protection)**
-
-## Conheça melhor o Professor Ivan Matias:
 
 ### O que te dá mais satisfação ao dar aulas?
 

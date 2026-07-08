@@ -26,16 +26,13 @@ canonical: 'https://amigoviolao.com/blog/roberta-gomes'
 wpId: 934
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2017/03/Roberta-Gomes-Amigo-Violão-300x200.jpg)Moro em Arujá – SP, Sou formada em Violão Erudito pela EMESP – Tom Jobim, e estou cursando Licenciatura em Música em FMU FIAM FAAM. Faço parte da equipe do coletivo Violão e Ponto, e atuo como professora de violão (individual e coletivo), flauta doce e musicalização infantil.
+Moro em Arujá – SP, Sou formada em Violão Erudito pela EMESP – Tom Jobim, e estou cursando Licenciatura em Música em FMU FIAM FAAM. Faço parte da equipe do coletivo Violão e Ponto, e atuo como professora de violão (individual e coletivo), flauta doce e musicalização infantil.
 
 ### Contato – Professora Roberta Gomes
 
 -   WhatsApp : **(11)99995-6956 (Vivo)**
 
 -   E-mail:**[](/cdn-cgi/l/email-protection)**
-
-
-## Conheça melhor o Professora Roberta Gomes:
 
 ### O que te dá mais satisfação ao dar aulas?
 

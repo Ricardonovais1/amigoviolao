@@ -19,12 +19,8 @@ tags:
   - para-casa
   - rendimento-escolar
   - ricardo-novais
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/mae-conversando-com-filha-29477.jpg
-  "mae-dialogando-com-filha"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/mae-conversando-com-filha-29477.jpg
-  "mae-dialogando-com-filha"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/baixo-rendimento-na-escola'
 wpId: 12
 ---
@@ -73,7 +69,6 @@ Parece fazer parte do DNA do ser humano querer ser dono da ideia. Na verdade, a 
 
 ## **3- Falta de diálogo e baixo rendimento**
 
-[](http://tresamigosead.com.br/blog/wp-content/uploads/2015/08/mae-conversando-com-filha-29477.jpg)
 O diálogo significa uma certa “horizontalidade” na relação. É o que trás entendimento das situações. Alguns pais e mães deixam de explicar porque acham que o filho não vai entender. Mas nesse caso pense sobre as duas coisas a seguir:
 
 -    **O ato de explicar vale independentemente da compreensão:** A criança se sente valorizada, sente que nela é depositada a confiança de que é capaz de entender.

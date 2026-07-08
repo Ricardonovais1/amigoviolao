@@ -33,12 +33,6 @@ wpId: 4075
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=BNHDS9fymUw)
 
-## Batida do Campeão
-
-![Aula-de-Violao-para-criancas-batida-do-campeao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/05/Batida-11.jpg)
-
-## Áudios:
-
 ## Violão para crianças
 
 Você tem duas excelentes opções para aprender esta e outras dezenas de músicas, apropriadas para crianças de todas as idades:

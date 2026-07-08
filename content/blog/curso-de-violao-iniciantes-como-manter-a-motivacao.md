@@ -19,8 +19,8 @@ tags:
   - curso-de-violao-para-iniciantes
   - primeiros-acordes-violao
   - quero-tocar-violao
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2021/08/motivacao-para-tocar.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2021/08/motivacao-para-tocar.jpg'
+featured_image: /images/blog/2021/08/motivacao-para-tocar.jpg
+og_image: /images/blog/2021/08/motivacao-para-tocar.jpg
 canonical: >-
   https://amigoviolao.com/blog/curso-de-violao-iniciantes-como-manter-a-motivacao
 wpId: 37810
@@ -30,12 +30,11 @@ Não é raro vermos pessoas que iniciam um projeto pessoal e **não o finalizam*
 
 Uma boa orientação é **fundamental** para o aprendizado do violão, e sem ela você se torna como uma criança pequena perdida no meio de uma multidão, que anda, anda e anda, mas sem saber para onde está indo. Sem uma boa orientação, as suas várias tentativas frustradas terminam por dar lugar àquele amargo sentimento de fracasso, àquele gostinho na boca de quem diz: **“eu não tenho dom para a música”**.
 
-![aprender violão do zero](https://amigoviolao.com/wp-content/uploads/2021/07/curso-de-violao-principiantes-1024x680.jpg)
+![aprender violão do zero](/images/blog/2021/07/curso-de-violao-principiantes-1024x680.jpg)
 
 É possível aprender violão de forma divertida e sem se frustrar, só é necessário saber que…
 
 É necessário, a fim de evitar essas frustrações, que o seu desenvolvimento no violão ocorra **degrau por degrau**, sem deixar nenhum problema para trás, que possa acabar se tornando um obstáculo intransponível lá na frente. Estes obstáculos geralmente correspondem a um dos **3 tipos seguintes**, estes são:
-
 
 ### 1) Dificuldades técnicas
 
@@ -49,26 +48,19 @@ Outros talvez não tenham tanta dificuldade motora (para formar os acordes e ace
 
 Podemos dizer que este é um problema menor do que os outros, já que é possível tocar bem sem saber ler música. Mas ainda sim é um grande obstáculo, já que a leitura musical (seja ela em cifra, tablatura ou partitura) é um meio importantíssimo para se desenvolver na música, lhe auxiliando a **organizar na mente o que você está fazendo com os dedos**. Ou seja, através da leitura musical, as coisas que acontecem na música ganham nomes, e, sabendo os seus nomes, você adquire poder sobre eles, manipulando-os melhor, **de acordo com a sua vontade**. Uma coisa é “_aquele_ som, que se faz com os dedos _daquele_ jeito”, outra coisa é um **dó maior**. Fica mais fácil comunicar, entender e **pensar a música**.
 
-
-
 Bem, pensando nessas **3 grandes barreiras** a se superar, o melhor dos mundos seria um curso de violão para iniciantes que as levasse em conta, de acordo com os seus próprios objetivos e dificuldades, não?
 Por isso, um **boa orientação** no violão deve mirar **3 objetivos**. Estes são:
 **1)** Desenvolvimento técnico/motor
 **2)** Desenvolvimento rítmico
 **3)** Desenvolvimento da leitura musical
 
-
-
 **Porém…**
 
- ![curso de violão para iniciantes](https://amigoviolao.com/wp-content/uploads/2021/07/iniciante-curso-de-violao-1024x640.jpg)
+ ![curso de violão para iniciantes](/images/blog/2021/07/iniciante-curso-de-violao-1024x640.jpg)
 
 Os primeiros acordes podem até doer o dedo, mas são os mais prazerosos!
 
-
-
 Além desses 3 pontos, também há um ponto **indispensável** no aprendizado do instrumento, isto é…
-
 
 ### Divertir-se tocando!
 
@@ -78,7 +70,6 @@ Mas não é só “tocar músicas”, porque é necessário que a música a ser 
 Para que isso ocorra, é necessário um **repertório apropriado** para cada nível, um repertório que torne o percurso, ao mesmo tempo, divertido e produtivo.
 É necessário que o aprendizado ocorra **degrau por degrau**, em todos os aspectos, ou seja…
 É necessário que você desenvolva, paulatinamente, a técnica motora, a leitura musical e o senso rítmico e musicalidade em geral, e tudo isso enquanto você **toca músicas**. Só assim o aprendizado do instrumento pode, ao mesmo tempo, não ser frustrante nem chato.
-
 
 ## E qual curso de violão para iniciantes leva tudo isso em consideração?
 

@@ -27,4 +27,4 @@ Neste post uma dica super legal, que é: A primeira experiência de pestana para
 
 A primeira linha é suficiente para entreter e cumprir a função aqui exposta, que é ensinar a “pestaninha” de 3 cordas. Veja que onde está escrito 8 8 8 na primeira linha é onde usaremos a pestana. Porém o dedilhado abaixo é o que eu usava antigamente.
 
-[![pestana-darth-vader](https://amigoviolao.com/wp-content/uploads/2016/12/Darth-Vader.jpg)](https://amigoviolao.com/wp-content/uploads/2016/12/Darth-Vader.jpg)
+[![pestana-darth-vader](/images/blog/2016/12/Darth-Vader.jpg)](https://amigoviolao.com/wp-content/uploads/2016/12/Darth-Vader.jpg)

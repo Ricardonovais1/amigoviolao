@@ -18,8 +18,8 @@ tags:
   - paisfilhos
   - presenca-dos-pais
   - temo-para-a-familia
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2016/06/Pais-gostariam.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2016/06/Pais-gostariam.jpg'
+featured_image: /images/blog/2016/06/Pais-gostariam.jpg
+og_image: /images/blog/2016/06/Pais-gostariam.jpg
 canonical: 'https://amigoviolao.com/blog/tempo-para-familia'
 wpId: 775
 ---
@@ -43,8 +43,6 @@ Existem 2 tipos de pessoas: As que não conseguem conciliar o tempo para famíli
 Um tempo de qualidade é aquele em que as obrigações não estão em questão. Por mais nobre que pareça, pagar as contas em dia ou não deixar faltar nada na despensa não é tempo de qualidade..
 
 Mas então o que é isso? **Tempo de qualidade é interagir com os filhos, o marido ou a esposa, encontrar amigos e aprender coisas novas.** Você se lembra da sua infância? Algo que aprendeu com seu pai ou sua mãe? E agora? Qual foi a última vez que seu filho(a) aprendeu algo com você?
-
-[![tempo-blog-tre-amigos-ead](https://tresamigosead.com.br/blog/wp-content/uploads/2016/04/tempo-blog-tre-amigos-ead-300x169.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2016/04/tempo-blog-tre-amigos-ead.jpg)
 
 O problema é que este tempo de qualidade é uma mercadoria que geralmente só pegamos na prateleira das promoções. Ou seja, só nos permitimos tê-la como “algo fora da rotina”. É raro quem inclua esses momentos no cotidiano de forma consistente.
 
@@ -74,12 +72,8 @@ Mas o que será que o terceiro tem de especial? O que é afinal significado do t
 
 ### **Para baixar o e-Book gratuito _“Como ter mais tempo para você e sua família”_ basta preencher seu nome e seu melhor e-mail no campo abaixo e clicar no botão QUERO ESTE EBOOK. Após fazer isso eu vou envia-lo diretamente para você.**
 
-![mockup-ebook-como-ter-mais-tempo-para-voce-e-sua-familia](https://tresamigosead.com.br/blog/wp-content/uploads/2016/04/mockup-ebook-como-ter-mais-tempo-para-voce-e-sua-familia.png "mockup-ebook-como-ter-mais-tempo-para-voce-e-sua-familia")
-
 Nome:
 
 E-mail:
 
 BAIXAR EBOOK GRÁTIS
-
-![](https://click.leadlovers.com/redirect/redirect.aspx?A=V&p=1554014&m=64624)

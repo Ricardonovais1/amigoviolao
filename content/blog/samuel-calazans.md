@@ -18,23 +18,19 @@ tags:
   - professor-de-violao-curitiba
   - professores
   - samuel-calazans
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2019/03/Samuel-Calazans-Amigo-Violão-destacada.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2019/03/Samuel-Calazans-Amigo-Violão-destacada.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/samuel-calazans'
 wpId: 24395
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2019/03/Samuel-Calazans-Amigo-Violão.jpg)Iniciei o aprendizado no violão com 14 anos de idade com meu primeiro professor Rafael. Para mim aprender a tocar violão foi como um renascer para uma nova forma de viver, poder tocar, reunir-se em torno da música de um tocador, realmente “toca a dor” para bem longe e traz alegria aos corações, transmitir sentimentos, espontaneidade, influenciar positivamente a pessoas, é sempre gratificante.
+Iniciei o aprendizado no violão com 14 anos de idade com meu primeiro professor Rafael. Para mim aprender a tocar violão foi como um renascer para uma nova forma de viver, poder tocar, reunir-se em torno da música de um tocador, realmente “toca a dor” para bem longe e traz alegria aos corações, transmitir sentimentos, espontaneidade, influenciar positivamente a pessoas, é sempre gratificante.
 
 A partir de então comecei a tocar em grupos e bandas regionais, mas sempre me chamou a atenção a arte de ensinar e aprender a fazer música em grupo. Dou aulas de violão para iniciantes desde 2010 nos distritos de Governador Valadares, iniciando em 2017 Aulas de Violão para Crianças e Iniciantes em Governador Valadares com o objetivo de fazer florescer talentos e virtudes em todos que passem pelo aprendizado do violão e da música no meu trabalho.
 
 ## Contato – Professor Samuel Calazans:
 
 **Email:**[](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Samuel Calazans:
 
 ### O que te dá mais satisfação ao dar aulas?
 

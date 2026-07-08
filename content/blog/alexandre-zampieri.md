@@ -15,15 +15,13 @@ categories:
   - como-tocar-violao
   - professores
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/10/Alexandre-Zampieri-Amigo-Violão.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2017/10/Alexandre-Zampieri-Amigo-Violão.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/alexandre-zampieri'
 wpId: 2082
 ---
 
-![](https://amigoviolao.com/wp-content/uploads/2018/05/Alexandre-Zampieri-300x258.jpg)Alexandre Iniciou os estudos da música aos nove anos de idade no curso de bateria, instrumento que se aperfeiçoou primeiramente concluindo cinco cursos de formação e especialização.
+![](/images/blog/2018/05/Alexandre-Zampieri-300x258.jpg)Alexandre Iniciou os estudos da música aos nove anos de idade no curso de bateria, instrumento que se aperfeiçoou primeiramente concluindo cinco cursos de formação e especialização.
 
 Após a formação em bateria iniciou os estudos de violão, guitarra, contrabaixo, cavaquinho, viola caipira e teoria musical.
 
@@ -33,15 +31,13 @@ Atualmente é proprietário e professor dos cursos de bateria, contrabaixo, guit
 
 ## Contato –  Professor Alexandre Zampieri:
 
-**![alexandre-zampieri](https://amigoviolao.com/wp-content/uploads/2017/10/592040_6e9c2f14d3644abf8537f336486bb7f0-mv2-150x150.jpg)**
+****
 
 **WhatsApp:**(49) 9 9121-1446
 
 **Email:**[](/cdn-cgi/l/email-protection)
 
 **Cidade:** Irani/ SC
-
-## **Conheça m**elhor o Professor Alexandre Zampieri:
 
 ### O que te dá mais satisfação ao dar aulas?
 

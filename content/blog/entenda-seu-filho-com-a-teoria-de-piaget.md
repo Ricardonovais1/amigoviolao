@@ -22,12 +22,8 @@ tags:
   - sensorio-motor
   - teoria-de-piaget
   - teoria-piaget
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/1-ano-199x300.jpg
-  "entenda-seu-filho-1-ano"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/1-ano-199x300.jpg
-  "entenda-seu-filho-1-ano"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/entenda-seu-filho-com-a-teoria-de-piaget'
 wpId: 425
 ---
@@ -50,7 +46,7 @@ No estágio pré-operacional o desenho se mostra presente, onde a criança exerc
 
 **A linguagem falada também abre caminhos inéditos para esta criança.** Agora o seu pensamento já não depende exclusivamente da ação. Ela é capaz de gerar imagens mentais onde a representação do mundo concreto é o principal protagonista.
 
-![entenda-seu-filho-5-anos](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/5-anos-300x169.jpg "entenda-seu-filho-5-anos")Junto com este desenvolvimento da fala, vem uma **crescente habilidade social**, e vice versa. Um dos principais lemas na Teoria de Piaget, é de que a linguagem é aprendida e não hereditária.  E o autor defende que a motivação para se aprender a fala vem principalmente pelo seu valor adaptativo. Neste sentido o progresso mais rápido ocorre entre os 2 e os 4 anos.
+Junto com este desenvolvimento da fala, vem uma **crescente habilidade social**, e vice versa. Um dos principais lemas na Teoria de Piaget, é de que a linguagem é aprendida e não hereditária.  E o autor defende que a motivação para se aprender a fala vem principalmente pelo seu valor adaptativo. Neste sentido o progresso mais rápido ocorre entre os 2 e os 4 anos.
 
 **O desenvolvimento afetivo nesta fase, é inseparável do desenvolvimento cognitivo.** Tendo isso  em vista, da mesma forma que o aprendizado social da linguagem, a presença dos pais é fundamental, pois toda aquisição de novos conhecimentos da criança de 0 a 7 anos será determinada diretamente pela qualidade afetiva encontrada no seio da língua materna, ou em outras palavras, em casa.
 
@@ -64,7 +60,7 @@ Inteligência e Afetividade da Criança na Teoria de Piaget (Barry Wadsworth)
 
 ## 7 a 11 anos: Estágio das operações concretas
 
-![entenda-seu-filho-9-anos](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/9-anos-300x225.jpg "entenda-seu-filho-9-anos")Dos 7 aos 11 anos, as operações concretas são conquistadas através do amadurecimento do pensamento lógico.
+Dos 7 aos 11 anos, as operações concretas são conquistadas através do amadurecimento do pensamento lógico.
 
 Da mesma forma, a criança nesta fase já é capaz de fazer diferenciações entre o “eu” e o “outro” com maior desenvoltura. Isso também se reflete em um comportamento menos egocêntrico. O que isso significa é que a criança agora, será capaz de compreender que existem outros pontos de vista para uma mesma situação, e aprenderá com isso a se questionar. Esta é, além de uma habilidade do pensamento racional, uma habilidade de socialização.
 
@@ -76,7 +72,7 @@ Portanto, a principal barreira que distingue o estágio das operações concreta
 
 ## A partir dos 11 anos: Estágio das Operações Formais
 
-![entenda-seu-filho-12-anos](https://tresamigosead.com.br/blog/wp-content/uploads/2015/12/12-anos-300x174.jpg "entenda-seu-filho-12-anos")Essencialmente, este estágio não difere muito do anterior, no que diz respeito à utilização do pensamento lógico.
+Essencialmente, este estágio não difere muito do anterior, no que diz respeito à utilização do pensamento lógico.
 
 A diferença está na abrangência deste pensamento. No estágio anterior, até os 7 anos, a criança era capaz de enxergar esta lógica apenas em problemas concretos e presentes. A capacidade de lidar com problemas verbais, hipotéticos ou futuros, somente será adquirida no período das operações formais.
 

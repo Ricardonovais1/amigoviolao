@@ -21,12 +21,8 @@ tags:
   - filha-agitada
   - filho-agitado
   - hiperatividade
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Crianças-TDAH-300x200.jpg
-  "deficit-de-atencao-criancas-tdah"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Crianças-TDAH-300x200.jpg
-  "deficit-de-atencao-criancas-tdah"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/deficit-de-atencao'
 wpId: 349
 ---
@@ -65,8 +61,6 @@ A escola é onde as crianças necessitam de uma certa atenção para enfrentar e
 
 – Nunca usar este assunto como forma de descriminação da criança e sim para alertar quanto às necessidades especiais dela como portadora do transtorno.
 
-![deficit-de-atencao-criancas-na-escola](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Crianças-na-escola-300x200.jpg "deficit-de-atencao-criancas-na-escola")
-
 **Tratamento e medicação:**
 
 Os remédios voltados para o tratamento de TDAH são motivo de controvérsia. Eu mesmo, enquanto professor, passei alguns anos recriminando o seu uso.  Mas hoje vejo com mais cautela.
@@ -90,5 +84,3 @@ A Associação Brasileira do Déficit de Atenção disponibiliza um formulário 
 Ainda segundo ele, é preciso ter este cuidado, pois o déficit de atenção pode ser confundido com outras patologias, como Toque, Dislexia e Anóxia no Parto. Por essas e outras razões o diagnóstico mais seguro vem de quem mais entende: Os especialistas. Se você desconfia que seu filho possa ser acometido dessa doença procure por profissionais sérios. Eles irão de fato solucionar suas dúvidas e oferecer um tratamento adequado para a criança.
 
 Caso você tenha interesse em responder o teste que eu mencionei, é só clicar na imagem abaixo. Após ser redirecionado para a página da Associação Brasileira de Déficit de Atenção você poderá fazer o download do arquivo.
-
-[![deficit-de-atencao-clique-para-acessar](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Clique-para-Acessar.jpg "deficit-de-atencao-clique-para-acessar")](http://www.tdah.org.br/sobre-tdah/diagnostico-criancas.html)

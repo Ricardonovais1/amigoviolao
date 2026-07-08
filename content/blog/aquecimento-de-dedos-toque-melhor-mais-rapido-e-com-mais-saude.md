@@ -13,10 +13,8 @@ slug: aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude
 categories:
   - como-tocar-violao
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/11/victor-schneider-DSC_0310-Site2.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/11/victor-schneider-DSC_0310-Site2.jpg
+featured_image: /images/blog/2018/11/victor-schneider-DSC_0310-Site2.jpg
+og_image: /images/blog/2018/11/victor-schneider-DSC_0310-Site2.jpg
 canonical: >-
   https://amigoviolao.com/blog/aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude
 wpId: 4071
@@ -27,7 +25,7 @@ Aquecer os dedos antes de tocar _previne possíveis lesões_ e permite que o ded
 
 ## **Exercício 1 :**
 
-[![aquecimento-de-dedos-1](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-1.png)](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-1.png)
+[![aquecimento-de-dedos-1](/images/blog/2018/05/exercicio-1.png)](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-1.png)
 
 Nesse exercício, você deve basicamente **tocar as 4 primeiras casas** de cada corda, partindo da _Mizona_ e indo até a corda _Sol_. Por enquanto, o movimento é cromático em cada corda, ou seja, o dedo irá se mover uma casa por vez.
 
@@ -37,7 +35,7 @@ Nesse exercício, você deve basicamente **tocar as 4 primeiras casas** de cada 
 
 ## **Exercício 2 :**
 
-[![aquecimento-de-dedos-2](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-2.png)](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-2.png)
+[![aquecimento-de-dedos-2](/images/blog/2018/05/exercicio-2.png)](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-2.png)
 
 Nesse exercício, o fundamento continua o mesmo, porém o movimento é inverso. Ao invés de tocar progredindo as casas sempre para o lado do corpo do violão, toque fazendo o movimento contrário.
 Nessa ordem : _Dedo 4_ na casa 4, _dedo 3_ na casa 3, _dedo 2_ na casa 2, _dedo 1_ na casa 1, **começando da corda mizinha e subindo de corda a cada sequência de 4**.
@@ -47,7 +45,7 @@ Uma dica para conseguir tocar melhor esses _movimentos cromáticos descendentes_
 
 ## **Exercício 3 :**
 
-[![aquecimento-de-dedos-3](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-3.png)](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-3.png)
+[![aquecimento-de-dedos-3](/images/blog/2018/05/exercicio-3.png)](https://amigoviolao.com/wp-content/uploads/2018/05/exercicio-3.png)
 
 O terceiro exercício é uma mistura do exercício 1 e 2 (já que apresenta tanto movimentos ascendentes quanto descendentes), portanto é **fundamental** que você tenha conseguido os executar com facilidade antes de pular para o 3. O aquecimento de dedos também exige um respeito aos limites técnicos.
 

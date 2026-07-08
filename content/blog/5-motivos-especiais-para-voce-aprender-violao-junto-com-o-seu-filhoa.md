@@ -25,10 +25,8 @@ tags:
   - aula-de-violao
   - aula-de-violao-online
   - aula-de-violao-para-criancas
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2016/06/Aprender-violao-com-seu-filho.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2016/06/Aprender-violao-com-seu-filho.jpg
+featured_image: /images/blog/2016/06/Aprender-violao-com-seu-filho.jpg
+og_image: /images/blog/2016/06/Aprender-violao-com-seu-filho.jpg
 canonical: >-
   https://amigoviolao.com/blog/5-motivos-especiais-para-voce-aprender-violao-junto-com-o-seu-filhoa
 wpId: 760
@@ -42,7 +40,7 @@ Falamos aqui de uma atividade que vai além da escolha do que é urgente ou prio
 
 ## **1 – Muito mais que um hobbie**
 
-![](https://amigoviolao.com/wp-content/uploads/2016/06/Com-filho-1-300x174.png)Uma criança que aprende algo com os pais vê mais significado a longo prazo. Aquele conteúdo que fica não é apenas algo técnico ou mesmo artístico, mas sim de ordem afetiva.
+![](/images/blog/2016/06/Com-filho-1-300x174.png)Uma criança que aprende algo com os pais vê mais significado a longo prazo. Aquele conteúdo que fica não é apenas algo técnico ou mesmo artístico, mas sim de ordem afetiva.
 
 **As lições aprendidas com os pais nunca são apenas lições; São registros gravados na memória das crianças, por um mecanismo poderosíssimo: O amor.** Há quem chame de afeto, ligação emocional, catexia e outros nomes complicados.
 
@@ -50,7 +48,7 @@ Você se lembra de algo ainda que _pequeno,_ que tenha aprendido com seus pais e
 
 ## **2 – Violão: instrumento perfeito**
 
-![](https://amigoviolao.com/wp-content/uploads/2016/06/Com-filho-2-300x174.png)Ele é o instrumento mais popular no Brasil, e talvez no mundo. Mas não é apenas isso que o torna tão apropriado para aprender entre pais e filhos. Vou enumerar 4 motivos:
+![](/images/blog/2016/06/Com-filho-2-300x174.png)Ele é o instrumento mais popular no Brasil, e talvez no mundo. Mas não é apenas isso que o torna tão apropriado para aprender entre pais e filhos. Vou enumerar 4 motivos:
 
 > **#1. É leve e portátil** – Existe em diversos tamanhos e pode ser carregado até por uma criança.
 >
@@ -64,13 +62,13 @@ Provavelmente você já tem um violão, apenas esperando para ser tocado – **�
 
 ## **3 – Fator surpresa**
 
-![](https://amigoviolao.com/wp-content/uploads/2016/06/Com-filho-3-300x174.png)Imagine como é diferente para o seu filho essa ideia de tocar violão. **Ele não espera isso de você, afinal é bem provável que o seu instrumento favorito hoje em dia seja o seu celular.**
+![](/images/blog/2016/06/Com-filho-3-300x174.png)Imagine como é diferente para o seu filho essa ideia de tocar violão. **Ele não espera isso de você, afinal é bem provável que o seu instrumento favorito hoje em dia seja o seu celular.**
 
 Imagine você chegar com um violão nas mãos e começar a tocar. Sério, nunca subestime a magia do inusitado! Aliás, diga-se de passagem, faça por você mesmo, em primeiro lugar, não precisa insistir. Aqui em casa o desejo despertou naturalmente em minhas filhas.
 
 ## **4 – Seja a mudança que o mundo precisa**
 
-![](https://amigoviolao.com/wp-content/uploads/2016/06/Com-filho-4-300x174.png)Isso mesmo. Todos concordamos que a solução para um Brasil melhor e um mundo melhor é a educação. Mas **será que todos percebemos que a educação começa na família?** É bem verdade que você quer fazer mais, e que você já faz coisas pra estar junto de seu filho, ou não estaria lendo isso. Então você tem o crédito de estar buscando se aprimorar.
+![](/images/blog/2016/06/Com-filho-4-300x174.png)Isso mesmo. Todos concordamos que a solução para um Brasil melhor e um mundo melhor é a educação. Mas **será que todos percebemos que a educação começa na família?** É bem verdade que você quer fazer mais, e que você já faz coisas pra estar junto de seu filho, ou não estaria lendo isso. Então você tem o crédito de estar buscando se aprimorar.
 
 **Não é sua culpa o fato de o mundo ser tão frenético e estressante.** Mas isso não exime você, eu, ou qualquer outro, de buscar soluções criativas que tragam resultados, e principalmente significado para a forma como usamos o nosso tempo. [Por que não começar com uma atividade tão acessível quanto tocar o violão?](https://amigoviolao.com/criancas)
 
@@ -92,9 +90,6 @@ Uma vez que eu trouxe estes motivos pra você acreditar que é possível tocar v
 
 Deixa seus dados nesse link para receber algumas aulas e dicas no seu email:
 
-
 E-mail:
 
 Eu quero!
-
-![](https://click.leadlovers.com/redirect/redirect.aspx?A=V&p=1516748&m=65691)

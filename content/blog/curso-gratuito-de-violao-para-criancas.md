@@ -13,10 +13,8 @@ categories:
 tags:
   - curso-de-violao-para-criancas
   - violao-para-criancas
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2019/02/Guia-do-Violão-para-Crianças-Amigo-Violão-Widget-1024x536.png
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2019/02/Guia-do-Violão-para-Crianças-Amigo-Violão-Widget-1024x536.png
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/curso-gratuito-de-violao-para-criancas'
 wpId: 164
 ---
@@ -29,8 +27,6 @@ Salve este post nos seus favoritos, e sempre volte a ele para tirar suas dúvida
 
 **Clique na imagem abaixo para baixar GRATUITAMENTE o e-book “Guia do Violão para Crianças”:**
 
-[![violao para crianças](https://amigoviolao.com/wp-content/uploads/2019/02/Guia-do-Violão-para-Crianças-Amigo-Violão-Widget-1024x536.png "curso-de-violão-para-criancas")](https://amigoviolao.com/solicitar-o-novo-guia-do-violao-para-criancas/)
-
 ## Curso de Violão para Crianças #1 – Batida do campeão
 
 Esta é uma música super simples e que vem fazendo muito sucesso, já que até mesmo com 4 anos de idade é possível tocá-la. Trata-se de uma música para tocar com cordas soltas e cantar junto.
@@ -38,7 +34,6 @@ Esta é uma música super simples e que vem fazendo muito sucesso, já que até 
 ##
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=BNHDS9fymUw)
-
 
 #2 – Violão no Sofá
 

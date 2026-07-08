@@ -14,10 +14,8 @@ slug: professor-samuel-calazans
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2019/03/Samuel-Calazans-Amigo-Violão.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2019/03/Samuel-Calazans-Amigo-Violão.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/professor-samuel-calazans'
 wpId: 39880
 ---
@@ -29,8 +27,6 @@ A partir de então comecei a tocar em grupos e bandas regionais, mas sempre me c
 ## Contato – Professor Samuel Calazans:
 
 **Email:**[](/cdn-cgi/l/email-protection)
-
-## Conheça melhor o Professor Samuel Calazans:
 
 ### O que te dá mais satisfação ao dar aulas?
 

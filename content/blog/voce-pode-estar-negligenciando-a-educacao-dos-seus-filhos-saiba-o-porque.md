@@ -10,18 +10,14 @@ categories:
   - comportamento-infantil
   - desenvolvimento-da-crianca
 tags: []
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png
+featured_image: ''
+og_image: ''
 canonical: >-
   https://amigoviolao.com/blog/voce-pode-estar-negligenciando-a-educacao-dos-seus-filhos-saiba-o-porque
 wpId: 679
 ---
 
 Antes de começar eu quero te convidar a uma reflexão:
-
-#### **Como você tem contribuído para a educação cultural de seus filhos?**
 
 #### **Qual é o papel de pai ou mãe que você tem assumido neste assunto?**
 
@@ -38,8 +34,6 @@ Como eu disse no início, esse texto é um desabafo sincero, que faço no lugar 
 [](https://amigoviolao.com.br/baixar-ebook-gratis)
 
 ## O Segredo eu vou te ensinar agora
-
-[![6749689975\_6c43852f0a\_o](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/6749689975_6c43852f0a_o-1024x683.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2016/03/6749689975_6c43852f0a_o.jpg)
 
 No início do texto fiz duas perguntas. Reconheço e sei que você quer dar a melhor contribuição enquanto pai ou mãe, ou não estaria lendo este texto.
 
@@ -66,8 +60,6 @@ O que eu estou dizendo aqui eu vi, na vida real, em muitas casas. Dando aulas de
 Depois de muito ver hoje eu resolvi falar.
 
 ## Como combater esse perigo?
-
-[![Frustrated African American woman working from home](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/google12.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2016/03/google12.jpg)
 
 Depois de muito pensar e conversar com minha mulher resolvi ajudar da maneira que acredito. Me reconheci em muitas situações, perdi sono à noite, me questionei e percebi que a mudança inicial deveria vir de mim e que só depois de me ajudar eu conseguiria ajudar outros.
 
@@ -97,7 +89,5 @@ Nome:
 
 E-mail:
 EU QUERO RECEBER ESTE E-BOOK
-
-![](https://click.leadlovers.com/redirect/redirect.aspx?A=V&p=1106775&m=51688)
 
 Grato por ler esse desabafo e parabéns pelo que você já começou a fazer pelo desenvolvimento de seus filhos, então não pare!

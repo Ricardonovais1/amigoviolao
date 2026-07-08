@@ -12,10 +12,8 @@ categories:
   - violao-para-iniciantes
 tags:
   - como-ler-partitura
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/05/Teoria-Musical-para-Violonistas.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/05/Teoria-Musical-para-Violonistas.jpg
+featured_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.jpg
+og_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.jpg
 canonical: 'https://amigoviolao.com/blog/como-ler-partitura-entenda-o-basico'
 wpId: 3242
 ---
@@ -34,7 +32,7 @@ A partitura é uma **_linguagem musical universal_**, o que significa que _não 
 
 Não será necessário que você termine de ler este texto compreendendo notas e frases melódicas, mas apenas que ganhe uma noção de como os conceitos musicais se relacionam com os símbolos.
 
-  ![](https://amigoviolao.com/wp-content/uploads/2018/05/Linhas-e-Espaços-1.jpg)A música é escrita em uma pauta (conjunto de 5 linhas paralelas). As figuras musicais podem ficar em cima das linhas ou no espaço entre elas.
+  A música é escrita em uma pauta (conjunto de 5 linhas paralelas). As figuras musicais podem ficar em cima das linhas ou no espaço entre elas.
 
 A pauta é dividida horizontalmente por barras(ver imagem abaixo), que dividem a música em seções menores, existem 3 tipos básicos de barras : barra de compasso (delimita compassos), barra dupla (delimita seções) e barra final (indica o fim da música).
 
@@ -43,7 +41,7 @@ A armadura indica a _tonalidade_ da música.
 
 A clave indica _quais notas devem ser representadas pelos espaços e linhas na pauta_. (dependendo da clave, uma figura em determinado espaço ou linha pode significar diferentes notas).
 
-![como-ler-partitura-imagem](https://amigoviolao.com/wp-content/uploads/2018/03/partes-pauta-1.png "como-ler-partitura-imagem")
+![como-ler-partitura-imagem](/images/blog/2018/03/partes-pauta-1.png)
 
 Cada bolinha (com ou sem linha) distribuída pela pauta representa uma nota, o _desenho da figura mostra a duração da nota_, enquanto _sua posição vertical nas linhas e espaços indica a nota que se deve tocar._
 
@@ -51,7 +49,7 @@ Cada bolinha (com ou sem linha) distribuída pela pauta representa uma nota, o _
 
 ## **Figuras Rítmicas**
 
-**![como-ler-partitura-figuras-ritmicas-amigo-violao](https://amigoviolao.com/wp-content/uploads/2018/03/figuras-rítmicas-como-ler-partitura.jpg "como-ler-partitura-figuras-ritmicas-amigo-violao")**_A figura de cima sempre vale o dobro da figura de baixo, na imagem ao lado._
+****_A figura de cima sempre vale o dobro da figura de baixo, na imagem ao lado._
 Ou seja, semibreve vale o dobro da mínima, que vale o dobro da semínima e assim por diante.
 
 **Assim como existem valores rítmicos nas notas, ou seja, nos sons produzidos, também existem valores rítmicos nas pausas, ou seja, nos silêncios.**

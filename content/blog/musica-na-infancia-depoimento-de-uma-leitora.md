@@ -18,10 +18,8 @@ tags:
   - violao
   - violao-infantil
   - violao-na-infancia
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/música-na-infância-201x300.jpg
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/música-na-infância-201x300.jpg
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/musica-na-infancia-depoimento-de-uma-leitora'
 wpId: 559
 ---
@@ -30,8 +28,6 @@ Antes de tudo gostaria de agradecer ao Ricardo Novais por ceder este espaço mar
 
 ## Meu primeiro contato com a música
 
-[](http://tresamigosead.com.br/blog/wp-content/uploads/2016/01/música-na-infância.jpg)
-
 Meu primeiro contato com a música ocorreu quando eu tinha mais ou menos 5 anos de idade. Nessa época eu já gostava de ver meu avô tocar trompete e já me aventurava tocando alguns instrumentos de brinquedo como sanfonas, gaitas e flautas.
 
 Minha mãe conta que quando atingi os 5 anos coloquei na minha cabeça de que queria aprender um instrumento, depois de muito pensar ela me matriculou em uma aula de teclado por acreditar que fosse um instrumento mais fácil para que eu aprendesse e por conhecer a professora. Eu fiquei deslumbrada.
@@ -39,8 +35,6 @@ Minha mãe conta que quando atingi os 5 anos coloquei na minha cabeça de que qu
 Estudei teclado até os 11 anos mais ou menos, parei porque não havia muito mais o que minha professora pudesse me ensinar e ela me recomendou ir para um conservatório de música caso quisesse aprender mais. Como o conservatório ficava em outra cidade resolvi parar os estudos desse instrumento e aprender um novo, foi quando optei pelo violão.
 
 ## Música na infância: Inspiração na família
-
-[![música-na-infância-2](https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/música-na-infância-2-234x300.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2016/01/música-na-infância-2.jpg)
 
 Meu avô era músico e sempre foi uma inspiração para mim, não tinha preço vê-lo tocar. Pouco tempo depois que entrei na aula de teclado ele me deu um dos que ele tinha em casa e eu me senti literalmente a ultima “bolachinha do pacote”. Adorava chegar em casa e repassar tudo que aprendia na aula, tocava por horas e me esforçava para pegar novas músicas. Sempre que aprendia algo novo mostrava para ele e todo mundo.
 
@@ -59,8 +53,6 @@ Listei os benefícios que reconheço e queria compartilhar com vocês. Dessa fo
 -   **Concentração:** Antes de iniciar meus estudos musicais eu era uma criança mais desperta. Tinha dificuldade em me concentrar em uma única atividade, começava a fazer algumas coisas e largava de lado, não concluía. Depois de um certo tempo nas aulas de teclado já conseguia reter a atenção mais tempo em outras atividades e também comecei a terminar as coisas que começava.
 
 ## Nunca subestime a capacidade de uma criança:
-
-[![musica-fa-infancia](https://tresamigosead.com.br/blog/wp-content/uploads/2016/01/musica-fa-infancia-225x300.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2016/01/musica-fa-infancia.jpg)
 
 Muitas pessoas subestimam a capacidade das crianças em aprender música, porém, a partir de determinadas idades muitos instrumentos se tornam acessíveis ao conhecimento delas e são benéficos para seu desenvolvimento como indivíduo, falo isso com a segurança de quem vivenciou essa experiência.
 

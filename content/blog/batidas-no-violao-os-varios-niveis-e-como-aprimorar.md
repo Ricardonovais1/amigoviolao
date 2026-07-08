@@ -9,8 +9,8 @@ slug: batidas-no-violao-os-varios-niveis-e-como-aprimorar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2021/09/batidas-violao-CAPA.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2021/09/batidas-violao-CAPA.jpg'
+featured_image: /images/blog/2021/09/batidas-violao-CAPA.jpg
+og_image: /images/blog/2021/09/batidas-violao-CAPA.jpg
 canonical: >-
   https://amigoviolao.com/blog/batidas-no-violao-os-varios-niveis-e-como-aprimorar
 wpId: 39600
@@ -46,7 +46,7 @@ Neste nível, você será capaz de tocar batidas simples, inicialmente tocando s
 
 **3) A, B, A**
 
- ![](https://amigoviolao.com/wp-content/uploads/2021/09/batidas-violao-1024x681.jpg)
+ ![](/images/blog/2021/09/batidas-violao-1024x681.jpg)
 
 É melhor falar A/B do que cima/baixo! E, se possível, fale A, B enquanto toca as batidas no violão!
 
@@ -60,7 +60,7 @@ Neste nível, você será capaz de tocar batidas simples, inicialmente tocando s
 Você pode tentar também uma pequena variação desta sequência:
 **2)** **A, A, B, B, A, B**
 
- ![batidas violao](https://amigoviolao.com/wp-content/uploads/2021/09/ritmos-violao-1024x726.jpg)
+ ![batidas violao](/images/blog/2021/09/ritmos-violao-1024x726.jpg)
 
 As batidas no violão envolvem ambas as mãos! Lembre-se disto!
 
@@ -83,7 +83,5 @@ Representaremos, em áudio, a abafada para baixo (_A_) como um som grave e curto
 Neste nível, você começará também a explorar suas próprias combinações, tendo elas abafamentos ou não. Veja, a seguir, um exemplo de combinação mais complexa:
 
 **3) A, A, B, A,** _A_, _B_, _B_, _A_**, A, B, A, B**
-
-
 
 Batidas no violão podem ser bem simples ou realmente complexas e difíceis, porém uma coisa é certa: é necessário que você caminhe **gradualmente** no desenvolvimento desta técnica, e o melhor para se desenvolver da maneira correta, evitando frustrações, stress e brechas no aprendizado, é um bom método, não é mesmo? Por isso (e para isso), **Ricardo Novais** criou o curso **MOVI**, disponível aqui mesmo, no site **Amigo Violão**, onde você disporá que aulas meticulosamente gravadas, que lhe darão o caminho correto no aprendizado do violão. [Quer saber mais? _Clique aqui!_](https://amigoviolao.com/movi-metodo-otimizado-de-violao-para-iniciantes/)

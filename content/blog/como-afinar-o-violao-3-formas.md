@@ -16,8 +16,8 @@ tags:
   - como-aprender-tocar-violao
   - curso-de-violao-gratis
   - video-aula-de-violao
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/04/Como-Afinar-o-Violão.jpg'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/04/Como-Afinar-o-Violão.jpg'
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/como-afinar-o-violao-3-formas'
 wpId: 3205
 ---
@@ -28,14 +28,14 @@ Com esta habilidade você evita sensações de estranhamento ao tocar e fará co
 
 Ao longo deste texto, eu vou lhe ensinar **3 formas de** **como afinar seu violão do básico ao avançado.** Antes vamos dar uma olhada nas notas das cordas do instrumento :
 
-![como-afinar-o-violao-amigo-violao](https://amigoviolao.com/wp-content/uploads/2018/03/cordas-violao1-300x103.png "como-afinar-o-violao-amigo-violao")
+![como-afinar-o-violao-amigo-violao](/images/blog/2018/03/cordas-violao1-300x103.png)
 
 Imagem 1
 
 A imagem (ângulo de quem está tocando) representa as 6 cordas do violão na afinação tradicional (o violonista pode afinar as cordas de acordo com suas intenções musicais).
 De baixo para cima as cordas vão ficando cada vez menos graves (e grossas) para ficarem mais agudas (e finas).
 
-![como-afinar-o-violao-violao-deitado](https://amigoviolao.com/wp-content/uploads/2018/03/violao-imagem1-300x169.jpg "como-afinar-o-violao-violao-deitado")
+![como-afinar-o-violao-violao-deitado](/images/blog/2018/03/violao-imagem1-300x169.jpg)
 
 Imagem 2
 
@@ -44,15 +44,11 @@ Portanto, de cima para baixo : _Mi 2, Lá 2, Ré 3, Sol 3, Si 3, Mi 4_(os númer
 
 No entanto, é importante relembrar o que foi dito anteriormente : **O violonista pode afinar as cordas do violão como ele quiser, dependendo das suas intenções musicais e do estilo musical que está tocando.**
 
-### Agora vamos às _3 formas de como afinar o violão_ :
-
 ## 1) Como afinar o violão com um afinador digital (nível iniciante) :
 
 Essa é, com certeza, a forma mais fácil de se afinar o seu violão. Basta que você tenha um afinador digital em mãos. Você pode conseguir um em uma loja de instrumentos musicais. Ou baixar um aplicativo que faça o mesmo trabalho no seu celular. Dessa forma, basta ir tocando as cordas e ir ajustando as tarraxas.  O aplicativo mostrará que a corda está afinada.
 
 ## 2) Como afinar o violão utilizando um piano ou teclado (intermediário) :
-
-![notas-do-violao-no-piano-teclado-como-afinar-o-violao](https://amigoviolao.com/wp-content/uploads/2018/03/Notas-do-Violão-no-Teclado-300x182.png "notas-do-violao-no-piano-teclado-como-afinar-o-violao")
 
 Essa forma vai exigir de você a capacidade auditiva de perceber se um som é mais grave ou mais agudo do que outro. Para afinar, será necessário um piano (bem afinado) ou um teclado eletrônico, que servirão como referência. Você deve ir tocando as notas que deseja alcançar no violão (Mi 2, Lá 2, Ré 3, Sol 3, Si 3, Mi 4).  Ajustando a afinação das cordas, buscando igualar as frequências do violão com as do piano (ou teclado).
 

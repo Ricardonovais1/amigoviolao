@@ -23,12 +23,8 @@ tags:
   - ensinar-em-casa
   - ensinar-pelo-exemplo
   - licoes-de-pai-para-filho
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Medo.jpg
-  "Medo-educacao-dos-filhos"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Medo.jpg
-  "Medo-educacao-dos-filhos"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/educacao-dos-filhos-coragem'
 wpId: 247
 ---
@@ -66,8 +62,6 @@ Pela “parábola” citada acima, percebemos que **cativar tem tudo a ver com c
 Minhas filhas tinham muito medo do cachorro do nosso vizinho. Mas uma delas, a Rosa, se tornou bem tranquila com o cachorro, e até passou a fazer carinhos nele, depois que me viu agachado dando carinho nele algumas vezes. Isso ocorreu ao longo de algumas semanas.
 
 A mais nova, a Aurora, ainda chora quando o cachorro chega perto dela, mas sempre quer ver o cachorro, demonstrando já ter vencido alguma dificuldade com relação a ele.
-
-![Espelho-educacao-dos-filhos](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Espelho.jpg "Espelho-educacao-dos-filhos")
 
 ## Somos espelhos dos nossos filhos
 

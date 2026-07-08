@@ -9,10 +9,8 @@ slug: mal-entendido-de-didatica-do-violao-para-criancas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2020/09/Mal-entendido-de-didatica.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2020/09/Mal-entendido-de-didatica.jpg
+featured_image: /images/blog/2020/09/Mal-entendido-de-didatica.jpg
+og_image: /images/blog/2020/09/Mal-entendido-de-didatica.jpg
 canonical: 'https://amigoviolao.com/blog/mal-entendido-de-didatica-do-violao-para-criancas'
 wpId: 33329
 ---

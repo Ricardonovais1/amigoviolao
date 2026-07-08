@@ -21,12 +21,8 @@ tags:
   - curso-de-violao-online
   - curso-online-de-violao
   - cursos-de-arte-para-criancas
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Pai-e-filho.jpg
-  "aprender-a-tocar-violão-pai-e-filho"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Pai-e-filho.jpg
-  "aprender-a-tocar-violão-pai-e-filho"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/aprender-a-tocar-violao-com-filhos'
 wpId: 312
 ---
@@ -79,7 +75,7 @@ Nunca é demais reforçar o que foi dito acima: **A relação prazerosa com os f
 
 É útil educar, e é agradável perceber que cada vez mais aquele filho vem conquistando mais e mais independência. É agradável reconhecer nesta relação uma amizade. Poder compartilhar conhecimentos e treinar o vínculo que será bem importante em todas as fases da vida.
 
-## ![aprender-a-tocar-violão-a-dois](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Violão-a-dois-300x158.jpg "aprender-a-tocar-violão-a-dois")4 – Aprender mais rápido.
+## 4 – Aprender mais rápido.
 
 Aprender a dois, tendo oportunidade de auxiliar o seu filho é uma forma de ter uma imersão crescida no aprendizado do violão. Já diria o ditado: “Ensinar é a melhor forma de aprender”.
 

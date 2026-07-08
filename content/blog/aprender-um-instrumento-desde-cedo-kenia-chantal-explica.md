@@ -26,12 +26,8 @@ tags:
   - ricardo-novais
   - tres-amigos
   - tres-amigos-ead
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Citação-Kênia-11-274x300.png
-  "citacao-kenia-2-aprender-um-instrumento"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Citação-Kênia-11-274x300.png
-  "citacao-kenia-2-aprender-um-instrumento"
+featured_image: ''
+og_image: ''
 canonical: >-
   https://amigoviolao.com/blog/aprender-um-instrumento-desde-cedo-kenia-chantal-explica
 wpId: 290
@@ -60,15 +56,13 @@ Quando aprendemos a língua materna, assim como no método Suzuki, a ferramenta 
 
 **3A-EAD:** _Você tem uma filha. Como foi a sua experiência ensinando violino para a sua própria filha? Que soluções você desenvolveu que considera úteis para que outros pais e mães influenciem ativamente a educação musical de seus filhos?_
 
-**![aprender-um-instrumento-foto-giselle](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Giselle-300x200.jpg "aprender-um-instrumento-foto-giselle")KÊNIA CHANTAL:** Hoje a minha filha está com 12 anos de idade. Ela iniciou no violino com 3 anos de idade. O que sempre busquei para ela foi uma experiência prazerosa.
+**KÊNIA CHANTAL:** Hoje a minha filha está com 12 anos de idade. Ela iniciou no violino com 3 anos de idade. O que sempre busquei para ela foi uma experiência prazerosa.
 
 O que eu fiz foi tocar o violino e deixar que ela se sentisse atraída pelo instrumento, o que ocorreu naturalmente.  Nunca precisei forçar ou exigir muito tempo com o instrumento.
 
 Enquanto ela tinha seus primeiros contatos foi que fiz testes na pegada, no repertório e na didática como um todo. Criei um método para ela, que posteriormente se tornou o meu método de violino para crianças.
 
 Outra coisa importante foi sempre reforçar positivamente. Mesmo que ela desse uma arranhada com o arco, ou qualquer outra imperfeição ao tocar, eu sempre elogiei, disse o quanto ela estava indo bem, tocando lindo. Tocava para os priminhos, para as tias. Mas o mais importante foi observar se ela estava cansada ou realmente com vontade de tocar, de ter esta troca afetiva comigo tocando o instrumento.
-
-[![BANNER ISCA DIGITAL](https://tresamigosead.com.br/blog/wp-content/uploads/2016/11/BANNER-ISCA-DIGITAL.png)](https://amigoviolao.com.br/guia-do-violao-para-criancas)
 
 ## Dicas para os pais e mães:
 
@@ -95,7 +89,7 @@ Algumas vezes a criança terá um pizzicato bem fácil, ou uma notinha, mas com 
 
 Algumas das publicações da Professora Kênia Chantal:
 
-![aprender-um-instrumento-violino-pequeninos-livro](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Violino-Kenia-aprender-um-instrumento.jpg "aprender-um-instrumento-violino-pequeninos-livro")           ![aprender-um-instrumento-livro-kids-songs](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Kids-songs-aprender-um-instrumento.jpg "aprender-um-instrumento-livro-kids-songs")              ![aprender-um-instrumento-cd-kids-songs](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/CD-kids-songs-aprender-um-instrumento-150x150.jpg "aprender-um-instrumento-cd-kids-songs")
+                         
 
 ## Aprender um instrumento é algo profundo
 

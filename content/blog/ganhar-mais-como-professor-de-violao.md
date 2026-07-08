@@ -11,16 +11,13 @@ categories:
   - professor-de-violao
   - violao-para-criancas
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/06/victor-schneider-DSC_0165-cut-2.jpg
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2018/06/victor-schneider-DSC_0165-cut-2.jpg
+featured_image: /images/blog/2018/06/victor-schneider-DSC_0165-cut-2.jpg
+og_image: /images/blog/2018/06/victor-schneider-DSC_0165-cut-2.jpg
 canonical: 'https://amigoviolao.com/blog/ganhar-mais-como-professor-de-violao'
 wpId: 1381
 ---
 
 Nesse post eu vou te mostrar 3 formas de aumentar a sua renda como professor de violão. Essas são as 3 formas que eu conheço e que já apliquei, e sei dos pontos positivos e negativos de cada uma. Pra você, que assim como eu, vive de aulas de violão, eu quero apontar duas constatações que eu fiz, e tenho certeza que você também. Estou nessa profissão há mais de quatorze anos , colecionando erros e também acertos. O fato é que nesse período eu passei por muitas transformações internas tanto pessoais quanto profissionais.
-
 
 Quando eu comecei a dar aulas ainda era estudante na UFMG, onde me formei em violão. Confesso que no começo eu não queria muito ser um professor. Mas a vida dá voltas, mostra coisas que antes pareciam ocultas. E assim eu descobri o tamanho do privilégio que é ser um professor de violão.
 
@@ -29,7 +26,7 @@ Mas como fazer esta profissão ser mais rentável? Seguem **3 formas de melhorar
 
 ## 1 – Dar aulas em grupos – Professor de Violão!
 
-![](https://amigoviolao.com/wp-content/uploads/2016/11/Aulas-de-violao-em-grupo-300x170.jpg)Trabalhar com grupos de 4 a 6 alunos pode ser muito produtivo do ponto de vista didático, assim como financeiro. É claro que não é sempre uma tarefa fácil, porque a atenção mais individualizada pode sim ficar prejudicada. Mas por outro lado, é possível trabalhar muitos pontos que em aulas individuais não são abordados com muita facilidade, que são principalmente os elementos musicalizadores, ligados ao ato de tocar junto.
+![](/images/blog/2016/11/Aulas-de-violao-em-grupo-300x170.jpg)Trabalhar com grupos de 4 a 6 alunos pode ser muito produtivo do ponto de vista didático, assim como financeiro. É claro que não é sempre uma tarefa fácil, porque a atenção mais individualizada pode sim ficar prejudicada. Mas por outro lado, é possível trabalhar muitos pontos que em aulas individuais não são abordados com muita facilidade, que são principalmente os elementos musicalizadores, ligados ao ato de tocar junto.
 
 Existem muitas formas e lugares pra você oferecer aulas em grupo, mas eu vou salientar uma delas que eu já testei e funciona super bem, que é em escolas regulares.
 
@@ -50,11 +47,11 @@ Você negocia a porcentagem que vai dar para a escola, e isso varia de 15 a 30%.
 – Horário das aulas costuma ser por volta das 18 horas, quando as crianças estão agitadas, e todos estão mais cansados.
 – Requer uso de uma [metodologia apropriada para ensinar o violão para as crianças.](https://amigoviolao.com/criancas)
 
-![](https://amigoviolao.com/wp-content/uploads/2019/03/Materiais-para-aulas-de-violao-1024x215.png)
+![](/images/blog/2019/03/Materiais-para-aulas-de-violao-1024x215.png)
 
 ## 2 – Aulas por Skype – Professor de Violão!
 
-Hoje em dia este formato está ficando cada vez mais comum. Ele é muito comum em outras áreas como consultorias,![](https://amigoviolao.com/wp-content/uploads/2016/11/Aulas-de-violao-por-skype-300x200.jpg) psicoterapia, coaching e outras formas que dependem só de uma conversa. Aulas de violão também funcionam, mas requerem alguns cuidados fundamentais. Pra tocar junto com o seu aluno, por exemplo, existe um delay, um atraso, que impede isso. Não é exatamente como estar de frente para o seu aluno, presencialmente. Outra dificuldade é que não tem como anotar as músicas no caderno do aluno. Você precisa estar mais preparado com as atividades previamente.
+Hoje em dia este formato está ficando cada vez mais comum. Ele é muito comum em outras áreas como consultorias,![](/images/blog/2016/11/Aulas-de-violao-por-skype-300x200.jpg) psicoterapia, coaching e outras formas que dependem só de uma conversa. Aulas de violão também funcionam, mas requerem alguns cuidados fundamentais. Pra tocar junto com o seu aluno, por exemplo, existe um delay, um atraso, que impede isso. Não é exatamente como estar de frente para o seu aluno, presencialmente. Outra dificuldade é que não tem como anotar as músicas no caderno do aluno. Você precisa estar mais preparado com as atividades previamente.
 
 **PONTOS POSITIVOS:**
 – Não precisar se deslocar nem sequer escovar os dentes 🙂
@@ -71,7 +68,7 @@ Você tem uma certa resistência em ensinar violão para crianças? Eu confesso 
 
 Ela requer simplesmente um encaminhamento correto. Um repertório e atividades corretas.
 
-![](https://amigoviolao.com/wp-content/uploads/2016/11/Aulas-de-violao-para-criancas-300x199.jpg)O público infantil é aproximadamente [70% da demanda por aulas,](https://amigoviolao.com/criancas) e eu vejo que muitos professores de violão não se dão conta disso, ou acreditam que não é possível ensinar violão pras crianças de forma consistente. Muitos acham que apenas as crianças que tem talento aprendem. Nada mais falso. O talento é importante sim, mas ele se manifesta principalmente depois de um período inicial, onde o professor é quem leva o maior crédito pelo desenvolvimento do seu aluno. Alguns demoram mais, porém todos aprendem o básico, e realizar isso é muito gratificante, pra quem tem os meios para tal.
+![](/images/blog/2016/11/Aulas-de-violao-para-criancas-300x199.jpg)O público infantil é aproximadamente [70% da demanda por aulas,](https://amigoviolao.com/criancas) e eu vejo que muitos professores de violão não se dão conta disso, ou acreditam que não é possível ensinar violão pras crianças de forma consistente. Muitos acham que apenas as crianças que tem talento aprendem. Nada mais falso. O talento é importante sim, mas ele se manifesta principalmente depois de um período inicial, onde o professor é quem leva o maior crédito pelo desenvolvimento do seu aluno. Alguns demoram mais, porém todos aprendem o básico, e realizar isso é muito gratificante, pra quem tem os meios para tal.
 
 O fato é que mesmo dando apenas aulas individuais ou em duplas, as aulas para as crianças são um incremento e tanto para nós que trabalhamos nessa área. Além disso, as crianças não abandonam a aula tanto quanto os adultos. A não ser quando se sentem desmotivadas, o que acontece quando acham difícil. E mudar isso depende de saber o repertório e algumas atividades chave. É preciso conhecer a metodologia certa e adotá-la.
 

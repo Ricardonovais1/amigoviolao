@@ -26,15 +26,13 @@ tags:
   - como-treinar-em-casa
   - curso-de-violao-para-criancas
   - estudar-com-os-filhos
-featured_image: 'https://amigoviolao.com/wp-content/uploads/2018/05/digit.png'
-og_image: 'https://amigoviolao.com/wp-content/uploads/2018/05/digit.png'
+featured_image: /images/blog/2018/05/digit.png
+og_image: /images/blog/2018/05/digit.png
 canonical: 'https://amigoviolao.com/blog/como-ajudar-meu-filho'
 wpId: 4118
 ---
 
 Sabe quando uma criança não dá bola pra um determinado objeto, mas quando outra pessoa o pega, aquele objeto automaticamente se torna o seu sonho de consumo? Em adultos poderíamos simplesmente chamar isso de inveja ou ciúmes, mas a criança manifesta tal comportamento porque ainda não desenvolveu plenamente o seu senso de individualidade, e se espelha no outro para construir sua auto imagem. Este mecanismo é o que explica o poder do exemplo e da presença dos pais na vida das crianças.
-
-![pai-e-filha-com-violao-como-ajudar-meu-filho](https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/Pai-e-filha-com-violão-e1445383894683.jpg)
 
 Eu sempre procuro mostrar aos pais e mães de meus alunos que a presença deles no momento de treinar é muito importante. As crianças apresentam de fato maior rendimento ao terem estes bons exemplos para seguir, mas não apenas isso. Também cresce a motivação em relação ao que está sendo aprendido. É criado um senso de desafio e de pertencimento.
 
@@ -71,8 +69,6 @@ O grande propósito da educação é não apenas aprender a matéria que é ensi
 -   Daí a necessidade de ordem no horário. É bom ter a hora certa pra tudo. O fanatismo afasta as pessoas, e pais muito fissurados podem gerar traumas e resistência nas crianças.
 
 ## Pais/mães: os melhores assistentes
-
-![a-procura-da-felicidade-como-ajudar-meu-filho](https://tresamigosead.com.br/blog/wp-content/uploads/2015/08/a-procura-da-felicidade-300x169.jpg "a-procura-da-felicidade-como-ajudar-meu-filho")
 
 Em uma das escolas em que trabalhei como professor de violão, adquiri o hábito de convidar as mamães para entrarem na minha sala e aprenderem violão junto com o(a) filho(a). Mas, ao invés de dizer que o motivo era esse, eu simplesmente convidada, para que o trabalho realizado fosse bem compreendido e acompanhado.
 

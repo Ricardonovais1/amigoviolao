@@ -22,12 +22,8 @@ tags:
   - leitura-musical
   - musicas-faceis-de-ler
   - nucleo-villa-lobos
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Exemplo-de-escrita-grafica-aprendizagem-da-leitura.jpg
-  "Exemplo-de-escrita-grafica-aprendizagem-da-leitura"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Exemplo-de-escrita-grafica-aprendizagem-da-leitura.jpg
-  "Exemplo-de-escrita-grafica-aprendizagem-da-leitura"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/aprendizagem-da-leitura'
 wpId: 150
 ---

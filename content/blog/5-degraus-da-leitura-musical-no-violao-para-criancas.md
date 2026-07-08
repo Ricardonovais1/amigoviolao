@@ -9,10 +9,8 @@ slug: 5-degraus-da-leitura-musical-no-violao-para-criancas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: >-
-  https://amigoviolao.com/wp-content/uploads/2020/09/Copia-de-Copia-de-Sem-nome3.png
-og_image: >-
-  https://amigoviolao.com/wp-content/uploads/2020/09/Copia-de-Copia-de-Sem-nome3.png
+featured_image: /images/blog/2020/09/Copia-de-Copia-de-Sem-nome3.png
+og_image: /images/blog/2020/09/Copia-de-Copia-de-Sem-nome3.png
 canonical: >-
   https://amigoviolao.com/blog/5-degraus-da-leitura-musical-no-violao-para-criancas
 wpId: 33244

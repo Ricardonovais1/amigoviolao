@@ -30,7 +30,7 @@ Hoje em dia ensino várias outras músicas bem mais fáceis do que esta para os 
 
 ## Como ler esta música:
 
-As imagens que acompanham esta postagem são da tablatura da música. O que é uma tablatura? Nada mais do que um desenho das cordas do violão. Se você quer aprender a tocar esta música, poderá também seguir as orientações presentes no meu post sobre [como ler uma tablatura](http://tresamigosead.com.br/blog/como-ler-tablatura-no-violao/). Ah, e claro, se tiver dúvidas pode me enviar que terei o prazer de orientar você.
+As imagens que acompanham esta postagem são da tablatura da música. O que é uma tablatura? Nada mais do que um desenho das cordas do violão. Se você quer aprender a tocar esta música, poderá também seguir as orientações presentes no meu post sobre como ler uma tablatura. Ah, e claro, se tiver dúvidas pode me enviar que terei o prazer de orientar você.
 
 ## Como tocar, em vídeo, tudo explicado:
 
@@ -42,11 +42,11 @@ As imagens que acompanham esta postagem são da tablatura da música. O que é u
 
 ## Tablatura Surfmusic:
 
-![](https://amigoviolao.com/wp-content/uploads/2020/05/Surfmusic-p1.png)
+![](/images/blog/2020/05/Surfmusic-p1.png)
 
-![](https://amigoviolao.com/wp-content/uploads/2020/05/Surfmusic-p2.png)
+![](/images/blog/2020/05/Surfmusic-p2.png)
 
-![](https://amigoviolao.com/wp-content/uploads/2020/05/Surfmusic-p3.png)
+![](/images/blog/2020/05/Surfmusic-p3.png)
 
 ## Amigo Violão – Ensinando violão com amor
 

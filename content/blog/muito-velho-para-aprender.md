@@ -21,12 +21,8 @@ tags:
   - mais-de-20-anos
   - mais-de-30-anos
   - mais-de-40-anos
-featured_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Elefantes-300x150.jpg
-  "muito-velho-pra-aprender-elefantes"
-og_image: >-
-  https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Elefantes-300x150.jpg
-  "muito-velho-pra-aprender-elefantes"
+featured_image: ''
+og_image: ''
 canonical: 'https://amigoviolao.com/blog/muito-velho-para-aprender'
 wpId: 378
 ---
@@ -63,8 +59,6 @@ Seja qual for o trauma ou o motivo, lembre-se que o elefante cresce e fica forte
 
 ## #2 – Velho para aprender: “Crença da Piranha”:
 
-[![muito-velho-pra-aprender-piranhas](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/Quadros_pinturas_0281-300x212.jpg "muito-velho-pra-aprender-piranhas")](www.thaimir.com.br)
-
 Onda da Piranha – Thaimir Paranayba. Grafite. Clique na imagem para visitar o site.
 
 A piranha é um peixe que come carne. Foram feitos experimentos com algumas dentro de um aquário e este aquário foi dividido em duas partes por uma parede de vidro. Dessa forma a piranha podia ver o outro lado, onde era colocado um pedaço de carne.
@@ -93,7 +87,7 @@ Podemos dizer que as situações acima demonstram com “clareza a crença da pi
 
 ## #3 – Velho para aprender: “Crença Popular”:
 
-[![muito-velho-pra-aprender-bla-bla-bla](https://tresamigosead.com.br/blog/wp-content/uploads/2015/11/bla-bla-bla-300x226.jpg)](http://tresamigosead.com.br/blog/wp-content/uploads/2015/11/bla-bla-bla.jpg)A crença popular é uma categoria ampla que inclui tudo aquilo que é dito ao nosso redor e pela simples repetição da informação acabamos acreditando nela. Pode ser mentira ou verdade, mas guardamos no subconsciente porque ouvimos dos pais ou na televisão ou na escola.
+A crença popular é uma categoria ampla que inclui tudo aquilo que é dito ao nosso redor e pela simples repetição da informação acabamos acreditando nela. Pode ser mentira ou verdade, mas guardamos no subconsciente porque ouvimos dos pais ou na televisão ou na escola.
 
 Antigamente se acreditava que o sol girava em torno da terra,  esta era uma crença popular e foram precisos muitos anos para mudar esta forma de ver o mundo. Há pessoas que acreditam que o mundo está piorando, porque ouviram isso dos pais. Outras acreditam no contrário, pela mesma razão e terão argumentos para isso. A verdade é que crenças populares como essas surgem o tempo todo para todo mundo.
 
@@ -122,5 +116,3 @@ Estou dizendo isso porque é preciso sempre desconfiar de nós mesmos. Se esse a
 Se a resposta for não para qualquer das três perguntas acima, na verdade você não tem problema com a sua idade, e sim com a identificação do verdadeiro querer.
 
 Se você leu até o fim imagino que este conteúdo deve ter feito você refletir. Compartilhe sua experiência conosco via comentários, ela pode incentivar outras pessoas.
-
-[![cta-meio-post-curso-amigo-violao](https://tresamigosead.com.br/blog/wp-content/uploads/2016/03/cta-meio-post-curso-amigo-violao.png)](https://amigoviolao.com.br/baixar-ebook-gratis)
