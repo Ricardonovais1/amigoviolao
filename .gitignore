@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# blog migration raw cache (regenerable from the WP API; not committed)
+/scripts/blog-migration/.cache/
