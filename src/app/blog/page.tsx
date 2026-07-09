@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PostCard from "@/components/blog/PostCard";
-import CategoryList from "@/components/blog/CategoryList";
-import { getAllPosts } from "@/lib/blog";
+import BlogExplorer from "@/components/blog/BlogExplorer";
+import { getAllPosts, toPostCardData } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog - Amigo Violão",
@@ -12,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndex() {
-  const posts = getAllPosts();
+  const posts = getAllPosts().map(toPostCardData);
 
   return (
     <>
@@ -30,24 +29,17 @@ export default function BlogIndex() {
               Dicas práticas, métodos e histórias para tocar e ensinar com mais
               leveza.
             </p>
-            <div className="mt-6">
-              <CategoryList showCounts />
-            </div>
           </div>
         </section>
 
-        <div className="mx-auto max-w-6xl px-6 py-12">
+        <div className="mx-auto max-w-6xl px-6 py-10">
           {posts.length === 0 ? (
             <p className="text-charcoal/70">
               Nenhum post publicado ainda. Rode a migração para importar os
               posts.
             </p>
           ) : (
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <PostCard key={post.slug} post={post} />
-              ))}
-            </div>
+            <BlogExplorer posts={posts} />
           )}
         </div>
       </main>

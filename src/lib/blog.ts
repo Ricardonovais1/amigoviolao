@@ -1,13 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { categoryLabel } from "./categories";
 
 // Build-time Jamstack data layer for the blog. Posts live as Markdown files in
 // content/blog/*.md and are parsed once per build (or per request in dev). No
 // runtime database, no client fetching -> great Core Web Vitals.
 
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
-const CATEGORIES_FILE = path.join(BLOG_DIR, "categories.json");
 
 export interface Category {
   slug: string;
@@ -15,26 +15,9 @@ export interface Category {
   count: number;
 }
 
-// slug -> display name, produced by the migration (categories.json).
-let categoryNameMap: Record<string, string> | null = null;
-function loadCategoryNames(): Record<string, string> {
-  if (categoryNameMap) return categoryNameMap;
-  let map: Record<string, string>;
-  try {
-    map = JSON.parse(fs.readFileSync(CATEGORIES_FILE, "utf8"));
-  } catch {
-    map = {};
-  }
-  categoryNameMap = map;
-  return map;
-}
-
-/** Human label for a category slug (falls back to a prettified slug). */
-export function categoryLabel(slug: string): string {
-  const fromMap = loadCategoryNames()[slug];
-  if (fromMap) return fromMap;
-  return slug.replace(/-/g, " ").replace(/^\w/, (c) => c.toUpperCase());
-}
+// Category names now live in the client-safe module (src/lib/categories.ts);
+// re-exported here so existing server-side imports keep working.
+export { categoryLabel } from "./categories";
 
 export interface PostFrontmatter {
   title: string;
@@ -54,6 +37,26 @@ export interface Post extends PostFrontmatter {
   /** Raw Markdown body (front-matter stripped). */
   content: string;
 }
+
+/**
+ * Lightweight card projection sent to client components (BlogExplorer).
+ * Keeps the raw Markdown of all posts out of the browser bundle.
+ */
+export interface PostCardData {
+  slug: string;
+  title: string;
+  description: string;
+  categories: string[];
+  featured_image?: string;
+}
+
+export const toPostCardData = (post: Post): PostCardData => ({
+  slug: post.slug,
+  title: post.title,
+  description: post.description,
+  categories: post.categories,
+  featured_image: post.featured_image,
+});
 
 function readPostFile(fileName: string): Post {
   const raw = fs.readFileSync(path.join(BLOG_DIR, fileName), "utf8");

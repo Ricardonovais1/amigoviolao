@@ -62,7 +62,7 @@ export default async function CategoryArchive({
               {posts.length} {posts.length === 1 ? "artigo" : "artigos"}
             </p>
             <div className="mt-6">
-              <CategoryList activeSlug={slug} showCounts />
+              <CategoryList activeSlug={slug} />
             </div>
           </div>
         </section>

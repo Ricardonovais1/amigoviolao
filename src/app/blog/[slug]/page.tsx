@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PostBody from "@/components/blog/PostBody";
 import PostCover from "@/components/blog/PostCover";
+import ReadingProgress from "@/components/blog/ReadingProgress";
 import RelatedPosts from "@/components/blog/RelatedPosts";
 import ArticleJsonLd from "@/components/blog/ArticleJsonLd";
 import { getAllPosts, getPost, categoryLabel } from "@/lib/blog";
@@ -63,6 +64,7 @@ export default async function BlogPost({
   return (
     <>
       <Header />
+      <ReadingProgress targetId="post-content" />
       <ArticleJsonLd post={post} />
       <main className="flex-1">
         <article className="mx-auto max-w-3xl px-6 py-12">
@@ -102,7 +104,7 @@ export default async function BlogPost({
             />
           </div>
 
-          <div className="mt-10">
+          <div id="post-content" className="mt-10">
             <PostBody content={post.content} />
           </div>
 

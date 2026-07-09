@@ -1,11 +1,15 @@
 import Link from "next/link";
-import type { Post } from "@/lib/blog";
-import { categoryLabel } from "@/lib/blog";
+import type { PostCardData } from "@/lib/blog";
+import { primaryCategory } from "@/lib/categories";
 import PostCover from "./PostCover";
 
-// Reusable post card for the blog index and category archives.
+// Reusable post card for the blog index and category archives. Accepts the
+// lightweight PostCardData shape (full Post objects satisfy it structurally),
+// and stays client-safe so it can render inside the BlogExplorer filter.
 
-export default function PostCard({ post }: { post: Post }) {
+export default function PostCard({ post }: { post: PostCardData }) {
+  const category = primaryCategory(post.categories);
+
   return (
     <Link
       href={`/blog/${post.slug}`}
@@ -16,14 +20,14 @@ export default function PostCard({ post }: { post: Post }) {
           src={post.featured_image}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
-      </div>
-      <div className="p-5">
-        {post.categories[0] ? (
-          <span className="text-xs font-semibold uppercase tracking-wide text-teal">
-            {categoryLabel(post.categories[0])}
+        {category ? (
+          <span className="absolute left-3 top-3 z-10 rounded-md bg-primary/90 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
+            {category.name}
           </span>
         ) : null}
-        <h2 className="mt-1 line-clamp-2 text-lg font-bold text-dark transition-colors group-hover:text-primary">
+      </div>
+      <div className="p-5">
+        <h2 className="line-clamp-2 text-lg font-bold text-dark transition-colors group-hover:text-primary">
           {post.title}
         </h2>
         <p className="mt-2 line-clamp-3 text-sm text-charcoal/70">
