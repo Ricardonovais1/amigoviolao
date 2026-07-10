@@ -1,6 +1,6 @@
 import Reveal from "../Reveal";
 
-const features = [
+const defaultFeatures = [
   {
     title: "O Amigo Violão é líder",
     description:
@@ -23,7 +23,13 @@ const features = [
   },
 ];
 
-export default function SalesWhyLearn() {
+type SalesWhyLearnProps = {
+  features?: { title: string; description: string }[];
+};
+
+export default function SalesWhyLearn({
+  features = defaultFeatures,
+}: SalesWhyLearnProps) {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-6xl px-6 text-center">

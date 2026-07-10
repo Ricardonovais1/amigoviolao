@@ -2,17 +2,20 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
-import WhyLearn from "@/components/WhyLearn";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import PromoBanner from "@/components/sales/PromoBanner";
 import IniciantesHero from "@/components/sales/IniciantesHero";
-import BadgeStrip from "@/components/sales/BadgeStrip";
+import FeatureBadges from "@/components/sales/FeatureBadges";
+import SalesWhyLearn from "@/components/sales/SalesWhyLearn";
+import CourseModules from "@/components/sales/CourseModules";
 import LearnForReal from "@/components/sales/LearnForReal";
 import WhoIsItFor from "@/components/sales/WhoIsItFor";
-import CrossSell from "@/components/sales/CrossSell";
 import PricingCTA from "@/components/sales/PricingCTA";
-import CourseModules from "@/components/sales/CourseModules";
+import ValueStack from "@/components/sales/ValueStack";
+import Guarantee from "@/components/sales/Guarantee";
+import FinalCTA from "@/components/sales/FinalCTA";
 import Faq from "@/components/sales/Faq";
+import { iniciantesFaqs } from "@/components/sales/faqData";
 import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
 
 export const metadata: Metadata = {
@@ -21,23 +24,65 @@ export const metadata: Metadata = {
     "Toque violão passando por pequenos degraus bem testados e dimensionados. Curso para iniciantes com o professor Ricardo Novais.",
 };
 
+const courseJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Curso de Violão para Iniciantes",
+  description:
+    "Toque violão passando por pequenos degraus bem testados e dimensionados. Curso para iniciantes com o professor Ricardo Novais.",
+  url: "https://amigoviolao.com/cursos/iniciantes",
+  inLanguage: "pt-BR",
+  provider: {
+    "@type": "Organization",
+    name: "Amigo Violão",
+    url: "https://amigoviolao.com",
+  },
+  offers: {
+    "@type": "Offer",
+    price: "479.00",
+    priceCurrency: "BRL",
+    category: "Paid",
+    availability: "https://schema.org/InStock",
+  },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: iniciantesFaqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
+
 const badges = [
   "Curso super gradual e acessível",
   "Estude quando e de onde quiser",
   "Aprendizado completo",
 ];
 
-const videos = [
-  { duration: "01:43", name: "Fátima" },
-  { duration: "02:03", name: "Sizenando" },
-  { duration: "01:17", name: "Bella" },
-  { duration: "01:09", name: "Wilkerson" },
-];
-
-const audience = [
-  "Pessoas de todas as idades que amam o violão e querem tocar também;",
-  "Para quem já tentou e não conseguiu aprender;",
-  "Para quem quer aumentar o repertório e tocar com os amigos;",
+const whyLearnFeatures = [
+  {
+    title: "O Amigo Violão é líder",
+    description:
+      "Em ensinar violão de forma gradual e eficaz, inclusive para quem já tentou e não conseguiu.",
+  },
+  {
+    title: "Tudo começa aqui",
+    description:
+      "Acesse aulas, exercícios, playbacks, cifras, tabs e suporte direto.",
+  },
+  {
+    title: "Aprenda com os melhores!",
+    description:
+      "Professores especialistas em didática. Ensinar é uma arte que valorizamos.",
+  },
+  {
+    title: "Para toda a família",
+    description:
+      "O acesso inclui este e muitos outros cursos, para que toda a família aprenda.",
+  },
 ];
 
 const modules = [
@@ -58,47 +103,74 @@ const modules = [
   },
 ];
 
-const faqs = [
+const videos = [
+  { duration: "01:43", name: "Fátima" },
+  { duration: "02:03", name: "Sizenando" },
+  { duration: "01:17", name: "Bella" },
+  { duration: "01:09", name: "Wilkerson" },
+];
+
+const audience = [
+  "Pessoas de todas as idades que amam o violão e querem tocar também;",
+  "Para quem já tentou e não conseguiu aprender;",
+  "Para quem quer aumentar o repertório e tocar com os amigos;",
+];
+
+const valueStackCoreItems = [
+  "Curso completo de violão para iniciantes (cifras, solos e melodias)",
+  "Acesso por 2 anos na plataforma NAVE",
+  "Suporte da comunidade Amigo Violão",
+  "Garantia incondicional de 30 dias",
+];
+
+const valueStackBonuses = [
   {
-    question: "Como saber se este curso é para meu nível?",
-    answer:
-      "A nossa plataforma contém diferentes cursos, voltados a: Crianças; Iniciantes de qualquer idade; Alunos de violão que querem avançar (teoria, técnica, solos de violão, etc); Quem quer ensinar violão.",
+    label: "Curso de Violão para Crianças",
+    value: "R$ 479,00",
+    description:
+      "O curso completo para os pequenos — perfeito para incentivar os filhos e aprender em família.",
   },
   {
-    question: "Como é o acesso ao curso?",
-    answer:
-      "Você terá acesso a aulas dentro da plataforma do Amigo Violão, com login e senha, que serão enviados a você após sua inscrição.",
+    label: "Iniciação ao Violão Clássico",
+    value: "R$ 479,00",
+    description:
+      "Primeiros passos no violão erudito, com técnica de dedilhado e repertório clássico.",
   },
   {
-    question: "O que diferencia este curso de outros cursos de violão?",
-    answer:
-      "1 – Metodologia que funciona inclusive para crianças e alunos com mais dificuldades, usando recursos que preparam a musculatura, o entendimento musical e a coordenação motora, antes de chegar ao que outros métodos consideram “fácil”, que são os acordes e batidas. 2 – Sistema de ensino, que possui mentorias para que os alunos recebam feedback personalizado e nunca fiquem travados pelo fato do curso ser online. 3 – Cursos diferentes na plataforma para públicos diferentes. Crianças aprendem de um jeito diferente de adultos. E os objetivos de cada um são diferentes.",
+    label: "Técnicas de violão flamenco",
+    value: "R$ 197,00",
+    description:
+      "Rasgueados, percussão e outras técnicas do flamenco para dar um novo colorido ao seu violão.",
   },
   {
-    question: "Este curso me levará a um nível avançado?",
-    answer:
-      "Este é o objetivo deste curso. Te ajudar com as melhores ferramentas e estratégias a chegar no melhor nível possível no violão.",
-  },
-  {
-    question: "Por quanto tempo teremos acesso?",
-    answer: "Acesso por 2 anos à plataforma.",
-  },
-  {
-    question: "E a garantia como funciona?",
-    answer:
-      "Você tem direito a 30 dias de garantia após o pagamento. Acreditamos realmente que este é o melhor curso de violão online que você pode ter acesso. Não apenas o método é o melhor, como a forma de ensinar também não deixa por menos. Aulas gravadas e suporte direto com o professor pelo Zoom. Não tem como dar errado. Por isso acreditamos muito neste curso e sabemos que você não precisará usar a garantia. Mas se quiser, claro, devolveremos seu dinheiro.",
+    label: "Improvisação na guitarra",
+    value: "R$ 197,00",
+    description:
+      "Aprenda a improvisar solos e criar frases musicais com liberdade, do violão à guitarra.",
   },
 ];
 
 export default function CursoParaIniciantesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Header />
       <main className="flex-1">
         <PromoBanner />
         <IniciantesHero />
-        <BadgeStrip badges={badges} />
-        <WhyLearn />
+        <FeatureBadges badges={badges} />
+        <SalesWhyLearn features={whyLearnFeatures} />
+        <CourseModules
+          heading="Conteúdos do curso de violão para iniciantes:"
+          modules={modules}
+        />
         <VideoTestimonials videos={videos} />
         <LearnForReal />
         <WhoIsItFor
@@ -110,25 +182,24 @@ export default function CursoParaIniciantesPage() {
             height: 400,
           }}
         />
-        <CrossSell />
         <About />
+        <ValueStack
+          coreItems={valueStackCoreItems}
+          bonuses={valueStackBonuses}
+        />
         <PricingCTA
           eyebrow="APROVEITE ESTA OFERTA!"
           heading="Acesso completo a este curso e a toda a plataforma, por apenas:"
           ctaText="SIM! QUERO MUITO APRENDER VIOLÃO!"
-          inclusions={[
-            "Curso completo de violão para iniciantes (cifras, solos e melodias)",
-            "Acesso a toda a plataforma NAVE (cursos para crianças, avançar e ensinar também)",
-            "Acesso por 2 anos",
-            "Suporte direto com o professor",
-            "Garantia incondicional de 30 dias",
-          ]}
+          inclusions={null}
         />
-        <CourseModules
-          heading="Conteúdos do curso de violão para iniciantes:"
-          modules={modules}
+        <Guarantee text="Experimente o curso por 30 dias. Se você não gostar por qualquer motivo, é só pedir o reembolso dentro da própria plataforma e devolvemos 100% do valor, sem perguntas e sem burocracia. Todo o risco é nosso." />
+        <Faq faqs={iniciantesFaqs} />
+        <FinalCTA
+          heading="Você está a um passo de tocar suas primeiras músicas"
+          subtext="Comece hoje. Se em até 30 dias você achar que não é para você, devolvemos 100% do valor — sem perguntas."
+          ctaText="QUERO APRENDER VIOLÃO AGORA"
         />
-        <Faq faqs={faqs} />
       </main>
       <Footer />
       <StickyMobileCTA />

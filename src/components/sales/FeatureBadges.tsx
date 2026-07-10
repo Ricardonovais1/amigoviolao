@@ -1,12 +1,18 @@
 import Reveal from "../Reveal";
 
-const badges = [
+const defaultBadges = [
   "Super gradual e acessível",
   "A partir de 5 anos de idade",
   "Aprendizado completo",
 ];
 
-export default function FeatureBadges() {
+type FeatureBadgesProps = {
+  badges?: string[];
+};
+
+export default function FeatureBadges({
+  badges = defaultBadges,
+}: FeatureBadgesProps) {
   return (
     <div className="-mt-px bg-dark pb-12 md:pb-16">
       <div className="mx-auto grid max-w-6xl gap-4 px-6 sm:grid-cols-3">

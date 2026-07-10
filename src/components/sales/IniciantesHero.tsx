@@ -1,4 +1,5 @@
 import Reveal from "../Reveal";
+import YouTubeVideo from "../YouTubeVideo";
 
 export default function IniciantesHero() {
   return (
@@ -23,13 +24,10 @@ export default function IniciantesHero() {
         </Reveal>
 
         <Reveal delay={100}>
-          <div className="aspect-video w-full overflow-hidden rounded-xl shadow-lg">
-            <iframe
-              src="https://www.youtube.com/embed/bGdaHM4VcPM"
+          <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
+            <YouTubeVideo
+              id="bGdaHM4VcPM"
               title="Curso de Violão para iniciantes - Metodologia Amigo Violão"
-              className="h-full w-full"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
             />
           </div>
         </Reveal>
