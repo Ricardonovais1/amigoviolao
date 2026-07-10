@@ -89,3 +89,65 @@ export const iniciantesFaqs: FaqItem[] = [
       "Sim! Você pode assistir de três formas: abrindo a plataforma pelo navegador da sua smart TV, transmitindo do celular para a TV via Chromecast ou AirPlay pelo app da Hotmart, ou espelhando a tela do celular. Na tela grande fica muito mais fácil acompanhar as aulas enquanto segura o violão.",
   },
 ];
+
+export const classicoFaqs: FaqItem[] = [
+  {
+    question: "Este curso também funciona para quem é totalmente iniciante?",
+    answer:
+      "O objetivo do curso é ensinar leitura, teoria, técnica e repertório inicial para quem já toca pelo menos os primeiros acordes.",
+  },
+  {
+    question: "Como é o acesso ao curso?",
+    answer:
+      "Você terá acesso a aulas dentro da plataforma do Amigo Violão, com login e senha, que serão enviados a você após sua inscrição.",
+  },
+  {
+    question: "O que diferencia este curso de outros cursos de violão?",
+    answer:
+      "1 – Metodologia que funciona inclusive para crianças e alunos com mais dificuldades, usando recursos que preparam a musculatura, o entendimento musical e a coordenação motora, antes de chegar ao que outros métodos consideram “fácil”, que são os acordes e batidas. 2 – Sistema de ensino, que possui mentorias para que os alunos recebam feedback personalizado e nunca fiquem travados pelo fato do curso ser online. 3 – Cursos diferentes na plataforma para públicos diferentes. Crianças aprendem de um jeito diferente de adultos. E os objetivos de cada um são diferentes.",
+  },
+  {
+    question: "Este curso funciona para quem quer fazer curso superior de música?",
+    answer:
+      "O curso visa preparar você para ler músicas em uma partitura, habilidade esta necessária para se cursar a faculdade de música. Mas o curso é focado em introduzir o violão clássico. Para concorrer a uma vaga na universidade será necessário estudar outros tópicos que o INVIC não aborda.",
+  },
+  {
+    question: "Por quanto tempo teremos acesso?",
+    answer: "Acesso por 2 anos à plataforma.",
+  },
+  {
+    question: "E a garantia como funciona?",
+    answer:
+      "Você tem direito a 30 dias de garantia após o pagamento. Acreditamos realmente que este é o melhor curso de violão online que você pode ter acesso. Não apenas o método é o melhor, como a forma de ensinar também não deixa por menos. Aulas gravadas e suporte direto com o professor pelo Zoom. Não tem como dar errado. Por isso acreditamos muito neste curso e sabemos que você não precisará usar a garantia. Mas se quiser, claro, devolveremos seu dinheiro.",
+  },
+  {
+    question: "Quais conhecimentos prévios preciso ter?",
+    answer:
+      "Basta você tocar alguns acordes. O curso não é avançado, mas não aborda os primeiros passos. Com o pouco que souber e vontade de aprender, você já é um aluno apto.",
+  },
+  {
+    question: "O curso é muito longo? São quantos módulos e aulas?",
+    answer:
+      "O programa de violão clássico possui 4 cursos: Leitura (17 módulos com aprox. 50 vídeo aulas), Teoria (4 módulos com aprox. 20 vídeo aulas), Técnica (5 módulos, com aprox. 15 vídeo aulas) e Repertório (6 módulos com aprox. 15 vídeo aulas).",
+  },
+  {
+    question: "Quantas horas de estudo precisa por dia para ter resultados?",
+    answer:
+      "Se você estudar 30 min a 1 hora por dia, conseguirá evoluir rapidamente com a metodologia do INVIC. Importante salientar que muitas horas mal aproveitadas valem menos que alguns minutos bem estudados.",
+  },
+  {
+    question: "Como é o suporte do INVIC?",
+    answer:
+      "Você terá acesso ao grupo secreto de alunos Amigo Violão onde terá interação com alunos e o professor. E poderá enviar vídeos para obter feedback por e-mail ou pelo grupo. Poderá também optar por mentorias pelo Zoom, após se inscrever.",
+  },
+  {
+    question: "Tem aplicativo para assistir às aulas?",
+    answer:
+      "Sim! O acesso às aulas é feito pela plataforma da Hotmart, que tem aplicativo gratuito para celular e tablet (Android e iOS). É só baixar o app da Hotmart, entrar com o e-mail usado na compra e todo o curso estará lá — dá inclusive para baixar as aulas e assistir sem internet.",
+  },
+  {
+    question: "É possível assistir pela TV?",
+    answer:
+      "Sim! Você pode assistir de três formas: abrindo a plataforma pelo navegador da sua smart TV, transmitindo do celular para a TV via Chromecast ou AirPlay pelo app da Hotmart, ou espelhando a tela do celular. Na tela grande fica muito mais fácil acompanhar as aulas enquanto segura o violão.",
+  },
+];
