@@ -9,6 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://amigoviolao.com"),
   title: "Amigo Violão - Cursos de violão online para toda a família",
   description:
     "Ensine ou aprenda violão com leveza e alegria. Cursos para crianças, iniciantes e professores.",

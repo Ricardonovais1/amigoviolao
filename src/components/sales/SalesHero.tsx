@@ -1,4 +1,5 @@
 import Reveal from "../Reveal";
+import YouTubeVideo from "../YouTubeVideo";
 
 export default function SalesHero() {
   return (
@@ -22,13 +23,10 @@ export default function SalesHero() {
         </Reveal>
 
         <Reveal delay={100}>
-          <div className="aspect-video w-full overflow-hidden rounded-xl shadow-lg">
-            <iframe
-              src="https://player.vimeo.com/video/679382087"
+          <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
+            <YouTubeVideo
+              id="Qwhow0411J8"
               title="Curso de Violão para Crianças - Amigo Violão"
-              className="h-full w-full"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
             />
           </div>
         </Reveal>

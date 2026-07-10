@@ -19,7 +19,7 @@ export default function Home() {
         <WhyLearn />
         <Testimonials />
         <HowItWorks />
-        <VideoTestimonials />
+        <VideoTestimonials aspect="video" />
         <Courses />
         <About />
       </main>

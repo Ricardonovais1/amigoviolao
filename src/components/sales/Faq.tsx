@@ -2,46 +2,10 @@
 
 import { useState } from "react";
 import Reveal from "../Reveal";
-
-const defaultFaqs = [
-  {
-    question: "Este curso funciona para quais idades?",
-    answer:
-      "A partir de 5 anos até adultos. Vale salientar que você terá acesso ao conteúdo integral da NAVE, e tem conteúdos para alunos adultos também, que você pode usar se também quiser aprender!",
-  },
-  {
-    question: "As aulas são gravadas ou ao vivo?",
-    answer:
-      "Você terá acesso a aulas gravadas, acessadas dentro da plataforma NAVE AMIGO VIOLÃO.",
-  },
-  {
-    question: "Aqui em casa ninguém sabe nada. Funciona para nós?",
-    answer:
-      "Não apenas funciona, como o curso foi pensado também para famílias como a sua. Você verá que as crianças realmente aprendem, então tudo que você terá que fazer é auxiliá-las em momentos pontuais, como o acesso, por exemplo.",
-  },
-  {
-    question: "Online dá certo mesmo?",
-    answer:
-      'Com este método funciona. A maior dificuldade da grande parte dos professores de violão em ensinar online é que, ao tentar ensinar conteúdos muito desafiadores acabam sentindo falta de poder "segurar as mãos" dos alunos. Com conteúdos adequados isso não é um problema. Esta é a arte de ensinar violão, que é a marca do Amigo Violão.',
-  },
-  {
-    question: "Qual diferença deste método para outros métodos de violão para crianças?",
-    answer:
-      "A diferença é que sabemos quão importante é ter um material desenvolvido especificamente para as crianças, e não apenas tratá-las com mais paciência. Aqui trabalhamos conteúdos realmente acessíveis, devido ao tempo, dedicação e amor investidos na didática do violão para os pequenos ao longo de muitos anos.",
-  },
-  {
-    question: "E a garantia como funciona?",
-    answer:
-      "Você tem direito a 30 dias de garantia após o pagamento. Acreditamos realmente que este é o melhor curso de violão online que você pode ter acesso. Não apenas o método é o melhor, como a forma de ensinar também não deixa por menos.",
-  },
-  {
-    question: "Quanto tempo terei acesso ao curso?",
-    answer: "Seu acesso é por 2 anos.",
-  },
-];
+import { defaultFaqs, type FaqItem } from "./faqData";
 
 type FaqProps = {
-  faqs?: { question: string; answer: string }[];
+  faqs?: FaqItem[];
 };
 
 export default function Faq({ faqs = defaultFaqs }: FaqProps) {
