@@ -4,7 +4,15 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+const courseLinks = [
+  { label: "Curso para Crianças", href: "/cursos/criancas" },
+  { label: "Curso para Iniciantes", href: "/cursos/iniciantes" },
+  { label: "Curso de Clássico", href: "/cursos/classico" },
+  { label: "Para Professores", href: "/cursos/professores" },
+];
+
 const navLinks = [
+  { label: "Home", href: "/" },
   { label: "Blog", href: "/blog" },
   { label: "Já sou aluno", href: "/login" },
 ];
@@ -29,15 +37,64 @@ export default function Header() {
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-white/90 transition-colors hoverable:text-primary"
+          <Link
+            href="/"
+            className="text-sm font-medium text-white/90 transition-colors hoverable:text-primary"
+          >
+            Home
+          </Link>
+
+          <div className="group relative">
+            <button
+              type="button"
+              aria-haspopup="true"
+              className="flex items-center gap-1 text-sm font-medium text-white/90 transition-colors group-hover:text-primary group-focus-within:text-primary"
             >
-              {link.label}
-            </Link>
-          ))}
+              Cursos
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                aria-hidden="true"
+                className="transition-transform duration-200 ease-snappy group-hover:rotate-180 group-focus-within:rotate-180"
+              >
+                <path
+                  d="M2.5 4.5L6 8l3.5-3.5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+            <div className="invisible absolute left-1/2 top-full z-50 w-56 -translate-x-1/2 translate-y-1 pt-3 opacity-0 transition-[opacity,transform] duration-200 ease-snappy group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
+              <div className="overflow-hidden rounded-xl border border-black/5 bg-white py-2 shadow-lg">
+                {courseLinks.map((course) => (
+                  <Link
+                    key={course.href}
+                    href={course.href}
+                    className="block px-4 py-2.5 text-sm font-medium text-charcoal transition-colors hoverable:bg-cream hoverable:text-primary"
+                  >
+                    {course.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <Link
+            href="/blog"
+            className="text-sm font-medium text-white/90 transition-colors hoverable:text-primary"
+          >
+            Blog
+          </Link>
+          <Link
+            href="/login"
+            className="text-sm font-medium text-white/90 transition-colors hoverable:text-primary"
+          >
+            Já sou aluno
+          </Link>
           <Link href="/seja-aluno" className={ctaClasses}>
             Seja aluno
           </Link>
@@ -83,16 +140,42 @@ export default function Header() {
               open ? "opacity-100 delay-100" : "opacity-0"
             }`}
           >
-            {navLinks.map((link) => (
+            <Link
+              href="/"
+              onClick={() => setOpen(false)}
+              className="rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
+            >
+              Home
+            </Link>
+
+            <p className="px-2 pt-2 text-xs font-semibold uppercase tracking-wide text-white/40">
+              Cursos
+            </p>
+            {courseLinks.map((course) => (
               <Link
-                key={link.href}
-                href={link.href}
+                key={course.href}
+                href={course.href}
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
+                className="rounded-lg px-4 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
               >
-                {link.label}
+                {course.label}
               </Link>
             ))}
+
+            <Link
+              href="/blog"
+              onClick={() => setOpen(false)}
+              className="mt-1 rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/login"
+              onClick={() => setOpen(false)}
+              className="rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
+            >
+              Já sou aluno
+            </Link>
             <Link
               href="/seja-aluno"
               onClick={() => setOpen(false)}

@@ -47,12 +47,6 @@ export default function Hero() {
               Como Funciona?
             </a>
             <a
-              href="#cursos"
-              className={`${buttonBase} bg-primary text-white hover:bg-primary-dark`}
-            >
-              Conhecer os Cursos
-            </a>
-            <a
               href="#contato"
               className={`${buttonBase} border border-white/30 text-white hover:border-white hover:bg-white/10`}
             >

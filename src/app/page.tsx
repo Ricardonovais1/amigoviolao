@@ -5,7 +5,6 @@ import WhyLearn from "@/components/WhyLearn";
 import Testimonials from "@/components/Testimonials";
 import HowItWorks from "@/components/HowItWorks";
 import VideoTestimonials from "@/components/VideoTestimonials";
-import Courses from "@/components/Courses";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 
@@ -20,7 +19,6 @@ export default function Home() {
         <Testimonials />
         <HowItWorks />
         <VideoTestimonials aspect="video" />
-        <Courses />
         <About />
       </main>
       <Footer />
