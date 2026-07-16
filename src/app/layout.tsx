@@ -10,6 +10,12 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://amigoviolao.com"),
+  // TODO: remover antes do lançamento oficial — impede indexação pelo Google
+  // enquanto o site está em teste no domínio .vercel.app
+  robots: {
+    index: false,
+    follow: false,
+  },
   title: "Amigo Violão - Cursos de violão online para toda a família",
   description:
     "Ensine ou aprenda violão com leveza e alegria. Cursos para crianças, iniciantes e professores.",
