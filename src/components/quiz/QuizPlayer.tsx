@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 export type QuizQuestion = {
   prompt: string;
@@ -31,6 +31,54 @@ const legend = [
   { className: "bg-green-500", label: "Correto" },
   { className: "bg-red-600", label: "Incorreto" },
 ];
+
+const pill =
+  "rounded-full bg-primary px-5 py-2 text-sm font-bold text-white transition-colors hoverable:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-40";
+const pillGhost =
+  "rounded-full border border-gray-300 bg-white px-5 py-2 text-sm font-bold text-charcoal transition-colors hoverable:border-gray-400 hoverable:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40";
+
+/**
+ * Moldura visual do quiz: cartão branco centralizado com cabeçalho da marca e
+ * barra de progresso. Usa `max-h` (não `h`) para caber em qualquer altura de
+ * iframe — o conteúdo rola internamente quando falta espaço, e não sobra vão
+ * quando há de sobra.
+ */
+function Frame({
+  title,
+  answered,
+  total,
+  children,
+}: {
+  title: string;
+  answered: number;
+  total: number;
+  children: ReactNode;
+}) {
+  const pct = total ? Math.round((answered / total) * 100) : 0;
+  return (
+    <div className="flex max-h-[calc(100dvh-2rem)] w-full max-w-2xl flex-col overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/5">
+      <header className="bg-primary px-5 py-4 sm:px-6">
+        <div className="flex items-center justify-between gap-3">
+          <h1 className="text-base font-extrabold leading-tight text-white sm:text-lg">
+            {title}
+          </h1>
+          <span className="shrink-0 rounded-full bg-white/20 px-3 py-1 text-xs font-bold text-white">
+            {answered}/{total}
+          </span>
+        </div>
+        <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-white/25">
+          <div
+            className="h-full rounded-full bg-white transition-[width] duration-300 ease-out"
+            style={{ width: `${pct}%` }}
+          />
+        </div>
+      </header>
+      <div className="flex min-h-0 flex-1 flex-col px-5 py-4 sm:px-6">
+        {children}
+      </div>
+    </div>
+  );
+}
 
 export default function QuizPlayer({
   title,
@@ -90,22 +138,22 @@ export default function QuizPlayer({
   const navColor = (i: number): string => {
     const s = states[i];
     if (i === current && !showSummary)
-      return "border-blue-600 bg-blue-600 text-white";
+      return "border-primary bg-primary text-white";
     if (s.verdict === "correct")
       return "border-green-500 bg-green-500 text-white";
     if (s.verdict === "incorrect") return "border-red-600 bg-red-600 text-white";
     if (s.review) return "border-amber-400 bg-amber-400 text-white";
     if (s.selected !== null) return "border-rose-400 bg-rose-400 text-white";
-    return "border-gray-300 bg-white text-dark hover:border-gray-500";
+    return "border-gray-300 bg-white text-dark hoverable:border-gray-500";
   };
 
   const optionClass = (i: number): string => {
     const base =
-      "flex w-full items-center gap-4 rounded-lg border px-5 py-4 text-left transition-colors";
+      "flex w-full items-center gap-3 rounded-lg border px-4 py-2.5 text-left transition-colors";
     if (!verified) {
       return i === state.selected
-        ? `${base} border-blue-600 ring-1 ring-blue-600`
-        : `${base} border-gray-200 hover:border-gray-400`;
+        ? `${base} border-primary ring-1 ring-primary`
+        : `${base} border-gray-200 hoverable:border-gray-400`;
     }
     if (i === question.correct)
       return `${base} border-green-500 bg-green-500 font-semibold text-white`;
@@ -120,34 +168,31 @@ export default function QuizPlayer({
     if (verified && (i === question.correct || i === state.selected))
       return `${base} border-white ${i === state.selected ? "bg-white" : "bg-transparent"}`;
     return i === state.selected
-      ? `${base} border-blue-600 bg-blue-600`
+      ? `${base} border-primary bg-primary`
       : `${base} border-gray-300 bg-white`;
   };
 
-  const pill =
-    "rounded-full bg-blue-600 px-6 py-2.5 text-sm font-bold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-40";
-
   const navGrid = (
     <>
-      <div className="mt-6 rounded-md border border-gray-200 bg-gray-50 p-2">
-        <div className="flex flex-wrap gap-1.5">
+      <div className="rounded-md border border-gray-200 bg-gray-50 p-1.5">
+        <div className="flex flex-wrap gap-1">
           {questions.map((_, i) => (
             <button
               key={i}
               type="button"
               onClick={() => goTo(i)}
               aria-label={`Ir para a questão ${i + 1}`}
-              className={`h-8 w-8 rounded border text-sm font-bold transition-colors ${navColor(i)}`}
+              className={`h-7 w-7 rounded border text-xs font-bold transition-colors ${navColor(i)}`}
             >
               {i + 1}
             </button>
           ))}
         </div>
       </div>
-      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-charcoal">
+      <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-charcoal">
         {legend.map((item) => (
-          <span key={item.label} className="inline-flex items-center gap-1.5">
-            <span className={`inline-block h-3.5 w-3.5 ${item.className}`} />
+          <span key={item.label} className="inline-flex items-center gap-1">
+            <span className={`inline-block h-3 w-3 rounded-sm ${item.className}`} />
             {item.label}
           </span>
         ))}
@@ -157,13 +202,12 @@ export default function QuizPlayer({
 
   if (showSummary) {
     return (
-      <div className="mx-auto max-w-3xl px-6 py-10">
-        <h1 className="text-3xl font-extrabold text-dark">{title}</h1>
+      <Frame title={title} answered={answered} total={total}>
         {navGrid}
 
-        <h2 className="mt-8 text-xl font-bold text-dark">Resumo do quiz</h2>
-        <p className="mt-2 text-charcoal">
-          Você acertou <strong className="text-dark">{score}</strong> de{" "}
+        <h2 className="mt-4 text-lg font-bold text-dark">Resumo do quiz</h2>
+        <p className="mt-1 text-charcoal">
+          Você acertou <strong className="text-primary">{score}</strong> de{" "}
           <strong className="text-dark">{total}</strong> questões (
           {score} ponto(s)).
           {answered < total && (
@@ -171,7 +215,7 @@ export default function QuizPlayer({
           )}
         </p>
 
-        <ul className="mt-6 space-y-2">
+        <ul className="mt-3 min-h-0 flex-1 space-y-2 overflow-y-auto pr-1">
           {questions.map((q, i) => {
             const s = states[i];
             const label =
@@ -191,12 +235,12 @@ export default function QuizPlayer({
             return (
               <li
                 key={i}
-                className="flex items-center justify-between gap-4 rounded-lg border border-gray-200 px-4 py-3"
+                className="flex items-center justify-between gap-4 rounded-lg border border-gray-200 px-4 py-2"
               >
                 <button
                   type="button"
                   onClick={() => goTo(i)}
-                  className="text-left text-charcoal hover:text-dark"
+                  className="text-left text-charcoal hoverable:text-dark"
                 >
                   <strong className="text-dark">{i + 1}.</strong> {q.prompt}
                 </button>
@@ -208,7 +252,7 @@ export default function QuizPlayer({
           })}
         </ul>
 
-        <div className="mt-8 flex flex-wrap gap-3">
+        <div className="mt-3 flex flex-wrap gap-3 pt-1">
           <button type="button" onClick={restart} className={pill}>
             Refazer quiz
           </button>
@@ -216,54 +260,56 @@ export default function QuizPlayer({
             <button
               type="button"
               onClick={() => goTo(states.findIndex((s) => s.verdict === null))}
-              className={pill}
+              className={pillGhost}
             >
               Continuar respondendo
             </button>
           )}
         </div>
-      </div>
+      </Frame>
     );
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-10">
-      <h1 className="text-3xl font-extrabold text-dark">{title}</h1>
+    <Frame title={title} answered={answered} total={total}>
       {navGrid}
 
-      <div className="mt-4 flex items-center justify-between">
+      <div className="mt-3 flex items-center justify-between gap-2">
         <button
           type="button"
           onClick={() => patch(current, { review: !state.review })}
           disabled={verified}
-          className={pill}
+          className={pillGhost}
         >
           Revisar questão
         </button>
         <button
           type="button"
           onClick={() => setShowSummary(true)}
-          className={pill}
+          className={pillGhost}
         >
           Resumo do quiz
         </button>
       </div>
 
-      <hr className="mt-6 border-gray-200" />
+      <hr className="mt-3 border-gray-200" />
 
-      <p className="mt-6 text-charcoal">
-        Questão <strong className="text-dark">{current + 1}</strong> de{" "}
-        <strong className="text-dark">{total}</strong>
-      </p>
-
-      <div className="mt-4 flex items-center justify-between">
-        <h2 className="font-bold text-dark">{current + 1}. Questão</h2>
-        <span className="text-sm font-bold text-dark">1 ponto(s)</span>
+      <div className="mt-3 flex items-center justify-between">
+        <h2 className="font-bold text-dark">
+          Questão {current + 1} de {total}
+        </h2>
+        <span className="rounded-full bg-teal/10 px-2.5 py-0.5 text-xs font-bold text-teal">
+          1 ponto
+        </span>
       </div>
 
-      <p className="mt-4 text-charcoal">{question.prompt}</p>
+      <p className="mt-2 font-semibold text-dark">{question.prompt}</p>
 
-      <div className="mt-4 space-y-3" role="radiogroup" aria-label={question.prompt}>
+      <div
+        className="mt-3 min-h-0 flex-1 space-y-2 overflow-y-auto pr-1"
+        role="radiogroup"
+        aria-label={question.prompt}
+      >
         {question.options.map((option, i) => (
           <button
             key={i}
@@ -280,10 +326,10 @@ export default function QuizPlayer({
         ))}
       </div>
 
-      <div className="mt-8 flex items-center justify-between">
+      <div className="mt-3 flex items-center justify-between gap-2 pt-1">
         {!verified ? (
           <>
-            <button type="button" onClick={skip} className={pill}>
+            <button type="button" onClick={skip} className={pillGhost}>
               Pular questão
             </button>
             <button
@@ -304,6 +350,6 @@ export default function QuizPlayer({
           </>
         )}
       </div>
-    </div>
+    </Frame>
   );
 }

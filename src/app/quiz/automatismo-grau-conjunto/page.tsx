@@ -104,7 +104,7 @@ const questions: QuizQuestion[] = [
 
 export default function QuizAutomatismoGrauConjuntoPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="flex min-h-dvh items-center justify-center bg-cream/40 p-3 sm:p-4">
       <QuizPlayer
         title="Quiz – Automatismo – Grau Conjunto"
         questions={questions}
