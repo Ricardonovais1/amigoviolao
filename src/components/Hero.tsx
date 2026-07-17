@@ -53,7 +53,7 @@ export default function Hero() {
               Conhecer os Cursos
             </a>
             <a
-              href="#contato"
+              href="#sobre"
               className={`${buttonBase} border border-white/30 text-white hover:border-white hover:bg-white/10`}
             >
               Entrar em Contato

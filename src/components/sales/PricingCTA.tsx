@@ -66,9 +66,12 @@ export default function PricingCTA({
           <p className="mt-6 text-2xl text-red-500/80 line-through">
             R$697,00
           </p>
-          <p className="text-5xl font-extrabold text-primary">R$479,00</p>
-          <p className="mt-2 text-2xl font-bold text-green-600">
-            ou 12x R$49,54
+          <p className="text-primary">
+            <span className="text-2xl font-bold">12x de </span>
+            <span className="text-5xl font-extrabold">R$49,54</span>
+          </p>
+          <p className="mt-2 text-lg font-semibold text-foreground/70">
+            ou R$479,00 à vista
           </p>
           <p className="mt-4 text-sm font-semibold uppercase tracking-wide text-foreground/60">
             Garantia de 30 dias
@@ -90,7 +93,7 @@ export default function PricingCTA({
             alt={trustImage.alt}
             width={trustImage.width}
             height={trustImage.height}
-            className="mx-auto mt-6 h-auto w-full max-w-[280px]"
+            className="no-zoom mx-auto mt-6 h-auto w-full max-w-[280px]"
           />
         </Reveal>
       </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import BackToTop from "@/components/BackToTop";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -31,11 +32,13 @@ export default function RootLayout({
     <html
       lang="pt-BR"
       className={`${poppins.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans text-[#3a3a3a]">
         {children}
         <BackToTop />
+        <WhatsAppFloat />
       </body>
     </html>
   );

@@ -1,6 +1,11 @@
 import Reveal from "./Reveal";
 
-const audiences = ["Crianças de 5 a 12 anos", "Jovens", "Adultos"];
+const audiences = [
+  "Crianças de 5 a 12 anos",
+  "Iniciantes do zero",
+  "Professores de violão",
+  "Quem busca técnicas avançadas",
+];
 
 export default function AudienceStrip() {
   return (
@@ -8,14 +13,14 @@ export default function AudienceStrip() {
       <div className="mx-auto max-w-4xl px-6 text-center">
         <Reveal>
           <h2 className="text-2xl font-extrabold text-teal sm:text-3xl">
-            O seu acesso inclui cursos para:
+            Possuímos cursos de violão para:
           </h2>
         </Reveal>
 
-        <div className="mt-8 flex flex-col items-stretch gap-4 sm:flex-row sm:justify-center">
+        <div className="mx-auto mt-8 flex max-w-2xl flex-col items-stretch gap-4 sm:grid sm:grid-cols-2">
           {audiences.map((audience, i) => (
             <Reveal key={audience} delay={i * 60}>
-              <span className="block rounded-full bg-teal px-8 py-3 text-sm font-semibold text-white sm:text-base">
+              <span className="block rounded-full bg-teal px-8 py-3 text-sm font-semibold text-white sm:whitespace-nowrap sm:text-base">
                 {audience}
               </span>
             </Reveal>

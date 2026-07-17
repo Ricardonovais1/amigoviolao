@@ -2,7 +2,16 @@
 
 import { useEffect, useState } from "react";
 
-export default function StickyMobileCTA() {
+type StickyMobileCTAProps = {
+  /** Ação principal, específica de cada curso (ex.: "Tocar violão do zero"). */
+  label?: string;
+  price?: string;
+};
+
+export default function StickyMobileCTA({
+  label = "Quero garantir minha vaga",
+  price = "12x de R$49,54",
+}: StickyMobileCTAProps) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -20,9 +29,12 @@ export default function StickyMobileCTA() {
     >
       <a
         href="#comprar"
-        className="block w-full rounded-full bg-primary py-3 text-center text-sm font-bold text-white transition-transform duration-150 ease-snappy active:scale-[0.97]"
+        className="flex w-full flex-col items-center rounded-full bg-primary py-2.5 text-center text-white transition-transform duration-150 ease-snappy active:scale-[0.97]"
       >
-        Garantir minha vaga — R$479,00
+        <span className="text-sm font-bold leading-tight">{label}</span>
+        <span className="text-xs font-semibold leading-tight opacity-90">
+          por {price}
+        </span>
       </a>
     </div>
   );

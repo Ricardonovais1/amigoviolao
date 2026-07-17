@@ -74,7 +74,7 @@ export default function TextTestimonials() {
               type="button"
               onClick={() => go(-1)}
               aria-label="Depoimento anterior"
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-black/10 text-charcoal transition-transform duration-150 ease-snappy active:scale-[0.9]"
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary text-4xl leading-none text-white shadow-md transition-transform duration-150 ease-snappy hoverable:bg-primary-dark hoverable:scale-110 active:scale-[0.9]"
             >
               ‹
             </button>
@@ -87,7 +87,7 @@ export default function TextTestimonials() {
               type="button"
               onClick={() => go(1)}
               aria-label="Próximo depoimento"
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-black/10 text-charcoal transition-transform duration-150 ease-snappy active:scale-[0.9]"
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary text-4xl leading-none text-white shadow-md transition-transform duration-150 ease-snappy hoverable:bg-primary-dark hoverable:scale-110 active:scale-[0.9]"
             >
               ›
             </button>

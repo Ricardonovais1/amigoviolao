@@ -13,14 +13,16 @@ import ProvicFeatures from "@/components/sales/ProvicFeatures";
 import ProvicTeachers from "@/components/sales/ProvicTeachers";
 import TextTestimonials from "@/components/sales/TextTestimonials";
 import CrossSell from "@/components/sales/CrossSell";
-import NaveCourses from "@/components/sales/NaveCourses";
 import PricingCTA from "@/components/sales/PricingCTA";
 import ValueStack from "@/components/sales/ValueStack";
 import Guarantee from "@/components/sales/Guarantee";
 import FinalCTA from "@/components/sales/FinalCTA";
 import Faq from "@/components/sales/Faq";
 import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
-import { HOTMART_PROVIC_CHECKOUT_URL } from "@/lib/links";
+import {
+  HOTMART_PROVIC_CHECKOUT_URL,
+  WHATSAPP_COURSE_MESSAGES,
+} from "@/lib/links";
 
 export const metadata: Metadata = {
   title: "Curso PROVIC - Professor de Violão para Crianças - Amigo Violão",
@@ -86,19 +88,35 @@ const modules = [
 
 const bonusItems = [
   {
-    title: "Contrato para você firmar com seus alunos",
+    title: "Contrato para você firmar com seus alunos e comunidade de professores",
+    subtitle: "Contrato para você firmar com seus alunos e comunidade de professores",
     image:
       "https://amigoviolao.com/wp-content/uploads/2018/05/Imagem-contrato_tamanho.png",
   },
   {
-    title: "Cartão de visitas Amigo Violão",
-    image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/Cart%C3%A3o-de-Visitas-1.jpg",
+    title: "Certificado 45 Horas após aprovação nas avaliações",
+    subtitle: "Certificado 45 Horas após aprovação nas avaliações",
+    image: "/images/certificado-provic-malaquias.png",
   },
   {
-    title: "Certificado 45 Horas após aprovação nas avaliações",
-    image:
-      "https://amigoviolao.com/wp-content/uploads/2022/02/Certificado-Eduardo-1024x711-1.png",
+    title: "Técnica de violão flamenco",
+    subtitle: "Técnica de violão flamenco",
+    image: "/images/bonus-flamenco.png",
+  },
+  {
+    title: "Violão para Educadores Musicais",
+    subtitle: "Violão para Educadores Musicais",
+    image: "/images/bonus-educadores-musicais.png",
+  },
+  {
+    title: "Curso de Violão Clássico",
+    subtitle: "Curso de Violão Clássico",
+    image: "/images/bonus-violao-classico.png",
+  },
+  {
+    title: "Campo Harmônico e Ritmos brasileiros",
+    subtitle: "Campo Harmônico e Ritmos brasileiros",
+    image: "/images/bonus-campo-harmonico-v2.png",
   },
 ];
 
@@ -111,9 +129,9 @@ const bio = [
 ];
 
 const valueStackCoreItems = [
-  "Curso PROVIC completo, com acesso vitalício",
+  "Curso PROVIC completo, com acesso por 2 anos",
   "Certificação de 45h após aprovação nas avaliações",
-  "PDFs e áudios para baixar e usar em aula",
+  "PDFs e áudios para baixar e usar em suas aulas",
   "Comunidade de professores Amigo Violão",
   "Garantia de 30 dias",
 ];
@@ -214,7 +232,7 @@ const faqs = [
   {
     question: "Quanto tempo de acesso?",
     answer:
-      "O acesso ao PROVIC é vitalício, através da plataforma do Hotmart. Paralelamente você recebe o acesso à NAVE AMIGO VIOLÃO por 2 anos, que possui os bônus descritos na pergunta a seguinte.",
+      "O acesso ao PROVIC é de 2 anos, através da plataforma do Hotmart. Paralelamente você recebe o acesso à NAVE AMIGO VIOLÃO, também por 2 anos, que possui os bônus descritos na pergunta a seguinte.",
   },
   {
     question: "Quais são os conteúdos bônus?",
@@ -275,7 +293,7 @@ export default function CursoParaProfessoresPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 zoom-images">
         <PromoBanner
           text="PROMO DE FÉRIAS: Se prepare para ser excelente nas aulas do segundo semestre."
           color="teal"
@@ -322,21 +340,6 @@ export default function CursoParaProfessoresPage() {
 
         <ProvicFeatures />
 
-        <div className="bg-white pb-10 pt-6">
-          <Reveal className="mx-auto max-w-3xl px-6 text-center">
-            <p className="text-xl font-bold text-charcoal sm:text-2xl">
-              Acesso completo a este curso e a toda a plataforma, hoje!
-            </p>
-          </Reveal>
-        </div>
-
-        <PricingCTA
-          heading="Compre agora e tenha acesso a:"
-          ctaText="COMECE AGORA O CURSO"
-          checkoutUrl={HOTMART_PROVIC_CHECKOUT_URL}
-          inclusions={null}
-        />
-
         <ProvicTeachers />
         <TextTestimonials />
 
@@ -357,9 +360,7 @@ export default function CursoParaProfessoresPage() {
           </Reveal>
         </div>
         <CrossSell heading={null} items={bonusItems} columns={3} />
-
-        <NaveCourses />
-        <About paragraphs={bio} />
+        <About paragraphs={bio} whatsappMessage={WHATSAPP_COURSE_MESSAGES.professores} />
 
         <ValueStack
           heading="Tudo o que você recebe hoje:"
@@ -389,7 +390,7 @@ export default function CursoParaProfessoresPage() {
         />
       </main>
       <Footer />
-      <StickyMobileCTA />
+      <StickyMobileCTA label="Quero ser um professor melhor" />
     </>
   );
 }

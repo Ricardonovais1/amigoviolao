@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import { WHATSAPP_COURSE_MESSAGES } from "@/lib/links";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import PromoBanner from "@/components/sales/PromoBanner";
 import SalesHero from "@/components/sales/SalesHero";
@@ -77,7 +78,7 @@ export default function CursoParaCriancasPage() {
         <VideoTestimonials aspect="video" />
         <CommonMistakes />
         <WhoIsItFor />
-        <About />
+        <About whatsappMessage={WHATSAPP_COURSE_MESSAGES.criancas} />
         <ValueStack />
         <PricingCTA inclusions={null} />
         <Guarantee />
@@ -85,7 +86,7 @@ export default function CursoParaCriancasPage() {
         <FinalCTA />
       </main>
       <Footer />
-      <StickyMobileCTA />
+      <StickyMobileCTA label="Quero inscrever meu filho(a)" />
     </>
   );
 }

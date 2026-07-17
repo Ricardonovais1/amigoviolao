@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import { WHATSAPP_COURSE_MESSAGES } from "@/lib/links";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import PromoBanner from "@/components/sales/PromoBanner";
 import IniciantesHero from "@/components/sales/IniciantesHero";
@@ -104,10 +105,10 @@ const modules = [
 ];
 
 const videos = [
-  { duration: "01:43", name: "Fátima" },
-  { duration: "02:03", name: "Sizenando" },
-  { duration: "01:17", name: "Bella" },
-  { duration: "01:09", name: "Wilkerson" },
+  { duration: "01:43", name: "Fátima", youtubeId: "Ke3r2ffbz2A" },
+  { duration: "02:03", name: "Sizenando", youtubeId: "eajqt7bQkGQ" },
+  { duration: "01:17", name: "Bella", youtubeId: "pgj2c2Vhgo4" },
+  { duration: "01:09", name: "Wilkerson", youtubeId: "4tNNyEJbgvg" },
 ];
 
 const audience = [
@@ -171,7 +172,7 @@ export default function CursoParaIniciantesPage() {
           heading="Conteúdos do curso de violão para iniciantes:"
           modules={modules}
         />
-        <VideoTestimonials videos={videos} />
+        <VideoTestimonials videos={videos} aspect="video" />
         <LearnForReal />
         <WhoIsItFor
           audience={audience}
@@ -182,7 +183,7 @@ export default function CursoParaIniciantesPage() {
             height: 400,
           }}
         />
-        <About />
+        <About whatsappMessage={WHATSAPP_COURSE_MESSAGES.iniciantes} />
         <ValueStack
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
@@ -202,7 +203,7 @@ export default function CursoParaIniciantesPage() {
         />
       </main>
       <Footer />
-      <StickyMobileCTA />
+      <StickyMobileCTA label="Quero tocar violão do zero" />
     </>
   );
 }

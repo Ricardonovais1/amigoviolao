@@ -58,7 +58,7 @@ export default function CrossSell({
           {items.map((item, i) => (
             <Reveal key={item.title} delay={i * 60}>
               <div>
-                <div className="relative aspect-video overflow-hidden rounded-lg shadow-sm">
+                <div className="relative aspect-[640/396] overflow-hidden rounded-lg shadow-sm">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -72,7 +72,7 @@ export default function CrossSell({
                   />
                 </div>
                 {item.subtitle && (
-                  <p className="mt-2 text-sm font-medium text-foreground/70">
+                  <p className="mt-2 text-sm text-primary">
                     {item.subtitle}
                   </p>
                 )}

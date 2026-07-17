@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import { WHATSAPP_COURSE_MESSAGES } from "@/lib/links";
 import WhyLearn from "@/components/WhyLearn";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import Reveal from "@/components/Reveal";
@@ -88,10 +89,10 @@ const modules = [
 ];
 
 const videos = [
-  { duration: "01:17", name: "Bella" },
-  { duration: "01:00", name: "Wilkerson" },
-  { duration: "01:41", name: "André Horta" },
-  { duration: "01:20", name: "Flávio Bessa" },
+  { duration: "01:17", name: "Bella", youtubeId: "pgj2c2Vhgo4" },
+  { duration: "01:00", name: "Wilkerson", youtubeId: "4tNNyEJbgvg" },
+  { duration: "01:41", name: "André Horta", youtubeId: "lIEgxkuShzQ" },
+  { duration: "01:20", name: "Flávio Bessa", youtubeId: "Bq7yzPSRrq0" },
 ];
 
 const obstacles = [
@@ -215,7 +216,7 @@ export default function CursoDeClassicoPage() {
           <hr className="mx-auto max-w-4xl border-black/10" />
         </div>
 
-        <About paragraphs={bio} />
+        <About paragraphs={bio} whatsappMessage={WHATSAPP_COURSE_MESSAGES.classico} />
         <ValueStack
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
@@ -235,7 +236,7 @@ export default function CursoDeClassicoPage() {
         />
       </main>
       <Footer />
-      <StickyMobileCTA />
+      <StickyMobileCTA label="Quero dominar o violão" />
     </>
   );
 }
