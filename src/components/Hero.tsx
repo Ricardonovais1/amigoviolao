@@ -12,7 +12,7 @@ export default function Hero() {
         alt=""
         fill
         priority
-        className="object-cover object-center opacity-30"
+        className="no-zoom object-cover object-center opacity-30"
       />
       <div
         className="absolute inset-0 opacity-10"

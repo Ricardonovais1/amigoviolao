@@ -163,7 +163,7 @@ export default function CursoParaIniciantesPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 zoom-images">
         <PromoBanner />
         <IniciantesHero />
         <FeatureBadges badges={badges} />
