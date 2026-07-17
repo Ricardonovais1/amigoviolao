@@ -15,6 +15,9 @@ import TextTestimonials from "@/components/sales/TextTestimonials";
 import CrossSell from "@/components/sales/CrossSell";
 import NaveCourses from "@/components/sales/NaveCourses";
 import PricingCTA from "@/components/sales/PricingCTA";
+import ValueStack from "@/components/sales/ValueStack";
+import Guarantee from "@/components/sales/Guarantee";
+import FinalCTA from "@/components/sales/FinalCTA";
 import Faq from "@/components/sales/Faq";
 import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
 import { HOTMART_PROVIC_CHECKOUT_URL } from "@/lib/links";
@@ -117,6 +120,42 @@ const inclusions = [
   "Mentorias pelo Zoom e por WhatsApp",
 ];
 
+const valueStackCoreItems = [
+  "Curso PROVIC completo, com acesso vitalício",
+  "Certificação de 45h após aprovação nas avaliações",
+  "PDFs e áudios para baixar e usar em aula",
+  "Mentorias pelo Zoom e por WhatsApp",
+  "Comunidade de professores Amigo Violão",
+  "Garantia de 30 dias",
+];
+
+const valueStackBonuses = [
+  {
+    label: "Técnica de violão flamenco",
+    value: "R$ 197,00",
+    description:
+      "Rasgueados, percussão e ritmos espanhóis para dar um novo colorido às suas aulas e ao seu violão.",
+  },
+  {
+    label: "Violão para Educadores Musicais",
+    value: "R$ 197,00",
+    description:
+      "Recursos e repertório para levar o violão à musicalização e ao trabalho em sala de aula.",
+  },
+  {
+    label: "Curso de Violão Clássico",
+    value: "R$ 497,00",
+    description:
+      "Leitura, teoria, técnica e repertório do violão erudito para aprofundar a sua formação.",
+  },
+  {
+    label: "Campo Harmônico e Ritmos brasileiros",
+    value: "R$ 197,00",
+    description:
+      "Harmonia funcional e levadas dos principais ritmos brasileiros para tocar e ensinar com liberdade.",
+  },
+];
+
 const faqs = [
   {
     question: "Este curso funciona só para professores ou para meu filho também?",
@@ -198,11 +237,54 @@ const faqs = [
     answer:
       "A garantia é condicional. Se você não gostar da qualidade do produto seu dinheiro será devolvido até 30 dias.",
   },
+  {
+    question: "Tem aplicativo para assistir às aulas?",
+    answer:
+      "Sim! O acesso às aulas é feito pela plataforma da Hotmart, que tem aplicativo gratuito para celular e tablet (Android e iOS). É só baixar o app da Hotmart, entrar com o e-mail usado na compra e todo o curso estará lá — dá inclusive para baixar as aulas e assistir sem internet.",
+  },
+  {
+    question: "É possível assistir pela TV?",
+    answer:
+      "Sim! Você pode assistir de três formas: abrindo a plataforma pelo navegador da sua smart TV, transmitindo do celular para a TV via Chromecast ou AirPlay pelo app da Hotmart, ou espelhando a tela do celular. Na tela grande fica muito mais fácil acompanhar as aulas.",
+  },
 ];
+
+const courseJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Curso PROVIC - Professor de Violão para Crianças",
+  description:
+    "Seja um professor de violão mais reconhecido e valorize suas aulas, reduzindo a desmotivação e desistências. Curso PROVIC com o professor Ricardo Novais.",
+  url: "https://amigoviolao.com/cursos/professores",
+  inLanguage: "pt-BR",
+  provider: {
+    "@type": "Organization",
+    name: "Amigo Violão",
+    url: "https://amigoviolao.com",
+  },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
 
 export default function CursoParaProfessoresPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Header />
       <main className="flex-1">
         <PromoBanner
@@ -290,6 +372,13 @@ export default function CursoParaProfessoresPage() {
         <NaveCourses />
         <About paragraphs={bio} />
 
+        <ValueStack
+          heading="Tudo o que você recebe hoje:"
+          coreItems={valueStackCoreItems}
+          bonuses={valueStackBonuses}
+          totalNote="Somando apenas os bônus, são R$ 1.088,00 em conteúdos que você leva sem pagar nada a mais."
+        />
+
         <PricingCTA
           heading="Compre agora e tenha acesso a:"
           ctaText="COMECE AGORA O CURSO"
@@ -298,7 +387,17 @@ export default function CursoParaProfessoresPage() {
           sectionId="comprar-final"
         />
 
+        <Guarantee text="Você tem 30 dias de garantia. Faça o curso, comece a aplicar a metodologia nas suas aulas e, se não gostar da qualidade do conteúdo, é só solicitar o reembolso dentro da plataforma dentro desse prazo que devolvemos o valor investido." />
+
         <Faq faqs={faqs} />
+
+        <FinalCTA
+          heading="Você está a um passo de transformar as suas aulas de violão"
+          subtext="Comece hoje com a metodologia PROVIC. Você tem 30 dias de garantia para colocar tudo em prática com os seus alunos."
+          ctaText="QUERO SER UM PROFESSOR AMIGO VIOLÃO"
+          checkoutUrl={HOTMART_PROVIC_CHECKOUT_URL}
+          guaranteeNote="Garantia de 30 dias · Compra segura via Hotmart"
+        />
       </main>
       <Footer />
       <StickyMobileCTA />
