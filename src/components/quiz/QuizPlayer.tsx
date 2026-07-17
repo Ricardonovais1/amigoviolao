@@ -272,7 +272,7 @@ export default function QuizPlayer({
     <Frame title={title} answered={answered} total={total}>
       {navGrid}
 
-      <div className="mt-3 flex items-center justify-between gap-2">
+      <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <button
           type="button"
           onClick={() => patch(current, { review: !state.review })}
