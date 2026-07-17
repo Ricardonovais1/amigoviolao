@@ -114,7 +114,7 @@ const valueStackCoreItems = [
 const valueStackBonuses = [
   {
     label: "Curso de Violão para Crianças",
-    value: "R$ 497,00",
+    value: "R$ 479,00",
     description:
       "O curso completo para os pequenos — perfeito para incentivar os filhos e aprender em família.",
   },
@@ -132,7 +132,7 @@ const valueStackBonuses = [
   },
   {
     label: "Curso para professores (PROVIC)",
-    value: "R$ 497,00",
+    value: "R$ 479,00",
     description:
       "A formação para quem quer ensinar violão: didática, planejamento de aulas e método comprovado.",
   },
@@ -219,7 +219,7 @@ export default function CursoDeClassicoPage() {
         <ValueStack
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
-          totalNote="Somando apenas os bônus, são R$ 1.388,00 em conteúdos que você leva sem pagar nada a mais."
+          totalNote="Somando apenas os bônus, são R$ 1.352,00 em conteúdos que você leva sem pagar nada a mais."
         />
         <PricingCTA
           heading="Aproveite a promoção, adquirindo o curso de violão clássico por apenas:"

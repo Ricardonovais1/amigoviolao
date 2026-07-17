@@ -133,7 +133,7 @@ const valueStackBonuses = [
   },
   {
     label: "Curso de Violão Clássico",
-    value: "R$ 497,00",
+    value: "R$ 479,00",
     description:
       "Leitura, teoria, técnica e repertório do violão erudito para aprofundar a sua formação.",
   },
@@ -365,7 +365,7 @@ export default function CursoParaProfessoresPage() {
           heading="Tudo o que você recebe hoje:"
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
-          totalNote="Somando apenas os bônus, são R$ 1.088,00 em conteúdos que você leva sem pagar nada a mais."
+          totalNote="Somando apenas os bônus, são R$ 1.070,00 em conteúdos que você leva sem pagar nada a mais."
         />
 
         <PricingCTA
