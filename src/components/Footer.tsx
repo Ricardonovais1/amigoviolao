@@ -7,12 +7,6 @@ const legalLinks = [
   { label: "Políticas de Cancelamento", href: "/politicas-de-cancelamento" },
 ];
 
-const bottomLinks = [
-  { label: "Home", href: "/" },
-  { label: "Aulas", href: "/aulas" },
-  { label: "Login", href: "/login" },
-];
-
 export default function Footer() {
   return (
     <footer id="contato" className="bg-dark text-white/80">
@@ -59,23 +53,11 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-6 text-xs text-white/60 sm:flex-row">
+        <div className="mx-auto max-w-6xl px-6 py-6 text-center text-xs text-white/60">
           <p>
             Amigo Violão {new Date().getFullYear()} - Feito com amor por
             Ricardo Novais - CNPJ: 51.747.455/0001-06
           </p>
-          <div className="flex gap-4">
-            {bottomLinks.map((link, i) => (
-              <span key={link.href} className="flex items-center gap-4">
-                <Link href={link.href} className="hover:text-primary">
-                  {link.label}
-                </Link>
-                {i < bottomLinks.length - 1 && (
-                  <span className="text-white/20">|</span>
-                )}
-              </span>
-            ))}
-          </div>
         </div>
       </div>
     </footer>
