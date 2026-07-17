@@ -38,10 +38,10 @@ const pillGhost =
   "rounded-full border border-gray-300 bg-white px-5 py-2 text-sm font-bold text-charcoal transition-colors hoverable:border-gray-400 hoverable:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40";
 
 /**
- * Moldura visual do quiz: cartão branco centralizado com cabeçalho da marca e
- * barra de progresso. Usa `max-h` (não `h`) para caber em qualquer altura de
- * iframe — o conteúdo rola internamente quando falta espaço, e não sobra vão
- * quando há de sobra.
+ * Moldura visual do quiz: cartão branco com cabeçalho da marca e barra de
+ * progresso. O cartão cresce até a altura natural do conteúdo (sem rolagem
+ * interna), então basta o iframe ter altura suficiente para mostrar todas as
+ * opções de uma vez — como na visualização direta.
  */
 function Frame({
   title,
@@ -56,7 +56,7 @@ function Frame({
 }) {
   const pct = total ? Math.round((answered / total) * 100) : 0;
   return (
-    <div className="flex max-h-[calc(100dvh-2rem)] w-full max-w-2xl flex-col overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/5">
+    <div className="flex w-full max-w-2xl flex-col overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-black/5">
       <header className="bg-primary px-5 py-4 sm:px-6">
         <div className="flex items-center justify-between gap-3">
           <h1 className="text-base font-extrabold leading-tight text-white sm:text-lg">
@@ -73,9 +73,7 @@ function Frame({
           />
         </div>
       </header>
-      <div className="flex min-h-0 flex-1 flex-col px-5 py-4 sm:px-6">
-        {children}
-      </div>
+      <div className="flex flex-col px-5 py-4 sm:px-6">{children}</div>
     </div>
   );
 }
@@ -215,7 +213,7 @@ export default function QuizPlayer({
           )}
         </p>
 
-        <ul className="mt-3 min-h-0 flex-1 space-y-2 overflow-y-auto pr-1">
+        <ul className="mt-3 space-y-2">
           {questions.map((q, i) => {
             const s = states[i];
             const label =
@@ -306,7 +304,7 @@ export default function QuizPlayer({
       <p className="mt-2 font-semibold text-dark">{question.prompt}</p>
 
       <div
-        className="mt-3 min-h-0 flex-1 space-y-2 overflow-y-auto pr-1"
+        className="mt-3 space-y-2"
         role="radiogroup"
         aria-label={question.prompt}
       >
