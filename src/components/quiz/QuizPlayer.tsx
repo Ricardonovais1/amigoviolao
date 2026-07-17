@@ -4,6 +4,8 @@ import { useState, type ReactNode } from "react";
 
 export type QuizQuestion = {
   prompt: string;
+  /** Imagem opcional exibida no enunciado (ex.: um pentagrama com a nota). */
+  image?: { src: string; alt: string };
   options: string[];
   /** Índice da alternativa correta em `options`. */
   correct: number;
@@ -302,6 +304,17 @@ export default function QuizPlayer({
       </div>
 
       <p className="mt-2 font-semibold text-dark">{question.prompt}</p>
+
+      {question.image && (
+        <div className="mt-3 flex justify-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={question.image.src}
+            alt={question.image.alt}
+            className="max-h-44 w-auto rounded-lg border border-gray-200 bg-white p-3"
+          />
+        </div>
+      )}
 
       <div
         className="mt-3 space-y-2"
