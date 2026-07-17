@@ -110,21 +110,10 @@ const bio = [
   "Eu valorizo os alunos que, apesar de terem um professor, são antes de tudo autodidatas, pois buscam o conhecimento.",
 ];
 
-const inclusions = [
-  "PROVIC - Para professores (acesso vitalício)",
-  "Bônus: cursos para você ensinar iniciantes",
-  "Bônus: cursos de técnica, teoria e leitura",
-  "Bônus: método de violão clássico",
-  "PDF e áudios para baixar",
-  "Certificação por avaliações dentro do curso",
-  "Mentorias pelo Zoom e por WhatsApp",
-];
-
 const valueStackCoreItems = [
   "Curso PROVIC completo, com acesso vitalício",
   "Certificação de 45h após aprovação nas avaliações",
   "PDFs e áudios para baixar e usar em aula",
-  "Mentorias pelo Zoom e por WhatsApp",
   "Comunidade de professores Amigo Violão",
   "Garantia de 30 dias",
 ];
@@ -345,7 +334,7 @@ export default function CursoParaProfessoresPage() {
           heading="Compre agora e tenha acesso a:"
           ctaText="COMECE AGORA O CURSO"
           checkoutUrl={HOTMART_PROVIC_CHECKOUT_URL}
-          inclusions={inclusions}
+          inclusions={null}
         />
 
         <ProvicTeachers />
@@ -383,7 +372,7 @@ export default function CursoParaProfessoresPage() {
           heading="Compre agora e tenha acesso a:"
           ctaText="COMECE AGORA O CURSO"
           checkoutUrl={HOTMART_PROVIC_CHECKOUT_URL}
-          inclusions={inclusions}
+          inclusions={null}
           sectionId="comprar-final"
         />
 
