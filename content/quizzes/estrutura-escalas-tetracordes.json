@@ -1,0 +1,21 @@
+{
+  "slug": "estrutura-escalas-tetracordes",
+  "title": "Quiz – Estrutura de escalas de 4 notas (tetracordes)",
+  "description": "Quiz interativo sobre a estrutura de intervalos de escalas de 4 notas (tetracordes), do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 920,
+  "prompt": "Aponte a opção que mostra a ordem correta de intervalos conjuntos na escala de 4 notas abaixo:",
+  "imageAltPrefix": "Escala de 4 notas no pentagrama",
+  "questions": [
+    { "image": "q01.png", "correct": 3, "options": ["Tom, tom, tom.", "Semitom, semitom, semitom.", "Tom, semitom, semitom.", "Tom, tom, semitom.", "Semitom, tom, tom.", "Semitom, semitom, tom.", "Nenhuma das demais opções."] },
+    { "image": "q02.png", "correct": 2, "options": ["Tom, semitom, semitom.", "Tom, tom, tom.", "Semitom, semitom, semitom.", "Nenhuma das demais opções.", "Tom, tom, semitom.", "Semitom, semitom, tom.", "Semitom, tom, tom."] },
+    { "image": "q03.png", "correct": 1, "options": ["Tom, semitom, semitom.", "Tom, tom, semitom.", "Tom, tom, tom.", "Semitom, semitom, semitom.", "Semitom, semitom, tom.", "Semitom, tom, tom.", "Nenhuma das demais opções."] },
+    { "image": "q04.png", "correct": 2, "options": ["Tom, semitom, semitom.", "Semitom, semitom, tom.", "Tom, tom, tom.", "Semitom, semitom, semitom.", "Tom, tom, semitom.", "Semitom, tom, tom.", "Nenhuma das demais opções."] },
+    { "image": "q05.png", "correct": 3, "options": ["Tom, tom, tom.", "Semitom, semitom, tom.", "Semitom, semitom, semitom.", "Nenhuma das demais opções.", "Tom, tom, semitom.", "Semitom, tom, tom."] },
+    { "image": "q06.png", "correct": 3, "options": ["Tom, semitom, semitom.", "Semitom, semitom, semitom.", "Semitom, semitom, tom.", "Tom, semitom, tom.", "Tom, tom, semitom.", "Semitom, tom, tom.", "Nenhuma das demais opções."] },
+    { "image": "q07.png", "correct": 5, "options": ["Semitom, semitom, semitom.", "Tom, tom, tom.", "Semitom, tom, tom.", "Tom, semitom, semitom.", "Nenhuma das demais opções.", "Tom, semitom, tom.", "Semitom, semitom, tom."] },
+    { "image": "q08.png", "correct": 6, "options": ["Semitom, tom, tom.", "Semitom, semitom, semitom.", "Tom, tom, tom.", "Tom, tom, semitom.", "Tom, semitom, semitom.", "Nenhuma das demais opções.", "Tom, semitom, tom."] },
+    { "image": "q09.png", "correct": 6, "options": ["Semitom, semitom, tom.", "Tom, tom, tom.", "Semitom, semitom, semitom.", "Nenhuma das demais opções.", "Tom, semitom, semitom.", "Tom, tom, semitom.", "Semitom, tom, tom."] },
+    { "image": "q10.png", "correct": 4, "options": ["Semitom, semitom, semitom.", "Tom, tom, tom.", "Tom, semitom, semitom.", "Tom, tom, semitom.", "Semitom, tom, tom.", "Semitom, semitom, tom.", "Nenhuma das demais opções."] }
+  ]
+}

@@ -1,27 +1,19 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
-
-export type QuizQuestion = {
-  prompt: string;
-  /** Imagem opcional exibida no enunciado (ex.: um pentagrama com a nota). */
-  image?: { src: string; alt: string };
-  options: string[];
-  /** Índice da alternativa correta em `options`. */
-  correct: number;
-};
-
-type Verdict = "correct" | "incorrect";
+import type { Question } from "@/lib/quiz-types";
+import { getModule } from "./registry";
+import { PromptMedia, type Verdict } from "./shared";
 
 type QuestionState = {
-  selected: number | null;
+  answer: unknown;
   verdict: Verdict | null;
   review: boolean;
 };
 
-const freshStates = (count: number): QuestionState[] =>
-  Array.from({ length: count }, () => ({
-    selected: null,
+const freshStates = (questions: Question[]): QuestionState[] =>
+  questions.map((q) => ({
+    answer: getModule(q.type)?.initialAnswer ?? null,
     verdict: null,
     review: false,
   }));
@@ -39,11 +31,22 @@ const pill =
 const pillGhost =
   "rounded-full border border-gray-300 bg-white px-5 py-2 text-sm font-bold text-charcoal transition-colors hoverable:border-gray-400 hoverable:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40";
 
+const verdictLabel = (v: Verdict | null, review: boolean): string =>
+  v === "correct"
+    ? "Correto"
+    : v === "incorrect"
+      ? "Incorreto"
+      : v === "pending"
+        ? "Enviada"
+        : v === "recorded"
+          ? "Registrada"
+          : review
+            ? "Pulada"
+            : "Sem resposta";
+
 /**
  * Moldura visual do quiz: cartão branco com cabeçalho da marca e barra de
- * progresso. O cartão cresce até a altura natural do conteúdo (sem rolagem
- * interna), então basta o iframe ter altura suficiente para mostrar todas as
- * opções de uma vez — como na visualização direta.
+ * progresso. Cresce até a altura natural do conteúdo (sem rolagem interna).
  */
 function Frame({
   title,
@@ -85,10 +88,10 @@ export default function QuizPlayer({
   questions,
 }: {
   title: string;
-  questions: QuizQuestion[];
+  questions: Question[];
 }) {
   const [states, setStates] = useState<QuestionState[]>(() =>
-    freshStates(questions.length),
+    freshStates(questions),
   );
   const [current, setCurrent] = useState(0);
   const [showSummary, setShowSummary] = useState(false);
@@ -96,6 +99,7 @@ export default function QuizPlayer({
   const total = questions.length;
   const question = questions[current];
   const state = states[current];
+  const mod = getModule(question.type);
   const verified = state.verdict !== null;
   const isLast = current === total - 1;
   const score = states.filter((s) => s.verdict === "correct").length;
@@ -112,11 +116,13 @@ export default function QuizPlayer({
   };
 
   const verify = () => {
-    if (state.selected === null || verified) return;
-    patch(current, {
-      verdict: state.selected === question.correct ? "correct" : "incorrect",
-      review: false,
-    });
+    if (!mod || verified || !mod.isComplete(state.answer)) return;
+    const verdict: Verdict = mod.grade
+      ? mod.grade(question, state.answer)
+      : question.grading === "none"
+        ? "recorded"
+        : "pending";
+    patch(current, { verdict, review: false });
   };
 
   const next = () => {
@@ -130,46 +136,24 @@ export default function QuizPlayer({
   };
 
   const restart = () => {
-    setStates(freshStates(total));
+    setStates(freshStates(questions));
     setCurrent(0);
     setShowSummary(false);
   };
 
   const navColor = (i: number): string => {
     const s = states[i];
+    const m = getModule(questions[i].type);
     if (i === current && !showSummary)
       return "border-primary bg-primary text-white";
     if (s.verdict === "correct")
       return "border-green-500 bg-green-500 text-white";
     if (s.verdict === "incorrect") return "border-red-600 bg-red-600 text-white";
+    if (s.verdict === "pending" || s.verdict === "recorded")
+      return "border-teal bg-teal text-white";
     if (s.review) return "border-amber-400 bg-amber-400 text-white";
-    if (s.selected !== null) return "border-rose-400 bg-rose-400 text-white";
+    if (m?.isComplete(s.answer)) return "border-rose-400 bg-rose-400 text-white";
     return "border-gray-300 bg-white text-dark hoverable:border-gray-500";
-  };
-
-  const optionClass = (i: number): string => {
-    const base =
-      "flex w-full items-center gap-3 rounded-lg border px-4 py-2.5 text-left transition-colors";
-    if (!verified) {
-      return i === state.selected
-        ? `${base} border-primary ring-1 ring-primary`
-        : `${base} border-gray-200 hoverable:border-gray-400`;
-    }
-    if (i === question.correct)
-      return `${base} border-green-500 bg-green-500 font-semibold text-white`;
-    if (i === state.selected)
-      return `${base} border-red-600 bg-red-600 font-semibold text-white`;
-    return `${base} border-gray-200 opacity-70`;
-  };
-
-  const radioClass = (i: number): string => {
-    const base =
-      "inline-block h-4 w-4 shrink-0 rounded-full border-2 transition-colors";
-    if (verified && (i === question.correct || i === state.selected))
-      return `${base} border-white ${i === state.selected ? "bg-white" : "bg-transparent"}`;
-    return i === state.selected
-      ? `${base} border-primary bg-primary`
-      : `${base} border-gray-300 bg-white`;
   };
 
   const navGrid = (
@@ -218,14 +202,7 @@ export default function QuizPlayer({
         <ul className="mt-3 space-y-2">
           {questions.map((q, i) => {
             const s = states[i];
-            const label =
-              s.verdict === "correct"
-                ? "Correto"
-                : s.verdict === "incorrect"
-                  ? "Incorreto"
-                  : s.review
-                    ? "Pulada"
-                    : "Sem resposta";
+            const label = verdictLabel(s.verdict, s.review);
             const labelColor =
               s.verdict === "correct"
                 ? "text-green-600"
@@ -242,7 +219,8 @@ export default function QuizPlayer({
                   onClick={() => goTo(i)}
                   className="text-left text-charcoal hoverable:text-dark"
                 >
-                  <strong className="text-dark">{i + 1}.</strong> {q.prompt}
+                  <strong className="text-dark">{i + 1}.</strong>{" "}
+                  {q.prompt ?? `Questão ${i + 1}`}
                 </button>
                 <span className={`shrink-0 text-sm font-bold ${labelColor}`}>
                   {label}
@@ -269,6 +247,8 @@ export default function QuizPlayer({
       </Frame>
     );
   }
+
+  const Body = mod?.Body;
 
   return (
     <Frame title={title} answered={answered} total={total}>
@@ -303,39 +283,23 @@ export default function QuizPlayer({
         </span>
       </div>
 
-      <p className="mt-2 font-semibold text-dark">{question.prompt}</p>
-
-      {question.image && (
-        <div className="mt-3 flex justify-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={question.image.src}
-            alt={question.image.alt}
-            className="max-h-44 w-auto rounded-lg border border-gray-200 bg-white p-3"
-          />
-        </div>
+      {question.prompt && (
+        <p className="mt-2 font-semibold text-dark">{question.prompt}</p>
       )}
+      <PromptMedia media={question.media} />
 
-      <div
-        className="mt-3 space-y-2"
-        role="radiogroup"
-        aria-label={question.prompt}
-      >
-        {question.options.map((option, i) => (
-          <button
-            key={i}
-            type="button"
-            role="radio"
-            aria-checked={state.selected === i}
-            disabled={verified}
-            onClick={() => patch(current, { selected: i })}
-            className={optionClass(i)}
-          >
-            <span className={radioClass(i)} />
-            {option}
-          </button>
-        ))}
-      </div>
+      {Body ? (
+        <Body
+          question={question}
+          answer={state.answer}
+          onChange={(a: unknown) => patch(current, { answer: a })}
+          verified={verified}
+        />
+      ) : (
+        <p className="mt-4 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-charcoal">
+          Este tipo de questão ({question.type}) ainda não está disponível.
+        </p>
+      )}
 
       <div className="mt-3 flex items-center justify-between gap-2 pt-1">
         {!verified ? (
@@ -346,7 +310,7 @@ export default function QuizPlayer({
             <button
               type="button"
               onClick={verify}
-              disabled={state.selected === null}
+              disabled={!mod || !mod.isComplete(state.answer)}
               className={pill}
             >
               Verificar
