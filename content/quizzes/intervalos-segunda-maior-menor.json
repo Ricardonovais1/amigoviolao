@@ -1,0 +1,24 @@
+{
+  "slug": "intervalos-segunda-maior-menor",
+  "title": "Quiz – Intervalos de segunda maior e menor",
+  "description": "Quiz interativo sobre a identificação de intervalos de segunda (maior/menor, ascendente/descendente), do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 820,
+  "prompt": "O intervalo abaixo é uma segunda…",
+  "imageAltPrefix": "Intervalo de segunda",
+  "optionPool": ["Ascendente maior", "Ascendente menor", "Descendente maior", "Descendente menor"],
+  "questions": [
+    { "image": "q01.png", "answer": "Ascendente maior" },
+    { "image": "q02.png", "answer": "Descendente maior" },
+    { "image": "q03.png", "answer": "Ascendente menor" },
+    { "image": "q04.png", "answer": "Ascendente maior" },
+    { "image": "q05.png", "answer": "Ascendente maior" },
+    { "image": "q06.png", "answer": "Ascendente menor" },
+    { "image": "q07.png", "answer": "Descendente maior" },
+    { "image": "q08.png", "answer": "Descendente maior" },
+    { "image": "q09.png", "answer": "Ascendente maior" },
+    { "image": "q10.png", "answer": "Ascendente menor" },
+    { "image": "q11.png", "answer": "Descendente menor" },
+    { "image": "q12.png", "answer": "Descendente menor" }
+  ]
+}
