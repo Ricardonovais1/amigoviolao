@@ -1,0 +1,19 @@
+{
+  "slug": "tipos-de-intervalos",
+  "title": "Quiz – Tipos de intervalos",
+  "description": "Quiz interativo sobre os tipos de intervalos musicais (melódico/harmônico, ascendente/descendente, conjunto/disjunto, simples/composto), do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 1000,
+  "prompt": "Marque 3 ou 4 opções que descrevem o intervalo abaixo:",
+  "imageAltPrefix": "Intervalo musical",
+  "optionPool": ["Melódico", "Harmônico", "Ascendente", "Descendente", "Conjunto", "Disjunto", "Simples", "Composto"],
+  "questions": [
+    { "type": "multiple-choice", "image": "q01.png", "answers": ["Melódico", "Ascendente", "Disjunto", "Composto"] },
+    { "type": "multiple-choice", "image": "q02.png", "answers": ["Harmônico", "Disjunto", "Simples"] },
+    { "type": "multiple-choice", "image": "q03.png", "answers": ["Melódico", "Descendente", "Disjunto", "Simples"] },
+    { "type": "multiple-choice", "image": "q04.png", "answers": ["Melódico", "Ascendente", "Conjunto", "Simples"] },
+    { "type": "multiple-choice", "image": "q05.png", "answers": ["Melódico", "Descendente", "Conjunto", "Simples"] },
+    { "type": "multiple-choice", "image": "q06.png", "answers": ["Melódico", "Ascendente", "Disjunto", "Simples"] },
+    { "type": "multiple-choice", "image": "q07.png", "answers": ["Harmônico", "Disjunto", "Simples"] }
+  ]
+}

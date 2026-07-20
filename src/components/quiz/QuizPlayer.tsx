@@ -301,6 +301,23 @@ export default function QuizPlayer({
         </p>
       )}
 
+      {verified && (state.verdict === "correct" || state.verdict === "incorrect") && (
+        <div
+          className={`mt-3 rounded-lg border px-4 py-3 text-sm font-semibold ${
+            state.verdict === "correct"
+              ? "border-green-500 bg-green-50 text-green-700"
+              : "border-red-600 bg-red-50 text-red-700"
+          }`}
+        >
+          {state.verdict === "correct"
+            ? "Correto. Isso mesmo! Parabéns!"
+            : "Incorreto. Ops! Algo de errado não está certo."}
+          {question.explanation && (
+            <p className="mt-1 font-normal">{question.explanation}</p>
+          )}
+        </div>
+      )}
+
       <div className="mt-3 flex items-center justify-between gap-2 pt-1">
         {!verified ? (
           <>
