@@ -12,6 +12,7 @@ import CourseModules from "@/components/sales/CourseModules";
 import ProvicFeatures from "@/components/sales/ProvicFeatures";
 import ProvicTeachers from "@/components/sales/ProvicTeachers";
 import TextTestimonials from "@/components/sales/TextTestimonials";
+import ProfessorsShowcase from "@/components/sales/ProfessorsShowcase";
 import CrossSell from "@/components/sales/CrossSell";
 import PricingCTA from "@/components/sales/PricingCTA";
 import ValueStack from "@/components/sales/ValueStack";
@@ -341,6 +342,7 @@ export default function CursoParaProfessoresPage() {
         <ProvicFeatures />
 
         <ProvicTeachers />
+        <ProfessorsShowcase />
         <TextTestimonials />
 
         <div className="bg-white pt-2">

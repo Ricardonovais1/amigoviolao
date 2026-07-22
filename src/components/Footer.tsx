@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const navLinks = [
+  { label: "Blog", href: "/blog" },
+  { label: "Professores", href: "/professores" },
+];
+
 const legalLinks = [
   { label: "Política de Privacidade", href: "/politica-de-privacidade" },
   { label: "Termos de Serviços", href: "/termos-de-servicos" },
@@ -10,7 +15,22 @@ const legalLinks = [
 export default function Footer() {
   return (
     <footer id="contato" className="bg-dark text-white/80">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <h3 className="mb-4 border-l-4 border-primary pl-3 font-semibold text-white">
+            Navegue
+          </h3>
+          <ul className="space-y-2 text-sm">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} className="hover:text-primary">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <div>
           <h3 className="mb-4 border-l-4 border-primary pl-3 font-semibold text-white">
             Legal
