@@ -1,0 +1,19 @@
+{
+  "slug": "quartas-justas-aumentadas",
+  "title": "Quiz – Quartas Justas e Aumentadas",
+  "description": "Quiz interativo sobre a identificação de intervalos de quarta (justa/aumentada, ascendente/descendente), do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 820,
+  "prompt": "O intervalo abaixo é uma quarta…",
+  "imageAltPrefix": "Intervalo de quarta",
+  "optionPool": ["Justa ascendente", "Justa descendente", "Aumentada ascendente", "Aumentada descendente"],
+  "questions": [
+    { "image": "q01.webp", "answer": "Justa descendente" },
+    { "image": "q02.webp", "answer": "Justa ascendente" },
+    { "image": "q03.webp", "answer": "Aumentada ascendente" },
+    { "image": "q04.webp", "answer": "Aumentada descendente" },
+    { "image": "q05.webp", "answer": "Aumentada ascendente" },
+    { "image": "q06.webp", "answer": "Justa ascendente" },
+    { "image": "q07.webp", "answer": "Aumentada descendente" }
+  ]
+}
