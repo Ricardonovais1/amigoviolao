@@ -21,6 +21,7 @@ type RawQuestion = {
   type?: "single-choice" | "multiple-choice";
   prompt?: string;
   image?: string;
+  audio?: string;
   options?: string[];
   answer?: string;
   correct?: number;
@@ -40,6 +41,7 @@ type RawQuiz = {
   imageAltPrefix?: string;
   optionPool?: string[];
   shuffleOptions?: boolean;
+  shuffleQuestions?: boolean;
   pinLast?: string[];
   questions: RawQuestion[];
 };
@@ -85,6 +87,34 @@ function resolveImage(
   return [{ kind: "image", src, alt: `${prefix} – questão ${n}` }];
 }
 
+function resolveAudio(
+  raw: RawQuestion,
+  quiz: RawQuiz,
+  n: number,
+): Media[] | undefined {
+  if (!raw.audio) return undefined;
+  const src = `/audio/quiz/${quiz.slug}/${raw.audio}`;
+  const abs = path.join(PUBLIC_DIR, src.replace(/^\//, ""));
+  if (!fs.existsSync(abs)) {
+    throw new Error(
+      `Quiz "${quiz.slug}" questão ${n}: áudio não encontrado em public${src}`,
+    );
+  }
+  return [{ kind: "audio", src, label: `Áudio – questão ${n}` }];
+}
+
+function resolveMedia(
+  raw: RawQuestion,
+  quiz: RawQuiz,
+  n: number,
+): Media[] | undefined {
+  const media = [
+    ...(resolveImage(raw, quiz, n) ?? []),
+    ...(resolveAudio(raw, quiz, n) ?? []),
+  ];
+  return media.length > 0 ? media : undefined;
+}
+
 /** Monta a lista final de opções (string) de uma questão de escolha. */
 function optionStrings(raw: RawQuestion, quiz: RawQuiz, n: number): string[] {
   if (raw.options) return raw.options;
@@ -118,7 +148,7 @@ function indexOfAnswer(
 function resolveQuestion(raw: RawQuestion, quiz: RawQuiz, n: number): Question {
   const type = raw.type ?? "single-choice";
   const prompt = raw.prompt ?? quiz.prompt;
-  const media = resolveImage(raw, quiz, n);
+  const media = resolveMedia(raw, quiz, n);
   const strings = optionStrings(raw, quiz, n);
   const options = strings.map(text);
 
@@ -185,6 +215,7 @@ function readQuizFile(fileName: string): Quiz {
     category: raw.category,
     embedHeight: raw.embedHeight,
     questionCount: questions.length,
+    shuffleQuestions: raw.shuffleQuestions ?? false,
     questions,
   };
 }
@@ -217,6 +248,7 @@ const toMeta = (q: Quiz): QuizMeta => ({
   category: q.category,
   embedHeight: q.embedHeight,
   questionCount: q.questionCount,
+  shuffleQuestions: q.shuffleQuestions,
 });
 
 /** Projeção leve para a biblioteca (sem as questões no bundle do cliente). */

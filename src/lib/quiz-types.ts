@@ -98,6 +98,8 @@ export type QuizMeta = {
   /** Altura sugerida do iframe de incorporação (px). */
   embedHeight?: number;
   questionCount: number;
+  /** Embaralha a ordem das questões a cada tentativa (client-side, no mount). */
+  shuffleQuestions?: boolean;
 };
 
 export type Quiz = QuizMeta & { questions: Question[] };

@@ -1,0 +1,32 @@
+{
+  "slug": "reconhecimento-auditivo-notas",
+  "title": "Quiz – Reconhecimento Auditivo de Notas",
+  "description": "Quiz interativo de reconhecimento auditivo: ouça a nota, procure o mesmo som no violão e marque qual é, do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 820,
+  "prompt": "Ouça a nota abaixo, procure o mesmo som no seu violão e marque qual é a nota.",
+  "shuffleQuestions": true,
+  "optionPool": ["Dó", "Dó#", "Ré", "Ré#", "Mi", "Fá", "Fá#", "Sol", "Sol#", "Lá", "Lá#", "Si"],
+  "questions": [
+    { "audio": "q01.mp3", "answer": "Mi" },
+    { "audio": "q02.mp3", "answer": "Mi" },
+    { "audio": "q03.mp3", "answer": "Mi" },
+    { "audio": "q04.mp3", "answer": "Mi" },
+    { "audio": "q05.mp3", "answer": "Lá" },
+    { "audio": "q06.mp3", "answer": "Lá#" },
+    { "audio": "q07.mp3", "answer": "Fá" },
+    { "audio": "q08.mp3", "answer": "Fá#" },
+    { "audio": "q09.mp3", "answer": "Fá#" },
+    { "audio": "q10.mp3", "answer": "Dó" },
+    { "audio": "q11.mp3", "answer": "Dó#" },
+    { "audio": "q12.mp3", "answer": "Dó#" },
+    { "audio": "q13.mp3", "answer": "Dó#" },
+    { "audio": "q14.mp3", "answer": "Sol" },
+    { "audio": "q15.mp3", "answer": "Sol#" },
+    { "audio": "q16.mp3", "answer": "Sol" },
+    { "audio": "q17.mp3", "answer": "Si" },
+    { "audio": "q18.mp3", "answer": "Ré" },
+    { "audio": "q19.mp3", "answer": "Ré#" },
+    { "audio": "q20.mp3", "answer": "Ré" }
+  ]
+}

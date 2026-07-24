@@ -18,6 +18,16 @@ const freshStates = (questions: Question[]): QuestionState[] =>
     review: false,
   }));
 
+/** Fisher-Yates com Math.random() — nova ordem a cada carregamento da página. */
+function shuffleArray<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 const legend = [
   { className: "border border-gray-400 bg-white", label: "Atual" },
   { className: "bg-amber-400", label: "Revisar / Pulada" },
@@ -86,18 +96,23 @@ function Frame({
 export default function QuizPlayer({
   title,
   questions,
+  shuffleQuestions,
 }: {
   title: string;
   questions: Question[];
+  shuffleQuestions?: boolean;
 }) {
+  const [orderedQuestions] = useState<Question[]>(() =>
+    shuffleQuestions ? shuffleArray(questions) : questions,
+  );
   const [states, setStates] = useState<QuestionState[]>(() =>
-    freshStates(questions),
+    freshStates(orderedQuestions),
   );
   const [current, setCurrent] = useState(0);
   const [showSummary, setShowSummary] = useState(false);
 
-  const total = questions.length;
-  const question = questions[current];
+  const total = orderedQuestions.length;
+  const question = orderedQuestions[current];
   const state = states[current];
   const mod = getModule(question.type);
   const verified = state.verdict !== null;
@@ -136,14 +151,14 @@ export default function QuizPlayer({
   };
 
   const restart = () => {
-    setStates(freshStates(questions));
+    setStates(freshStates(orderedQuestions));
     setCurrent(0);
     setShowSummary(false);
   };
 
   const navColor = (i: number): string => {
     const s = states[i];
-    const m = getModule(questions[i].type);
+    const m = getModule(orderedQuestions[i].type);
     if (i === current && !showSummary)
       return "border-primary bg-primary text-white";
     if (s.verdict === "correct")
@@ -160,7 +175,7 @@ export default function QuizPlayer({
     <>
       <div className="rounded-md border border-gray-200 bg-gray-50 p-1.5">
         <div className="flex flex-wrap gap-1">
-          {questions.map((_, i) => (
+          {orderedQuestions.map((_, i) => (
             <button
               key={i}
               type="button"
@@ -200,7 +215,7 @@ export default function QuizPlayer({
         </p>
 
         <ul className="mt-3 space-y-2">
-          {questions.map((q, i) => {
+          {orderedQuestions.map((q, i) => {
             const s = states[i];
             const label = verdictLabel(s.verdict, s.review);
             const labelColor =
