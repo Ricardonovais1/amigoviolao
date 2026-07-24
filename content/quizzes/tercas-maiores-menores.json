@@ -1,0 +1,22 @@
+{
+  "slug": "tercas-maiores-menores",
+  "title": "Quiz – Terças Maiores e Menores",
+  "description": "Quiz interativo sobre a identificação de intervalos de terça (maior/menor, ascendente/descendente), do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 820,
+  "prompt": "O intervalo abaixo é uma terça…",
+  "imageAltPrefix": "Intervalo de terça",
+  "optionPool": ["Ascendente maior", "Ascendente menor", "Descendente maior", "Descendente menor"],
+  "questions": [
+    { "image": "q01.webp", "answer": "Ascendente maior" },
+    { "image": "q02.webp", "answer": "Descendente maior" },
+    { "image": "q03.webp", "answer": "Descendente menor" },
+    { "image": "q04.webp", "answer": "Descendente maior" },
+    { "image": "q05.webp", "answer": "Ascendente menor" },
+    { "image": "q06.webp", "answer": "Descendente maior" },
+    { "image": "q07.webp", "answer": "Ascendente menor" },
+    { "image": "q08.webp", "answer": "Ascendente menor" },
+    { "image": "q09.webp", "answer": "Descendente maior" },
+    { "image": "q10.webp", "answer": "Ascendente maior" }
+  ]
+}
