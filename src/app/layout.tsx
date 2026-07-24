@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import BackToTop from "@/components/BackToTop";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import OrganizationJsonLd from "@/components/OrganizationJsonLd";
+import Analytics from "@/components/Analytics";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -21,6 +23,20 @@ export const metadata: Metadata = {
   title: "Amigo Violão - Cursos de violão online para toda a família",
   description:
     "Ensine ou aprenda violão com leveza e alegria. Cursos para crianças, iniciantes e professores.",
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName: "Amigo Violão",
+    title: "Amigo Violão - Cursos de violão online para toda a família",
+    description:
+      "Ensine ou aprenda violão com leveza e alegria. Cursos para crianças, iniciantes e professores.",
+    url: "https://amigoviolao.com",
+    images: [
+      {
+        url: "https://amigoviolao.com/wp-content/uploads/2021/05/cropped-cropped-Logo-Branca-site-Amigo-Violao-2.png.webp",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -36,6 +52,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans text-[#3a3a3a]">
+        <Analytics />
+        <OrganizationJsonLd />
         {children}
         <BackToTop />
         <WhatsAppFloat />

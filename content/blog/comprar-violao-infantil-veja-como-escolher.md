@@ -32,7 +32,7 @@ A escolha sensata na hora de comprar violão infantil é simples, e deve sim, le
 
 ## 1 – Violão infantil: Tamanhos apropriados
 
-![](/images/blog/2017/01/violoes-tamanho-300x182.png)Sem sombra de dúvidas o tamanho do instrumento vai fazer diferença no aprendizado. Por isso, aquele violão antigo que era do seu pai pode não ser ideal para oferecer ao seu filho. Está ótimo para poder começar a brincar como os sons do violão e pegar interesse. Mas na hora de aprender pode não ser a melhor escolha. UMA ADVERTÊNCIA: **Comprar violão infantil é em lojas de instrumentos musicais, e não em lojas de brinquedos!** Vamos aos tamanhos:
+![](/images/blog/2017/01/violoes-tamanho-300x182.webp)Sem sombra de dúvidas o tamanho do instrumento vai fazer diferença no aprendizado. Por isso, aquele violão antigo que era do seu pai pode não ser ideal para oferecer ao seu filho. Está ótimo para poder começar a brincar como os sons do violão e pegar interesse. Mas na hora de aprender pode não ser a melhor escolha. UMA ADVERTÊNCIA: **Comprar violão infantil é em lojas de instrumentos musicais, e não em lojas de brinquedos!** Vamos aos tamanhos:
 
 -   Para crianças de 4 a 6 anos, que medem em média 1m a 1,15m, o violão ¼ do tamanho tradicional poderá atender. Mas estes violões muito pequenos costumam ser quase impossíveis de afinar, portanto NÃO RECOMENDO. Pegue o próximo tamanho (1/2).
 -   Para crianças entre 1,15 m a 1,35 m (5 a 8 anos), o violão tamanho 1/2 atende bem.
@@ -40,11 +40,11 @@ A escolha sensata na hora de comprar violão infantil é simples, e deve sim, le
 -   Para as crianças que já estão entrando na adolescência, (aprox. 11 anos), e que tenham acima de 1,5 m, já podem usar o violão tamanho padrão, não interferindo na postura ou causando danos com o uso prolongado.
 -   OBS.: No final do texto ofereço uma lista de links para modelos de todos os tamanhos acima, para você já começar a escolher, ainda que decida comprar em uma loja de sua cidade! 🙂
 
- ![](/images/blog/2017/01/Curso-online-de-violao-para-criancas.png)
+ ![](/images/blog/2017/01/Curso-online-de-violao-para-criancas.webp)
 
 ## 2 – Cordas de Náilon:
 
-![](/images/blog/2017/01/Cordas-de-Nailon.jpg)Pode parecer óbvio… Mas não custa lembrar que as cordas de náilon são bem mais fáceis para iniciantes do que as cordas de metal. Aliás, todos os modelos infantis que eu conheço são com cordas de náilon, exceto as guitarras, mas falaremos delas mais à frente.
+![](/images/blog/2017/01/Cordas-de-Nailon.webp)Pode parecer óbvio… Mas não custa lembrar que as cordas de náilon são bem mais fáceis para iniciantes do que as cordas de metal. Aliás, todos os modelos infantis que eu conheço são com cordas de náilon, exceto as guitarras, mas falaremos delas mais à frente.
 
 Na imagem ao lado, um violão com cordas de náilon à esquerda e um com cordas de aço à direita.
 

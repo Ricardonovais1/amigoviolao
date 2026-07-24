@@ -14,8 +14,8 @@ slug: 10-erros-ao-dar-aulas-de-violao
 categories:
   - como-ensinar-violao
 tags: []
-featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.png
-og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.png
+featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.webp
+og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.webp
 canonical: 'https://amigoviolao.com/blog/10-erros-ao-dar-aulas-de-violao'
 wpId: 25151
 ---
@@ -56,7 +56,7 @@ Mas não se trata apenas de saber aproveitar este mercado. É preciso também te
 
 A boa notícia é que dar aulas para crianças não é difícil. Apenas requer [repertório adequado](https://amigoviolao.com/academy). E você pode se informar acerca disso, inclusive aqui no Amigo Violão, onde já auxiliamos mais de 600 professores de violão.
 
-![](/images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.png)
+![](/images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp)
 
 ## 3 – Trabalhar o violão apenas como um instrumento de acordes.
 
@@ -86,7 +86,7 @@ A generosidade e a humildade de algum dia poder dizer “não tenho mais nada pr
 
 Todos já sabemos a resposta. O importante é refletirmos: Estamos dando o que temos de melhor?
 
-[![](/images/blog/2019/03/Materiais-para-aulas-de-violao-1024x215.png)](https://amigoviolao.com/academy)
+[![](/images/blog/2019/03/Materiais-para-aulas-de-violao-1024x215.webp)](https://amigoviolao.com/academy)
 
 ## 6 – Se recusar a ensinar uma música por questão de estilo musical.
 
@@ -144,4 +144,4 @@ Dar aulas de violão é uma atividade complexa e que exige amar o que se faz. Co
 
 Se você quer ter métodos eficientes para ensinar violão, convido você a conhecer o Amigo Violão Academy:
 
-[![](/images/blog/2019/03/Materiais-para-aulas-de-violao-1024x215.png)](https://amigoviolao.com/academy)
+[![](/images/blog/2019/03/Materiais-para-aulas-de-violao-1024x215.webp)](https://amigoviolao.com/academy)

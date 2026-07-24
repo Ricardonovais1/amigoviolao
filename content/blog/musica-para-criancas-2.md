@@ -56,11 +56,11 @@ As imagens que acompanham esta postagem são da tablatura da música. O que é u
 
 ## Surfmusic Tablatura:
 
- ![](/images/blog/2020/09/Surfmusic-1.png)
+ ![](/images/blog/2020/09/Surfmusic-1.webp)
 
- ![](/images/blog/2015/12/Surfmusic-2.png)
+ ![](/images/blog/2015/12/Surfmusic-2.webp)
 
- ![](/images/blog/2015/12/Surfmusic-3.png)
+ ![](/images/blog/2015/12/Surfmusic-3.webp)
 
 ## Amigo Violão – Música para crianças e adultos
 

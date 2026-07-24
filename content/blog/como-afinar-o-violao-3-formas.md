@@ -28,14 +28,14 @@ Com esta habilidade você evita sensações de estranhamento ao tocar e fará co
 
 Ao longo deste texto, eu vou lhe ensinar **3 formas de** **como afinar seu violão do básico ao avançado.** Antes vamos dar uma olhada nas notas das cordas do instrumento :
 
-![como-afinar-o-violao-amigo-violao](/images/blog/2018/03/cordas-violao1-300x103.png)
+![como-afinar-o-violao-amigo-violao](/images/blog/2018/03/cordas-violao1-300x103.webp)
 
 Imagem 1
 
 A imagem (ângulo de quem está tocando) representa as 6 cordas do violão na afinação tradicional (o violonista pode afinar as cordas de acordo com suas intenções musicais).
 De baixo para cima as cordas vão ficando cada vez menos graves (e grossas) para ficarem mais agudas (e finas).
 
-![como-afinar-o-violao-violao-deitado](/images/blog/2018/03/violao-imagem1-300x169.jpg)
+![como-afinar-o-violao-violao-deitado](/images/blog/2018/03/violao-imagem1-300x169.webp)
 
 Imagem 2
 

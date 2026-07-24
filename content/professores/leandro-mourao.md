@@ -3,7 +3,7 @@ name: Leandro Mourão
 title: Professor Leandro Mourão
 slug: leandro-mourao
 city: Goiânia, GO
-photo: /images/professores/leandro-mourao.png
+photo: /images/professores/leandro-mourao.webp
 whatsapp: '5562983239878'
 description: >-
   Bacharel em Violão pela UFG e membro da Associação Goiana de Violão

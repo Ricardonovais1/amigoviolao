@@ -56,13 +56,13 @@ Outro episódio interessante aconteceu ontem mesmo. Fiz uma apresentação, e de
 
 Antes de eu estudar música, comecei minha caminhada da maneira que considero ideal: Viajando no som. Eu ficava horas ouvindo música no fone de ouvido e realmente viajava… Na época não era música clássica, apesar de eu  já ter acesso a alguns discos deste gênero que eram dos meus pais.
 
-![](/images/blog/2015/12/Orquestra_Simon_Bolivar_07042013-300x195.jpg)O que eu ouvia era principalmente a banda Metallica. Ouvia também Simon & Gargunkell, James Taylor e depois comecei a me interessar de verdade pelo violão porque conheci o Paulinho Nogueira. Bem antes disso tudo eu já havia começado a aprender violão com meu pais mas não tinha ideia de onde isso me levaria.
+![](/images/blog/2015/12/Orquestra_Simon_Bolivar_07042013-300x195.webp)O que eu ouvia era principalmente a banda Metallica. Ouvia também Simon & Gargunkell, James Taylor e depois comecei a me interessar de verdade pelo violão porque conheci o Paulinho Nogueira. Bem antes disso tudo eu já havia começado a aprender violão com meu pais mas não tinha ideia de onde isso me levaria.
 
 O [**Paulinho Nogueira**](https://www.youtube.com/watch?v=YrqktrM0_ik) me impressionava porque foi o primeiro violonista que escutei com ouvidos atentos. E desde este momento fiquei impregnado de uma estética de pureza e clareza musical, vindo do violão.
 
 Ainda assim eu viajava mesmo em **Metallica** (gostava de **Ramones,** **AC/DC** e outras bandas do gênero ). Depois de estar estudando música por alguns anos me dei conta de que, na verdade, a minha escuta dos discos dessas bandas era a mesma que eu tenho hoje escutando Bach ou Rachmaninoff.
 
-        ![](/images/blog/2015/12/Banda-de-Rock-300x175.jpg)
+        ![](/images/blog/2015/12/Banda-de-Rock-300x175.webp)
 
 **Percebi que realmente o que une todos os estilos é o fato de cada um mergulhar no som, escutar com profundidade. Portanto esta “igualdade” está na pessoa e não no estilo musical, e não é possível impor isso a alguém.**
 

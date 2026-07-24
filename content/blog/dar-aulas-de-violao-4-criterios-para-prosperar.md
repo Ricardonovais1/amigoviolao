@@ -9,8 +9,8 @@ slug: dar-aulas-de-violao-4-criterios-para-prosperar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.png
-og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.png
+featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp
+og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp
 canonical: 'https://amigoviolao.com/blog/dar-aulas-de-violao-4-criterios-para-prosperar'
 wpId: 33146
 ---
@@ -25,13 +25,13 @@ Este post se destina a detalhar os 4 critérios que consideramos, no Amigo Viol�
 
 Quando eu comecei a dar aulas, durante meu bacharelado em violão pela Universidade Federal de Minas Gerais, eu entendia a didática do violão de forma que hoje reconheço ser bem limitada e plana.
 
-  ![Dar aulas de violão para crianças e adultos](/images/blog/2020/09/Violao-para-todas-as-idades-300x163.jpg)Eu acreditava que a minha felicidade como professor estava em dar aulas para músicos já um pouco mais avançados. Ou seja, alunos que já fossem capazes de apreciar e querer tocar músicas do meu interesse, como peças de violão clássico e solos instrumentais.
+  ![Dar aulas de violão para crianças e adultos](/images/blog/2020/09/Violao-para-todas-as-idades-300x163.webp)Eu acreditava que a minha felicidade como professor estava em dar aulas para músicos já um pouco mais avançados. Ou seja, alunos que já fossem capazes de apreciar e querer tocar músicas do meu interesse, como peças de violão clássico e solos instrumentais.
 
 Mas o “batidão do dia a dia” me forçava a ser desafiado constantemente. Em especial em uma das escolas em que trabalhei, o Allegretto, em BH, era bastante comum eu receber alunos de 5 a 9 anos, que me obrigaram a sair da minha zona de conforto e buscar maneiras não apenas eficazes, mas replicáveis, para atender à considerável demanda que eu tinha.
 
 Nas primeiras experiências com crianças de 5 e 6 anos uu relutei em aceitar que elas pudessem aprender violão. Mas o fato é que eu não sabia como trabalhar o violão com este público e tinha medo de decepcionar os pais e até traumatizar as crianças. O mesmo sentimento me assolava com alunos acima de 60 anos. É mais raro receber alunos idosos, porém gera o mesmo desconforto em quem ainda não possui uma didática mais avançada para dar aulas de violão.
 
-  ![dar aulas de violão métodos foram facilitados](/images/blog/2020/09/Gracas-aos-metodos-o-aprendizado-da-Musica-foi-facilitado.-Fonte-musicinsix.blogspot1-233x300.jpg)Com estas vivências eu me debrucei em alguns métodos, inclusive de musicalização, piano e flauta. Não encontrava nada que fosse realmente muito diferenciado no universo do violão para resolver estas dificuldades. Conheci o método Suzuki, que me encantou sobretudo para poder ver a minha atividade com mais seriedade e principalmente entender como é importante a participação das famílias no aprendizado musical infantil. Mas senti que o Suzuki ainda não era a resposta, pois se distancia da realidade de 90% dos alunos no Brasil, onde a cultura musical erudita é distante do ensino escolar.
+  ![dar aulas de violão métodos foram facilitados](/images/blog/2020/09/Gracas-aos-metodos-o-aprendizado-da-Musica-foi-facilitado.-Fonte-musicinsix.blogspot1-233x300.webp)Com estas vivências eu me debrucei em alguns métodos, inclusive de musicalização, piano e flauta. Não encontrava nada que fosse realmente muito diferenciado no universo do violão para resolver estas dificuldades. Conheci o método Suzuki, que me encantou sobretudo para poder ver a minha atividade com mais seriedade e principalmente entender como é importante a participação das famílias no aprendizado musical infantil. Mas senti que o Suzuki ainda não era a resposta, pois se distancia da realidade de 90% dos alunos no Brasil, onde a cultura musical erudita é distante do ensino escolar.
 
 O fato é que, sem ter uma maneira de atender estas crianças, cuja demanda representou para mim 70% do total de alunos, eu estaria fadado a ter apenas alguns poucos alunos. E certamente não estaria aqui hoje, auxiliando diretamente mais de 500 professores de violão e indiretamente mais de 35 mil pessoas que vem seguindo o [Amigo Violão](https://www.youtube.com/channel/UCTL5VICxxXZGKoodm9uJg9A?view_as=subscriber) no canal do Youtube.
 
@@ -45,7 +45,7 @@ As escolas de música, sejam de nível livre ou superior, não costumam abordar 
 
 O ideal para dar aulas de violão de forma profissional e ser reconhecido por isso é ter alguma formação. Frequentar uma escola ou curso de música não se resume a saber algumas coisas a mais sobre música. Serve também como referência de ensino, pois damos o que temos para dar. E desta forma se constrói uma rede de networking, pois passamos a conhecer professores e colegas, o que nos insere no meio e abre portas e oportunidades.
 
-  ![Dar aulas de violão - Busca por formação musical](/images/blog/2020/09/licenciatura2.jpg)É claro que na música o que realmente paga as contas é a qualidade técnica musical somada à afabilidade no trato com as pessoas. Se você sabe tocar super bem, já tocou e bandas e é uma pessoa organizada, pontual e gentil, realmente tem muitas chances de ser bem sucedido como professor, mesmo sem ter formação superior em música.
+  ![Dar aulas de violão - Busca por formação musical](/images/blog/2020/09/licenciatura2.webp)É claro que na música o que realmente paga as contas é a qualidade técnica musical somada à afabilidade no trato com as pessoas. Se você sabe tocar super bem, já tocou e bandas e é uma pessoa organizada, pontual e gentil, realmente tem muitas chances de ser bem sucedido como professor, mesmo sem ter formação superior em música.
 
 Acontece que a música é um campo de estudos extremamente amplo. Para organizar os conhecimentos, saber explicar bem, é preciso ter recebido este conteúdo de forma adequada, o que escolas e cursos entregam muito melhor do que anos tocando e pesquisando vídeos no Youtube apenas.
 
@@ -63,7 +63,7 @@ Quando um aluno entra em uma escola de música e agenda a primeira aula, ele ten
 
 Você concorda que, sem participar de uma escola ou sem estar sob uma marca já reconhecida, professores iniciantes ficam mais sujeitos a perder oportunidades e não serem valorizados?
 
- ![](/images/blog/2020/09/Dar-aula-de-violao-trabalhar-em-escola-de-musica.png)
+ ![](/images/blog/2020/09/Dar-aula-de-violao-trabalhar-em-escola-de-musica.webp)
 
 Ensaio em uma das escolas de música em que trabalhei no início da carreira.
 

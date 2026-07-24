@@ -13,8 +13,8 @@ categories:
 tags:
   - como-ler-tablatura
   - simbolos-tablatura
-featured_image: /images/blog/2018/12/Design-sem-nome-3.png
-og_image: /images/blog/2018/12/Design-sem-nome-3.png
+featured_image: /images/blog/2018/12/Design-sem-nome-3.webp
+og_image: /images/blog/2018/12/Design-sem-nome-3.webp
 canonical: 'https://amigoviolao.com/blog/como-ler-tablatura-evite-um-erro-muito-comum'
 wpId: 3233
 ---
@@ -23,7 +23,7 @@ A tablatura é uma forma de ler música mais simples do que a partitura, muito u
 
 Vamos observar a seguinte imagem para entender, de uma vez por todas, como ler tablatura :
 
-![Como-ler-tablatura-pantera-cor-de-rosa](/images/blog/2018/03/Como-ler-tablatura-pantera-cor-de-rosa.jpg)
+![Como-ler-tablatura-pantera-cor-de-rosa](/images/blog/2018/03/Como-ler-tablatura-pantera-cor-de-rosa.webp)
 
 Trecho de “Pantera Cor-de-Rosa”
 
@@ -48,7 +48,7 @@ Primeiramente, ouça a música e se familiarize com ela, cante-a várias vezes a
 
 Depois, veja a tablatura e tente tocar, como se estivesse cantando :
 
-![Como-ler-tablatura-nona-sinfonia](/images/blog/2018/03/Nona-Sinfonia.jpg)
+![Como-ler-tablatura-nona-sinfonia](/images/blog/2018/03/Nona-Sinfonia.webp)
 
 ## Principais Símbolos da Tablatura e Seus Significados:
 

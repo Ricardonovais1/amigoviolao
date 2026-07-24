@@ -9,8 +9,8 @@ slug: curso-de-violao-completo
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.jpg
-og_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.jpg
+featured_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.webp
+og_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.webp
 canonical: 'https://amigoviolao.com/blog/curso-de-violao-completo'
 wpId: 39578
 ---
@@ -30,7 +30,7 @@ Ou seja, o bom aprendizado deve ser **bem planejado**, por um lado, por meio de 
 
 Esses são os **2 grandes pilares** que fazem um curso de violão completo! Nos aprofundaremos agora no primeiro deles:
 
-![curso de violão completo](/images/blog/2021/09/curso-de-violao-completo-1024x634.jpg)
+![curso de violão completo](/images/blog/2021/09/curso-de-violao-completo-1024x634.webp)
 
 É necessário um curso de violão **completo** para aprender o instrumento!
 
@@ -46,7 +46,7 @@ No entanto, não é só isso que leva à desmotivação, evidentemente, podendo 
 
 Portanto, um curso de violão completo deve manter um equilíbrio entre “método” e orientação mais individual, entre gradualidade e objetividade e, por fim, progredir sempre por meio de músicas que sirvam tanto para o prazer estético do aluno quanto para o seu desenvolvimento na técnica e na leitura.
 
-![curso de violão completo](/images/blog/2021/09/aprender-violao-1024x682.jpg)
+![curso de violão completo](/images/blog/2021/09/aprender-violao-1024x682.webp)
 
 O que faz um curso de violão completo, afinal?
 

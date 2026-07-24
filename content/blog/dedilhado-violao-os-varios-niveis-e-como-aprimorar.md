@@ -9,8 +9,8 @@ slug: dedilhado-violao-os-varios-niveis-e-como-aprimorar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.jpg
-og_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.jpg
+featured_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.webp
+og_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.webp
 canonical: >-
   https://amigoviolao.com/blog/dedilhado-violao-os-varios-niveis-e-como-aprimorar
 wpId: 38534
@@ -41,7 +41,7 @@ Aqui, você já é capaz de tocar **peças para violão solo** mais simples (de 
 
 Neste nível, você já é capaz de tocar bem uma boa quantidade de arranjos para violão solo, conseguindo até mesmo **criar e improvisar** os seus próprios. Aqui, peças para violão solo mais simples já estão **bem dominadas**, e você já pode se arriscar em peças mais complexas, indo dos estudos do Brouwer até os prelúdios do Villa Lobos, peças de Dilermando Reis, arranjos bem elaborados de canções populares etc. A sua mão esquerda e direita **se coordenam** “em um só mecanismo”, não havendo grandes dificuldades em **variar combinações** de dedilhados e de notas na mão esquerda, de acordo com seu interesse. Seu tocar aqui já é **firme e ágil**.
 
- ![](/images/blog/2021/08/dedilhado-violao-1024x682.jpg)
+ ![](/images/blog/2021/08/dedilhado-violao-1024x682.webp)
 
 Dedilhado violão: é necessário praticar da maneira correta!
 
@@ -64,7 +64,7 @@ Isto é; se o dedilhado é p i m a, por exemplo, o i **deve estar pronto na cord
 
 Isso fará com que sua mão sempre tenha ao menos um dedo apoiando no instrumento (o que traz firmeza a ela) e seus dedos estejam sempre prontos para tocar.
 
- ![](/images/blog/2021/08/violao-dedilhar-1024x682.jpg)
+ ![](/images/blog/2021/08/violao-dedilhar-1024x682.webp)
 
 Tem algo mais bonito do que um violão bem dedilhado?
 

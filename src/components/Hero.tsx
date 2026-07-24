@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-dark">
       <Image
-        src="/images/fundo-home-site.png"
+        src="/images/fundo-home-site.webp"
         alt=""
         fill
         priority

@@ -21,8 +21,8 @@ tags:
   - educacao-musical-iinfantil
   - escala-musical
   - estimular-a-musica-na-infancia
-featured_image: /images/blog/2015/12/Ensinando-escala.jpg
-og_image: /images/blog/2015/12/Ensinando-escala.jpg
+featured_image: /images/blog/2015/12/Ensinando-escala.webp
+og_image: /images/blog/2015/12/Ensinando-escala.webp
 canonical: 'https://amigoviolao.com/blog/brincadeiras-musicais-ensinando-a-escala'
 wpId: 522
 ---

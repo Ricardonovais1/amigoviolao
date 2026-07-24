@@ -9,8 +9,8 @@ slug: conteudos-provic-3-0
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2020/09/Conteudos-PROVIc.jpg
-og_image: /images/blog/2020/09/Conteudos-PROVIc.jpg
+featured_image: /images/blog/2020/09/Conteudos-PROVIc.webp
+og_image: /images/blog/2020/09/Conteudos-PROVIc.webp
 canonical: 'https://amigoviolao.com/blog/conteudos-provic-3-0'
 wpId: 33241
 ---

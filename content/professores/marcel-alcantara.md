@@ -3,7 +3,7 @@ name: Marcel Alcântara
 title: Professor Marcel Alcântara
 slug: marcel-alcantara
 city: Ribeirão Preto, SP
-photo: /images/blog/2018/05/Marcel-Alcantara.jpg
+photo: /images/blog/2018/05/Marcel-Alcantara.webp
 whatsapp: '5516988084623'
 description: >-
   Formado em música pela UNAERP, Marcel Alcântara é professor de violão há

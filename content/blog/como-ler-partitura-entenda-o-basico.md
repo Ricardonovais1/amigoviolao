@@ -12,8 +12,8 @@ categories:
   - violao-para-iniciantes
 tags:
   - como-ler-partitura
-featured_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.jpg
-og_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.jpg
+featured_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.webp
+og_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.webp
 canonical: 'https://amigoviolao.com/blog/como-ler-partitura-entenda-o-basico'
 wpId: 3242
 ---
@@ -41,7 +41,7 @@ A armadura indica a _tonalidade_ da música.
 
 A clave indica _quais notas devem ser representadas pelos espaços e linhas na pauta_. (dependendo da clave, uma figura em determinado espaço ou linha pode significar diferentes notas).
 
-![como-ler-partitura-imagem](/images/blog/2018/03/partes-pauta-1.png)
+![como-ler-partitura-imagem](/images/blog/2018/03/partes-pauta-1.webp)
 
 Cada bolinha (com ou sem linha) distribuída pela pauta representa uma nota, o _desenho da figura mostra a duração da nota_, enquanto _sua posição vertical nas linhas e espaços indica a nota que se deve tocar._
 

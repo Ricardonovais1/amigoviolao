@@ -9,8 +9,8 @@ slug: ensinar-violao-dicas-imperdiveis-para-troca-de-acordes
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.jpg
-og_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.jpg
+featured_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.webp
+og_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.webp
 canonical: >-
   https://amigoviolao.com/blog/ensinar-violao-dicas-imperdiveis-para-troca-de-acordes
 wpId: 39977
@@ -30,7 +30,7 @@ Esta daqui consiste no “outro lado da moeda”. Se, na dica do rolo compressor
 
 Aplicando as duas técnicas, seu aluno desenvolverá a habilidade que cada uma delas permite desenvolver. Perceba que estamos isolando as partes do problema, a fim de que ele(a), corrigindo cada uma de uma vez, seja capaz de resolvê-lo por inteiro.
 
- ![ensinar violao](/images/blog/2021/10/ensinar-violao-1024x682.jpg)
+ ![ensinar violao](/images/blog/2021/10/ensinar-violao-1024x682.webp)
 
 Ensinar violão deve ter como objetivo tornar o aluno independente de você!
 

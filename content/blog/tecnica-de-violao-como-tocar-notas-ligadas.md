@@ -21,11 +21,11 @@ Essa técnica é utilizada “entre as notas”, para conectar duas notas sem qu
 
 Pode-se ligar a nota para cima, como mostra a imagem :
 
-![técnica-de-violão-1](/images/blog/2018/04/imagem-ligada-para-cima.png)
+![técnica-de-violão-1](/images/blog/2018/04/imagem-ligada-para-cima.webp)
 
 Ou para baixo :
 
-![técnica-de-violão-2](/images/blog/2018/04/imagem-ligada-para-baixo.png)
+![técnica-de-violão-2](/images/blog/2018/04/imagem-ligada-para-baixo.webp)
 
 ## Como tocar utilizando essa técnica de violão?
 

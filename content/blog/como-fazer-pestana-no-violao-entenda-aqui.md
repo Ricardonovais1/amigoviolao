@@ -19,8 +19,8 @@ tags:
   - como-tocar-violao-rapido
   - pestana-no-violao
   - quero-tocar-violao
-featured_image: /images/blog/2021/08/CAPA-como-fazer-pestana.jpg
-og_image: /images/blog/2021/08/CAPA-como-fazer-pestana.jpg
+featured_image: /images/blog/2021/08/CAPA-como-fazer-pestana.webp
+og_image: /images/blog/2021/08/CAPA-como-fazer-pestana.webp
 canonical: 'https://amigoviolao.com/blog/como-fazer-pestana-no-violao-entenda-aqui'
 wpId: 38136
 ---
@@ -43,7 +43,7 @@ Para isto, faça o seguinte: sempre que, ao tocar, você perceber que está for�
 
 Porém…
 
-![](/images/blog/2021/07/como-fazer-pestana-1024x682.jpg)
+![](/images/blog/2021/07/como-fazer-pestana-1024x682.webp)
 
 Como fazer pestana no violão: eis uma questão difícil para o iniciante.
 
@@ -63,7 +63,7 @@ E é aí que repito o que disse: se toca violão **com o corpo todo**. E, pensan
 
 ### 2) Querer pressionar toda as cordas com a pestana, ao invés de somente aquelas necessárias para o acorde
 
-![como fazer pestana](/images/blog/2021/07/nao-consigo-fazer-pestana-1024x682.jpg)
+![como fazer pestana](/images/blog/2021/07/nao-consigo-fazer-pestana-1024x682.webp)
 
 Toca-se violão com o corpo todo!
 

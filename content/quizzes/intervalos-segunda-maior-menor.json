@@ -8,17 +8,17 @@
   "imageAltPrefix": "Intervalo de segunda",
   "optionPool": ["Ascendente maior", "Ascendente menor", "Descendente maior", "Descendente menor"],
   "questions": [
-    { "image": "q01.png", "answer": "Ascendente maior" },
-    { "image": "q02.png", "answer": "Descendente maior" },
-    { "image": "q03.png", "answer": "Ascendente menor" },
-    { "image": "q04.png", "answer": "Ascendente maior" },
-    { "image": "q05.png", "answer": "Ascendente maior" },
-    { "image": "q06.png", "answer": "Ascendente menor" },
-    { "image": "q07.png", "answer": "Descendente maior" },
-    { "image": "q08.png", "answer": "Descendente maior" },
-    { "image": "q09.png", "answer": "Ascendente maior" },
-    { "image": "q10.png", "answer": "Ascendente menor" },
-    { "image": "q11.png", "answer": "Descendente menor" },
-    { "image": "q12.png", "answer": "Descendente menor" }
+    { "image": "q01.webp", "answer": "Ascendente maior" },
+    { "image": "q02.webp", "answer": "Descendente maior" },
+    { "image": "q03.webp", "answer": "Ascendente menor" },
+    { "image": "q04.webp", "answer": "Ascendente maior" },
+    { "image": "q05.webp", "answer": "Ascendente maior" },
+    { "image": "q06.webp", "answer": "Ascendente menor" },
+    { "image": "q07.webp", "answer": "Descendente maior" },
+    { "image": "q08.webp", "answer": "Descendente maior" },
+    { "image": "q09.webp", "answer": "Ascendente maior" },
+    { "image": "q10.webp", "answer": "Ascendente menor" },
+    { "image": "q11.webp", "answer": "Descendente menor" },
+    { "image": "q12.webp", "answer": "Descendente menor" }
   ]
 }

@@ -3,7 +3,7 @@ name: Einstein Solles
 title: Professor Einstein Solles
 slug: einstein-solles
 city: Paracatu, MG
-photo: /images/blog/2018/05/Einstein-Solles.jpg
+photo: /images/blog/2018/05/Einstein-Solles.webp
 whatsapp: '5538991884035'
 description: >-
   Violonista, guitarrista e cantor-compositor em Paracatu (MG), lecionando

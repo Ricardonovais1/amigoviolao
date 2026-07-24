@@ -11,8 +11,8 @@ categories:
   - como-tocar-violao
   - iniciantes
 tags: []
-featured_image: /images/blog/2018/05/Primeiros-Acordes-cut.jpg
-og_image: /images/blog/2018/05/Primeiros-Acordes-cut.jpg
+featured_image: /images/blog/2018/05/Primeiros-Acordes-cut.webp
+og_image: /images/blog/2018/05/Primeiros-Acordes-cut.webp
 canonical: 'https://amigoviolao.com/blog/como-comecar-a-treinar-acordes'
 wpId: 3634
 ---
@@ -31,7 +31,7 @@ Você irá aprender também o **D** (Ré maior), **G** (Sol maior), **C** (Dó m
 
 **Em (Mi menor) :**
 
-![treinar-acordes-1](/images/blog/2018/04/mi-menor-diagrama.png)
+![treinar-acordes-1](/images/blog/2018/04/mi-menor-diagrama.webp)
 
 **OBS 1 :** As linhas **horizontais** representam os **trastes** e as linhas **verticais** representam as **cordas.**
 
@@ -41,31 +41,31 @@ Você irá aprender também o **D** (Ré maior), **G** (Sol maior), **C** (Dó m
 
 Você deve então pressionar as casas **2** das cordas **Lá** e **Ré**, tocando todas as cordas. Como na imagem a seguir :
 
-![treinar-acordes-2](/images/blog/2018/04/mi-menor-foto.png)
+![treinar-acordes-2](/images/blog/2018/04/mi-menor-foto.webp)
 
 Lembre-se de posicionar a sua mão de forma a encostar apenas nas cordas desejadas, para isso, a dica do coração que eu abordei [nesse texto](https://amigoviolao.com/?p=3260&preview=true) pode lhe ajudar.
 
 O próximo acorde é o **D (Ré maior)** :
 
-![treinar-acordes-3](/images/blog/2018/04/re-maior-foto-e-diagrama.png)
+![treinar-acordes-3](/images/blog/2018/04/re-maior-foto-e-diagrama.webp)
 
 (Novamente, monte o acorde segundo o diagrama e a imagem)
 
 Agora o **G (Sol maior) :**
 
-![treinar-acordes-4](/images/blog/2018/04/sol-maior-foto-e-diagrama.png)
+![treinar-acordes-4](/images/blog/2018/04/sol-maior-foto-e-diagrama.webp)
 
 **C (Dó maior) :**
 
-![treinar-acordes-5](/images/blog/2018/04/do-maior-foto-e-diagrama.png)
+![treinar-acordes-5](/images/blog/2018/04/do-maior-foto-e-diagrama.webp)
 
 **Am (Lá menor) :**
 
-![treinar-acordes-6](/images/blog/2018/04/La-menor-foto-e-diagrama.png)
+![treinar-acordes-6](/images/blog/2018/04/La-menor-foto-e-diagrama.webp)
 
 **A (Lá maior) :**
 
-![treinar-acordes-7](/images/blog/2018/04/la-maior-foto-e-diagrama.png)
+![treinar-acordes-7](/images/blog/2018/04/la-maior-foto-e-diagrama.webp)
 
 Depois de treinar acordes e ter decorado eles, tente fazer a sequência **G, C, Am, A**. tocando para baixo **2 vezes** cada acorde, em um ritmo constante.
 

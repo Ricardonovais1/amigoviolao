@@ -3,7 +3,7 @@ name: Samuel Calazans
 title: Professor Certificado Samuel Calazans
 slug: samuel-calazans
 city: Governador Valadares, MG
-photo: /images/professores/samuel-calazans.jpg
+photo: /images/professores/samuel-calazans.webp
 description: >-
   Professor certificado Amigo Violão, Samuel Calazans dá aulas de violão
   para crianças e iniciantes em Governador Valadares (MG) desde 2010.

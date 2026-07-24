@@ -3,7 +3,7 @@ name: Alan Alves
 title: Professor Alan Alves
 slug: alan-alves
 city: Divinópolis, MG
-photo: /images/blog/2018/05/Alan-Alves-Cut-2-1.jpg
+photo: /images/blog/2018/05/Alan-Alves-Cut-2-1.webp
 whatsapp: '553791602985'
 email: alanalves.costa@hotmail.com
 description: >-

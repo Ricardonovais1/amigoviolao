@@ -9,8 +9,8 @@ slug: como-tocar-violao-sera-que-precisa-de-dom
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/08/CAPA-Precisa-de-dom.png
-og_image: /images/blog/2021/08/CAPA-Precisa-de-dom.png
+featured_image: /images/blog/2021/08/CAPA-Precisa-de-dom.webp
+og_image: /images/blog/2021/08/CAPA-Precisa-de-dom.webp
 canonical: 'https://amigoviolao.com/blog/como-tocar-violao-sera-que-precisa-de-dom'
 wpId: 38387
 ---
@@ -23,7 +23,7 @@ Com isso, não quero dizer que você deva praticar 10 horas por dia e nem que is
 
 Porém, existe algo além da disciplina…
 
-![aprender a tocar violão](/images/blog/2021/08/ter-dom-para-tocar-violao-1024x682.jpg)
+![aprender a tocar violão](/images/blog/2021/08/ter-dom-para-tocar-violao-1024x682.webp)
 
 É necessária a disciplina do aluno e a boa orientação do professor!
 
@@ -44,7 +44,7 @@ Sem o elemento da orientação, você verá os outros tocando muito melhor do qu
 
 Porém…
 
-![ter dom tocar violão](/images/blog/2021/08/ter-dom-violao-1024x682.jpg)
+![ter dom tocar violão](/images/blog/2021/08/ter-dom-violao-1024x682.webp)
 
 Não vamos deixar o violão de lado!
 

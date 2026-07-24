@@ -3,7 +3,7 @@ name: Roberta Gomes
 title: Professora Roberta Gomes
 slug: roberta-gomes
 city: Arujá, SP
-photo: /images/professores/roberta-gomes.jpg
+photo: /images/professores/roberta-gomes.webp
 whatsapp: '5511999956956'
 email: robertagdj@hotmail.com
 description: >-

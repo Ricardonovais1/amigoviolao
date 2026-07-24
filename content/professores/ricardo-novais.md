@@ -3,7 +3,7 @@ name: Ricardo Novais
 title: Professor Ricardo Novais
 slug: ricardo-novais
 city: Belo Horizonte, MG
-photo: /images/blog/2018/05/Ricardo-Novais-1.jpg
+photo: /images/blog/2018/05/Ricardo-Novais-1.webp
 description: >-
   Formado em violão pela UFMG, Ricardo Novais é o criador da metodologia
   Amigo Violão e autor do livro "Curso de Violão para Crianças".

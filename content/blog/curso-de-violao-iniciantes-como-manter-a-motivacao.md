@@ -19,8 +19,8 @@ tags:
   - curso-de-violao-para-iniciantes
   - primeiros-acordes-violao
   - quero-tocar-violao
-featured_image: /images/blog/2021/08/motivacao-para-tocar.jpg
-og_image: /images/blog/2021/08/motivacao-para-tocar.jpg
+featured_image: /images/blog/2021/08/motivacao-para-tocar.webp
+og_image: /images/blog/2021/08/motivacao-para-tocar.webp
 canonical: >-
   https://amigoviolao.com/blog/curso-de-violao-iniciantes-como-manter-a-motivacao
 wpId: 37810
@@ -30,7 +30,7 @@ Não é raro vermos pessoas que iniciam um projeto pessoal e **não o finalizam*
 
 Uma boa orientação é **fundamental** para o aprendizado do violão, e sem ela você se torna como uma criança pequena perdida no meio de uma multidão, que anda, anda e anda, mas sem saber para onde está indo. Sem uma boa orientação, as suas várias tentativas frustradas terminam por dar lugar àquele amargo sentimento de fracasso, àquele gostinho na boca de quem diz: **“eu não tenho dom para a música”**.
 
-![aprender violão do zero](/images/blog/2021/07/curso-de-violao-principiantes-1024x680.jpg)
+![aprender violão do zero](/images/blog/2021/07/curso-de-violao-principiantes-1024x680.webp)
 
 É possível aprender violão de forma divertida e sem se frustrar, só é necessário saber que…
 
@@ -56,7 +56,7 @@ Por isso, um **boa orientação** no violão deve mirar **3 objetivos**. Estes s
 
 **Porém…**
 
- ![curso de violão para iniciantes](/images/blog/2021/07/iniciante-curso-de-violao-1024x640.jpg)
+ ![curso de violão para iniciantes](/images/blog/2021/07/iniciante-curso-de-violao-1024x640.webp)
 
 Os primeiros acordes podem até doer o dedo, mas são os mais prazerosos!
 

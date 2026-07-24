@@ -70,7 +70,7 @@ A princípio, não há conhecimento musical que não seja importante para um vio
 
 Alturas são as gradações entre grave e agudo, portando as notas. A notação das mesmas, na partitura, requer o conhecimento dos seguintes tópicos:
 
- ![](/images/blog/2020/07/Partitura-de-violao-300x113.png)
+ ![](/images/blog/2020/07/Partitura-de-violao-300x113.webp)
 
 1.  **Automatismo das notas** – Capacidade de dizer as notas na ordem certa, seja do grave para o agudo (Dó, ré, mi, fá, etc) ou do agudo para o grave (Dó, si, lá, sol, fá, etc.)
 2.  **Pentagrama**  – As cinco linhas do pentagrama são o palco das notas que ficam sobre linhas ou nos espaços (entre uma linha e outra).
@@ -82,7 +82,7 @@ Alturas são as gradações entre grave e agudo, portando as notas. A notação 
 
 Notas curtas ou longas? O jogo entre as durações é o que chamamos de ritmo.  Para se obter o domínio da leitura e escrita rítmicas é necessário conhecer:
 
- ![Notas pontuadas aprender violão clássico](/images/blog/2020/07/Notas-pontuadas.png)
+ ![Notas pontuadas aprender violão clássico](/images/blog/2020/07/Notas-pontuadas.webp)
 
 Notas pontuadas
 
@@ -235,7 +235,7 @@ Esta é uma lista que não deve ser encarada como obrigatória, mas apenas uma s
 
 Este estudo de arpejo é muito bonito e trabalha o dedilhado p i m i na mão esquerda.
 
- ![](/images/blog/2020/07/Estudo-10-Aguado.png)
+ ![](/images/blog/2020/07/Estudo-10-Aguado.webp)
 
 **2 – Valsa em Dó Maior – Ferdinando Carulli**
 
@@ -247,31 +247,31 @@ Trabalha acordes na primeira posição e um ritmo de valsa (3 por 4).
 
 Estudo de melodia acompanhada com movimentos simples de mão esquerda, em valsa e notas acidentadas que apimentam a harmonia. Trabalha controle de diferentes timbres.
 
- ![](/images/blog/2020/07/Estudo-11-Aguado-300x33.jpg)
+ ![](/images/blog/2020/07/Estudo-11-Aguado-300x33.webp)
 
 **4 – Greensleeves – Anônimo**
 
 Um clássico da música medieval.
 
- ![](/images/blog/2020/07/Greensleeves-300x34.jpg)
+ ![](/images/blog/2020/07/Greensleeves-300x34.webp)
 
 **5 – Espagnoleta – Gaspar Sanz**
 
 Um clássico da música medieval espanhola.
 
- ![](/images/blog/2020/07/Espagnoleta-Gaspar-Sanz-300x38.jpg)
+ ![](/images/blog/2020/07/Espagnoleta-Gaspar-Sanz-300x38.webp)
 
 **6 – Romance de Amor – Anônimo**
 
 Trabalha regiões agudas do violão, campo Harmônico Maior e menor e arpejos.
 
- ![](/images/blog/2020/07/Romance-de-Amor-300x46.png)
+ ![](/images/blog/2020/07/Romance-de-Amor-300x46.webp)
 
 **7 – Estudo em Si menor – Fernando Sor**
 
 Melodia acompanhada com um belíssimo discurso harmônico. Apesar de ser uma obra tecnicamente simples, é tocada em discos e concertos por grandes nomes do violão erudito.
 
- ![](/images/blog/2020/07/estudio-en-si-menor-fernando-sor-1-638-300x42.jpg)
+ ![](/images/blog/2020/07/estudio-en-si-menor-fernando-sor-1-638-300x42.webp)
 
 **8 – Estudo em Dó Maior – Francisco Tárrega**
 
@@ -301,7 +301,7 @@ Trabalha ligados, dinâmicas e regiões do violão que requerem maior esforço d
 
 Uma das peças tecnicamente mais acessíveis de Villa-Lobos. Embora musicalmente envolva conteúdos bem elaborados.
 
- ![](/images/blog/2020/07/Preludio-3-Villa-300x55.jpg)
+ ![](/images/blog/2020/07/Preludio-3-Villa-300x55.webp)
 
 ## 7 –  Indo além: Mentalidade de um violonista erudito.
 

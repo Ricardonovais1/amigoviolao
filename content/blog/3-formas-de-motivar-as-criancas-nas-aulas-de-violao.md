@@ -9,8 +9,8 @@ slug: 3-formas-de-motivar-as-criancas-nas-aulas-de-violao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/10/CAPA-motivar-criancas.jpg
-og_image: /images/blog/2021/10/CAPA-motivar-criancas.jpg
+featured_image: /images/blog/2021/10/CAPA-motivar-criancas.webp
+og_image: /images/blog/2021/10/CAPA-motivar-criancas.webp
 canonical: >-
   https://amigoviolao.com/blog/3-formas-de-motivar-as-criancas-nas-aulas-de-violao
 wpId: 39804
@@ -25,7 +25,7 @@ Sem motivação, seu aluno não conseguirá tocar nem aquilo que ele tem condiç
 
 Pensando nisso, mostraremos a seguir **3 formas** de motivar as crianças nas aulas de violão. Partamos então para a primeira delas:
 
- ![motivar crianças aula violão](/images/blog/2021/09/criancas-motivadas-violao-1024x683.jpg)
+ ![motivar crianças aula violão](/images/blog/2021/09/criancas-motivadas-violao-1024x683.webp)
 
 Motivar as crianças nas aulas de violão não é fácil, mas é possível!
 

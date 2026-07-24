@@ -3,7 +3,7 @@ name: Alexandre Zampieri
 title: Professor Alexandre Zampieri
 slug: alexandre-zampieri
 city: Irani, SC
-photo: /images/blog/2018/05/Alexandre-Zampieri-300x258.jpg
+photo: /images/blog/2018/05/Alexandre-Zampieri-300x258.webp
 whatsapp: '5549991211446'
 description: >-
   Proprietário e professor de violão, guitarra, contrabaixo e musicalização

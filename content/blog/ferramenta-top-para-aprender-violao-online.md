@@ -36,7 +36,7 @@ E com o VSC (Video Speed Controller), você ainda pode controlar se estiver muit
 
 Para alterar a velocidade do vídeo, basta passar o mouse onde estiver escrito **1.00**, no canto superior esquerdo, e fazer como na imagem :
 
-![](/images/blog/2018/04/Video-Speed-Controller.png)
+![](/images/blog/2018/04/Video-Speed-Controller.webp)
 
 Dessa forma, você poderá controlar a velocidade com que as partituras são reproduzidas. Evitando assim que fiquem rápidas demais a ponto de você não conseguir acompanhar ou que fiquem lentas demais a ponto de se tornar improdutivo. Mas lembre-se, **sempre toque mais lento do que você pode pensar.**
 

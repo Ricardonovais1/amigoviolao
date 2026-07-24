@@ -9,8 +9,8 @@ slug: melhor-curso-online-de-violao-videoaulas-tira-duvidas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.jpg
-og_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.jpg
+featured_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.webp
+og_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.webp
 canonical: >-
   https://amigoviolao.com/blog/melhor-curso-online-de-violao-videoaulas-tira-duvidas
 wpId: 38359
@@ -22,7 +22,7 @@ Bom, podemos, a princípio, dizer que **todos esses fatores** contribuem para a 
 
 Você pode então dizer: “Mas isso é geral demais, não esclarece o problema!”, e eu só tenho a **concordar** com você, afinal de contas, não é tão fácil saber o que auxiliará o aluno a realizar seus anseios, não é mesmo? Os vários alunos têm _diversos_ objetivos, _diversos_ interesses, apresentam _diversos_ níveis, e querer estabelecer para todos um caminho absolutamente idêntico significa, no fundo, **desprezar a individualidade de cada um**.
 
-![aprender violão](/images/blog/2021/07/melhor-curso-de-violao-1024x680.jpg)
+![aprender violão](/images/blog/2021/07/melhor-curso-de-violao-1024x680.webp)
 
 A impessoalidade é um impeditivo para que algum curso seja o melhor curso online de violão!
 

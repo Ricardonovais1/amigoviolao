@@ -9,8 +9,8 @@ slug: violao-para-iniciantes-3-erros-comuns-e-1-so-solucao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/11/CAPA-3-erros-1-solucao.jpg
-og_image: /images/blog/2021/11/CAPA-3-erros-1-solucao.jpg
+featured_image: /images/blog/2021/11/CAPA-3-erros-1-solucao.webp
+og_image: /images/blog/2021/11/CAPA-3-erros-1-solucao.webp
 canonical: >-
   https://amigoviolao.com/blog/violao-para-iniciantes-3-erros-comuns-e-1-so-solucao
 wpId: 39936
@@ -28,7 +28,7 @@ Passemos então para o primeiro:
 
 Isto é muito comum entre os iniciantes no violão. Se trata de deixar os dedos ou o pulso apoiados no tampo do instrumento, a fim de conferir alguma estabilidade à mão. Isto acontece naturalmente, como uma resposta à sensação incômoda de “mão flutuante” que podemos ter ao tocar. No entanto, devemos ter em mente que embora surja realmente uma sensação de comodidade ao fazê-lo, esta solução traz consigo **problemas ainda piores**. Além da sua mão se tornar “dura” e incapaz de executar adequadamente os movimentos, será bem mais difícil posicioná-la adequadamente para tocar novamente com os dedos _ima_. Portanto, **não se deve** apoiar nem os dedos nem o pulso no tampo.
 
- ![3 erros violão para iniciantes](/images/blog/2021/10/3-erros-violao-iniciante-uma-solucao-1024x680.jpg)
+ ![3 erros violão para iniciantes](/images/blog/2021/10/3-erros-violao-iniciante-uma-solucao-1024x680.webp)
 
 Não é fácil ensinar violão para iniciantes, é necessário conhecer bem o caminho a se percorrer!
 

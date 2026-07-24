@@ -3,7 +3,7 @@ name: Ivan Matias
 title: Professor Ivan Matias
 slug: ivan-matias
 city: Blumenau, SC
-photo: /images/blog/2018/05/Ivan-Matias-1.jpg
+photo: /images/blog/2018/05/Ivan-Matias-1.webp
 whatsapp: '5547996892832'
 description: >-
   Guitarrista e compositor da banda Legião Urbana Cover SC, Ivan Matias

@@ -45,7 +45,7 @@ O baixo é grave, o alto é agudo. O instrumento Baixo, é o que faz a marcaçã
 
 **As alturas são as diferentes notas: Dó, ré, mi, fá, sol, lá e si.** Note nesta partitura que as notas são representadas como uma _escada_, de baixo pra cima. Qualquer semelhança com a palavra _escala_, não é mera coincidência!
 
-![](/images/blog/2016/01/Escala-na-partitura-300x94.jpg)
+![](/images/blog/2016/01/Escala-na-partitura-300x94.webp)
 
 ## Duração:
 
@@ -65,7 +65,7 @@ E assim por diante.
 
 A notação musical, sem entrar em detalhes, utiliza os seguintes símbolos para representar a duração das notas:
 
-![](/images/blog/2016/01/Figuras-Ritmicas_separado.png)
+![](/images/blog/2016/01/Figuras-Ritmicas_separado.webp)
 
 Na imagem acima a primeira figura é a mais longa. Cada figura dura metade da anterior.
 
@@ -79,7 +79,7 @@ _Forte_ e _Piano_, sendo Piano um som fraco, menos intenso.
 
 A palavra piano vem do instrumento Piano. É que quando ele surgiu, sua inovação foi de produzir sons fortes e pianos. O primeiro nome deste instrumento foi Pianoforte, palavra italiana, e ficou o apelido de Piano, que conhecemos hoje.
 
-![](/images/blog/2016/01/Forte-300x161-300x161.png) ![](/images/blog/2016/01/Piano-300x161-300x161.png)
+![](/images/blog/2016/01/Forte-300x161-300x161.webp) ![](/images/blog/2016/01/Piano-300x161-300x161.webp)
 
 ## Timbre
 

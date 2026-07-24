@@ -39,7 +39,7 @@ Tratando-se de guitarras e violões, percebe-se que são parecidos na hora de to
 
 **Partes do violão :**
 
-**![partes-do-violao](/images/blog/2018/04/Slide1-225x300.png)1) Braço :** É onde a mão esquerda (ou direita, no caso dos canhotos) fica apoiada. Serve, principalmente, para sustentar a escala (que você verá no próximo item).
+**![partes-do-violao](/images/blog/2018/04/Slide1-225x300.webp)1) Braço :** É onde a mão esquerda (ou direita, no caso dos canhotos) fica apoiada. Serve, principalmente, para sustentar a escala (que você verá no próximo item).
 
 **2) Escala :** É onde a mão “fraca” pressiona as cordas, produzindo diferentes notas.
 
@@ -84,7 +84,7 @@ A guitarra apresenta algumas partes diferentes do violão, assim como o violão 
 
 A seguir estão as partes da guitarra que não estão presentes no violão (tradicional) :
 
-**![partes-do-violao-guitarra](/images/blog/2018/04/Slide2-225x300.png)1) Abertura no corpo :** Serve para facilitar o acesso às casas mais agudas do instrumento.
+**![partes-do-violao-guitarra](/images/blog/2018/04/Slide2-225x300.webp)1) Abertura no corpo :** Serve para facilitar o acesso às casas mais agudas do instrumento.
 
 **2) Captadores :** Fica localizado abaixo das cordas, no corpo. Serve para transformar o impulso mecânico das cordas em impulsos elétricos (que posteriormente serão transformados em impulso mecânico novamente pelo amplificador). Cumpre o papel do corpo acústico do violão, que não existe na guitarra convencional.
 

@@ -9,8 +9,8 @@ slug: batidas-no-violao-os-varios-niveis-e-como-aprimorar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/batidas-violao-CAPA.jpg
-og_image: /images/blog/2021/09/batidas-violao-CAPA.jpg
+featured_image: /images/blog/2021/09/batidas-violao-CAPA.webp
+og_image: /images/blog/2021/09/batidas-violao-CAPA.webp
 canonical: >-
   https://amigoviolao.com/blog/batidas-no-violao-os-varios-niveis-e-como-aprimorar
 wpId: 39600
@@ -46,7 +46,7 @@ Neste nível, você será capaz de tocar batidas simples, inicialmente tocando s
 
 **3) A, B, A**
 
- ![](/images/blog/2021/09/batidas-violao-1024x681.jpg)
+ ![](/images/blog/2021/09/batidas-violao-1024x681.webp)
 
 É melhor falar A/B do que cima/baixo! E, se possível, fale A, B enquanto toca as batidas no violão!
 
@@ -60,7 +60,7 @@ Neste nível, você será capaz de tocar batidas simples, inicialmente tocando s
 Você pode tentar também uma pequena variação desta sequência:
 **2)** **A, A, B, B, A, B**
 
- ![batidas violao](/images/blog/2021/09/ritmos-violao-1024x726.jpg)
+ ![batidas violao](/images/blog/2021/09/ritmos-violao-1024x726.webp)
 
 As batidas no violão envolvem ambas as mãos! Lembre-se disto!
 

@@ -26,8 +26,8 @@ tags:
   - como-treinar-em-casa
   - curso-de-violao-para-criancas
   - estudar-com-os-filhos
-featured_image: /images/blog/2018/05/digit.png
-og_image: /images/blog/2018/05/digit.png
+featured_image: /images/blog/2018/05/digit.webp
+og_image: /images/blog/2018/05/digit.webp
 canonical: 'https://amigoviolao.com/blog/como-ajudar-meu-filho'
 wpId: 4118
 ---

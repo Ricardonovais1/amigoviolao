@@ -2,7 +2,7 @@
 name: Marlon Nascimento
 title: Professor Marlon Nascimento
 slug: marlon-nascimento
-photo: /images/blog/2018/05/Marlon-quadrado.jpg
+photo: /images/blog/2018/05/Marlon-quadrado.webp
 description: >-
   Bacharelando em violão pela UEMG, Marlon Nascimento dá aulas presenciais e
   online de violão clássico e popular.

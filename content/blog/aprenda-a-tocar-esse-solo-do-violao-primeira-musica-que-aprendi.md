@@ -42,11 +42,11 @@ As imagens que acompanham esta postagem são da tablatura da música. O que é u
 
 ## Tablatura Surfmusic:
 
-![](/images/blog/2020/05/Surfmusic-p1.png)
+![](/images/blog/2020/05/Surfmusic-p1.webp)
 
-![](/images/blog/2020/05/Surfmusic-p2.png)
+![](/images/blog/2020/05/Surfmusic-p2.webp)
 
-![](/images/blog/2020/05/Surfmusic-p3.png)
+![](/images/blog/2020/05/Surfmusic-p3.webp)
 
 ## Amigo Violão – Ensinando violão com amor
 

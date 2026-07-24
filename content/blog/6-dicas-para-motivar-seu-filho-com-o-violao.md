@@ -9,8 +9,8 @@ slug: 6-dicas-para-motivar-seu-filho-com-o-violao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2020/09/6-Dicas-Imagem.jpg
-og_image: /images/blog/2020/09/6-Dicas-Imagem.jpg
+featured_image: /images/blog/2020/09/6-Dicas-Imagem.webp
+og_image: /images/blog/2020/09/6-Dicas-Imagem.webp
 canonical: 'https://amigoviolao.com/blog/6-dicas-para-motivar-seu-filho-com-o-violao'
 wpId: 33324
 ---

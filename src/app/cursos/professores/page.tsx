@@ -97,27 +97,27 @@ const bonusItems = [
   {
     title: "Certificado 45 Horas após aprovação nas avaliações",
     subtitle: "Certificado 45 Horas após aprovação nas avaliações",
-    image: "/images/certificado-provic-malaquias.png",
+    image: "/images/certificado-provic-malaquias.webp",
   },
   {
     title: "Técnica de violão flamenco",
     subtitle: "Técnica de violão flamenco",
-    image: "/images/bonus-flamenco.png",
+    image: "/images/bonus-flamenco.webp",
   },
   {
     title: "Violão para Educadores Musicais",
     subtitle: "Violão para Educadores Musicais",
-    image: "/images/bonus-educadores-musicais.png",
+    image: "/images/bonus-educadores-musicais.webp",
   },
   {
     title: "Curso de Violão Clássico",
     subtitle: "Curso de Violão Clássico",
-    image: "/images/bonus-violao-classico.png",
+    image: "/images/bonus-violao-classico.webp",
   },
   {
     title: "Campo Harmônico e Ritmos brasileiros",
     subtitle: "Campo Harmônico e Ritmos brasileiros",
-    image: "/images/bonus-campo-harmonico-v2.png",
+    image: "/images/bonus-campo-harmonico-v2.webp",
   },
 ];
 

@@ -20,8 +20,8 @@ tags:
   - ensinar-para-uma-crianca
   - ensinar-uma-crianca
   - violao-infantil
-featured_image: /images/blog/2016/03/Bicicleta-sem-rodinha.jpg
-og_image: /images/blog/2016/03/Bicicleta-sem-rodinha.jpg
+featured_image: /images/blog/2016/03/Bicicleta-sem-rodinha.webp
+og_image: /images/blog/2016/03/Bicicleta-sem-rodinha.webp
 canonical: 'https://amigoviolao.com/blog/bicicleta-sem-rodinha-entenda-como-uma-metafora'
 wpId: 647
 ---

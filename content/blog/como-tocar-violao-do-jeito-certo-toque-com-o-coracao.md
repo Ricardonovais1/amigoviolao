@@ -9,8 +9,8 @@ slug: como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/10/CAPA-tecnica-coracao.jpg
-og_image: /images/blog/2021/10/CAPA-tecnica-coracao.jpg
+featured_image: /images/blog/2021/10/CAPA-tecnica-coracao.webp
+og_image: /images/blog/2021/10/CAPA-tecnica-coracao.webp
 canonical: >-
   https://amigoviolao.com/blog/como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 wpId: 39704
@@ -27,7 +27,7 @@ Aprender a tocar da maneira correta é, na verdade, **apropriar-se de uma tradi�
 
 Dito isto, falemos de alguns erros muito correntes entre os iniciantes:
 
- ![](/images/blog/2021/09/tecnica-coracao-1024x680.jpg)
+ ![](/images/blog/2021/09/tecnica-coracao-1024x680.webp)
 
 Como tocar violão do jeito certo? Bom, é importante posicionar os dedos corretamente!
 
