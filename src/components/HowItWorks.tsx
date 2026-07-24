@@ -113,7 +113,7 @@ export default function HowItWorks() {
                 onClick={() => setActive(index)}
                 className={`rounded-full px-5 py-2 text-sm font-semibold transition-[background-color,color,transform] duration-150 ease-snappy active:scale-[0.97] ${
                   active === index
-                    ? "bg-white text-teal"
+                    ? "bg-white text-teal-text"
                     : "bg-white/10 text-white hoverable:bg-white/20"
                 }`}
               >

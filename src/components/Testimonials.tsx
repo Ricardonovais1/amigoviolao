@@ -7,16 +7,14 @@ const testimonials = [
       "O Amigo Violão me deu conhecimento e confiança para explorar o ensino do violão. O método do Ricardo Novais é simples e direto, não deixando dúvidas para o educador e o educando.",
     name: "Júnior Oliveira",
     city: "São Paulo",
-    avatar:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/Junior-Oliveira.jpg",
+    avatar: "/images/testimonials/junior-oliveira.jpg",
   },
   {
     quote:
       "Ricardo Novais preparou meticulosamente o conteúdo. Graças à sua paciência e senso de organização didática, ele abre as portas para o aprendizado do violão de uma maneira fácil e objetiva.",
     name: "Marlon Nascimento",
     city: "Belo Horizonte",
-    avatar:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/Marlon-quadrado.jpg",
+    avatar: "/images/testimonials/marlon-nascimento.jpg",
   },
   {
     quote:

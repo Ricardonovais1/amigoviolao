@@ -278,7 +278,7 @@ export default function QuizPlayer({
         <h2 className="font-bold text-dark">
           Questão {current + 1} de {total}
         </h2>
-        <span className="rounded-full bg-teal/10 px-2.5 py-0.5 text-xs font-bold text-teal">
+        <span className="rounded-full bg-teal/10 px-2.5 py-0.5 text-xs font-bold text-teal-text">
           1 ponto
         </span>
       </div>

@@ -64,7 +64,7 @@ export default function QuizzesPage() {
                       <h2 className="text-lg font-bold text-charcoal">
                         {quiz.title}
                       </h2>
-                      <span className="shrink-0 rounded-full bg-teal/10 px-3 py-1 text-xs font-bold text-teal">
+                      <span className="shrink-0 rounded-full bg-teal/10 px-3 py-1 text-xs font-bold text-teal-text">
                         {quiz.questionCount} questões
                       </span>
                     </div>

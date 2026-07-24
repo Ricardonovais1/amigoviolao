@@ -7,6 +7,7 @@
   --brand-primary: #ef5400;
   --brand-primary-dark: #c94600;
   --brand-teal: #48c2c3;
+  --brand-teal-text: #1f7a7a;
   --brand-dark: #212121;
   --brand-charcoal: #3e4548;
   --brand-cream: #e0e6f2;
@@ -20,6 +21,7 @@
   --color-primary: var(--brand-primary);
   --color-primary-dark: var(--brand-primary-dark);
   --color-teal: var(--brand-teal);
+  --color-teal-text: var(--brand-teal-text);
   --color-dark: var(--brand-dark);
   --color-charcoal: var(--brand-charcoal);
   --color-cream: var(--brand-cream);

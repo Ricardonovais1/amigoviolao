@@ -82,7 +82,7 @@ export default async function BlogPost({
             {post.categories[0] ? (
               <Link
                 href={`/blog/categoria/${post.categories[0]}`}
-                className="text-xs font-semibold uppercase tracking-wide text-teal hoverable:text-primary"
+                className="text-xs font-semibold uppercase tracking-wide text-teal-text hoverable:text-primary"
               >
                 {categoryLabel(post.categories[0])}
               </Link>

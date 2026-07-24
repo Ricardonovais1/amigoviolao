@@ -13,7 +13,7 @@ export default function ProfessorCard({ professor }: { professor: ProfessorCardD
         {professor.title}
       </h2>
       {professor.city ? (
-        <p className="mt-1 text-sm font-semibold text-teal">{professor.city}</p>
+        <p className="mt-1 text-sm font-semibold text-teal-text">{professor.city}</p>
       ) : null}
       <p className="mt-3 line-clamp-3 text-sm text-charcoal/70">{professor.description}</p>
     </Link>

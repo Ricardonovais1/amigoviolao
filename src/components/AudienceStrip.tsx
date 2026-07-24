@@ -12,7 +12,7 @@ export default function AudienceStrip() {
     <section className="bg-white py-16">
       <div className="mx-auto max-w-4xl px-6 text-center">
         <Reveal>
-          <h2 className="text-2xl font-extrabold text-teal sm:text-3xl">
+          <h2 className="text-2xl font-extrabold text-teal-text sm:text-3xl">
             Possuímos cursos de violão para:
           </h2>
         </Reveal>

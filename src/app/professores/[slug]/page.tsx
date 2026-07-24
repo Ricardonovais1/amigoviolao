@@ -69,7 +69,7 @@ export default async function ProfessorPage({
               {professor.title}
             </h1>
             {professor.city ? (
-              <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-teal">
+              <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-teal-text">
                 {professor.city}
               </p>
             ) : null}
