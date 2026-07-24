@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   robots: { index: false },
 };
 
-const EMBED_BASE = "https://amigoviolao.vercel.app";
+const EMBED_BASE = process.env.SITE_URL || "https://staging.amigoviolao.com";
 
 const categoryLabel = (slug?: string) =>
   slug
