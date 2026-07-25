@@ -21,7 +21,7 @@
     },
     {
       "type": "multiple-choice",
-      "prompt": "Assinale todas as opções INCORRETAS. Nas imagens, os sinais \"=\" e \"≈\" indicam equivalência rítmica (\"é equivalente a\"). Marque mais de uma se necessário.",
+      "prompt": "Assinale todas as opções INCORRETAS. Nas imagens, o sinal \"=\" significa que se trata do mesmo ritmo, grafado de forma diferente. O sinal \"≈\" (equivale a) indica que o primeiro ritmo equivale ao segundo em número de tempos. Marque mais de uma opção se necessário.",
       "imageOptions": [
         "q02-opt1.webp",
         "q02-opt2.webp",
@@ -32,7 +32,7 @@
         "q02-opt7.webp",
         "q02-opt8.webp"
       ],
-      "corrects": [1, 5]
+      "corrects": [2, 5]
     },
     {
       "type": "multiple-choice",
