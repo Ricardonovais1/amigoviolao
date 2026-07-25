@@ -7,6 +7,7 @@ import type {
   QuizMeta,
   SingleChoiceQuestion,
   MultipleChoiceQuestion,
+  MatchingQuestion,
 } from "./quiz-types";
 
 // Camada de dados dos quizzes, no mesmo padrão Jamstack do blog: os quizzes são
@@ -18,15 +19,23 @@ const QUIZ_DIR = path.join(process.cwd(), "content", "quizzes");
 const PUBLIC_DIR = path.join(process.cwd(), "public");
 
 type RawQuestion = {
-  type?: "single-choice" | "multiple-choice";
+  type?: "single-choice" | "multiple-choice" | "matching";
   prompt?: string;
   image?: string;
   audio?: string;
   options?: string[];
+  /** Opções em forma de imagem (arquivos em public/images/quiz/<slug>/), no lugar de "options" textuais. */
+  imageOptions?: string[];
   answer?: string;
   correct?: number;
   answers?: string[];
   corrects?: number[];
+  /** Coluna A (matching): arquivos de imagem em public/images/quiz/<slug>/. */
+  left?: string[];
+  /** Coluna B (matching): arquivos de imagem em public/images/quiz/<slug>/. */
+  right?: string[];
+  /** Pares corretos [índice em left, índice em right]. Default: correspondência 1:1 por posição. */
+  pairs?: [number, number][];
   explanation?: string;
 };
 
@@ -70,21 +79,52 @@ function shuffle<T>(arr: T[], seed: number): T[] {
 
 const text = (label: string): Media => ({ kind: "text", label });
 
+/** Resolve um único arquivo em public/images/quiz/<slug>/<filename>, validando que existe. */
+function resolveImageFile(
+  filename: string,
+  quiz: RawQuiz,
+  n: number,
+  alt: string,
+  context: string,
+): Media {
+  const src = `/images/quiz/${quiz.slug}/${filename}`;
+  const abs = path.join(PUBLIC_DIR, src.replace(/^\//, ""));
+  if (!fs.existsSync(abs)) {
+    throw new Error(
+      `Quiz "${quiz.slug}" questão ${n} (${context}): imagem não encontrada em public${src}`,
+    );
+  }
+  return { kind: "image", src, alt };
+}
+
 function resolveImage(
   raw: RawQuestion,
   quiz: RawQuiz,
   n: number,
 ): Media[] | undefined {
   if (!raw.image) return undefined;
-  const src = `/images/quiz/${quiz.slug}/${raw.image}`;
-  const abs = path.join(PUBLIC_DIR, src.replace(/^\//, ""));
-  if (!fs.existsSync(abs)) {
-    throw new Error(
-      `Quiz "${quiz.slug}" questão ${n}: imagem não encontrada em public${src}`,
-    );
-  }
   const prefix = quiz.imageAltPrefix ?? "Ilustração";
-  return [{ kind: "image", src, alt: `${prefix} – questão ${n}` }];
+  return [
+    resolveImageFile(raw.image, quiz, n, `${prefix} – questão ${n}`, "enunciado"),
+  ];
+}
+
+/** Monta as opções de uma questão como imagens (sem rótulo "Opção x" visível). */
+function resolveImageOptions(
+  raw: RawQuestion,
+  quiz: RawQuiz,
+  n: number,
+): Media[] | undefined {
+  if (!raw.imageOptions) return undefined;
+  return raw.imageOptions.map((filename, i) =>
+    resolveImageFile(
+      filename,
+      quiz,
+      n,
+      `Opção ${i + 1} – questão ${n}`,
+      `opção ${i + 1}`,
+    ),
+  );
 }
 
 function resolveAudio(
@@ -149,13 +189,41 @@ function resolveQuestion(raw: RawQuestion, quiz: RawQuiz, n: number): Question {
   const type = raw.type ?? "single-choice";
   const prompt = raw.prompt ?? quiz.prompt;
   const media = resolveMedia(raw, quiz, n);
-  const strings = optionStrings(raw, quiz, n);
-  const options = strings.map(text);
+
+  if (type === "matching") {
+    if (!raw.left || !raw.right) {
+      throw new Error(
+        `Quiz "${quiz.slug}" questão ${n}: matching precisa de "left" e "right".`,
+      );
+    }
+    const left = raw.left.map((f, i) =>
+      resolveImageFile(f, quiz, n, `Item A${i + 1} – questão ${n}`, `left ${i + 1}`),
+    );
+    const right = raw.right.map((f, i) =>
+      resolveImageFile(f, quiz, n, `Item B${i + 1} – questão ${n}`, `right ${i + 1}`),
+    );
+    const pairs = raw.pairs ?? left.map((_, i): [number, number] => [i, i]);
+    const q: MatchingQuestion = {
+      type: "matching",
+      grading: "auto",
+      prompt,
+      media,
+      explanation: raw.explanation,
+      left,
+      right,
+      pairs,
+    };
+    return q;
+  }
+
+  const imageOptions = resolveImageOptions(raw, quiz, n);
+  const strings = imageOptions ? undefined : optionStrings(raw, quiz, n);
+  const options = imageOptions ?? strings!.map(text);
 
   if (type === "multiple-choice") {
     const corrects =
       raw.corrects ??
-      (raw.answers ?? []).map((a) => indexOfAnswer(strings, a, quiz, n));
+      (raw.answers ?? []).map((a) => indexOfAnswer(strings!, a, quiz, n));
     if (corrects.length === 0) {
       throw new Error(
         `Quiz "${quiz.slug}" questão ${n}: múltipla escolha sem resposta correta.`,
@@ -176,7 +244,7 @@ function resolveQuestion(raw: RawQuestion, quiz: RawQuiz, n: number): Question {
   const correct =
     raw.correct ??
     (raw.answer !== undefined
-      ? indexOfAnswer(strings, raw.answer, quiz, n)
+      ? indexOfAnswer(strings!, raw.answer, quiz, n)
       : -1);
   if (correct < 0 || correct >= options.length) {
     throw new Error(

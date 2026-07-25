@@ -1,0 +1,58 @@
+{
+  "slug": "figuras-ritmicas-formulas-compasso",
+  "title": "Quiz – Figuras Rítmicas e Fórmulas de Compasso",
+  "description": "Quiz interativo sobre figuras rítmicas, pausas e fórmulas de compasso, do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 900,
+  "imageAltPrefix": "Figuras rítmicas",
+  "questions": [
+    {
+      "type": "single-choice",
+      "prompt": "Com relação às figuras abaixo, qual é a afirmativa CORRETA?",
+      "image": "q01.webp",
+      "options": [
+        "São notas musicais",
+        "São figuras rítmicas",
+        "São um compasso musical",
+        "Estão ordenadas da nota mais curta à mais longa, da esquerda para a direita",
+        "São um ritmo musical"
+      ],
+      "answer": "São figuras rítmicas"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Assinale todas as opções INCORRETAS. Nas imagens, os sinais \"=\" e \"≈\" indicam equivalência rítmica (\"é equivalente a\"). Marque mais de uma se necessário.",
+      "imageOptions": [
+        "q02-opt1.webp",
+        "q02-opt2.webp",
+        "q02-opt3.webp",
+        "q02-opt4.webp",
+        "q02-opt5.webp",
+        "q02-opt6.webp",
+        "q02-opt7.webp",
+        "q02-opt8.webp"
+      ],
+      "corrects": [1, 5]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Marque abaixo os compassos grafados de forma ERRADA. Marque mais de uma se necessário.",
+      "imageOptions": [
+        "q03-opt1.webp",
+        "q03-opt2.webp",
+        "q03-opt3.webp",
+        "q03-opt4.webp",
+        "q03-opt5.webp",
+        "q03-opt6.webp",
+        "q03-opt7.webp"
+      ],
+      "corrects": [3, 6]
+    },
+    {
+      "type": "matching",
+      "prompt": "Ligue cada figura rítmica à sua pausa equivalente.",
+      "left": ["q04-a1.webp", "q04-a2.webp", "q04-a3.webp", "q04-a4.webp", "q04-a5.webp"],
+      "right": ["q04-b1.webp", "q04-b2.webp", "q04-b3.webp", "q04-b4.webp", "q04-b5.webp"]
+    }
+  ]
+}

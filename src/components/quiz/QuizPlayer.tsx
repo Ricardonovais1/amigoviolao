@@ -131,7 +131,7 @@ export default function QuizPlayer({
   };
 
   const verify = () => {
-    if (!mod || verified || !mod.isComplete(state.answer)) return;
+    if (!mod || verified || !mod.isComplete(state.answer, question)) return;
     const verdict: Verdict = mod.grade
       ? mod.grade(question, state.answer)
       : question.grading === "none"
@@ -167,7 +167,8 @@ export default function QuizPlayer({
     if (s.verdict === "pending" || s.verdict === "recorded")
       return "border-teal bg-teal text-white";
     if (s.review) return "border-amber-400 bg-amber-400 text-white";
-    if (m?.isComplete(s.answer)) return "border-rose-400 bg-rose-400 text-white";
+    if (m?.isComplete(s.answer, orderedQuestions[i]))
+      return "border-rose-400 bg-rose-400 text-white";
     return "border-gray-300 bg-white text-dark hoverable:border-gray-500";
   };
 
@@ -342,7 +343,7 @@ export default function QuizPlayer({
             <button
               type="button"
               onClick={verify}
-              disabled={!mod || !mod.isComplete(state.answer)}
+              disabled={!mod || !mod.isComplete(state.answer, question)}
               className={pill}
             >
               Verificar

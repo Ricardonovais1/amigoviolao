@@ -11,8 +11,12 @@ export type Verdict = "correct" | "incorrect" | "pending" | "recorded";
 export type QuestionModule<Q extends Question = Question, A = unknown> = {
   /** Estado inicial da resposta para uma questão nova. */
   initialAnswer: A | null;
-  /** A resposta está completa a ponto de habilitar "Verificar"? */
-  isComplete: (answer: A | null) => boolean;
+  /**
+   * A resposta está completa a ponto de habilitar "Verificar"? Recebe a
+   * questão porque alguns tipos (ex.: matching) precisam saber o tamanho
+   * esperado da resposta, não só se ela é não-vazia.
+   */
+  isComplete: (answer: A | null, question: Q) => boolean;
   /** Correção automática. Ausente em tipos `manual`/`none`. */
   grade?: (question: Q, answer: A) => Verdict;
   /** Corpo interativo da questão (as alternativas, os itens, etc.). */
