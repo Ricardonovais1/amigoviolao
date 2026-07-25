@@ -53,6 +53,40 @@
       "prompt": "Ligue cada figura rítmica à sua pausa equivalente.",
       "left": ["q04-a1.webp", "q04-a2.webp", "q04-a3.webp", "q04-a4.webp", "q04-a5.webp"],
       "right": ["q04-b1.webp", "q04-b2.webp", "q04-b3.webp", "q04-b4.webp", "q04-b5.webp"]
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Marque as opções grafadas de forma INCORRETA.",
+      "imageOptions": [
+        "q05-opt1.webp",
+        "q05-opt2.webp",
+        "q05-opt3.webp",
+        "q05-opt4.webp",
+        "q05-opt5.webp",
+        "q05-opt6.webp"
+      ],
+      "corrects": [0, 1, 2, 5]
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Marque qual compasso está grafado de maneira ERRADA na linha abaixo:",
+      "image": "q06.webp",
+      "options": ["a)", "b)", "c)", "d)", "e)"],
+      "answer": "d)"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Marque qual compasso está grafado de maneira ERRADA na linha abaixo:",
+      "image": "q07.webp",
+      "options": ["a)", "b)", "c)", "d)", "e)"],
+      "answer": "c)"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Marque qual compasso está grafado de maneira ERRADA na linha abaixo:",
+      "image": "q08.webp",
+      "options": ["a)", "b)", "c)", "d)", "e)"],
+      "answer": "b)"
     }
   ]
 }
