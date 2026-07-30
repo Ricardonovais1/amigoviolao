@@ -87,6 +87,205 @@
       "image": "q08.webp",
       "options": ["a)", "b)", "c)", "d)", "e)"],
       "answer": "b)"
+    },
+    {
+      "type": "matching",
+      "prompt": "Ligue os termos abaixo às suas definições respectivas.",
+      "left": [
+        "Nota",
+        "Compasso",
+        "Ritmo",
+        "Pulsação",
+        "Figuras Rítmicas",
+        "Duração",
+        "Fórmula de compasso"
+      ],
+      "right": [
+        "Som com altura definida",
+        "Grupo restrito de sons, com quantidade limitada de pulsos",
+        "Resultado sonoro da organização de diferentes durações",
+        "Ritmo constante",
+        "Símbolos que representam sons e silêncios",
+        "Parâmetro sonoro que representa o tempo de um som",
+        "Número que expressa a quantidade de pulsos de um compasso musical"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine os nomes às figuras rítmicas correspondentes:",
+      "left": ["Mínima", "Semibreve", "Semínima", "Colcheia", "Mínima pontuada", "Semicolcheia"],
+      "right": [
+        "q10-minima.webp",
+        "q10-semibreve.webp",
+        "q10-seminima.webp",
+        "q10-colcheia.webp",
+        "q10-minima-pontuada.webp",
+        "q10-semicolcheia.webp"
+      ]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine os nomes das pausas com as figuras correspondentes:",
+      "left": ["Semínima", "Mínima", "Semibreve", "Colcheia", "Semicolcheia"],
+      "right": [
+        "q11-seminima.webp",
+        "q11-minima.webp",
+        "q11-semibreve.webp",
+        "q11-colcheia.webp",
+        "q11-semicolcheia.webp"
+      ]
+    },
+    {
+      "type": "single-choice",
+      "prompt": "A pausa a seguir é de:",
+      "image": "q12.webp",
+      "options": ["Semibreve", "Mínima"],
+      "answer": "Semibreve"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "No compasso 2/4 cabem quantas colcheias, no máximo?",
+      "options": ["2", "8", "4", "16", "32"],
+      "answer": "4"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "No compasso 2/2 cabem quantas semínimas, no máximo?",
+      "options": ["2", "8", "4", "16", "32"],
+      "answer": "4"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "No compasso 3/2 cabem quantas semicolcheias, no máximo?",
+      "options": ["4", "2", "32", "16", "24", "8"],
+      "answer": "24"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "No compasso 2/2 cabem quantas mínimas, no máximo?",
+      "options": ["4", "8", "2", "24", "16", "32"],
+      "answer": "2"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "No compasso 4/2 cabem quantas semicolcheias, no máximo?",
+      "options": ["2", "4", "8", "32", "16", "24"],
+      "answer": "32"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quantos tempos estão tomados no compasso abaixo?",
+      "image": "q18.webp",
+      "options": ["3/4", "2, 5", "5", "4", "1,25"],
+      "answer": "1,25"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quantos tempos estão tomados no compasso abaixo?",
+      "image": "q19.webp",
+      "options": ["1", "1,25", "1,5", "2", "4"],
+      "answer": "1"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quantos tempos estão tomados no compasso abaixo?",
+      "image": "q20.webp",
+      "options": ["3,25", "3", "2,5", "6,5", "4"],
+      "answer": "2,5"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quantos tempos estão tomados no compasso abaixo?",
+      "image": "q21.webp",
+      "options": ["3,5", "6", "1,25", "2", "4"],
+      "answer": "2"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quantos tempos estão tomados no compasso abaixo?",
+      "image": "q22.webp",
+      "options": ["1,5", "2,25", "2", "2,5", "2,75"],
+      "answer": "2"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Qual é a fórmula do compasso abaixo, presumindo que se trata de um compasso completo?",
+      "image": "q23.webp",
+      "options": ["2/8", "3/16", "1/4", "2/16"],
+      "answer": "3/16"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Qual é a fórmula do compasso abaixo, presumindo que se trata de um compasso completo?",
+      "image": "q24.webp",
+      "options": ["1/8", "3/16", "4/8", "2/8"],
+      "answer": "2/8"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Qual é a fórmula do compasso abaixo, presumindo que se trata de um compasso completo?",
+      "image": "q25.webp",
+      "options": ["2/4", "2/2", "6/16", "4/8"],
+      "answer": "2/2"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Qual é a fórmula do compasso abaixo, presumindo que se trata de um compasso completo?",
+      "image": "q26.webp",
+      "options": ["3/4", "4/6", "5/8", "7/16"],
+      "answer": "3/4"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quais são as figuras rítmicas mostradas abaixo na ordem?",
+      "image": "q27.webp",
+      "options": [
+        "Colcheia, semínima, semicolcheia, mínima pontuada, quiáltera de 3 colcheias e duas colcheias.",
+        "Semicolcheia, semínima, semicolcheia, colcheia pontuada, quiáltera de 3 colcheias e duas colcheias.",
+        "Semicolcheia, semínima, semicolcheia, mínima pontuada, quiáltera de 3 colcheias e duas colcheias.",
+        "Colcheia, semínima, semicolcheia, mínima pontuada, quiáltera de semínima e duas colcheias.",
+        "Colcheia, semínima, semicolcheia, colcheia pontuada, quiáltera de 3 colcheias e semínima."
+      ],
+      "answer": "Semicolcheia, semínima, semicolcheia, colcheia pontuada, quiáltera de 3 colcheias e duas colcheias."
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quais são as figuras rítmicas mostradas abaixo na ordem?",
+      "image": "q28.webp",
+      "options": [
+        "Mínima, colcheia e colcheia",
+        "Mínima e duas semicolcheias",
+        "Semínima e duas colcheias",
+        "Semínima e duas semicolcheias",
+        "Quatro semicolcheias"
+      ],
+      "answer": "Semínima e duas colcheias"
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quais são as figuras rítmicas mostradas abaixo na ordem?",
+      "image": "q29.webp",
+      "options": [
+        "Pausa de mínima pontuada, semicolcheia, semínima pontuada, pausa de semínima pontuada.",
+        "Pausa de mínima pontuada, semicolcheia, colcheia pontuada, pausa de semínima pontuada.",
+        "Pausa de semibreve pontuada, semicolcheia, colcheia pontuada, pausa de semínima pontuada.",
+        "Pausa de mínima pontuada, colcheia, colcheia pontuada, pausa de semínima pontuada.",
+        "Pausa de semínima pontuada, semicolcheia, colcheia pontuada, pausa de mínima pontuada."
+      ],
+      "answer": "Pausa de mínima pontuada, semicolcheia, colcheia pontuada, pausa de semínima pontuada."
+    },
+    {
+      "type": "single-choice",
+      "prompt": "Quais são as figuras rítmicas mostradas abaixo na ordem?",
+      "image": "q30.webp",
+      "options": [
+        "4 semicolcheias, semínima pontuada e semicolcheia",
+        "4 semicolcheias, colcheia pontuada e semicolcheia",
+        "4 fusas, colcheia pontuada e semicolcheia",
+        "4 colcheias, colcheia pontuada e semicolcheia",
+        "4 semicolcheias, colcheia pontuada e colcheia"
+      ],
+      "answer": "4 semicolcheias, colcheia pontuada e semicolcheia"
     }
   ]
 }

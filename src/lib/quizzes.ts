@@ -196,12 +196,21 @@ function resolveQuestion(raw: RawQuestion, quiz: RawQuiz, n: number): Question {
         `Quiz "${quiz.slug}" questão ${n}: matching precisa de "left" e "right".`,
       );
     }
-    const left = raw.left.map((f, i) =>
-      resolveImageFile(f, quiz, n, `Item A${i + 1} – questão ${n}`, `left ${i + 1}`),
-    );
-    const right = raw.right.map((f, i) =>
-      resolveImageFile(f, quiz, n, `Item B${i + 1} – questão ${n}`, `right ${i + 1}`),
-    );
+    // Cada item é imagem (arquivo em public/images/quiz/<slug>/) ou texto puro
+    // (qualquer string sem extensão de imagem reconhecida) — as duas colunas
+    // podem misturar os dois, como em "termo (texto) -> figura (imagem)".
+    const resolveMatchingItem = (value: string, side: "A" | "B", i: number): Media =>
+      /\.(webp|png|jpe?g)$/i.test(value)
+        ? resolveImageFile(
+            value,
+            quiz,
+            n,
+            `Item ${side}${i + 1} – questão ${n}`,
+            `${side === "A" ? "left" : "right"} ${i + 1}`,
+          )
+        : text(value);
+    const left = raw.left.map((f, i) => resolveMatchingItem(f, "A", i));
+    const right = raw.right.map((f, i) => resolveMatchingItem(f, "B", i));
     const pairs = raw.pairs ?? left.map((_, i): [number, number] => [i, i]);
     const q: MatchingQuestion = {
       type: "matching",
