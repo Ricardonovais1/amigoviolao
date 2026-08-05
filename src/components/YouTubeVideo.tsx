@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 type YouTubeVideoProps = {
@@ -9,14 +9,34 @@ type YouTubeVideoProps = {
   duration?: string;
 };
 
+// Nem todo vídeo tem maxresdefault. Quando não tem, o YouTube ainda responde
+// 200 OK — mas com um placeholder cinza de 120x90 — então onError nunca
+// dispara e precisamos detectar o placeholder pelas dimensões reais.
+// hqdefault existe sempre; é 4:3 com barras de letterbox, mas o object-cover
+// do container 16:9 recorta exatamente as barras.
+const PLACEHOLDER_WIDTH = 120;
+
 export default function YouTubeVideo({ id, title, duration }: YouTubeVideoProps) {
   const [playing, setPlaying] = useState(false);
-  // maxresdefault (1280x720) e mqdefault (320x180) são 16:9 nativos, sem as
-  // faixas pretas de letterbox da hqdefault (4:3). Nem todo vídeo tem
-  // maxresdefault, então caímos para mqdefault se ela não existir.
-  const [thumb, setThumb] = useState<"maxresdefault" | "mqdefault">(
+  const [thumb, setThumb] = useState<"maxresdefault" | "hqdefault">(
     "maxresdefault"
   );
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // A imagem é lazy, então costuma carregar bem depois da hidratação e o
+  // onLoad do React pode não pegar esse load — daí o listener nativo.
+  useEffect(() => {
+    const img = imgRef.current;
+    if (!img || thumb !== "maxresdefault") return;
+
+    const check = () => {
+      if (img.naturalWidth === PLACEHOLDER_WIDTH) setThumb("hqdefault");
+    };
+
+    if (img.complete) check();
+    img.addEventListener("load", check);
+    return () => img.removeEventListener("load", check);
+  }, [thumb]);
 
   if (playing) {
     return (
@@ -38,12 +58,13 @@ export default function YouTubeVideo({ id, title, duration }: YouTubeVideoProps)
       className="group absolute inset-0 cursor-pointer transition-transform duration-150 ease-snappy active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
     >
       <Image
+        ref={imgRef}
         src={`https://img.youtube.com/vi/${id}/${thumb}.jpg`}
         alt={title}
         fill
         className="object-cover"
         sizes="(min-width: 640px) 50vw, 100vw"
-        onError={() => setThumb("mqdefault")}
+        onError={() => setThumb("hqdefault")}
       />
       {duration && (
         <span className="absolute left-2 top-2 rounded bg-black/60 px-2 py-0.5 text-xs text-white">
