@@ -22,7 +22,7 @@ tags:
   - trio-amaranto
 featured_image: 'https://img.youtube.com/vi/nbgrkRsIjcE/hqdefault.jpg'
 og_image: 'https://img.youtube.com/vi/nbgrkRsIjcE/hqdefault.jpg'
-canonical: 'https://amigoviolao.com/blog/musica-para-criancas'
+canonical: 'https://amigoviolao.com/musica-para-criancas'
 wpId: 4121
 ---
 

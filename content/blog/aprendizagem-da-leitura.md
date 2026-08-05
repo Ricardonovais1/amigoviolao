@@ -24,7 +24,7 @@ tags:
   - nucleo-villa-lobos
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/aprendizagem-da-leitura'
+canonical: 'https://amigoviolao.com/aprendizagem-da-leitura'
 wpId: 150
 ---
 

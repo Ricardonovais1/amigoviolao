@@ -22,7 +22,7 @@ tags:
   - violao-infantil-preco
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/comprar-violao-infantil-veja-como-escolher'
+canonical: 'https://amigoviolao.com/comprar-violao-infantil-veja-como-escolher'
 wpId: 4074
 ---
 

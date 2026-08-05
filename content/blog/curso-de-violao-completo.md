@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.webp
 og_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.webp
-canonical: 'https://amigoviolao.com/blog/curso-de-violao-completo'
+canonical: 'https://amigoviolao.com/curso-de-violao-completo'
 wpId: 39578
 ---
 

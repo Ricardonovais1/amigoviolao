@@ -27,7 +27,7 @@ tags:
   - ensinar-disciplina
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/treinar-violao-em-casa'
+canonical: 'https://amigoviolao.com/treinar-violao-em-casa'
 wpId: 4117
 ---
 

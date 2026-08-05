@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2020/09/Mal-entendido-de-didatica.webp
 og_image: /images/blog/2020/09/Mal-entendido-de-didatica.webp
-canonical: 'https://amigoviolao.com/blog/mal-entendido-de-didatica-do-violao-para-criancas'
+canonical: 'https://amigoviolao.com/mal-entendido-de-didatica-do-violao-para-criancas'
 wpId: 33329
 ---
 

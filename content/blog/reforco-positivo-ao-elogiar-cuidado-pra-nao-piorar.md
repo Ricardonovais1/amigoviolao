@@ -24,7 +24,7 @@ tags:
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar
+  https://amigoviolao.com/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar
 wpId: 595
 ---
 

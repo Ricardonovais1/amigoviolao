@@ -13,7 +13,7 @@ categories:
 tags: []
 featured_image: /images/blog/2018/05/Primeiros-Acordes-cut.webp
 og_image: /images/blog/2018/05/Primeiros-Acordes-cut.webp
-canonical: 'https://amigoviolao.com/blog/como-comecar-a-treinar-acordes'
+canonical: 'https://amigoviolao.com/como-comecar-a-treinar-acordes'
 wpId: 3634
 ---
 

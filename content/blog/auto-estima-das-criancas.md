@@ -24,7 +24,7 @@ tags:
   - inteligencia-emocional
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/auto-estima-das-criancas'
+canonical: 'https://amigoviolao.com/auto-estima-das-criancas'
 wpId: 449
 ---
 

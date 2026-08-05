@@ -1,4 +1,5 @@
 import type { Post } from "@/lib/blog";
+import { postPath } from "@/lib/routes";
 
 // Structured data injected into the post page: Article + BreadcrumbList in a
 // single @graph. Built deterministically from the front-matter by the SEO agent.
@@ -8,7 +9,7 @@ const LOGO =
   "https://amigoviolao.com/wp-content/uploads/2021/05/cropped-cropped-Logo-Branca-site-Amigo-Violao-2.png.webp";
 
 export default function ArticleJsonLd({ post }: { post: Post }) {
-  const url = post.canonical || `${SITE}/blog/${post.slug}`;
+  const url = post.canonical || `${SITE}${postPath(post.slug)}`;
 
   const graph = [
     {

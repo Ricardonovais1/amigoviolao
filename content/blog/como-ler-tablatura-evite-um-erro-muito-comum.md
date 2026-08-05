@@ -15,7 +15,7 @@ tags:
   - simbolos-tablatura
 featured_image: /images/blog/2018/12/Design-sem-nome-3.webp
 og_image: /images/blog/2018/12/Design-sem-nome-3.webp
-canonical: 'https://amigoviolao.com/blog/como-ler-tablatura-evite-um-erro-muito-comum'
+canonical: 'https://amigoviolao.com/como-ler-tablatura-evite-um-erro-muito-comum'
 wpId: 3233
 ---
 

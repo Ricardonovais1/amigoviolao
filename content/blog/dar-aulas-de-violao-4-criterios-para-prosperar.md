@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp
 og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp
-canonical: 'https://amigoviolao.com/blog/dar-aulas-de-violao-4-criterios-para-prosperar'
+canonical: 'https://amigoviolao.com/dar-aulas-de-violao-4-criterios-para-prosperar'
 wpId: 33146
 ---
 

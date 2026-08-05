@@ -24,7 +24,7 @@ tags:
   - natal-nascimento-de-jesus
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/natal-em-familia-presente-que-seu-filho-quer'
+canonical: 'https://amigoviolao.com/natal-em-familia-presente-que-seu-filho-quer'
 wpId: 303
 ---
 

@@ -9,6 +9,7 @@ import ReadingProgress from "@/components/blog/ReadingProgress";
 import RelatedPosts from "@/components/blog/RelatedPosts";
 import ArticleJsonLd from "@/components/blog/ArticleJsonLd";
 import { getAllPosts, getPost, categoryLabel } from "@/lib/blog";
+import { categoryPath } from "@/lib/routes";
 
 // Statically generate every post at build time (Jamstack).
 export function generateStaticParams() {
@@ -81,7 +82,7 @@ export default async function BlogPost({
           <header>
             {post.categories[0] ? (
               <Link
-                href={`/blog/categoria/${post.categories[0]}`}
+                href={categoryPath(post.categories[0])}
                 className="text-xs font-semibold uppercase tracking-wide text-teal-text hoverable:text-primary"
               >
                 {categoryLabel(post.categories[0])}
@@ -116,7 +117,7 @@ export default async function BlogPost({
               {post.categories.map((slug) => (
                 <Link
                   key={slug}
-                  href={`/blog/categoria/${slug}`}
+                  href={categoryPath(slug)}
                   className="rounded-full bg-cream/70 px-3 py-1.5 text-sm font-medium text-charcoal transition-colors hoverable:bg-teal/20 hoverable:text-dark"
                 >
                   {categoryLabel(slug)}

@@ -12,7 +12,7 @@ tags: []
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/coordenacao-motora-2-brincadeiras-para-fazer-em-casa
+  https://amigoviolao.com/coordenacao-motora-2-brincadeiras-para-fazer-em-casa
 wpId: 542
 ---
 

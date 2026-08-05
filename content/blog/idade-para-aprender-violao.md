@@ -23,7 +23,7 @@ tags:
   - metodo-violao-criancas
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/idade-para-aprender-violao'
+canonical: 'https://amigoviolao.com/idade-para-aprender-violao'
 wpId: 367
 ---
 

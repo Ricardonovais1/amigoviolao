@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/11/CAPA-organizar-aulas-violao.webp
 og_image: /images/blog/2021/11/CAPA-organizar-aulas-violao.webp
 canonical: >-
-  https://amigoviolao.com/blog/aprenda-a-organizar-o-conteudo-das-aulas-de-violao
+  https://amigoviolao.com/aprenda-a-organizar-o-conteudo-das-aulas-de-violao
 wpId: 39889
 ---
 

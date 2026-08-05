@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2020/09/6-Dicas-Imagem.webp
 og_image: /images/blog/2020/09/6-Dicas-Imagem.webp
-canonical: 'https://amigoviolao.com/blog/6-dicas-para-motivar-seu-filho-com-o-violao'
+canonical: 'https://amigoviolao.com/6-dicas-para-motivar-seu-filho-com-o-violao'
 wpId: 33324
 ---
 

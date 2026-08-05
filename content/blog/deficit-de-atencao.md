@@ -23,7 +23,7 @@ tags:
   - hiperatividade
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/deficit-de-atencao'
+canonical: 'https://amigoviolao.com/deficit-de-atencao'
 wpId: 349
 ---
 

@@ -12,7 +12,7 @@ categories:
 tags: []
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/ferramenta-top-para-aprender-violao-online'
+canonical: 'https://amigoviolao.com/ferramenta-top-para-aprender-violao-online'
 wpId: 3311
 ---
 

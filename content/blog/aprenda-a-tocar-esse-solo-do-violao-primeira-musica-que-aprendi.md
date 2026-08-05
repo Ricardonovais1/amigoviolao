@@ -12,7 +12,7 @@ tags: []
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/aprenda-a-tocar-esse-solo-do-violao-primeira-musica-que-aprendi
+  https://amigoviolao.com/aprenda-a-tocar-esse-solo-do-violao-primeira-musica-que-aprendi
 wpId: 4073
 ---
 

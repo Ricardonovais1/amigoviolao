@@ -18,7 +18,7 @@ tags:
   - video-aula-de-violao
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/como-afinar-o-violao-3-formas'
+canonical: 'https://amigoviolao.com/como-afinar-o-violao-3-formas'
 wpId: 3205
 ---
 

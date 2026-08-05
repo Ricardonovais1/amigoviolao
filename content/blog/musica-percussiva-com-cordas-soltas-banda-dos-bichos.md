@@ -15,7 +15,7 @@ tags: []
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/musica-percussiva-com-cordas-soltas-banda-dos-bichos
+  https://amigoviolao.com/musica-percussiva-com-cordas-soltas-banda-dos-bichos
 wpId: 1372
 ---
 

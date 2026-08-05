@@ -16,7 +16,7 @@ tags:
   - tres-amigos-ead
 featured_image: 'https://img.youtube.com/vi/01XK-zB_CNc/hqdefault.jpg'
 og_image: 'https://img.youtube.com/vi/01XK-zB_CNc/hqdefault.jpg'
-canonical: 'https://amigoviolao.com/blog/comportamento-infantil-e-a-musica-5-beneficios'
+canonical: 'https://amigoviolao.com/comportamento-infantil-e-a-musica-5-beneficios'
 wpId: 132
 ---
 

@@ -24,7 +24,7 @@ tags:
   - teoria-piaget
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/entenda-seu-filho-com-a-teoria-de-piaget'
+canonical: 'https://amigoviolao.com/entenda-seu-filho-com-a-teoria-de-piaget'
 wpId: 425
 ---
 

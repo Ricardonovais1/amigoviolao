@@ -22,7 +22,7 @@ tags:
   - tres-amigos-ead
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/musica-classica-para-criancas'
+canonical: 'https://amigoviolao.com/musica-classica-para-criancas'
 wpId: 436
 ---
 

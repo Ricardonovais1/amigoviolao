@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2021/10/CAPA-erros-ensinar-violao-criancas.webp
 og_image: /images/blog/2021/10/CAPA-erros-ensinar-violao-criancas.webp
-canonical: 'https://amigoviolao.com/blog/3-erros-ao-ensinar-violao-as-criancas'
+canonical: 'https://amigoviolao.com/3-erros-ao-ensinar-violao-as-criancas'
 wpId: 39829
 ---
 

@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/09/CAPA-aprender-violao-classico.webp
 og_image: /images/blog/2021/09/CAPA-aprender-violao-classico.webp
 canonical: >-
-  https://amigoviolao.com/blog/aprender-violao-classico-os-varios-niveis-do-aprendizado
+  https://amigoviolao.com/aprender-violao-classico-os-varios-niveis-do-aprendizado
 wpId: 39630
 ---
 

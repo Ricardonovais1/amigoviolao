@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/aprender-violao-classico'
+canonical: 'https://amigoviolao.com/aprender-violao-classico'
 wpId: 31711
 ---
 

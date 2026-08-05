@@ -23,7 +23,7 @@ tags:
   - cursos-de-arte-para-criancas
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/aprender-a-tocar-violao-com-filhos'
+canonical: 'https://amigoviolao.com/aprender-a-tocar-violao-com-filhos'
 wpId: 312
 ---
 

@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.webp
 og_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.webp
 canonical: >-
-  https://amigoviolao.com/blog/dedilhado-violao-os-varios-niveis-e-como-aprimorar
+  https://amigoviolao.com/dedilhado-violao-os-varios-niveis-e-como-aprimorar
 wpId: 38534
 ---
 

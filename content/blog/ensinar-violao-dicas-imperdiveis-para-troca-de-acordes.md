@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.webp
 og_image: /images/blog/2021/11/CAPA-3-dicas-trocar-acordes.webp
 canonical: >-
-  https://amigoviolao.com/blog/ensinar-violao-dicas-imperdiveis-para-troca-de-acordes
+  https://amigoviolao.com/ensinar-violao-dicas-imperdiveis-para-troca-de-acordes
 wpId: 39977
 ---
 

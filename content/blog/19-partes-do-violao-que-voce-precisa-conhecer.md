@@ -27,7 +27,7 @@ tags:
   - violao-para-iniciantes
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/19-partes-do-violao-que-voce-precisa-conhecer'
+canonical: 'https://amigoviolao.com/19-partes-do-violao-que-voce-precisa-conhecer'
 wpId: 3193
 ---
 

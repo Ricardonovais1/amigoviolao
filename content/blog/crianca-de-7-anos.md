@@ -23,7 +23,7 @@ tags:
   - filha-agitada
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/crianca-de-7-anos'
+canonical: 'https://amigoviolao.com/crianca-de-7-anos'
 wpId: 533
 ---
 

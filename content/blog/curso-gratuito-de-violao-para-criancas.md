@@ -15,7 +15,7 @@ tags:
   - violao-para-criancas
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/curso-gratuito-de-violao-para-criancas'
+canonical: 'https://amigoviolao.com/curso-gratuito-de-violao-para-criancas'
 wpId: 164
 ---
 

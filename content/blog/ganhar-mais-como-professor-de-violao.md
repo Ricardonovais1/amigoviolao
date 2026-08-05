@@ -13,7 +13,7 @@ categories:
 tags: []
 featured_image: /images/blog/2018/06/victor-schneider-DSC_0165-cut-2.webp
 og_image: /images/blog/2018/06/victor-schneider-DSC_0165-cut-2.webp
-canonical: 'https://amigoviolao.com/blog/ganhar-mais-como-professor-de-violao'
+canonical: 'https://amigoviolao.com/ganhar-mais-como-professor-de-violao'
 wpId: 1381
 ---
 

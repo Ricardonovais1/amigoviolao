@@ -14,7 +14,7 @@ categories:
 tags: []
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/leitura-no-violao-em-5-passos-para-criancas'
+canonical: 'https://amigoviolao.com/leitura-no-violao-em-5-passos-para-criancas'
 wpId: 4072
 ---
 

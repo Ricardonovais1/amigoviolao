@@ -16,7 +16,7 @@ tags: []
 featured_image: /images/blog/2018/11/victor-schneider-DSC_0310-Site2.webp
 og_image: /images/blog/2018/11/victor-schneider-DSC_0310-Site2.webp
 canonical: >-
-  https://amigoviolao.com/blog/aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude
+  https://amigoviolao.com/aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude
 wpId: 4071
 ---
 

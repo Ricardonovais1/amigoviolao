@@ -26,7 +26,7 @@ tags:
   - kazoo
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/brincadeiras-para-fazer-em-casa-kazoo'
+canonical: 'https://amigoviolao.com/brincadeiras-para-fazer-em-casa-kazoo'
 wpId: 4122
 ---
 

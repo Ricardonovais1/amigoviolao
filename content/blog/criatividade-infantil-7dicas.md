@@ -25,7 +25,7 @@ tags:
   - desenvolver-a-criatividade
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/criatividade-infantil-7dicas'
+canonical: 'https://amigoviolao.com/criatividade-infantil-7dicas'
 wpId: 277
 ---
 

@@ -15,7 +15,7 @@ categories:
 tags: []
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/adelita-francisco-tarrega-aula-de-violao-classico'
+canonical: 'https://amigoviolao.com/adelita-francisco-tarrega-aula-de-violao-classico'
 wpId: 25198
 ---
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getRelatedPosts } from "@/lib/blog";
+import { postPath } from "@/lib/routes";
 import PostCover from "./PostCover";
 
 // Determines the 3 related posts in code (see getRelatedPosts) and renders them
@@ -16,7 +17,7 @@ export default function RelatedPosts({ slug }: { slug: string }) {
         {related.map((post) => (
           <Link
             key={post.slug}
-            href={`/blog/${post.slug}`}
+            href={postPath(post.slug)}
             className="group block overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-shadow duration-200 hoverable:shadow-md"
           >
             <div className="relative aspect-video w-full bg-cream">

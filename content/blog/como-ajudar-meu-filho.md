@@ -28,7 +28,7 @@ tags:
   - estudar-com-os-filhos
 featured_image: /images/blog/2018/05/digit.webp
 og_image: /images/blog/2018/05/digit.webp
-canonical: 'https://amigoviolao.com/blog/como-ajudar-meu-filho'
+canonical: 'https://amigoviolao.com/como-ajudar-meu-filho'
 wpId: 4118
 ---
 

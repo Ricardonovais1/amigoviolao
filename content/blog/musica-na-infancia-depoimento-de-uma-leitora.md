@@ -20,7 +20,7 @@ tags:
   - violao-na-infancia
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/musica-na-infancia-depoimento-de-uma-leitora'
+canonical: 'https://amigoviolao.com/musica-na-infancia-depoimento-de-uma-leitora'
 wpId: 559
 ---
 

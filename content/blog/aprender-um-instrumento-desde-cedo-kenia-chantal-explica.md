@@ -29,7 +29,7 @@ tags:
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/aprender-um-instrumento-desde-cedo-kenia-chantal-explica
+  https://amigoviolao.com/aprender-um-instrumento-desde-cedo-kenia-chantal-explica
 wpId: 290
 ---
 

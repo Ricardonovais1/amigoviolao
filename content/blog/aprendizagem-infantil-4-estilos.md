@@ -24,7 +24,7 @@ tags:
   - perfil-auditivo
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/aprendizagem-infantil-4-estilos'
+canonical: 'https://amigoviolao.com/aprendizagem-infantil-4-estilos'
 wpId: 323
 ---
 

@@ -25,7 +25,7 @@ tags:
   - licoes-de-pai-para-filho
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/educacao-dos-filhos-coragem'
+canonical: 'https://amigoviolao.com/educacao-dos-filhos-coragem'
 wpId: 247
 ---
 

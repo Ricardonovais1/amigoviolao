@@ -21,7 +21,7 @@ tags:
   - quero-tocar-violao
 featured_image: /images/blog/2021/08/CAPA-como-fazer-pestana.webp
 og_image: /images/blog/2021/08/CAPA-como-fazer-pestana.webp
-canonical: 'https://amigoviolao.com/blog/como-fazer-pestana-no-violao-entenda-aqui'
+canonical: 'https://amigoviolao.com/como-fazer-pestana-no-violao-entenda-aqui'
 wpId: 38136
 ---
 

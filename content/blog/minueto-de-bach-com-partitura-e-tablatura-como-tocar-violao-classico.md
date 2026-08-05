@@ -10,7 +10,7 @@ tags: []
 featured_image: /images/blog/2019/03/Minueto-de-Bach-1.webp
 og_image: /images/blog/2019/03/Minueto-de-Bach-1.webp
 canonical: >-
-  https://amigoviolao.com/blog/minueto-de-bach-com-partitura-e-tablatura-como-tocar-violao-classico
+  https://amigoviolao.com/minueto-de-bach-com-partitura-e-tablatura-como-tocar-violao-classico
 wpId: 25219
 ---
 

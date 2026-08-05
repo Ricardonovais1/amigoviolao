@@ -21,7 +21,7 @@ tags:
   - ricardo-novais
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/baixo-rendimento-na-escola'
+canonical: 'https://amigoviolao.com/baixo-rendimento-na-escola'
 wpId: 12
 ---
 

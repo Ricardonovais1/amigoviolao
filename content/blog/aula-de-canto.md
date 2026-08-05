@@ -26,7 +26,7 @@ tags:
   - curso-de-musica
 featured_image: 'https://img.youtube.com/vi/pFv9j2MKR0A/hqdefault.jpg'
 og_image: 'https://img.youtube.com/vi/pFv9j2MKR0A/hqdefault.jpg'
-canonical: 'https://amigoviolao.com/blog/aula-de-canto'
+canonical: 'https://amigoviolao.com/aula-de-canto'
 wpId: 392
 ---
 

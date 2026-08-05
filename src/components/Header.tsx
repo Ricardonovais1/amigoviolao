@@ -3,18 +3,13 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { HOTMART_CLUB_LOGIN_URL } from "@/lib/links";
 
 const courseLinks = [
   { label: "Curso para Crianças", href: "/cursos/criancas" },
   { label: "Curso para Iniciantes", href: "/cursos/iniciantes" },
   { label: "Curso de Clássico", href: "/cursos/classico" },
   { label: "Para Professores", href: "/cursos/professores" },
-];
-
-const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "Blog", href: "/blog" },
-  { label: "Já sou aluno", href: "/login" },
 ];
 
 const ctaClasses =
@@ -89,13 +84,15 @@ export default function Header() {
           >
             Blog
           </Link>
-          <Link
-            href="/login"
+          <a
+            href={HOTMART_CLUB_LOGIN_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-white/90 transition-colors hoverable:text-primary"
           >
             Já sou aluno
-          </Link>
-          <Link href="/seja-aluno" className={ctaClasses}>
+          </a>
+          <Link href="/#cursos" className={ctaClasses}>
             Seja aluno
           </Link>
         </nav>
@@ -169,15 +166,17 @@ export default function Header() {
             >
               Blog
             </Link>
-            <Link
-              href="/login"
+            <a
+              href={HOTMART_CLUB_LOGIN_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
             >
               Já sou aluno
-            </Link>
+            </a>
             <Link
-              href="/seja-aluno"
+              href="/#cursos"
               onClick={() => setOpen(false)}
               className={`mt-2 text-center ${ctaClasses}`}
             >

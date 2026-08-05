@@ -20,7 +20,7 @@ tags:
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/desenvolvimento-da-crianca-por-que-a-musica-e-importante
+  https://amigoviolao.com/desenvolvimento-da-crianca-por-que-a-musica-e-importante
 wpId: 4120
 ---
 

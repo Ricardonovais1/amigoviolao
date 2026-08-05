@@ -14,7 +14,7 @@ tags:
   - como-ler-partitura
 featured_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.webp
 og_image: /images/blog/2018/05/Teoria-Musical-para-Violonistas.webp
-canonical: 'https://amigoviolao.com/blog/como-ler-partitura-entenda-o-basico'
+canonical: 'https://amigoviolao.com/como-ler-partitura-entenda-o-basico'
 wpId: 3242
 ---
 

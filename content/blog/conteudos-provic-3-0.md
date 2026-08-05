@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2020/09/Conteudos-PROVIc.webp
 og_image: /images/blog/2020/09/Conteudos-PROVIc.webp
-canonical: 'https://amigoviolao.com/blog/conteudos-provic-3-0'
+canonical: 'https://amigoviolao.com/conteudos-provic-3-0'
 wpId: 33241
 ---
 

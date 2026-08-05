@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { PostCardData } from "@/lib/blog";
 import { primaryCategory } from "@/lib/categories";
+import { postPath } from "@/lib/routes";
 import PostCover from "./PostCover";
 
 // Reusable post card for the blog index and category archives. Accepts the
@@ -12,7 +13,7 @@ export default function PostCard({ post }: { post: PostCardData }) {
 
   return (
     <Link
-      href={`/blog/${post.slug}`}
+      href={postPath(post.slug)}
       className="group block overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-shadow duration-200 hoverable:shadow-md"
     >
       <div className="relative aspect-video w-full bg-cream">

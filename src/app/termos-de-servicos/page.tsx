@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import LegalLayout from "@/components/LegalLayout";
 
 export const metadata: Metadata = {
@@ -75,7 +76,7 @@ export default function TermosDeServicosPage() {
         Oferecemos uma garantia incondicional de 30 (trinta) dias. Dentro desse
         prazo, você pode solicitar o cancelamento e o reembolso integral. As
         regras completas estão descritas na nossa{" "}
-        <a href="/politicas-de-cancelamento">Política de Cancelamento</a>.
+        <Link href="/politicas-de-cancelamento">Política de Cancelamento</Link>.
       </p>
 
       <h2>6. Propriedade intelectual</h2>
@@ -128,7 +129,7 @@ export default function TermosDeServicosPage() {
       <h2>10. Privacidade</h2>
       <p>
         O tratamento dos seus dados pessoais é regido pela nossa{" "}
-        <a href="/politica-de-privacidade">Política de Privacidade</a>, que é
+        <Link href="/politica-de-privacidade">Política de Privacidade</Link>, que é
         parte integrante destes Termos.
       </p>
 

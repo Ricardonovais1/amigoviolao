@@ -23,7 +23,7 @@ tags:
   - metodo-de-violao-para-criancas
 featured_image: 'https://img.youtube.com/vi/BNHDS9fymUw/hqdefault.jpg'
 og_image: 'https://img.youtube.com/vi/BNHDS9fymUw/hqdefault.jpg'
-canonical: 'https://amigoviolao.com/blog/aula-de-violao-para-criancas-1-2'
+canonical: 'https://amigoviolao.com/aula-de-violao-para-criancas-1-2'
 wpId: 4075
 ---
 

@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.webp
 og_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.webp
 canonical: >-
-  https://amigoviolao.com/blog/melhor-curso-online-de-violao-videoaulas-tira-duvidas
+  https://amigoviolao.com/melhor-curso-online-de-violao-videoaulas-tira-duvidas
 wpId: 38359
 ---
 

@@ -22,7 +22,7 @@ tags:
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/porcelana-e-dificil-de-arranhar-e-facil-de-quebrar
+  https://amigoviolao.com/porcelana-e-dificil-de-arranhar-e-facil-de-quebrar
 wpId: 639
 ---
 

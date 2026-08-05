@@ -24,7 +24,7 @@ tags:
   - importancia-da-musica
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/apreciacao-musical'
+canonical: 'https://amigoviolao.com/apreciacao-musical'
 wpId: 478
 ---
 

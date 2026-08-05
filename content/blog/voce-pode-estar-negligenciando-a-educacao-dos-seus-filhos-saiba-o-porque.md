@@ -13,7 +13,7 @@ tags: []
 featured_image: ''
 og_image: ''
 canonical: >-
-  https://amigoviolao.com/blog/voce-pode-estar-negligenciando-a-educacao-dos-seus-filhos-saiba-o-porque
+  https://amigoviolao.com/voce-pode-estar-negligenciando-a-educacao-dos-seus-filhos-saiba-o-porque
 wpId: 679
 ---
 

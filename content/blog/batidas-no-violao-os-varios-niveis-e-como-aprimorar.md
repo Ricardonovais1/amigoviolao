@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/09/batidas-violao-CAPA.webp
 og_image: /images/blog/2021/09/batidas-violao-CAPA.webp
 canonical: >-
-  https://amigoviolao.com/blog/batidas-no-violao-os-varios-niveis-e-como-aprimorar
+  https://amigoviolao.com/batidas-no-violao-os-varios-niveis-e-como-aprimorar
 wpId: 39600
 ---
 

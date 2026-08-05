@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllCategories } from "@/lib/blog";
+import { categoryPath } from "@/lib/routes";
 
 // Category chips to encourage browsing. Used on the blog index, each post, and
 // the category archive (where `activeSlug` highlights the current one).
@@ -21,7 +22,7 @@ export default function CategoryList({
         return (
           <Link
             key={cat.slug}
-            href={`/blog/categoria/${cat.slug}`}
+            href={categoryPath(cat.slug)}
             aria-current={active ? "page" : undefined}
             className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
               active

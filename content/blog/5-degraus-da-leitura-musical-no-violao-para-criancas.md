@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2020/09/Copia-de-Copia-de-Sem-nome3.webp
 og_image: /images/blog/2020/09/Copia-de-Copia-de-Sem-nome3.webp
 canonical: >-
-  https://amigoviolao.com/blog/5-degraus-da-leitura-musical-no-violao-para-criancas
+  https://amigoviolao.com/5-degraus-da-leitura-musical-no-violao-para-criancas
 wpId: 33244
 ---
 

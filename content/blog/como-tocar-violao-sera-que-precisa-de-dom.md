@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2021/08/CAPA-Precisa-de-dom.webp
 og_image: /images/blog/2021/08/CAPA-Precisa-de-dom.webp
-canonical: 'https://amigoviolao.com/blog/como-tocar-violao-sera-que-precisa-de-dom'
+canonical: 'https://amigoviolao.com/como-tocar-violao-sera-que-precisa-de-dom'
 wpId: 38387
 ---
 

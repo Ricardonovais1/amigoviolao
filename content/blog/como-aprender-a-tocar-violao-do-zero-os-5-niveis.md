@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.webp
 og_image: /images/blog/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.webp
-canonical: 'https://amigoviolao.com/blog/como-aprender-a-tocar-violao-do-zero-os-5-niveis'
+canonical: 'https://amigoviolao.com/como-aprender-a-tocar-violao-do-zero-os-5-niveis'
 wpId: 38652
 ---
 

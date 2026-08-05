@@ -23,7 +23,7 @@ tags:
   - mais-de-40-anos
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/muito-velho-para-aprender'
+canonical: 'https://amigoviolao.com/muito-velho-para-aprender'
 wpId: 378
 ---
 

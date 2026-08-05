@@ -24,7 +24,7 @@ tags:
   - ricardo-novais
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/musica-para-criancas-2'
+canonical: 'https://amigoviolao.com/musica-para-criancas-2'
 wpId: 498
 ---
 

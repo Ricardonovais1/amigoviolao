@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2020/10/Copia-de-Copia-de-Sem-nome.webp
 og_image: /images/blog/2020/10/Copia-de-Copia-de-Sem-nome.webp
-canonical: 'https://amigoviolao.com/blog/ensinar-guitarra-pras-criancas-antes-do-violao'
+canonical: 'https://amigoviolao.com/ensinar-guitarra-pras-criancas-antes-do-violao'
 wpId: 33426
 ---
 

@@ -1,6 +1,21 @@
 export const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/K46456415L";
 export const HOTMART_PROVIC_CHECKOUT_URL = "https://pay.hotmart.com/T4530896P";
 
+/**
+ * Area do aluno ("Já sou aluno"). Portal unificado da propria Hotmart: o aluno
+ * loga com o e-mail da compra e ve TODOS os produtos que ja comprou (Crianças,
+ * Iniciantes, Clássico, Completo/PROVIC, ...) em "Minhas Compras", cada um com
+ * link pro seu club.
+ *
+ * Deliberadamente nao aponta pro club de um produto especifico (ex.: o antigo
+ * .../club/nave-amigo-violao/auth/login): como cada pacote e vendido como um
+ * produto Hotmart separado, um link fixo por produto so funcionaria pra quem
+ * comprou aquele produto e desviaria os demais. consumer.hotmart.com nao
+ * depende de qual produto o aluno tem -- nao precisa de manutencao quando um
+ * pacote novo entra no catálogo.
+ */
+export const HOTMART_CLUB_LOGIN_URL = "https://consumer.hotmart.com";
+
 export const WHATSAPP_NUMBER = "5531991420455";
 
 /** Primeira parte, igual em todas as páginas — o "Olá!" só existe aqui. */

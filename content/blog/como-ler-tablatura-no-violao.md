@@ -22,7 +22,7 @@ tags:
   - entender-tablatura
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/como-ler-tablatura-no-violao'
+canonical: 'https://amigoviolao.com/como-ler-tablatura-no-violao'
 wpId: 464
 ---
 

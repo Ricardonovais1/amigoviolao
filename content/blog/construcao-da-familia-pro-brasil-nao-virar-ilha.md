@@ -24,7 +24,7 @@ tags:
   - qual-lado-escolher
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/construcao-da-familia-pro-brasil-nao-virar-ilha'
+canonical: 'https://amigoviolao.com/construcao-da-familia-pro-brasil-nao-virar-ilha'
 wpId: 732
 ---
 

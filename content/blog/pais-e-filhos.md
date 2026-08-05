@@ -23,7 +23,7 @@ tags:
   - pais-e-filhos
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/pais-e-filhos'
+canonical: 'https://amigoviolao.com/pais-e-filhos'
 wpId: 358
 ---
 

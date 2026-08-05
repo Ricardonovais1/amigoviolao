@@ -25,7 +25,7 @@ tags:
   - musica-em-casa
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/brinquedo-educativo'
+canonical: 'https://amigoviolao.com/brinquedo-educativo'
 wpId: 214
 ---
 

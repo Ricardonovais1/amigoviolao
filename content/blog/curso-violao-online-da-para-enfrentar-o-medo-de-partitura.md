@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/09/CAPA-medo-de-partitura.webp
 og_image: /images/blog/2021/09/CAPA-medo-de-partitura.webp
 canonical: >-
-  https://amigoviolao.com/blog/curso-violao-online-da-para-enfrentar-o-medo-de-partitura
+  https://amigoviolao.com/curso-violao-online-da-para-enfrentar-o-medo-de-partitura
 wpId: 38609
 ---
 

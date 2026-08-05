@@ -28,7 +28,7 @@ tags:
   - jogo-musical
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/brincadeiras-para-fazer-em-casa-siga-o-mestre'
+canonical: 'https://amigoviolao.com/brincadeiras-para-fazer-em-casa-siga-o-mestre'
 wpId: 263
 ---
 

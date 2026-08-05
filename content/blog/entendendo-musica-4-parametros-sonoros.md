@@ -22,7 +22,7 @@ tags:
   - teoria-musical
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/entendendo-musica-4-parametros-sonoros'
+canonical: 'https://amigoviolao.com/entendendo-musica-4-parametros-sonoros'
 wpId: 567
 ---
 

@@ -23,7 +23,7 @@ tags:
   - pai-ausente
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/papai-trocar-a-fralda-e-o-basico'
+canonical: 'https://amigoviolao.com/papai-trocar-a-fralda-e-o-basico'
 wpId: 628
 ---
 

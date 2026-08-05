@@ -26,7 +26,7 @@ tags:
   - trio-amaranto
 featured_image: 'https://img.youtube.com/vi/BWf-eARnf6U/hqdefault.jpg'
 og_image: 'https://img.youtube.com/vi/BWf-eARnf6U/hqdefault.jpg'
-canonical: 'https://amigoviolao.com/blog/momentos-em-familia'
+canonical: 'https://amigoviolao.com/momentos-em-familia'
 wpId: 201
 ---
 

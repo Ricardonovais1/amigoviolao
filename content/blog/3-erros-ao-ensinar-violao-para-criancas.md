@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: /images/blog/2015/12/Dar-aula-de-violao-Iniciando-o-metodo-Amigo-Violao.webp
 og_image: /images/blog/2015/12/Dar-aula-de-violao-Iniciando-o-metodo-Amigo-Violao.webp
-canonical: 'https://amigoviolao.com/blog/3-erros-ao-ensinar-violao-para-criancas'
+canonical: 'https://amigoviolao.com/3-erros-ao-ensinar-violao-para-criancas'
 wpId: 33220
 ---
 

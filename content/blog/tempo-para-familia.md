@@ -20,7 +20,7 @@ tags:
   - temo-para-a-familia
 featured_image: /images/blog/2016/06/Pais-gostariam.webp
 og_image: /images/blog/2016/06/Pais-gostariam.webp
-canonical: 'https://amigoviolao.com/blog/tempo-para-familia'
+canonical: 'https://amigoviolao.com/tempo-para-familia'
 wpId: 775
 ---
 

@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/10/CAPA-motivar-criancas.webp
 og_image: /images/blog/2021/10/CAPA-motivar-criancas.webp
 canonical: >-
-  https://amigoviolao.com/blog/3-formas-de-motivar-as-criancas-nas-aulas-de-violao
+  https://amigoviolao.com/3-formas-de-motivar-as-criancas-nas-aulas-de-violao
 wpId: 39804
 ---
 

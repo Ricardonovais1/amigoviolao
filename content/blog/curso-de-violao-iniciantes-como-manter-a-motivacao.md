@@ -22,7 +22,7 @@ tags:
 featured_image: /images/blog/2021/08/motivacao-para-tocar.webp
 og_image: /images/blog/2021/08/motivacao-para-tocar.webp
 canonical: >-
-  https://amigoviolao.com/blog/curso-de-violao-iniciantes-como-manter-a-motivacao
+  https://amigoviolao.com/curso-de-violao-iniciantes-como-manter-a-motivacao
 wpId: 37810
 ---
 

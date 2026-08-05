@@ -13,7 +13,7 @@ categories:
 tags: []
 featured_image: 'https://img.youtube.com/vi/28WjNOVWLYc/hqdefault.jpg'
 og_image: 'https://img.youtube.com/vi/28WjNOVWLYc/hqdefault.jpg'
-canonical: 'https://amigoviolao.com/blog/pestana-e-darth-vader-dica-de-aula-para-criancas'
+canonical: 'https://amigoviolao.com/pestana-e-darth-vader-dica-de-aula-para-criancas'
 wpId: 79
 ---
 

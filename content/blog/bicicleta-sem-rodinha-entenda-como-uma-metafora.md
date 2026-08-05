@@ -22,7 +22,7 @@ tags:
   - violao-infantil
 featured_image: /images/blog/2016/03/Bicicleta-sem-rodinha.webp
 og_image: /images/blog/2016/03/Bicicleta-sem-rodinha.webp
-canonical: 'https://amigoviolao.com/blog/bicicleta-sem-rodinha-entenda-como-uma-metafora'
+canonical: 'https://amigoviolao.com/bicicleta-sem-rodinha-entenda-como-uma-metafora'
 wpId: 647
 ---
 

@@ -24,7 +24,7 @@ tags:
   - educacao-musical-infantil
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/amigo-violao-violao-para-pais-e-filhos'
+canonical: 'https://amigoviolao.com/amigo-violao-violao-para-pais-e-filhos'
 wpId: 1180
 ---
 

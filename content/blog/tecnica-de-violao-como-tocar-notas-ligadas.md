@@ -11,7 +11,7 @@ categories:
 tags: []
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/tecnica-de-violao-como-tocar-notas-ligadas'
+canonical: 'https://amigoviolao.com/tecnica-de-violao-como-tocar-notas-ligadas'
 wpId: 3293
 ---
 

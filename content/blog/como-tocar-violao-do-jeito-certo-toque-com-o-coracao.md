@@ -12,7 +12,7 @@ tags: []
 featured_image: /images/blog/2021/10/CAPA-tecnica-coracao.webp
 og_image: /images/blog/2021/10/CAPA-tecnica-coracao.webp
 canonical: >-
-  https://amigoviolao.com/blog/como-tocar-violao-do-jeito-certo-toque-com-o-coracao
+  https://amigoviolao.com/como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 wpId: 39704
 ---
 

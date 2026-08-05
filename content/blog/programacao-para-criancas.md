@@ -24,7 +24,7 @@ tags:
   - programa-para-o-fim-de-semana
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/programacao-para-criancas'
+canonical: 'https://amigoviolao.com/programacao-para-criancas'
 wpId: 155
 ---
 

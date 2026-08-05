@@ -18,7 +18,7 @@ tags: []
 featured_image: /images/blog/2018/06/Como-Ler-Partitura.webp
 og_image: /images/blog/2018/06/Como-Ler-Partitura.webp
 canonical: >-
-  https://amigoviolao.com/blog/como-ler-partitura-no-violao-1-entendendo-as-notas-2
+  https://amigoviolao.com/como-ler-partitura-no-violao-1-entendendo-as-notas-2
 wpId: 4604
 ---
 

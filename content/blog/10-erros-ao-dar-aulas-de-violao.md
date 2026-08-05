@@ -16,7 +16,7 @@ categories:
 tags: []
 featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.webp
 og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.webp
-canonical: 'https://amigoviolao.com/blog/10-erros-ao-dar-aulas-de-violao'
+canonical: 'https://amigoviolao.com/10-erros-ao-dar-aulas-de-violao'
 wpId: 25151
 ---
 

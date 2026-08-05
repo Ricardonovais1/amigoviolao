@@ -23,7 +23,7 @@ tags:
   - pai-nao-ajuda
 featured_image: ''
 og_image: ''
-canonical: 'https://amigoviolao.com/blog/papel-de-pai'
+canonical: 'https://amigoviolao.com/papel-de-pai'
 wpId: 416
 ---
 
