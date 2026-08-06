@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import type { Question } from "@/lib/quiz-types";
 import { getModule } from "./registry";
 import { PromptMedia, type Verdict } from "./shared";
@@ -102,14 +102,22 @@ export default function QuizPlayer({
   questions: Question[];
   shuffleQuestions?: boolean;
 }) {
-  const [orderedQuestions] = useState<Question[]>(() =>
-    shuffleQuestions ? shuffleArray(questions) : questions,
-  );
+  // Ordem inicial igual ao servidor (sem embaralhar) para não gerar
+  // mismatch de hidratação; o embaralhamento real acontece no useEffect
+  // abaixo, só no cliente, antes do usuário poder interagir.
+  const [orderedQuestions, setOrderedQuestions] = useState<Question[]>(questions);
   const [states, setStates] = useState<QuestionState[]>(() =>
-    freshStates(orderedQuestions),
+    freshStates(questions),
   );
   const [current, setCurrent] = useState(0);
   const [showSummary, setShowSummary] = useState(false);
+
+  // Embaralhar só no cliente após a hidratação é intencional (evita mismatch SSR/cliente).
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (shuffleQuestions) setOrderedQuestions(shuffleArray(questions));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const total = orderedQuestions.length;
   const question = orderedQuestions[current];
