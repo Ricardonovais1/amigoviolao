@@ -43,4 +43,11 @@ next-env.d.ts
 # blog migration raw cache (regenerable from the WP API; not committed)
 /scripts/blog-migration/.cache/
 
+# local estimate of Fal.AI spend (not real billing -- see fal.ai/dashboard/billing)
+/scripts/.fal_spend.json
+__pycache__/
+
+# generated docs (regenerable from the .md source)
+/docs/*.pdf
+
 .vercel
