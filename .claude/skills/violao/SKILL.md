@@ -115,7 +115,7 @@ de still-life dela.
 1. **Tarja de título**: `python scripts/fal_add_title_bar.py --image <caminho>
    --title "<título curto>"` desenha por cima da imagem gerada uma tarja
    colorida translúcida cobrindo os 49% inferiores da imagem (72% de
-   opacidade), com a logo branca (`public/images/logo-amigo-violao-branco.png`)
+   opacidade), com a logo branca (`public/images/logo-amigo-violao-branco.webp`)
    centralizada no topo da tarja e o título em Poppins ~72px (reduz
    automaticamente se não couber em 2 linhas), branco, centralizado abaixo da
    logo. **Composição determinística com Pillow, não geração por IA** — pedir

@@ -9,8 +9,8 @@ slug: aprenda-a-organizar-o-conteudo-das-aulas-de-violao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/11/CAPA-organizar-aulas-violao.webp
-og_image: /images/blog/2021/11/CAPA-organizar-aulas-violao.webp
+featured_image: /images/blog/aprenda-a-organizar-o-conteudo-das-aulas-de-violao.webp
+og_image: /images/blog/aprenda-a-organizar-o-conteudo-das-aulas-de-violao.webp
 canonical: >-
   https://amigoviolao.com/aprenda-a-organizar-o-conteudo-das-aulas-de-violao
 wpId: 39889

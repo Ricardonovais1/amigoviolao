@@ -9,8 +9,8 @@ slug: violao-para-iniciantes-3-erros-comuns-e-1-so-solucao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/11/CAPA-3-erros-1-solucao.webp
-og_image: /images/blog/2021/11/CAPA-3-erros-1-solucao.webp
+featured_image: /images/blog/violao-para-iniciantes-3-erros-comuns-e-1-so-solucao.webp
+og_image: /images/blog/violao-para-iniciantes-3-erros-comuns-e-1-so-solucao.webp
 canonical: >-
   https://amigoviolao.com/violao-para-iniciantes-3-erros-comuns-e-1-so-solucao
 wpId: 39936
