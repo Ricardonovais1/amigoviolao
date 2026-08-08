@@ -47,6 +47,9 @@ next-env.d.ts
 /scripts/.fal_spend.json
 __pycache__/
 
+# scratch previews (skill /violao), never meant to be committed
+/.previews/
+
 # generated docs (regenerable from the .md source)
 /docs/*.pdf
 

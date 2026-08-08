@@ -112,15 +112,26 @@ de still-life dela.
 
 ## Depois de gerar
 
-1. **Otimize**: `python scripts/optimize_images.py --src public/images/blog`
+1. **Tarja de título**: `python scripts/fal_add_title_bar.py --image <caminho>
+   --title "<título curto>"` desenha por cima da imagem gerada uma tarja
+   branca translúcida (13% da altura, 55% de opacidade) com o título em
+   Poppins 28px e a logo real (`public/images/logo-amigo-violao-completo.png`)
+   à direita. **Composição determinística com Pillow, não geração por IA** —
+   pedir isso pro modelo de imagem não funciona (erra texto, não conhece a
+   logo real). `--title` é um título **curto e editorial**, não
+   necessariamente o `title` completo do front matter (que geralmente tem
+   sufixo de SEO tipo " - Amigo Violão" — não incluir isso na tarja).
+2. **Otimize**: `python scripts/optimize_images.py --src public/images/blog`
    converte para `.webp` e redimensiona se estiver largo demais. Mantém o
    `.jpg` original ao lado até alguém atualizar as referências e rodar
-   `git rm` nele (mesma convenção do resto do repo).
-2. **Referencie no post**: no front matter do `.md` em `content/blog/`, aponte
+   `git rm` nele (mesma convenção do resto do repo). Se a tarja já foi
+   aplicada direto num `.webp` (passo 1 depois de já ter otimizado), pode
+   pular este passo.
+3. **Referencie no post**: no front matter do `.md` em `content/blog/`, aponte
    `featured_image: /images/blog/<slug-do-post>.webp` (caminho público, sem
    `public/` no início — ver outros posts em `content/blog/` para conferir o
    padrão).
-3. Confira a capa em `/<slug-do-post>` antes de considerar pronto —
+4. Confira a capa em `/<slug-do-post>` antes de considerar pronto —
    `next.config.ts` não tem os domínios do Fal na whitelist de imagem remota,
    então a imagem **precisa** estar baixada em `public/images/`, não linkada
    direto na URL do Fal (que além disso expira). **Antes de rodar `npm run
