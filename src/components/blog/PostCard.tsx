@@ -14,7 +14,7 @@ export default function PostCard({ post }: { post: PostCardData }) {
   return (
     <Link
       href={postPath(post.slug)}
-      className="group block overflow-hidden rounded-2xl border border-black/5 bg-white shadow-sm transition-shadow duration-200 hoverable:shadow-md"
+      className="group block overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow duration-200 hoverable:shadow-md"
     >
       <div className="relative aspect-video w-full bg-cream">
         <PostCover

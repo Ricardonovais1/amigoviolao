@@ -30,7 +30,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FONT_PATH = Path(__file__).resolve().parent / "fonts" / "Poppins-SemiBold.ttf"
-DEFAULT_LOGO = REPO_ROOT / "public" / "images" / "logo-amigo-violao-branco.png"
+DEFAULT_LOGO = REPO_ROOT / "public" / "images" / "logo-amigo-violao-branco.webp"
 
 BAR_HEIGHT_PCT = 0.49
 BAR_OPACITY = 0.72
@@ -132,7 +132,10 @@ def add_title_bar(
     line_height = font_size * TITLE_LINE_SPACING
     text_top = logo_y + logo_h + round(bar_h * TITLE_TOP_GAP_PCT)
     text_block_h = line_height * len(lines)
-    available_h = (bar_top + bar_h) - text_top
+    # Reserva uma margem embaixo simetrica ao respiro que a logo tem em cima,
+    # senao o texto (com descendentes tipo "rapido") fica colado na borda.
+    bottom_margin = round(bar_h * LOGO_TOP_PAD_PCT)
+    available_h = h - bottom_margin - text_top
     text_top += max(0, (available_h - text_block_h) / 2)
 
     for i, line in enumerate(lines):

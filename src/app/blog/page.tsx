@@ -32,13 +32,22 @@ export default function BlogIndex() {
                 mais leveza.
               </p>
             </div>
-            <Image
-              src="/images/ricardo-novais.webp"
-              alt="Ricardo Novais"
-              width={96}
-              height={96}
-              className="hidden shrink-0 rounded-full ring-2 ring-white/20 sm:block"
-            />
+            <div className="hidden shrink-0 items-center gap-4 sm:flex">
+              <p className="max-w-xs text-right text-sm text-white/70">
+                <span className="font-semibold text-white">
+                  Ricardo Novais
+                </span>
+                , professor de violão há mais de 20 anos e pesquisador
+                dedicado ao ensino do violão.
+              </p>
+              <Image
+                src="/images/ricardo-novais.webp"
+                alt="Ricardo Novais"
+                width={112}
+                height={112}
+                className="shrink-0 rounded-full ring-2 ring-white/20"
+              />
+            </div>
           </div>
         </section>
 
