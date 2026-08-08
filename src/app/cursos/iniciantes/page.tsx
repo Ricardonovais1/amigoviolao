@@ -18,6 +18,22 @@ import FinalCTA from "@/components/sales/FinalCTA";
 import Faq from "@/components/sales/Faq";
 import { iniciantesFaqs } from "@/components/sales/faqData";
 import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
+import Trilhas from "@/components/sales/Trilhas";
+import {
+  TRILHA_CARRO_CHEFE,
+  bonusDaPagina,
+  checkoutDaPagina,
+  formatarBRL,
+  formatarInteiroBRL,
+  precoDaPagina,
+  totalDosBonus,
+  trilhasDaPagina,
+} from "@/lib/ofertas";
+
+// Mesmo produto das outras duas páginas de estudante: preço, bônus e checkout
+// saem todos de src/lib/ofertas.ts. Ver a skill `precificacao`.
+const preco = precoDaPagina("iniciantes");
+const bonus = bonusDaPagina("iniciantes");
 
 export const metadata: Metadata = {
   title: "Curso de Violão para Iniciantes - Amigo Violão",
@@ -40,7 +56,7 @@ const courseJsonLd = {
   },
   offers: {
     "@type": "Offer",
-    price: "479.00",
+    price: preco.aVista.toFixed(2),
     priceCurrency: "BRL",
     category: "Paid",
     availability: "https://schema.org/InStock",
@@ -118,38 +134,18 @@ const audience = [
 ];
 
 const valueStackCoreItems = [
-  "Curso completo de violão para iniciantes (cifras, solos e melodias)",
-  "Acesso por 2 anos na plataforma NAVE",
+  "As 3 Trilhas completas — Iniciantes, Clássico e Infantil (14 cursos)",
+  "Cifras facilitadas, Dicionário de Ritmos e repertório popular",
+  "Acesso por 2 anos, com app para celular, tablet e TV",
   "Suporte da comunidade Amigo Violão",
   "Garantia incondicional de 30 dias",
 ];
 
-const valueStackBonuses = [
-  {
-    label: "Curso de Violão para Crianças",
-    value: "R$ 479,00",
-    description:
-      "O curso completo para os pequenos — perfeito para incentivar os filhos e aprender em família.",
-  },
-  {
-    label: "Iniciação ao Violão Clássico",
-    value: "R$ 479,00",
-    description:
-      "Primeiros passos no violão erudito, com técnica de dedilhado e repertório clássico.",
-  },
-  {
-    label: "Técnicas de violão flamenco",
-    value: "R$ 197,00",
-    description:
-      "Rasgueados, percussão e outras técnicas do flamenco para dar um novo colorido ao seu violão.",
-  },
-  {
-    label: "Improvisação na guitarra",
-    value: "R$ 197,00",
-    description:
-      "Aprenda a improvisar solos e criar frases musicais com liberdade, do violão à guitarra.",
-  },
-];
+const valueStackBonuses = bonus.map((b) => ({
+  label: b.titulo,
+  value: formatarInteiroBRL(b.valor),
+  description: b.descricao,
+}));
 
 export default function CursoParaIniciantesPage() {
   return (
@@ -164,7 +160,7 @@ export default function CursoParaIniciantesPage() {
       />
       <Header />
       <main className="flex-1 zoom-images">
-        <PromoBanner />
+        <PromoBanner text="⭐ Mais de 10 mil alunos • 🎸 14 cursos inclusos • ⚡ Acesso imediato • 🛡️ 30 dias de garantia" />
         <IniciantesHero />
         <FeatureBadges badges={badges} />
         <SalesWhyLearn features={whyLearnFeatures} />
@@ -183,16 +179,33 @@ export default function CursoParaIniciantesPage() {
             height: 400,
           }}
         />
+        <Trilhas
+          heading="E você ainda leva as outras duas trilhas"
+          subheading="O acesso não para nos primeiros acordes. Quando você quiser ler partitura ou ensinar seus filhos, o conteúdo já está lá — no mesmo login e sem pagar nada a mais."
+          trilhas={trilhasDaPagina("iniciantes")}
+          destaque={TRILHA_CARRO_CHEFE.iniciantes}
+          rotuloDestaque="O seu ponto de partida"
+          rotuloSecundario="Você também leva"
+        />
+
         <About whatsappMessage={WHATSAPP_COURSE_MESSAGES.iniciantes} />
         <ValueStack
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
+          totalNote={`Somando apenas os bônus, são ${formatarInteiroBRL(
+            totalDosBonus("iniciantes"),
+          )} que você leva sem pagar nada a mais.`}
         />
         <PricingCTA
-          eyebrow="APROVEITE ESTA OFERTA!"
-          heading="Acesso completo a este curso e a toda a plataforma, por apenas:"
+          eyebrow="Menos de um quarto de uma mensalidade de aula particular."
+          heading="Comece hoje e tenha um caminho completo para evoluir no violão."
           ctaText="SIM! QUERO MUITO APRENDER VIOLÃO!"
           inclusions={null}
+          checkoutUrl={checkoutDaPagina("iniciantes")}
+          anchorPrice={preco.ancora}
+          installments={preco.parcelas}
+          installmentPrice={preco.parcela}
+          cashPrice={preco.aVista}
         />
         <Guarantee text="Experimente o curso por 30 dias. Se você não gostar por qualquer motivo, é só pedir o reembolso dentro da própria plataforma e devolvemos 100% do valor, sem perguntas e sem burocracia. Todo o risco é nosso." />
         <Faq faqs={iniciantesFaqs} />
@@ -200,10 +213,14 @@ export default function CursoParaIniciantesPage() {
           heading="Você está a um passo de tocar suas primeiras músicas"
           subtext="Comece hoje. Se em até 30 dias você achar que não é para você, devolvemos 100% do valor — sem perguntas."
           ctaText="QUERO APRENDER VIOLÃO AGORA"
+          checkoutUrl={checkoutDaPagina("iniciantes")}
         />
       </main>
       <Footer />
-      <StickyMobileCTA label="Quero tocar violão do zero" />
+      <StickyMobileCTA
+        label="Quero tocar violão do zero"
+        price={`${preco.parcelas}x de ${formatarBRL(preco.parcela)}`}
+      />
     </>
   );
 }

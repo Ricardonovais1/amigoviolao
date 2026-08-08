@@ -3,12 +3,24 @@ import Reveal from "../Reveal";
 import { HOTMART_CHECKOUT_URL } from "@/lib/links";
 
 const defaultInclusions = [
-  "Curso completo de violão para crianças (5 módulos + violão GOSPEL)",
-  "Jogos musicais interativos (quizzes)",
-  "Acesso por 2 anos na plataforma NAVE",
+  "As 3 Trilhas completas — Infantil, Iniciantes e Clássico",
+  "Acesso por 2 anos",
   "Suporte da comunidade Amigo Violão",
   "Garantia incondicional de 30 dias",
 ];
+
+/** "R$1.497,00" — mesmo formato usado em todas as páginas de venda. */
+function formatBRL(value: number) {
+  return `R$${value.toLocaleString("pt-BR", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })}`;
+}
+
+/** "R$ 340" — sem centavos, para a linha de economia. */
+function formatBRLInteiro(value: number) {
+  return `R$ ${value.toLocaleString("pt-BR")}`;
+}
 
 type PricingCTAProps = {
   eyebrow?: string;
@@ -16,6 +28,14 @@ type PricingCTAProps = {
   ctaText?: string;
   checkoutUrl?: string;
   inclusions?: string[] | null;
+  /** Valor de ancoragem, exibido riscado. */
+  anchorPrice?: number;
+  /** Número de parcelas exibido ao lado do valor da parcela. */
+  installments?: number;
+  /** Valor de cada parcela. Ver a fórmula em .claude/skills/precificacao. */
+  installmentPrice?: number;
+  /** Preço à vista. */
+  cashPrice?: number;
   trustImage?: { src: string; alt: string; width: number; height: number };
   sectionId?: string;
 };
@@ -26,6 +46,10 @@ export default function PricingCTA({
   ctaText = "SIM! QUERO INSCREVER MEU FILHO!",
   checkoutUrl = HOTMART_CHECKOUT_URL,
   inclusions = defaultInclusions,
+  anchorPrice = 697,
+  installments = 12,
+  installmentPrice = 49.54,
+  cashPrice = 479,
   trustImage = {
     src: "https://amigoviolao.com/wp-content/uploads/2023/12/cOMPRA-SEGURA-HOTMART-1.png.webp",
     alt: "Compra segura via Hotmart",
@@ -63,15 +87,24 @@ export default function PricingCTA({
         )}
 
         <Reveal delay={80}>
-          <p className="mt-6 text-2xl text-red-500/80 line-through">
-            R$697,00
+          {/* Diferença calculada da própria âncora: não há como a economia
+              anunciada divergir dos dois preços exibidos logo abaixo. */}
+          {anchorPrice > cashPrice && (
+            <p className="mt-6 inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-extrabold text-primary">
+              🔥 Economize {formatBRLInteiro(anchorPrice - cashPrice)} hoje
+            </p>
+          )}
+          <p className="mt-3 text-2xl text-red-500/80 line-through">
+            {formatBRL(anchorPrice)}
           </p>
           <p className="text-primary">
-            <span className="text-2xl font-bold">12x de </span>
-            <span className="text-5xl font-extrabold">R$49,54</span>
+            <span className="text-2xl font-bold">{installments}x de </span>
+            <span className="text-5xl font-extrabold">
+              {formatBRL(installmentPrice)}
+            </span>
           </p>
           <p className="mt-2 text-lg font-semibold text-foreground/70">
-            ou R$479,00 à vista
+            ou {formatBRL(cashPrice)} à vista
           </p>
           <p className="mt-4 text-sm font-semibold uppercase tracking-wide text-foreground/60">
             Garantia de 30 dias

@@ -13,17 +13,29 @@ import ProvicFeatures from "@/components/sales/ProvicFeatures";
 import ProvicTeachers from "@/components/sales/ProvicTeachers";
 import TextTestimonials from "@/components/sales/TextTestimonials";
 import ProfessorsShowcase from "@/components/sales/ProfessorsShowcase";
-import CrossSell from "@/components/sales/CrossSell";
+import Trilhas from "@/components/sales/Trilhas";
 import PricingCTA from "@/components/sales/PricingCTA";
 import ValueStack from "@/components/sales/ValueStack";
 import Guarantee from "@/components/sales/Guarantee";
 import FinalCTA from "@/components/sales/FinalCTA";
 import Faq from "@/components/sales/Faq";
 import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
+import { WHATSAPP_COURSE_MESSAGES } from "@/lib/links";
 import {
-  HOTMART_PROVIC_CHECKOUT_URL,
-  WHATSAPP_COURSE_MESSAGES,
-} from "@/lib/links";
+  TRILHAS,
+  bonusDaPagina,
+  checkoutDaPagina,
+  formatarBRL,
+  formatarInteiroBRL,
+  precoDaPagina,
+  totalDosBonus,
+} from "@/lib/ofertas";
+
+// Preço, bônus e checkout saem todos de src/lib/ofertas.ts — nenhum número
+// desta página é digitado à mão. Ver .claude/skills/precificacao.
+const preco = precoDaPagina("professores");
+const bonus = bonusDaPagina("professores");
+const checkout = checkoutDaPagina("professores");
 
 export const metadata: Metadata = {
   title: "Curso PROVIC - Professor de Violão para Crianças - Amigo Violão",
@@ -87,40 +99,6 @@ const modules = [
   },
 ];
 
-const bonusItems = [
-  {
-    title: "Contrato para você firmar com seus alunos e comunidade de professores",
-    subtitle: "Contrato para você firmar com seus alunos e comunidade de professores",
-    image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/Imagem-contrato_tamanho.png",
-  },
-  {
-    title: "Certificado 45 Horas após aprovação nas avaliações",
-    subtitle: "Certificado 45 Horas após aprovação nas avaliações",
-    image: "/images/certificado-provic-malaquias.webp",
-  },
-  {
-    title: "Técnica de violão flamenco",
-    subtitle: "Técnica de violão flamenco",
-    image: "/images/bonus-flamenco.webp",
-  },
-  {
-    title: "Violão para Educadores Musicais",
-    subtitle: "Violão para Educadores Musicais",
-    image: "/images/bonus-educadores-musicais.webp",
-  },
-  {
-    title: "Curso de Violão Clássico",
-    subtitle: "Curso de Violão Clássico",
-    image: "/images/bonus-violao-classico.webp",
-  },
-  {
-    title: "Campo Harmônico e Ritmos brasileiros",
-    subtitle: "Campo Harmônico e Ritmos brasileiros",
-    image: "/images/bonus-campo-harmonico-v2.webp",
-  },
-];
-
 const bio = [
   "Sou bacharel em violão pela UFMG desde 2006.",
   "Tocar violão sempre foi minha paixão. E há 20 anos venho ensinando.",
@@ -129,46 +107,36 @@ const bio = [
   "Eu valorizo os alunos que, apesar de terem um professor, são antes de tudo autodidatas, pois buscam o conhecimento.",
 ];
 
+// A formação é a oferta principal: método docente + as 3 trilhas de aplicação
+// + a credencial. Nada disso é bônus — chamar curso inteiro de brinde encolhe
+// a promessa em vez de aumentá-la.
 const valueStackCoreItems = [
   "Curso PROVIC completo, com acesso por 2 anos",
+  "VEM — Violão para Educadores Musicais: musicalização e aula em grupo",
+  "Organização e condução das aulas: como escolher o próximo passo de cada aluno",
+  "As 3 Trilhas de Aplicação completas — Infantil, Iniciantes e Clássico",
   "Certificação de 45h após aprovação nas avaliações",
-  "PDFs e áudios para baixar e usar em suas aulas",
-  "Comunidade de professores Amigo Violão",
+  "Atividades imprimíveis, PDFs e áudios para usar nas suas aulas",
+  "Comunidade de professores Amigo Violão e suporte por WhatsApp",
   "Garantia de 30 dias",
 ];
 
-const valueStackBonuses = [
-  {
-    label: "Técnica de violão flamenco",
-    value: "R$ 197,00",
-    description:
-      "Rasgueados, percussão e ritmos espanhóis para dar um novo colorido às suas aulas e ao seu violão.",
-  },
-  {
-    label: "Violão para Educadores Musicais",
-    value: "R$ 197,00",
-    description:
-      "Recursos e repertório para levar o violão à musicalização e ao trabalho em sala de aula.",
-  },
-  {
-    label: "Curso de Violão Clássico",
-    value: "R$ 479,00",
-    description:
-      "Leitura, teoria, técnica e repertório do violão erudito para aprofundar a sua formação.",
-  },
-  {
-    label: "Campo Harmônico e Ritmos brasileiros",
-    value: "R$ 197,00",
-    description:
-      "Harmonia funcional e levadas dos principais ritmos brasileiros para tocar e ensinar com liberdade.",
-  },
-];
+const valueStackBonuses = bonus.map((b) => ({
+  label: b.titulo,
+  value: formatarInteiroBRL(b.valor),
+  description: b.descricao,
+}));
 
 const faqs = [
   {
     question: "Este curso funciona só para professores ou para meu filho também?",
     answer:
-      "Para seu filho opte por outro curso, “Violão para Crianças”. Ele também está presente no acesso à plataforma.",
+      "A Formação é para quem vai ensinar. Mas ela inclui a Trilha Infantil completa, com o curso “Violão para Crianças” — então o seu filho pode estudar pelo mesmo acesso. Se você não pretende dar aulas, a turma de Estudantes já entrega as três trilhas por um valor menor; o que só existe aqui é a formação docente e a certificação.",
+  },
+  {
+    question: "Qual a diferença entre esta formação e o curso para estudantes?",
+    answer:
+      "A turma de Estudantes traz as 3 Trilhas — Infantil, Iniciantes e Clássico — para quem quer aprender a tocar. A Formação de Professor traz tudo isso mais o método PROVIC, o VEM, o módulo de organização e condução das aulas, os bônus de carreira e a certificação de 45 horas. Quem já é aluno pode fazer o upgrade pagando só a diferença.",
   },
   {
     question: "Como é o acesso ao curso?",
@@ -193,12 +161,12 @@ const faqs = [
   {
     question: "Onde esse Método já foi aplicado? Realmente funciona?",
     answer:
-      "O Método do PROVIC já foi aplicado por mais de 500 professores no Brasil, possuindo um alto índice de aprovação. Foi desenvolvido em aulas com centenas de alunos e reunido de forma organizada e inteligível neste curso.",
+      "O Método do PROVIC já foi aplicado por mais de 850 professores no Brasil, possuindo um alto índice de aprovação. Foi desenvolvido em aulas com centenas de alunos e reunido de forma organizada e inteligível neste curso.",
   },
   {
     question: "É preciso saber ler partituras?",
     answer:
-      "Não, pois 95% do que fazemos nas aulas com as crianças não chega a abordar este assunto. No entanto, caso você ainda não possua este conhecimento, dentro da plataforma há cursos bem estruturados voltados exatamente para isso, com leitura e teoria de forma prática e teórica.",
+      "Não, pois 95% do que fazemos nas aulas com as crianças não chega a abordar este assunto. E caso você ainda não tenha esse conhecimento, a Trilha Clássico inclui os cursos de Leitura musical e Teoria musical, voltados exatamente para isso, de forma prática.",
   },
   {
     question: "Nesse método, o professor precisa ter alguma formação prévia?",
@@ -233,12 +201,17 @@ const faqs = [
   {
     question: "Quanto tempo de acesso?",
     answer:
-      "O acesso ao PROVIC é de 2 anos, através da plataforma do Hotmart. Paralelamente você recebe o acesso à NAVE AMIGO VIOLÃO, também por 2 anos, que possui os bônus descritos na pergunta a seguinte.",
+      "São 2 anos de acesso a tudo — formação, trilhas e bônus — pela plataforma da Hotmart, numa única turma.",
   },
   {
-    question: "Quais são os conteúdos bônus?",
+    question: "O que exatamente está incluído?",
     answer:
-      "Acesso à NAVE AMIGO VIOLÃO com os seguintes conteúdos: Curso para iniciantes; Curso para crianças; Técnicas do violão flamenco; Violão na musicalização infantil; Improvisação básica; Teoria Musical; Leitura de partituras; Jogos musicais interativos para crianças. Contrato para firmar com alunos; Arte do cartão de visita de professor credenciado Amigo Violão e certificado.",
+      "A formação docente (PROVIC, VEM e o módulo de organização e condução das aulas), as 3 Trilhas de Aplicação completas — Infantil, Iniciantes e Clássico, com 14 cursos entre elas — a certificação de 45 horas, a comunidade de professores e os bônus de carreira: o Calendário do Professor, o Guia de Precificação e Captação de Alunos e o Kit de Credenciamento.",
+  },
+  {
+    question: "Quais são os bônus?",
+    answer:
+      "São três, e todos tratam do lado comercial da profissão, que nenhum curso do catálogo cobre: o Calendário do Professor, que monta o calendário e o contrato do seu aluno garantindo as suas semanas de férias remuneradas; o Guia de Precificação e Captação de Alunos; e o Kit de Credenciamento, com a arte do cartão de visita e o selo de professor credenciado. O curso te ensina a ensinar — os bônus te ensinam a viver disso.",
   },
   {
     question: "Como funciona a garantia?",
@@ -270,6 +243,15 @@ const courseJsonLd = {
     name: "Amigo Violão",
     url: "https://amigoviolao.com",
   },
+  // O preço estruturado sai da mesma fonte do preço exibido: divergir entre os
+  // dois é inconsistência que o Google lê.
+  offers: {
+    "@type": "Offer",
+    price: preco.aVista.toFixed(2),
+    priceCurrency: "BRL",
+    availability: "https://schema.org/InStock",
+    url: "https://amigoviolao.com/cursos/professores",
+  },
 };
 
 const faqJsonLd = {
@@ -296,7 +278,7 @@ export default function CursoParaProfessoresPage() {
       <Header />
       <main className="flex-1 zoom-images">
         <PromoBanner
-          text="PROMO DE FÉRIAS: Se prepare para ser excelente nas aulas do segundo semestre."
+          text="⭐ Mais de 850 professores • 🎸 Formação + 14 cursos inclusos • ⚡ Acesso imediato • 🛡️ 30 dias de garantia"
           color="teal"
         />
         <ProvicHero />
@@ -339,6 +321,15 @@ export default function CursoParaProfessoresPage() {
           columns={4}
         />
 
+        <Trilhas
+          heading="As 3 Trilhas de Aplicação"
+          subheading="A Formação te habilita a ensinar nas três vertentes. Cada trilha é o método pronto de uma delas, com o repertório e o material de apoio que a sustenta — não são bônus, são o que você vai levar para a sua sala de aula."
+          trilhas={TRILHAS}
+          destaque="infantil"
+          rotuloDestaque="A metodologia"
+          rotuloSecundario="Também incluso"
+        />
+
         <ProvicFeatures />
 
         <ProvicTeachers />
@@ -352,31 +343,41 @@ export default function CursoParaProfessoresPage() {
         <div className="bg-white pt-16">
           <Reveal className="mx-auto max-w-2xl px-6 text-center">
             <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
-              Bônus:
+              O curso te ensina a ensinar.
             </h2>
             <p className="mt-2 text-foreground/70">
-              Fazendo as atividades propostas no curso você poderá obter o
-              certificado do Amigo Violão, para atuar como Professor de
-              Violão para Crianças
+              Os bônus te ensinam a viver disso — são {formatarInteiroBRL(
+                totalDosBonus("professores"),
+              )}{" "}
+              em ferramentas de carreira que nenhum curso do catálogo cobre.
             </p>
           </Reveal>
         </div>
-        <CrossSell heading={null} items={bonusItems} columns={3} />
         <About paragraphs={bio} whatsappMessage={WHATSAPP_COURSE_MESSAGES.professores} />
 
         <ValueStack
           heading="Tudo o que você recebe hoje:"
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
-          totalNote="Somando apenas os bônus, são R$ 1.070,00 em conteúdos que você leva sem pagar nada a mais."
+          totalNote={`Somando apenas os bônus, são ${formatarInteiroBRL(
+            totalDosBonus("professores"),
+          )} em ferramentas que você leva sem pagar nada a mais.`}
         />
 
         <PricingCTA
-          heading="Compre agora e tenha acesso a:"
-          ctaText="COMECE AGORA O CURSO"
-          checkoutUrl={HOTMART_PROVIC_CHECKOUT_URL}
+          eyebrow="Com dois alunos novos em três meses, a formação já se pagou."
+          heading="Invista na formação que pode transformar sua carreira como professor de violão."
+          ctaText="COMECE AGORA A FORMAÇÃO"
+          checkoutUrl={checkout}
+          anchorPrice={preco.ancora}
+          installments={preco.parcelas}
+          installmentPrice={preco.parcela}
+          cashPrice={preco.aVista}
           inclusions={null}
-          sectionId="comprar-final"
+          // "comprar" é o id que o botão do hero e o CTA fixo do mobile
+          // procuram. Esta página usava "comprar-final", de quando havia dois
+          // blocos de preço — os dois âncoras caíam no vazio.
+          sectionId="comprar"
         />
 
         <Guarantee text="Você tem 30 dias de garantia. Faça o curso, comece a aplicar a metodologia nas suas aulas e, se não gostar da qualidade do conteúdo, é só solicitar o reembolso dentro da plataforma dentro desse prazo que devolvemos o valor investido." />
@@ -387,12 +388,15 @@ export default function CursoParaProfessoresPage() {
           heading="Você está a um passo de transformar as suas aulas de violão"
           subtext="Comece hoje com a metodologia PROVIC. Você tem 30 dias de garantia para colocar tudo em prática com os seus alunos."
           ctaText="QUERO SER UM PROFESSOR AMIGO VIOLÃO"
-          checkoutUrl={HOTMART_PROVIC_CHECKOUT_URL}
+          checkoutUrl={checkout}
           guaranteeNote="Garantia de 30 dias · Compra segura via Hotmart"
         />
       </main>
       <Footer />
-      <StickyMobileCTA label="Quero ser um professor melhor" />
+      <StickyMobileCTA
+        label="Quero ser um professor melhor"
+        price={`${preco.parcelas}x de ${formatarBRL(preco.parcela)}`}
+      />
     </>
   );
 }

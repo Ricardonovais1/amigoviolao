@@ -1,38 +1,17 @@
 import Reveal from "../Reveal";
 
+// Defaults deliberadamente genéricos: as quatro páginas de venda passam os
+// seus próprios itens, montados a partir de src/lib/ofertas.ts. Deixar um
+// default com preço ou composição concreta aqui é convite para uma página
+// futura herdar número errado sem ninguém perceber.
 const defaultCoreItems = [
-  "Curso completo de violão para crianças (5 módulos)",
-  "Acesso por 2 anos na plataforma NAVE",
+  "As 3 Trilhas completas — Infantil, Iniciantes e Clássico",
+  "Acesso por 2 anos",
   "Suporte da comunidade Amigo Violão",
   "Garantia incondicional de 30 dias",
 ];
 
-const defaultBonuses = [
-  {
-    label: "Curso de Violão para Iniciantes",
-    value: "R$ 479,00",
-    description:
-      "O método completo para quem está começando do zero — perfeito para você aprender junto com seu filho.",
-  },
-  {
-    label: "Iniciação ao Violão Clássico",
-    value: "R$ 479,00",
-    description:
-      "Primeiros passos no violão erudito, com técnica de dedilhado e repertório clássico.",
-  },
-  {
-    label: "Violão GOSPEL",
-    value: "R$ 197,00",
-    description:
-      "Repertório gospel adaptado para o violão, para tocar em família as músicas que vocês já amam.",
-  },
-  {
-    label: "Jogos musicais interativos",
-    value: "R$ 197,00",
-    description:
-      "Quizzes e jogos que transformam o estudo em brincadeira e mantêm a criança motivada.",
-  },
-];
+const defaultBonuses: Bonus[] = [];
 
 type Bonus = {
   label: string;
@@ -51,7 +30,7 @@ export default function ValueStack({
   heading = "Tudo o que você recebe hoje:",
   coreItems = defaultCoreItems,
   bonuses = defaultBonuses,
-  totalNote = "Somando apenas os bônus, são R$ 1.352,00 em conteúdos que você leva sem pagar nada a mais.",
+  totalNote,
 }: ValueStackProps) {
   return (
     <section className="bg-cream pt-16">
@@ -73,11 +52,13 @@ export default function ValueStack({
           </ul>
         </Reveal>
 
-        <Reveal delay={80}>
-          <p className="mt-10 text-lg font-extrabold uppercase tracking-wide text-primary">
-            E mais estes bônus:
-          </p>
-        </Reveal>
+        {bonuses.length > 0 && (
+          <Reveal delay={80}>
+            <p className="mt-10 text-lg font-extrabold uppercase tracking-wide text-primary">
+              E mais estes bônus:
+            </p>
+          </Reveal>
+        )}
 
         <div className="mt-4 space-y-4">
           {bonuses.map((bonus, i) => (

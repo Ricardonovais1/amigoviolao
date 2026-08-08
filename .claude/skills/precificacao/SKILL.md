@@ -1,81 +1,45 @@
 ---
 name: precificacao
-description: Tabela de preços e regras de precificação dos cursos e pacotes do Amigo Violão. Use ao montar ou revisar páginas de venda, listas de bônus, "valor total", parcelamentos, promoções, upgrades entre pacotes, ou ao adicionar um curso novo ao catálogo.
+description: Preços, ancoragem e arquitetura de oferta dos dois SKUs do Amigo Violão (Estudantes e Professores). Use ao montar ou revisar páginas de venda, listas de bônus, "valor total", parcelamentos, promoções, upgrade entre SKUs, ou ao adicionar um curso novo ao catálogo.
 ---
 
 # Precificação — Amigo Violão
 
-Este arquivo é a **fonte única de verdade** de preços. Nenhum valor deve ser
-inventado ou arredondado em página de venda: todos saem daqui.
+Fonte única de verdade de preços. Nenhum valor é inventado ou arredondado numa
+página de venda: todos saem daqui.
 
-## Regra fundamental
+A arquitetura de oferta de cada página está em `ofertas/`:
 
-**Um curso tem um único preço, em qualquer lugar onde apareça.** O "Curso para
-Crianças" custa R$ 397 na página dele e vale R$ 397 quando entra como bônus em
-qualquer outro pacote. Preço divergente entre páginas é bug.
+- [ofertas/estudantes.md](ofertas/estudantes.md) — Crianças, Iniciantes, Clássico
+- [ofertas/professores.md](ofertas/professores.md) — Formação de Professor
 
-## Preço de cada curso
+## Dois SKUs, quatro páginas
 
-Os cursos são trilhas dentro do Hotmart. Faixas: **carro-chefe** (397–497),
-**especialista** (197–297), **apoio** (97–147).
+O catálogo é vendido como **dois produtos**, cada um com sua turma no Hotmart
+Club. As quatro páginas de venda continuam existindo — mas três delas são
+portas de entrada para o mesmo produto.
 
-| Curso | Preço |
-|---|---:|
-| PROVIC – Professor de violão para crianças | 497 |
-| Curso para Crianças | 397 |
-| Curso para Iniciantes | 397 |
-| VEM – Violão para educadores musicais | 347 |
-| Teoria musical | 297 |
-| Leitura musical | 297 |
-| Técnicas de violão | 297 |
-| Peças de violão solo | 247 |
-| Técnicas de violão Flamenco | 197 |
-| Universos Pentatônica (improvisação) | 197 |
-| Tópicos de violão popular | 197 |
-| Melodias de guitarra para crianças | 197 |
-| Músicas Gospel para crianças | 197 |
-| Dicionários de Ritmos | 147 |
-| Cifras facilitadas | 147 |
-| Jogos interativos para crianças | 97 |
+| SKU | Páginas | Turma |
+|---|---|---|
+| **Estudantes** | `/cursos/criancas`, `/cursos/iniciantes`, `/cursos/classico` | Estudantes |
+| **Professores** | `/cursos/professores` | Professores |
 
-## Composição dos pacotes
+**Professores ⊃ Estudantes**: o SKU docente contém tudo do SKU de estudante,
+mais a formação (PROVIC, VEM) e a certificação de 45h.
 
-| Curso | Crianças | Iniciantes | Clássico | Completo |
-|---|:-:|:-:|:-:|:-:|
-| Curso para Crianças | x | | | x |
-| Músicas Gospel para crianças | x | | | x |
-| Melodias de guitarra para crianças | x | | | x |
-| Jogos interativos para crianças | x | | | x |
-| Cifras facilitadas | x | x | | x |
-| Curso para Iniciantes | | x | x | x |
-| Dicionários de Ritmos | | x | x | x |
-| Tópicos de violão popular | | x | | x |
-| Universos Pentatônica | | x | | x |
-| Peças de violão solo | | | x | x |
-| Leitura musical | | | x | x |
-| Teoria musical | | | x | x |
-| Técnicas de violão | | | x | x |
-| Técnicas de violão Flamenco | | | x | x |
-| PROVIC | | | | x |
-| VEM | | | | x |
-| **Total de cursos** | **5** | **5** | **7** | **16** |
+## Preços
 
-Nenhum pacote é subconjunto de outro — cada um tem conteúdo exclusivo frente
-aos demais. Isso é o que sustenta a existência de quatro SKUs; ao alterar a
-matriz, revalide essa propriedade (ver *Invariantes*).
+| SKU | Âncora (riscado) | À vista | 12x | Desconto | Economia exibida |
+|---|---:|---:|---:|---:|---:|
+| **Estudantes** | 987 | **657** | 67,95 | 33,4% | 330 |
+| **Professores** | 1.497 | **937** | 96,91 | 37,4% | 560 |
 
-## Preço dos pacotes
+A âncora de Estudantes é 987 e não 997 de propósito: a diferença precisa fechar
+em R$ 330 redondos, que é a economia que a página anuncia. A linha "Economize
+R$ X hoje" é calculada pelo `PricingCTA` a partir da própria âncora — não há
+como ela divergir dos dois preços exibidos.
 
-| Pacote | Cursos | Soma dos cursos | À vista | 12x | Economia | Por curso |
-|---|:-:|---:|---:|---:|---:|---:|
-| Crianças | 5 | 1.035 | **567** | 58,64 | 468 (45,2%) | 113,40 |
-| Iniciantes | 5 | 1.085 | **567** | 58,64 | 518 (47,7%) | 113,40 |
-| Clássico | 7 | 1.879 | **657** | 67,95 | 1.222 (65,0%) | 93,86 |
-| Completo | 16 | 4.152 | **937** | 96,91 | 3.215 (77,4%) | 58,56 |
-
-O tier "Completo" é o antigo "Professores". PROVIC e VEM continuam sendo a
-formação docente destacada dentro dele — o nome do tier não deve excluir o
-hobbista que quer o catálogo inteiro.
+Upgrade Estudantes → Professores: **R$ 280** (a diferença dos preços à vista).
 
 ### Parcelamento
 
@@ -87,114 +51,133 @@ Fator 1,2411 ≈ 24,11% de juros — é o que o Hotmart pratica no 12x. Sempre
 exibir as duas opções: "12x de R$ X ou R$ Y à vista". O valor exato quem
 calcula é a plataforma; o da tabela serve para a página.
 
-## Como montar a lista de bônus de uma página
+## Regra de ancoragem
 
-1. Defina o **carro-chefe** da página (o curso que dá nome ao pacote).
-2. **Bônus** = todos os outros cursos do pacote, cada um com seu preço de tabela.
-3. **"Valor total"** exibido = soma de *todos* os cursos do pacote (carro-chefe
-   incluído), nunca só os bônus.
-4. O preço do pacote vem da tabela acima.
+**A âncora nunca é a soma dos cursos.** Somar o catálogo e chegar a R$ 4.152
+produz um número grande demais para ser acreditado, e obriga a chamar curso
+inteiro de "bônus" — o que esvazia a promessa principal em vez de reforçá-la.
 
-### Página Crianças — total R$ 1.035, por R$ 567
+A âncora se sustenta em três apoios, nesta ordem de força:
 
-Carro-chefe: Curso para Crianças (397). Bônus (638):
+1. **É o preço real fora de campanha.** Precisa ser cobrado em algum momento do
+   ano, senão é preço fictício.
+2. **Comparação de mercado.** Para Estudantes, aula particular de violão
+   (~R$ 320/mês): R$ 657 são cerca de dois meses de aula por três métodos
+   completos, e a parcela de R$ 67,95 é **menos de um quarto de uma
+   mensalidade**. Confira o arredondamento antes de escrever — 657 ÷ 320 =
+   2,05, então "menos que dois meses" seria falso. Para Professores,
+   comparação com formação docente presencial.
+3. **ROI.** Professores: dois alunos novos em ~3 meses pagam a formação.
 
-| Bônus | Valor |
-|---|---:|
-| Músicas Gospel para crianças | 197 |
-| Melodias de guitarra para crianças | 197 |
-| Cifras facilitadas | 147 |
-| Jogos interativos para crianças | 97 |
+## Regra de bônus
 
-### Página Iniciantes — total R$ 1.085, por R$ 567
+1. **Bônus nunca é curso inteiro.** Curso inteiro é conteúdo principal — sobe
+   para a promessa, não vira brinde.
+2. **Faixa de R$ 97 a R$ 197 por item.** Acima disso não é bônus, é oferta.
+3. **Bônus é sempre um recorte focado** de algo maior, dirigido ao público
+   daquela página (*unbundling*).
+4. **Bônus nunca contradiz o método.** A metodologia Amigo Violão defende que
+   não há caminho único pré-estabelecido: o professor identifica a atividade
+   certa para cada momento do aluno. Qualquer entregável no formato "cronograma
+   fechado" enfraquece a oferta inteira. Entrega-se **critério de decisão**,
+   nunca roteiro.
+5. **O stack é idêntico nas três páginas de Estudantes** (R$ 391). Mesmo
+   produto e mesmo preço com valor percebido diferente é o que quebra a
+   confiança de quem compara duas abas.
 
-Carro-chefe: Curso para Iniciantes (397). Bônus (688):
+Stacks atuais: Estudantes **R$ 391**, Professores **R$ 441**.
 
-| Bônus | Valor |
-|---|---:|
-| Tópicos de violão popular | 197 |
-| Universos Pentatônica | 197 |
-| Cifras facilitadas | 147 |
-| Dicionários de Ritmos | 147 |
+## Preço de tabela dos cursos
 
-### Página Clássico — total R$ 1.879, por R$ 657
+Estes valores **não vão para a página**. Servem para posicionar um curso novo
+numa faixa e para compor as trilhas. Faixas: **carro-chefe** (397–497),
+**especialista** (197–297), **apoio** (97–147). Terminação sempre em 7.
 
-Núcleo (1.138): Leitura musical 297, Teoria musical 297, Técnicas de violão
-297, Peças de violão solo 247. Bônus (741):
+| Curso | Preço | Trilha |
+|---|---:|---|
+| PROVIC – Professor de violão para crianças | 497 | Formação docente |
+| VEM – Violão para educadores musicais | 347 | Formação docente |
+| Curso para Crianças | 397 | Infantil |
+| Curso para Iniciantes | 397 | Iniciantes |
+| Teoria musical | 297 | Clássico |
+| Leitura musical | 297 | Clássico |
+| Técnicas de violão | 297 | Clássico |
+| Peças de violão solo | 247 | Clássico |
+| Técnicas de violão Flamenco | 197 | Clássico |
+| Universos Pentatônica (improvisação) | 197 | Iniciantes |
+| Tópicos de violão popular | 197 | Iniciantes |
+| Melodias de guitarra para crianças | 197 | Infantil |
+| Músicas Gospel para crianças | 197 | Infantil |
+| Dicionários de Ritmos | 147 | Iniciantes |
+| Cifras facilitadas | 147 | Iniciantes |
+| Jogos interativos para crianças | 97 | Infantil |
 
-| Bônus | Valor |
-|---|---:|
-| Curso para Iniciantes | 397 |
-| Técnicas de violão Flamenco | 197 |
-| Dicionários de Ritmos | 147 |
+## Composição dos SKUs
 
-O "Curso para Iniciantes" é a porta de entrada do Clássico — boa parte desse
-público é iniciante no repertório erudito. Não remover.
+| Trilha | Cursos | Estudantes | Professores |
+|---|:-:|:-:|:-:|
+| Infantil | 4 | x | x |
+| Iniciantes | 5 | x | x |
+| Clássico | 5 | x | x |
+| Formação docente (PROVIC, VEM) | 2 | | x |
+| **Total** | **16** | **14** | **16** |
 
-### Página Completo — total R$ 4.152, por R$ 937
-
-Núcleo docente (844): PROVIC 497, VEM 347. Bônus: os outros 14 cursos, somando
-3.308. É o argumento "toda a família aprende" — aqui ele é cobrado, e não
-entregue de graça nos tiers de entrada.
+Só o SKU de Professores tem **certificação de 45h**. É o que sustenta os R$ 280
+de diferença e o que impede o professor de comprar a turma mais barata.
 
 ## Invariantes
 
 Toda mudança de preço, promoção ou composição precisa preservar:
 
-1. **Preço do pacote < soma dos seus cursos.**
-2. **Desconto % cresce com o tamanho do pacote**: Crianças ≤ Iniciantes <
-   Clássico < Completo. Hoje: 45,2% / 47,7% / 65,0% / 77,4%.
-3. **Valor por curso cai conforme o pacote cresce**: 113,40 / 113,40 / 93,86 /
-   58,56. O Completo é sempre o melhor negócio por real — é para lá que o
-   funil empurra.
-4. **Ordem de preços**: Crianças = Iniciantes < Clássico < Completo.
-5. **Nenhum pacote é subconjunto de outro** (exceto o Completo, que contém
-   todos por definição).
-6. Nenhum pacote custa mais que o Completo.
+1. **Professores ⊃ Estudantes** (superconjunto estrito).
+2. **Preço idêntico nas três páginas de Estudantes.** São portas do mesmo
+   produto, não pacotes diferentes.
+3. **Total de bônus idêntico nas três páginas de Estudantes.**
+4. **Certificação existe só em Professores.** Nenhuma página de estudante a
+   promete, nem no FAQ.
+5. **Desconto exibido nos dois SKUs na mesma faixa** (33–38%). Âncoras
+   incoerentes entre si denunciam que uma delas é inventada.
+6. **Upgrade = diferença dos preços à vista.** Nunca cobrar o preço cheio do
+   SKU de destino: o conteúdo se sobrepõe e o cliente pagaria duas vezes.
+7. Nenhum bônus é curso inteiro, nem passa de R$ 197.
 
 Se uma promoção quebrar qualquer um destes pontos, a promoção está errada —
 não o invariante.
 
 ## Promoções e descontos
 
-- **Piso**: nunca abaixo de 30% off o preço à vista. Pisos atuais: Crianças e
-  Iniciantes R$ 397, Clássico R$ 460, Completo R$ 656.
-- **Promoção simultânea**: ao descontar, aplique a mesma % em todos os pacotes.
-  Descontar um só quebra a ordem de preços e o gradiente de desconto.
-- **Nunca descontar curso individual abaixo do preço de tabela** — isso
-  invalida o "valor total" exibido em todas as páginas de bônus.
-- Histórico: os cursos já foram vendidos a R$ 697 com promoção recorrente a
-  R$ 479, com *todos* os cursos inclusos em qualquer pacote. A base antiga está
-  ancorada em 479 por tudo; o Completo a 937 é um aumento real para esse
-  público. Considerar condição de migração ao comunicar o lançamento.
+- **Piso**: nunca abaixo de 30% off o preço à vista. Pisos atuais: Estudantes
+  **R$ 460**, Professores **R$ 656**.
+- **Promoção simultânea**: ao descontar, aplique a mesma % nos dois SKUs.
+  Descontar um só estreita a diferença de R$ 280 e mata o upgrade.
+- **Nunca anunciar desconto sobre a soma dos cursos** — a âncora é o preço de
+  tabela do SKU, não o catálogo somado.
+- **Preço no build sai de `src/lib/ofertas.ts`**, não daqui. Para rodar uma
+  promoção, preencha a constante `PROMOCAO` naquele arquivo: as quatro páginas
+  acompanham, com a parcela recalculada pela fórmula. Este markdown é a fonte
+  de verdade das *decisões*; aquele módulo é a do *build*.
+- Os checkouts também: `CHECKOUT` em `ofertas.ts` guarda um link por página
+  (as três portas de Estudantes apontam para ofertas diferentes do mesmo
+  produto Hotmart, nomeadas pelo carro-chefe), com fallback para os links
+  legados enquanto as ofertas novas não existirem.
 
-## Upgrade entre pacotes
+## Base antiga
 
-**Upgrade = diferença entre os preços à vista.** Nunca cobrar o preço cheio do
-pacote de destino — há sobreposição de cursos entre os pacotes e o cliente
-pagaria duas vezes pelo mesmo conteúdo.
-
-| De → Para | Valor do upgrade |
-|---|---:|
-| Crianças → Clássico | 90 |
-| Crianças → Completo | 370 |
-| Iniciantes → Clássico | 90 |
-| Iniciantes → Completo | 370 |
-| Clássico → Completo | 280 |
-
-Crianças → Iniciantes (ou o inverso) custa 0 pela regra da diferença, mas os
-pacotes só compartilham "Cifras facilitadas". Trate como compra nova com
-crédito do que já foi pago: cobre a soma dos cursos ainda não possuídos,
-limitada ao preço do pacote de destino.
+Os cursos já foram vendidos a R$ 697 com promoção recorrente a **R$ 479**, com
+todos os cursos inclusos em qualquer pacote. Essa base está ancorada em 479, e
+tanto 657 quanto 937 são aumento real para ela. Considerar condição de migração
+ao comunicar o lançamento.
 
 ## Adicionar um curso novo ao catálogo
 
-1. Enquadre numa das faixas: apoio (97/147), especialista (197/247/297),
-   carro-chefe (397/497). Terminação sempre em 7.
-2. Adicione ao **Completo** — ele contém tudo, por definição.
-3. Adicione aos pacotes cujo público o curso realmente serve. Um curso infantil
-   não entra num pacote adulto só para inflar o "valor total".
-4. Recalcule a soma dos pacotes afetados e **revalide os invariantes**. Se o
-   desconto % de um pacote passar o do pacote seguinte, ajuste o preço do
-   pacote, não o do curso.
-5. Atualize as listas de bônus das páginas afetadas.
+1. Enquadre numa faixa: apoio (97/147), especialista (197/247/297), carro-chefe
+   (397/497). Terminação sempre em 7.
+2. Escolha a **trilha** cujo público o curso realmente serve. Um curso infantil
+   não entra na trilha clássica só para inflar número.
+3. Ele entra automaticamente nos dois SKUs — as três trilhas são comuns. Só
+   curso de formação docente fica restrito a Professores.
+4. **Não recalcule preço de SKU por causa disso.** O preço vem da âncora e da
+   comparação de mercado, não da soma. Um curso novo aumenta o valor entregue
+   sem mexer no número da página.
+5. Se o curso justificar um bônus de página, extraia um **recorte** dele
+   (R$ 97–197) — nunca ofereça o curso inteiro como bônus.

@@ -1,26 +1,25 @@
 import Reveal from "../Reveal";
+import AssinaturaRicardo from "./AssinaturaRicardo";
 
 export default function ClassicoHero() {
   return (
     <section className="bg-dark py-12 md:py-16">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2">
         <Reveal>
-          <h1 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl">
-            Curso de Violão Clássico
+          <h1 className="text-[1.7rem] font-extrabold leading-tight text-white sm:text-[2.15rem]">
+            🎼 Pare de aprender conteúdos soltos. Construa uma base sólida para
+            tocar violão clássico com segurança e musicalidade.
           </h1>
           <p className="mt-4 text-lg font-semibold text-primary">
-            Aumente seu nível no violão
+            Teoria, leitura musical, técnica e repertório em um único percurso.
           </p>
-          <p className="mt-1 text-teal">
-            Saiba tocar suas primeiras peças de violão solo, aprenda a ler
-            partituras de forma interativa
-          </p>
+          <AssinaturaRicardo />
 
           <a
             href="#comprar"
-            className="mt-6 inline-block rounded-full bg-primary px-8 py-3.5 text-center text-sm font-semibold text-white transition-[background-color,transform] duration-150 ease-snappy hoverable:bg-primary-dark active:scale-[0.97]"
+            className="mt-6 inline-block rounded-full bg-primary px-10 py-4 text-center text-base font-bold text-white transition-[background-color,transform] duration-150 ease-snappy hoverable:bg-primary-dark active:scale-[0.97]"
           >
-            Quero meu desconto
+            Quero construir minha base
           </a>
         </Reveal>
 

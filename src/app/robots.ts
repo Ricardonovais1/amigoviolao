@@ -17,7 +17,9 @@ export default function robots(): MetadataRoute.Robots {
   }
 
   return {
-    rules: { userAgent: "*", allow: "/" },
+    // /ferramentas/* sao ferramentas de aluno e professor, embutidas no Hotmart
+    // Club. Nao sao conteudo de busca e nao devem ser indexadas.
+    rules: { userAgent: "*", allow: "/", disallow: "/ferramentas/" },
     sitemap: `${SITE}/sitemap.xml`,
   };
 }

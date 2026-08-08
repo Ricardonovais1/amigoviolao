@@ -2,14 +2,29 @@ export type FaqItem = { question: string; answer: string };
 
 export const defaultFaqs: FaqItem[] = [
   {
+    question: "Funciona mesmo?",
+    answer:
+      "Mais de 10 mil alunos já passaram pela metodologia Amigo Violão, e o canal do Amigo Violão no YouTube tem mais de 80 mil inscritos acompanhando esse trabalho. O método não veio da teoria: foi desenvolvido em anos de aula com centenas de crianças e ajustado até funcionar com quem ainda não tem paciência para apostila. E se mesmo assim não funcionar para o seu filho, você tem 30 dias para pedir o reembolso integral.",
+  },
+  {
     question: "Este curso funciona para quais idades?",
     answer:
-      "A partir de 5 anos até adultos. Vale salientar que você terá acesso ao conteúdo integral da NAVE, e tem conteúdos para alunos adultos também, que você pode usar se também quiser aprender!",
+      "A partir de 5 anos até adultos. O acesso inclui as três trilhas — Infantil, Iniciantes e Clássico — então há conteúdo para a criança e para o adulto que quiser aprender junto, sem pagar nada a mais.",
   },
   {
     question: "As aulas são gravadas ou ao vivo?",
     answer:
-      "Você terá acesso a aulas gravadas, acessadas dentro da plataforma NAVE AMIGO VIOLÃO.",
+      "Você terá acesso a aulas gravadas, dentro da plataforma da Hotmart, para assistir quando e quantas vezes quiser.",
+  },
+  {
+    question: "O que exatamente está incluído no acesso?",
+    answer:
+      "As 3 Trilhas completas, com 14 cursos entre elas: a Trilha Infantil (Violão para Crianças, Músicas Gospel, Melodias de guitarra e Jogos interativos), a Trilha Iniciantes (Violão para Iniciantes, Cifras facilitadas, Dicionário de Ritmos, Tópicos de violão popular e Universos Pentatônica) e a Trilha Clássico (Leitura musical, Teoria musical, Técnicas de violão, Peças de violão solo e Técnicas de violão flamenco). Mais os bônus, 2 anos de acesso e a comunidade de alunos.",
+  },
+  {
+    question: "O curso dá certificado?",
+    answer:
+      "Não. A certificação de 45 horas existe na Formação de Professor, que é voltada para quem vai dar aulas e inclui o método PROVIC e o VEM além destas três trilhas. Se você quiser a certificação depois, faz o upgrade pagando só a diferença entre os dois.",
   },
   {
     question: "Aqui em casa ninguém sabe nada. Funciona para nós?",
@@ -50,9 +65,24 @@ export const defaultFaqs: FaqItem[] = [
 
 export const iniciantesFaqs: FaqItem[] = [
   {
+    question: "Funciona mesmo?",
+    answer:
+      "Mais de 10 mil alunos já aprenderam com a metodologia Amigo Violão, e o canal do Amigo Violão no YouTube tem mais de 80 mil inscritos acompanhando as aulas. O que muda aqui é a ordem das coisas: em vez de começar pelos acordes — onde a maior parte das pessoas trava e desiste — você passa antes por degraus que preparam a mão, o ouvido e a leitura. E você tem 30 dias de garantia para testar sem risco nenhum.",
+  },
+  {
     question: "Como saber se este curso é para meu nível?",
     answer:
-      "A nossa plataforma contém diferentes cursos, voltados a: Crianças; Iniciantes de qualquer idade; Alunos de violão que querem avançar (teoria, técnica, solos de violão, etc); Quem quer ensinar violão.",
+      "O acesso inclui as três trilhas, então ele acompanha o seu nível em vez de você ter que escolher: a Trilha Iniciantes começa do zero, a Trilha Clássico leva você adiante quando os acordes já não bastarem, e a Trilha Infantil está lá se quiser ensinar seus filhos.",
+  },
+  {
+    question: "O que exatamente está incluído no acesso?",
+    answer:
+      "As 3 Trilhas completas, com 14 cursos entre elas: a Trilha Iniciantes (Violão para Iniciantes, Cifras facilitadas, Dicionário de Ritmos, Tópicos de violão popular e Universos Pentatônica), a Trilha Clássico (Leitura musical, Teoria musical, Técnicas de violão, Peças de violão solo e Técnicas de violão flamenco) e a Trilha Infantil (Violão para Crianças, Músicas Gospel, Melodias de guitarra e Jogos interativos). Mais os bônus, 2 anos de acesso e a comunidade de alunos.",
+  },
+  {
+    question: "O curso dá certificado?",
+    answer:
+      "Não. A certificação de 45 horas existe na Formação de Professor, voltada para quem vai dar aulas e que inclui o método PROVIC e o VEM além destas três trilhas. Se quiser a certificação depois, faz o upgrade pagando só a diferença entre os dois.",
   },
   {
     question: "Como é o acesso ao curso?",
@@ -92,9 +122,24 @@ export const iniciantesFaqs: FaqItem[] = [
 
 export const classicoFaqs: FaqItem[] = [
   {
+    question: "Funciona mesmo?",
+    answer:
+      "Mais de 10 mil alunos já passaram pela metodologia Amigo Violão, e o canal do Amigo Violão no YouTube tem mais de 80 mil inscritos acompanhando esse trabalho. No violão clássico o resultado vem de tratar leitura, teoria, técnica e repertório como um percurso único, em vez de conteúdos soltos — que é exatamente onde a maioria empaca. E você tem 30 dias de garantia para conferir por conta própria.",
+  },
+  {
     question: "Este curso também funciona para quem é totalmente iniciante?",
     answer:
-      "O objetivo do curso é ensinar leitura, teoria, técnica e repertório inicial para quem já toca pelo menos os primeiros acordes.",
+      "A Trilha Clássico é para quem já toca pelo menos os primeiros acordes. Mas o acesso inclui também a Trilha Iniciantes completa, que começa do zero — então mesmo quem está começando entra por aqui sem ficar travado.",
+  },
+  {
+    question: "O que exatamente está incluído no acesso?",
+    answer:
+      "As 3 Trilhas completas, com 14 cursos entre elas: a Trilha Clássico (Leitura musical, Teoria musical, Técnicas de violão, Peças de violão solo e Técnicas de violão flamenco), a Trilha Iniciantes (Violão para Iniciantes, Cifras facilitadas, Dicionário de Ritmos, Tópicos de violão popular e Universos Pentatônica) e a Trilha Infantil (Violão para Crianças, Músicas Gospel, Melodias de guitarra e Jogos interativos). Mais os bônus, 2 anos de acesso e a comunidade de alunos.",
+  },
+  {
+    question: "O curso dá certificado?",
+    answer:
+      "Não. A certificação de 45 horas existe na Formação de Professor, voltada para quem vai dar aulas e que inclui o método PROVIC e o VEM além destas três trilhas. Se quiser a certificação depois, faz o upgrade pagando só a diferença entre os dois.",
   },
   {
     question: "Como é o acesso ao curso?",

@@ -18,6 +18,23 @@ import FinalCTA from "@/components/sales/FinalCTA";
 import Faq from "@/components/sales/Faq";
 import { defaultFaqs } from "@/components/sales/faqData";
 import StickyMobileCTA from "@/components/sales/StickyMobileCTA";
+import Trilhas from "@/components/sales/Trilhas";
+import {
+  TRILHA_CARRO_CHEFE,
+  bonusDaPagina,
+  checkoutDaPagina,
+  formatarBRL,
+  formatarInteiroBRL,
+  precoDaPagina,
+  totalDosBonus,
+  trilhasDaPagina,
+} from "@/lib/ofertas";
+
+// Preço, bônus e checkout saem de src/lib/ofertas.ts — as três páginas de
+// estudante vendem o mesmo produto e não podem divergir. Ver a skill
+// `precificacao`.
+const preco = precoDaPagina("criancas");
+const bonus = bonusDaPagina("criancas");
 
 export const metadata: Metadata = {
   title: "Curso de Violão para Crianças - Amigo Violão",
@@ -40,12 +57,26 @@ const courseJsonLd = {
   },
   offers: {
     "@type": "Offer",
-    price: "479.00",
+    price: preco.aVista.toFixed(2),
     priceCurrency: "BRL",
     category: "Paid",
     availability: "https://schema.org/InStock",
   },
 };
+
+const coreItems = [
+  "As 3 Trilhas completas — Infantil, Iniciantes e Clássico (14 cursos)",
+  "Jogos musicais interativos para manter a criança motivada",
+  "Acesso por 2 anos, com app para celular, tablet e TV",
+  "Suporte da comunidade Amigo Violão",
+  "Garantia incondicional de 30 dias",
+];
+
+const bonusFormatado = bonus.map((b) => ({
+  label: b.titulo,
+  value: formatarInteiroBRL(b.valor),
+  description: b.descricao,
+}));
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -70,7 +101,7 @@ export default function CursoParaCriancasPage() {
       />
       <Header />
       <main className="flex-1 zoom-images">
-        <PromoBanner />
+        <PromoBanner text="⭐ Mais de 10 mil alunos • 🎸 14 cursos inclusos • ⚡ Acesso imediato • 🛡️ 30 dias de garantia" />
         <SalesHero />
         <FeatureBadges />
         <SalesWhyLearn />
@@ -78,15 +109,43 @@ export default function CursoParaCriancasPage() {
         <VideoTestimonials aspect="video" />
         <CommonMistakes />
         <WhoIsItFor />
+
+        <Trilhas
+          heading="E você ainda leva as outras duas trilhas"
+          subheading="O acesso não é só o curso infantil. São as três trilhas completas, no mesmo login e sem pagar nada a mais — para o seu filho aprender e para você aprender junto."
+          trilhas={trilhasDaPagina("criancas")}
+          destaque={TRILHA_CARRO_CHEFE.criancas}
+          rotuloDestaque="O curso do seu filho"
+          rotuloSecundario="Você também leva"
+        />
+
         <About whatsappMessage={WHATSAPP_COURSE_MESSAGES.criancas} />
-        <ValueStack />
-        <PricingCTA inclusions={null} />
+        <ValueStack
+          coreItems={coreItems}
+          bonuses={bonusFormatado}
+          totalNote={`Somando apenas os bônus, são ${formatarInteiroBRL(
+            totalDosBonus("criancas"),
+          )} que você leva sem pagar nada a mais.`}
+        />
+        <PricingCTA
+          eyebrow="Menos de um quarto de uma mensalidade de aula particular."
+          heading="Seu filho aprende hoje. A família inteira colhe os frutos amanhã."
+          inclusions={null}
+          checkoutUrl={checkoutDaPagina("criancas")}
+          anchorPrice={preco.ancora}
+          installments={preco.parcelas}
+          installmentPrice={preco.parcela}
+          cashPrice={preco.aVista}
+        />
         <Guarantee />
         <Faq />
-        <FinalCTA />
+        <FinalCTA checkoutUrl={checkoutDaPagina("criancas")} />
       </main>
       <Footer />
-      <StickyMobileCTA label="Quero inscrever meu filho(a)" />
+      <StickyMobileCTA
+        label="Quero inscrever meu filho(a)"
+        price={`${preco.parcelas}x de ${formatarBRL(preco.parcela)}`}
+      />
     </>
   );
 }
