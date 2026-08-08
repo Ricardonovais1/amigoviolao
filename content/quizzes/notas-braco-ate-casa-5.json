@@ -1,0 +1,33 @@
+{
+  "slug": "notas-braco-ate-casa-5",
+  "title": "Quiz – Notas no braço até a casa 5",
+  "description": "Quiz interativo de combinação entre notas no braço do violão (até a 5ª casa) e suas posições em tablatura, do curso Teoria Musical para Violonistas.",
+  "category": "teoria-musical",
+  "embedHeight": 900,
+  "questions": [
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q01-a1.webp", "q01-a2.webp", "q01-a3.webp", "q01-a4.webp"],
+      "right": ["q01-b1.webp", "q01-b2.webp", "q01-b3.webp", "q01-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q02-a1.webp", "q02-a2.webp", "q02-a3.webp", "q02-a4.webp"],
+      "right": ["q02-b1.webp", "q02-b2.webp", "q02-b3.webp", "q02-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q03-a1.webp", "q03-a2.webp", "q03-a3.webp", "q03-a4.webp"],
+      "right": ["q03-b1.webp", "q03-b2.webp", "q03-b3.webp", "q03-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q04-a1.webp", "q04-a2.webp", "q04-a3.webp", "q04-a4.webp", "q04-a5.webp"],
+      "right": ["q04-b1.webp", "q04-b2.webp", "q04-b3.webp", "q04-b4.webp", "q04-b5.webp"]
+    }
+  ]
+}
