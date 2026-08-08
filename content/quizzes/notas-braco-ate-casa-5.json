@@ -28,6 +28,42 @@
       "prompt": "Combine as notas com suas respectivas posições em tablatura:",
       "left": ["q04-a1.webp", "q04-a2.webp", "q04-a3.webp", "q04-a4.webp", "q04-a5.webp"],
       "right": ["q04-b1.webp", "q04-b2.webp", "q04-b3.webp", "q04-b4.webp", "q04-b5.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q05-a1.webp", "q05-a2.webp", "q05-a3.webp", "q05-a4.webp"],
+      "right": ["q05-b1.webp", "q05-b2.webp", "q05-b3.webp", "q05-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q06-a1.webp", "q06-a2.webp", "q06-a3.webp", "q06-a4.webp"],
+      "right": ["q06-b1.webp", "q06-b2.webp", "q06-b3.webp", "q06-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q07-a1.webp", "q07-a2.webp", "q07-a3.webp", "q07-a4.webp"],
+      "right": ["q07-b1.webp", "q07-b2.webp", "q07-b3.webp", "q07-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q08-a1.webp", "q08-a2.webp", "q08-a3.webp", "q08-a4.webp"],
+      "right": ["q08-b1.webp", "q08-b2.webp", "q08-b3.webp", "q08-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q09-a1.webp", "q09-a2.webp", "q09-a3.webp", "q09-a4.webp"],
+      "right": ["q09-b1.webp", "q09-b2.webp", "q09-b3.webp", "q09-b4.webp"]
+    },
+    {
+      "type": "matching",
+      "prompt": "Combine as notas com suas respectivas posições em tablatura:",
+      "left": ["q10-a1.webp", "q10-a2.webp", "q10-a3.webp", "q10-a4.webp"],
+      "right": ["q10-b1.webp", "q10-b2.webp", "q10-b3.webp", "q10-b4.webp"]
     }
   ]
 }
