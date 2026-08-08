@@ -175,7 +175,7 @@ export default function BlogExplorer({ posts }: { posts: PostCardData[] }) {
 
       {/* Post grid */}
       {filtered.length === 0 ? (
-        <p className="mt-12 text-center text-charcoal/70">
+        <p className="mt-12 text-center text-white/70">
           Nenhum artigo encontrado
           {query.trim() ? ` para “${query.trim()}”` : ""}. Tente outra busca ou
           remova o filtro de categoria.

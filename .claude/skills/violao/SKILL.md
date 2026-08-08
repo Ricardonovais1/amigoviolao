@@ -114,13 +114,22 @@ de still-life dela.
 
 1. **Tarja de título**: `python scripts/fal_add_title_bar.py --image <caminho>
    --title "<título curto>"` desenha por cima da imagem gerada uma tarja
-   branca translúcida (13% da altura, 55% de opacidade) com o título em
-   Poppins 28px e a logo real (`public/images/logo-amigo-violao-completo.png`)
-   à direita. **Composição determinística com Pillow, não geração por IA** —
-   pedir isso pro modelo de imagem não funciona (erra texto, não conhece a
-   logo real). `--title` é um título **curto e editorial**, não
-   necessariamente o `title` completo do front matter (que geralmente tem
-   sufixo de SEO tipo " - Amigo Violão" — não incluir isso na tarja).
+   colorida translúcida cobrindo os 49% inferiores da imagem (72% de
+   opacidade), com a logo branca (`public/images/logo-amigo-violao-branco.png`)
+   centralizada no topo da tarja e o título em Poppins ~72px (reduz
+   automaticamente se não couber em 2 linhas), branco, centralizado abaixo da
+   logo. **Composição determinística com Pillow, não geração por IA** — pedir
+   isso pro modelo de imagem não funciona (erra texto, não conhece a logo
+   real). `--title` é um título **curto e editorial**, não necessariamente o
+   `title` completo do front matter (que geralmente tem sufixo de SEO tipo
+   " - Amigo Violão" — não incluir isso na tarja).
+   - **Cor da tarja é automática** (`--bar-color auto`, o default): calcula a
+     cor média da região que a tarja vai cobrir e escolhe, entre as 3 cores da
+     marca, a que contrasta mais — fundo frio (azul/verde) → tarja laranja;
+     fundo quente (laranja/vermelho) → tarja teal; fundo escuro ou
+     pouco saturado → tarja escura neutra. Sempre uma das 3 cores oficiais da
+     marca, nunca uma cor arbitrária. Force uma cor específica com
+     `--bar-color orange|teal|dark` se quiser.
 2. **Otimize**: `python scripts/optimize_images.py --src public/images/blog`
    converte para `.webp` e redimensiona se estiver largo demais. Mantém o
    `.jpg` original ao lado até alguém atualizar as referências e rodar

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
@@ -105,7 +106,25 @@ export default async function BlogPost({
             />
           </div>
 
-          <div id="post-content" className="mt-10">
+          <div className="mt-10 flex items-center gap-4">
+            <Image
+              src="/images/ricardo-novais.webp"
+              alt="Ricardo Novais"
+              width={64}
+              height={64}
+              className="shrink-0 rounded-full"
+            />
+            <p className="text-sm text-charcoal/80">
+              <span className="font-semibold text-dark">
+                Por Ricardo Novais
+              </span>
+              , professor de violão há mais de 20 anos e pesquisador dedicado
+              ao ensino do violão.
+            </p>
+          </div>
+          <hr className="my-8 border-t border-black/10" />
+
+          <div id="post-content">
             <PostBody content={post.content} />
           </div>
 

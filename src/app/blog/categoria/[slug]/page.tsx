@@ -44,10 +44,10 @@ export default async function CategoryArchive({
   return (
     <>
       <Header />
-      <main className="flex-1">
-        <section className="border-b border-black/5 bg-cream/40">
+      <main className="flex-1 bg-dark">
+        <section className="border-b border-white/10">
           <div className="mx-auto max-w-6xl px-6 py-14">
-            <nav className="mb-4 text-sm text-charcoal/60">
+            <nav className="mb-4 text-sm text-white/60">
               <Link href="/blog" className="hoverable:text-primary">
                 Blog
               </Link>
@@ -57,8 +57,8 @@ export default async function CategoryArchive({
             <p className="text-sm font-semibold uppercase tracking-wide text-primary">
               Categoria
             </p>
-            <h1 className="mt-2 text-4xl font-extrabold text-dark">{name}</h1>
-            <p className="mt-3 text-charcoal/70">
+            <h1 className="mt-2 text-4xl font-extrabold text-white">{name}</h1>
+            <p className="mt-3 text-white/70">
               {posts.length} {posts.length === 1 ? "artigo" : "artigos"}
             </p>
             <div className="mt-6">
