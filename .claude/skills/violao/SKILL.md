@@ -124,12 +124,17 @@ de still-life dela.
    `title` completo do front matter (que geralmente tem sufixo de SEO tipo
    " - Amigo Violão" — não incluir isso na tarja).
    - **Cor da tarja é automática** (`--bar-color auto`, o default): calcula a
-     cor média da região que a tarja vai cobrir e escolhe, entre as 3 cores da
-     marca, a que contrasta mais — fundo frio (azul/verde) → tarja laranja;
-     fundo quente (laranja/vermelho) → tarja teal; fundo escuro ou
-     pouco saturado → tarja escura neutra. Sempre uma das 3 cores oficiais da
-     marca, nunca uma cor arbitrária. Force uma cor específica com
-     `--bar-color orange|teal|dark` se quiser.
+     cor média da região que a tarja vai cobrir e escolhe, entre **6 cores
+     oficiais da marca** (`orange`, `orange-dark`, `teal`, `teal-dark`,
+     `dark`, `charcoal` — ver `--brand-*` em `globals.css`), a que contrasta
+     mais — fundo frio → uma das quentes; fundo quente → uma das frias;
+     fundo escuro/pouco saturado → uma das neutras. Nunca uma cor arbitrária
+     fora dessas 6. **Nunca repete nenhuma cor usada nas últimas 4 gerações**
+     (rastreado em `scripts/.fal_bar_color_history.json`, git-ignored) — com
+     só 3 cores a primeira versão sempre repetia em sequências de cenas de
+     tom parecido (comum em cenas domésticas aconchegantes); com 6 dá pra
+     garantir variedade real no grid do `/blog`. Force uma cor específica com
+     `--bar-color <nome>` se quiser.
 2. **Otimize**: `python scripts/optimize_images.py --src public/images/blog`
    converte para `.webp` e redimensiona se estiver largo demais. Mantém o
    `.jpg` original ao lado até alguém atualizar as referências e rodar

@@ -5,11 +5,15 @@ grande) numa capa de blog ja gerada. Passo separado da geracao em si -- pedir
 pro modelo de imagem desenhar texto e a logo real nao e confiavel (ver
 SKILL.md), entao isso e composicao deterministica com Pillow.
 
-A cor da tarja e escolhida automaticamente entre as cores da marca (laranja,
-teal, escuro) com base na cor media da regiao da imagem que a tarja vai
-cobrir -- contraste complementar: fundo frio (azul/verde) puxa laranja, fundo
-quente (laranja/vermelho/amarelo) puxa teal, fundo escuro/dessaturado puxa a
-cor escura neutra. Da pra forcar uma cor especifica com --bar-color.
+A cor da tarja e escolhida automaticamente entre 6 cores oficiais da marca
+(laranja, laranja escuro, teal, teal escuro, escuro, grafite) com base na cor
+media da regiao da imagem que a tarja vai cobrir -- contraste complementar:
+fundo frio puxa as quentes, fundo quente puxa as frias, fundo neutro/escuro
+puxa as neutras. Nunca repete nenhuma cor usada nas ultimas 4 geracoes
+(rastreado em .fal_bar_color_history.json) -- com so 3 cores (versao
+anterior), capas seguidas de cena de tom parecido saiam sempre na mesma;
+com 6 da pra garantir variedade real. Da pra forcar uma cor especifica com
+--bar-color.
 
 Uso:
   python scripts/fal_add_title_bar.py \
@@ -24,6 +28,7 @@ from __future__ import annotations
 
 import argparse
 import colorsys
+import json
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -31,6 +36,7 @@ from PIL import Image, ImageDraw, ImageFont
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FONT_PATH = Path(__file__).resolve().parent / "fonts" / "Poppins-SemiBold.ttf"
 DEFAULT_LOGO = REPO_ROOT / "public" / "images" / "logo-amigo-violao-branco.webp"
+COLOR_HISTORY_FILE = Path(__file__).resolve().parent / ".fal_bar_color_history.json"
 
 BAR_HEIGHT_PCT = 0.49
 BAR_OPACITY = 0.72
@@ -42,15 +48,28 @@ LOGO_HEIGHT_PCT = 0.08  # altura da logo, em % da altura da imagem
 LOGO_TOP_PAD_PCT = 0.10  # espaco entre o topo da tarja e a logo, em % da altura da tarja
 TITLE_TOP_GAP_PCT = 0.06  # espaco entre a logo e a primeira linha do titulo, em % da altura da tarja
 
-# RGB das cores da marca (ver src/app/globals.css --brand-*).
+# RGB das 6 cores oficiais da marca que rendem texto branco legivel (ver
+# src/app/globals.css --brand-*; cream fica de fora -- e clara demais pro
+# texto branco). Ter 6 em vez de so 3 e o que permite variedade de verdade
+# ao longo de varias capas seguidas, mesmo evitando as ultimas usadas.
 BRAND_COLORS = {
     "orange": (239, 84, 0),  # --brand-primary
+    "orange-dark": (201, 70, 0),  # --brand-primary-dark
     "teal": (72, 194, 195),  # --brand-teal
+    "teal-dark": (31, 122, 122),  # --brand-teal-text
     "dark": (33, 33, 33),  # --brand-dark
+    "charcoal": (62, 69, 72),  # --brand-charcoal
 }
 
+# Nao repete nenhuma cor usada nas ultimas N geracoes (ver choose_bar_color).
+COLOR_HISTORY_SIZE = 4
 
-def pick_bar_color(image: Image.Image, bar_top: int) -> tuple[str, tuple[int, int, int]]:
+
+def rank_bar_colors(image: Image.Image, bar_top: int) -> list[str]:
+    """Ordena as 6 cores da marca da mais pra menos harmoniosa com a regiao
+    que a tarja vai cobrir. A 1a e a escolha ideal isolada; a lista inteira
+    existe pra dar pra pular as ja usadas recentemente (ver choose_bar_color)
+    sem cair numa cor arbitraria."""
     region = image.convert("RGB").crop((0, bar_top, image.width, image.height))
     small = region.resize((24, 24))
     pixels = [small.getpixel((x, y)) for x in range(24) for y in range(24)]
@@ -60,12 +79,44 @@ def pick_bar_color(image: Image.Image, bar_top: int) -> tuple[str, tuple[int, in
     hue_deg = h * 360
 
     if s < 0.15 or v < 0.18:
-        return "dark", BRAND_COLORS["dark"]
+        # fundo neutro/escuro -> tarjas escuras primeiro; as vivas ficariam
+        # berrantes num fundo sem cor propria.
+        return ["dark", "charcoal", "teal-dark", "orange-dark", "teal", "orange"]
     if hue_deg < 70 or hue_deg > 330:
-        # fundo quente (vermelho/laranja/amarelo) -> tarja fria, contraste
-        return "teal", BRAND_COLORS["teal"]
-    # fundo frio (verde/azul/roxo) -> tarja quente, contraste
-    return "orange", BRAND_COLORS["orange"]
+        # fundo quente (vermelho/laranja/amarelo) -> contraste com tarja fria;
+        # as quentes ficam por ultimo, pois se misturam ao fundo.
+        return ["teal", "teal-dark", "charcoal", "dark", "orange-dark", "orange"]
+    # fundo frio (verde/azul/roxo) -> contraste com tarja quente, espelhado.
+    return ["orange", "orange-dark", "charcoal", "dark", "teal-dark", "teal"]
+
+
+def load_color_history() -> list[str]:
+    if not COLOR_HISTORY_FILE.exists():
+        return []
+    return json.loads(COLOR_HISTORY_FILE.read_text(encoding="utf-8")).get("recent", [])
+
+
+def save_color_history(recent: list[str]) -> None:
+    COLOR_HISTORY_FILE.write_text(json.dumps({"recent": recent}), encoding="utf-8")
+
+
+def record_bar_color(color_name: str) -> None:
+    recent = load_color_history()
+    recent.append(color_name)
+    save_color_history(recent[-COLOR_HISTORY_SIZE:])
+
+
+def choose_bar_color(image: Image.Image, bar_top: int) -> tuple[str, tuple[int, int, int]]:
+    ranked = rank_bar_colors(image, bar_top)
+    recent = load_color_history()
+    # Nunca repete nenhuma das ultimas COLOR_HISTORY_SIZE cores usadas -- com
+    # capas seguidas de cena de tom parecido (comum em cenas domesticas
+    # aconchegantes), a 1a opcao seria sempre a mesma; pula pra proxima da
+    # lista (ainda harmoniosa, so nao a ideal) ate achar uma nao usada
+    # recentemente.
+    chosen = next((c for c in ranked if c not in recent), ranked[0])
+    record_bar_color(chosen)
+    return chosen, BRAND_COLORS[chosen]
 
 
 def wrap_title(draw: ImageDraw.ImageDraw, title: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
@@ -98,9 +149,10 @@ def add_title_bar(
     bar_top = h - bar_h
 
     if bar_color_choice == "auto":
-        color_name, color_rgb = pick_bar_color(base, bar_top)
+        color_name, color_rgb = choose_bar_color(base, bar_top)
     else:
         color_name, color_rgb = bar_color_choice, BRAND_COLORS[bar_color_choice]
+        record_bar_color(color_name)
 
     bar = Image.new("RGBA", (w, bar_h), (*color_rgb, round(255 * BAR_OPACITY)))
     composed = base.copy()

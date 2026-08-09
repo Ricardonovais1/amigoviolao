@@ -45,6 +45,7 @@ next-env.d.ts
 
 # local estimate of Fal.AI spend (not real billing -- see fal.ai/dashboard/billing)
 /scripts/.fal_spend.json
+/scripts/.fal_bar_color_history.json
 __pycache__/
 
 # scratch previews (skill /violao), never meant to be committed
