@@ -338,10 +338,6 @@ export default function CursoParaProfessoresPage() {
         <TextTestimonials />
         <ImageTestimonials />
 
-        <div className="bg-white pt-2">
-          <hr className="mx-auto max-w-4xl border-primary/40" />
-        </div>
-
         <div className="bg-white pt-16">
           <Reveal className="mx-auto max-w-2xl px-6 text-center">
             <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
@@ -351,7 +347,7 @@ export default function CursoParaProfessoresPage() {
               Os bônus te ensinam a viver disso — são {formatarInteiroBRL(
                 totalDosBonus("professores"),
               )}{" "}
-              em ferramentas de carreira que nenhum curso do catálogo cobre.
+              em ferramentas de carreira que nenhuma outra formação oferece.
             </p>
           </Reveal>
         </div>
