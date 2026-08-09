@@ -9,8 +9,8 @@ slug: aprender-violao-classico-os-varios-niveis-do-aprendizado
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/CAPA-aprender-violao-classico.webp
-og_image: /images/blog/2021/09/CAPA-aprender-violao-classico.webp
+featured_image: /images/blog/aprender-violao-classico-os-varios-niveis-do-aprendizado.webp
+og_image: /images/blog/aprender-violao-classico-os-varios-niveis-do-aprendizado.webp
 canonical: >-
   https://amigoviolao.com/aprender-violao-classico-os-varios-niveis-do-aprendizado
 wpId: 39630

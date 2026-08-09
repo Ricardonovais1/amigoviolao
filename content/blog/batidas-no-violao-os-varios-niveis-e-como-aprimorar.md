@@ -9,8 +9,8 @@ slug: batidas-no-violao-os-varios-niveis-e-como-aprimorar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/batidas-violao-CAPA.webp
-og_image: /images/blog/2021/09/batidas-violao-CAPA.webp
+featured_image: /images/blog/batidas-no-violao-os-varios-niveis-e-como-aprimorar.webp
+og_image: /images/blog/batidas-no-violao-os-varios-niveis-e-como-aprimorar.webp
 canonical: >-
   https://amigoviolao.com/batidas-no-violao-os-varios-niveis-e-como-aprimorar
 wpId: 39600

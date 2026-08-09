@@ -9,8 +9,8 @@ slug: curso-de-violao-completo
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.webp
-og_image: /images/blog/2021/09/CAPA-curso-de-violao-deve-conter.webp
+featured_image: /images/blog/curso-de-violao-completo.webp
+og_image: /images/blog/curso-de-violao-completo.webp
 canonical: 'https://amigoviolao.com/curso-de-violao-completo'
 wpId: 39578
 ---
