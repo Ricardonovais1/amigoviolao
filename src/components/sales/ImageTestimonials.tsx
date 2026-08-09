@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Reveal from "../Reveal";
 
-// Prints reais de mensagens de alunos do PROVIC (WhatsApp, Facebook,
-// Instagram) — prova social que uma citação em texto não passa.
-const screenshots = [
+// Prints reais de mensagens de alunos (WhatsApp, Facebook, Instagram) —
+// prova social que uma citação em texto não passa.
+const defaultScreenshots = [
   {
     src: "/images/professores/depoimentos/depoimento-1.webp",
     width: 587,
@@ -36,17 +36,28 @@ const screenshots = [
   },
 ];
 
-export default function ImageTestimonials() {
+type Screenshot = { src: string; width: number; height: number; alt: string };
+
+type ImageTestimonialsProps = {
+  heading?: string;
+  subheading?: string;
+  screenshots?: Screenshot[];
+};
+
+export default function ImageTestimonials({
+  heading = "O que os professores estão dizendo",
+  subheading = "Mensagens reais de professores aplicando o método PROVIC em suas aulas.",
+  screenshots = defaultScreenshots,
+}: ImageTestimonialsProps) {
   return (
     <section className="bg-cream/40 py-16">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="text-center">
           <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
-            O que os professores estão dizendo
+            {heading}
           </h2>
           <p className="mx-auto mt-2 max-w-2xl text-foreground/70">
-            Mensagens reais de professores aplicando o método PROVIC em suas
-            aulas.
+            {subheading}
           </p>
         </Reveal>
 

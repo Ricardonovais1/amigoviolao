@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import { WHATSAPP_COURSE_MESSAGES } from "@/lib/links";
 import VideoTestimonials from "@/components/VideoTestimonials";
+import ImageTestimonials from "@/components/sales/ImageTestimonials";
 import PromoBanner from "@/components/sales/PromoBanner";
 import SalesHero from "@/components/sales/SalesHero";
 import FeatureBadges from "@/components/sales/FeatureBadges";
@@ -72,6 +73,27 @@ const coreItems = [
   "Garantia incondicional de 30 dias",
 ];
 
+const screenshots = [
+  {
+    src: "/images/criancas/depoimentos/depoimento-1.webp",
+    width: 591,
+    height: 573,
+    alt: "Comentários de pais sobre as aulas de violão para crianças do Amigo Violão",
+  },
+  {
+    src: "/images/criancas/depoimentos/depoimento-2.webp",
+    width: 900,
+    height: 1600,
+    alt: "Depoimento no Instagram de aluna que aprendeu violão com o Amigo Violão ainda criança",
+  },
+  {
+    src: "/images/criancas/depoimentos/depoimento-3.webp",
+    width: 900,
+    height: 1600,
+    alt: "Pai e filha tocando violão juntos com o método Amigo Violão",
+  },
+];
+
 const bonusFormatado = bonus.map((b) => ({
   label: b.titulo,
   value: formatarInteiroBRL(b.valor),
@@ -107,6 +129,11 @@ export default function CursoParaCriancasPage() {
         <SalesWhyLearn />
         <CourseModules />
         <VideoTestimonials aspect="video" />
+        <ImageTestimonials
+          heading="O que as famílias estão dizendo"
+          subheading="Mensagens reais de pais e crianças aprendendo violão com o Amigo Violão."
+          screenshots={screenshots}
+        />
         <CommonMistakes />
         <WhoIsItFor />
 
