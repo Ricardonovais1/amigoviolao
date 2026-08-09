@@ -60,7 +60,7 @@ export default function WhyLearn({
           <div className="grid gap-6 sm:grid-cols-2">
             {features.map((feature, i) => (
               <Reveal key={feature.title} delay={i * 70}>
-                <div className="rounded-2xl border border-black/5 p-6 shadow-sm transition-shadow duration-200 ease-snappy hoverable:shadow-md">
+                <div className="rounded-2xl border border-charcoal/15 p-6 shadow-sm transition-shadow duration-200 ease-snappy hoverable:shadow-md">
                   <h3 className="font-bold text-charcoal">{feature.title}</h3>
                   <p className="mt-2 text-sm text-foreground/70">
                     {feature.description}

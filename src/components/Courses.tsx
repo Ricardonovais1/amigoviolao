@@ -22,7 +22,7 @@ export default function Courses() {
             <Reveal key={course.href} delay={i * 60}>
               <a
                 href={course.href}
-                className="block rounded-2xl border border-black/10 px-6 py-8 font-semibold text-charcoal shadow-sm transition-[transform,border-color,box-shadow] duration-200 ease-snappy [@media(hover:hover)_and_(pointer:fine)]:hover:-translate-y-1 [@media(hover:hover)_and_(pointer:fine)]:hover:border-primary [@media(hover:hover)_and_(pointer:fine)]:hover:shadow-md active:scale-[0.97]"
+                className="block rounded-2xl border border-charcoal/20 px-6 py-8 font-semibold text-charcoal shadow-sm transition-[transform,border-color,box-shadow] duration-200 ease-snappy [@media(hover:hover)_and_(pointer:fine)]:hover:-translate-y-1 [@media(hover:hover)_and_(pointer:fine)]:hover:border-primary [@media(hover:hover)_and_(pointer:fine)]:hover:shadow-md active:scale-[0.97]"
               >
                 {course.title}
               </a>
