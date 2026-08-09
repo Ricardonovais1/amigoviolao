@@ -123,6 +123,12 @@ de still-life dela.
    real). `--title` é um título **curto e editorial**, não necessariamente o
    `title` completo do front matter (que geralmente tem sufixo de SEO tipo
    " - Amigo Violão" — não incluir isso na tarja).
+   - **Salva sempre uma cópia sem a tarja** em
+     `content/blog-cover-originals/<slug>.jpg` (fora de `public/`, nunca é
+     servida no site) antes de desenhar por cima. Existe pra nunca mais
+     perder a arte original — já aconteceu de precisar reaplicar a tarja com
+     outra cor/texto e a base já ter sido sobrescrita, sem alternativa a não
+     ser gerar tudo de novo do zero (novo custo, composição diferente).
    - **Cor da tarja é automática** (`--bar-color auto`, o default): calcula a
      cor média da região que a tarja vai cobrir e escolhe, entre **6 cores
      oficiais da marca** (`orange`, `orange-dark`, `teal`, `teal-dark`,

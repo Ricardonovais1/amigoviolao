@@ -22,6 +22,11 @@ Uso:
 
 Roda ANTES do optimize_images.py (a tarja vira parte do raster; o optimize
 so converte pra webp e redimensiona depois).
+
+Sempre salva uma copia sem a tarja em content/blog-cover-originals/<slug>.jpg
+antes de desenhar por cima -- fora de public/ (nunca e servida no site), so
+pra nunca mais perder a arte original caso precise reaplicar a tarja depois
+com outro texto/cor.
 """
 
 from __future__ import annotations
@@ -37,6 +42,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 FONT_PATH = Path(__file__).resolve().parent / "fonts" / "Poppins-SemiBold.ttf"
 DEFAULT_LOGO = REPO_ROOT / "public" / "images" / "logo-amigo-violao-branco.webp"
 COLOR_HISTORY_FILE = Path(__file__).resolve().parent / ".fal_bar_color_history.json"
+# Copia sem tarja de cada capa, fora de public/ (nao pode ser servida no
+# site). Existe pra nunca mais perder o original "limpo" -- ja aconteceu de
+# precisar reaplicar a tarja com cor/texto diferente e nao ter mais a base
+# (soterrada pela sobrescrita + jpg intermediario ja apagado).
+ORIGINALS_DIR = REPO_ROOT / "content" / "blog-cover-originals"
 
 BAR_HEIGHT_PCT = 0.49
 BAR_OPACITY = 0.72
@@ -145,6 +155,10 @@ def add_title_bar(
     base = Image.open(image_path).convert("RGBA")
     w, h = base.size
 
+    ORIGINALS_DIR.mkdir(parents=True, exist_ok=True)
+    original_path = ORIGINALS_DIR / f"{out_path.stem}.jpg"
+    base.convert("RGB").save(original_path, quality=92)
+
     bar_h = round(h * BAR_HEIGHT_PCT)
     bar_top = h - bar_h
 
@@ -201,7 +215,7 @@ def add_title_bar(
         composed.convert("RGB").save(out_path, quality=92)
     else:
         composed.save(out_path)
-    print(f"Tarja '{color_name}' aplicada. Salvo em {out_path}")
+    print(f"Tarja '{color_name}' aplicada. Salvo em {out_path} (original sem tarja em {original_path})")
 
 
 def main() -> None:
