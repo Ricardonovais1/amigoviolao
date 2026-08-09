@@ -7,13 +7,13 @@ export default function ProvicHero() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2">
         <Reveal>
           <h1 className="text-[1.7rem] font-extrabold leading-tight text-white sm:text-[2.15rem]">
-            Crianças que aprendem brincando aprendem melhor e querem voltar à
-            próxima aula.
+            Domine a pedagogia do violão infantil. Suas aulas mais leves,
+            divertidas e lucrativas.
           </h1>
           <p className="mt-4 text-lg font-semibold text-primary">
-            Uma formação completa em pedagogia do violão infantil, com módulos
-            de iniciação, violão popular, clássico, improvisação e
-            musicalização.
+            Uma formação 100% prática em didática e ludicidade do violão
+            infantil. Aprenda a destravar o aprendizado das crianças desde a
+            primeira aula.
           </p>
           <AssinaturaRicardo foco="criancas" />
 
