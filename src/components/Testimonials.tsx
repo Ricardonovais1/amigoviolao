@@ -21,7 +21,7 @@ const testimonials = [
       "Estou utilizando o Amigo Violão nas minhas aulas. O conteúdo é exatamente a proposta pedagógica do projeto e também o que eu sempre busquei no ensino do violão, unindo o lado técnico ao lúdico.",
     name: "Renato Lourenço",
     city: "Araçatuba",
-    avatar: null,
+    avatar: "/images/testimonials/renato-lourenco.webp",
   },
 ];
 
