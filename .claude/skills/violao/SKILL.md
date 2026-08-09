@@ -131,16 +131,20 @@ de still-life dela.
      ser gerar tudo de novo do zero (novo custo, composição diferente).
    - **Cor da tarja é automática** (`--bar-color auto`, o default): calcula a
      cor média da região que a tarja vai cobrir e escolhe, entre **6 cores
-     oficiais da marca** (`orange`, `orange-dark`, `teal`, `teal-dark`,
-     `dark`, `charcoal` — ver `--brand-*` em `globals.css`), a que contrasta
-     mais — fundo frio → uma das quentes; fundo quente → uma das frias;
-     fundo escuro/pouco saturado → uma das neutras. Nunca uma cor arbitrária
-     fora dessas 6. **Nunca repete nenhuma cor usada nas últimas 4 gerações**
-     (rastreado em `scripts/.fal_bar_color_history.json`, git-ignored) — com
-     só 3 cores a primeira versão sempre repetia em sequências de cenas de
-     tom parecido (comum em cenas domésticas aconchegantes); com 6 dá pra
-     garantir variedade real no grid do `/blog`. Force uma cor específica com
-     `--bar-color <nome>` se quiser.
+     oficiais da marca** agrupadas em **3 famílias de matiz** — laranja
+     (`orange`/`orange-dark`), teal (`teal`/`teal-dark`) e escuro
+     (`dark`/`charcoal`; ver `--brand-*` em `globals.css`) — a que contrasta
+     mais: fundo frio → família laranja; fundo quente → família teal; fundo
+     escuro/pouco saturado → família escura. Nunca uma cor arbitrária fora
+     dessas 6.
+     **Anti-repetição em duas camadas**: nunca repete a cor exata das
+     últimas 4 gerações, e **nunca repete a família das últimas 2** —
+     essencial, porque `teal` seguido de `teal-dark` tecnicamente não repete
+     mas de longe, no grid do `/blog`, parece a mesma cor duas vezes seguidas
+     (foi exatamente o que aconteceu antes desse ajuste: 3 capas seguidas em
+     tons de teal). Com só 3 famílias e janela 2, sempre sobra pelo menos uma
+     livre — na prática roda em ciclo pelas 3. Force uma cor específica com
+     `--bar-color <nome>` se quiser (nesse caso não passa pelo anti-repetição).
 2. **Otimize**: `python scripts/optimize_images.py --src public/images/blog`
    converte para `.webp` e redimensiona se estiver largo demais. Mantém o
    `.jpg` original ao lado até alguém atualizar as referências e rodar

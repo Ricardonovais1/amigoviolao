@@ -5,15 +5,17 @@ grande) numa capa de blog ja gerada. Passo separado da geracao em si -- pedir
 pro modelo de imagem desenhar texto e a logo real nao e confiavel (ver
 SKILL.md), entao isso e composicao deterministica com Pillow.
 
-A cor da tarja e escolhida automaticamente entre 6 cores oficiais da marca
-(laranja, laranja escuro, teal, teal escuro, escuro, grafite) com base na cor
-media da regiao da imagem que a tarja vai cobrir -- contraste complementar:
-fundo frio puxa as quentes, fundo quente puxa as frias, fundo neutro/escuro
-puxa as neutras. Nunca repete nenhuma cor usada nas ultimas 4 geracoes
-(rastreado em .fal_bar_color_history.json) -- com so 3 cores (versao
-anterior), capas seguidas de cena de tom parecido saiam sempre na mesma;
-com 6 da pra garantir variedade real. Da pra forcar uma cor especifica com
---bar-color.
+A cor da tarja e escolhida automaticamente entre 6 cores oficiais da marca,
+agrupadas em 3 familias de matiz -- laranja (orange/orange-dark), teal
+(teal/teal-dark) e escuro (dark/charcoal) -- com base na cor media da regiao
+da imagem que a tarja vai cobrir: contraste complementar, fundo frio puxa a
+familia laranja, fundo quente puxa a familia teal, fundo neutro/escuro puxa a
+familia escura. O anti-repeticao roda em duas camadas: nunca repete a cor
+exata usada nas ultimas 4 geracoes, e nunca repete a FAMILIA usada nas
+ultimas 2 -- sem isso, "teal" seguido de "teal-dark" tecnicamente nao repete
+mas de longe, no grid do blog, parece a mesma cor duas vezes seguidas.
+Rastreado em .fal_bar_color_history.json. Da pra forcar uma cor especifica
+com --bar-color.
 
 Uso:
   python scripts/fal_add_title_bar.py \
@@ -60,8 +62,7 @@ TITLE_TOP_GAP_PCT = 0.06  # espaco entre a logo e a primeira linha do titulo, em
 
 # RGB das 6 cores oficiais da marca que rendem texto branco legivel (ver
 # src/app/globals.css --brand-*; cream fica de fora -- e clara demais pro
-# texto branco). Ter 6 em vez de so 3 e o que permite variedade de verdade
-# ao longo de varias capas seguidas, mesmo evitando as ultimas usadas.
+# texto branco).
 BRAND_COLORS = {
     "orange": (239, 84, 0),  # --brand-primary
     "orange-dark": (201, 70, 0),  # --brand-primary-dark
@@ -71,8 +72,26 @@ BRAND_COLORS = {
     "charcoal": (62, 69, 72),  # --brand-charcoal
 }
 
-# Nao repete nenhuma cor usada nas ultimas N geracoes (ver choose_bar_color).
+# "orange" e "orange-dark" sao a mesma familia de matiz (idem teal/teal-dark,
+# dark/charcoal) -- de longe, no grid do /blog, tarja/teal-dark ficam
+# parecidas o suficiente pra nao contarem como "variedade" de verdade. Por
+# isso o anti-repeticao roda em cima da familia, nao da cor exata (ver
+# choose_bar_color).
+COLOR_FAMILY = {
+    "orange": "orange",
+    "orange-dark": "orange",
+    "teal": "teal",
+    "teal-dark": "teal",
+    "dark": "dark",
+    "charcoal": "dark",
+}
+
+# Nao repete a cor exata usada nas ultimas N geracoes.
 COLOR_HISTORY_SIZE = 4
+# Nem a familia de matiz (laranja/teal/escuro) usada nas ultimas N geracoes --
+# com so 3 familias, janela 2 garante rotacao de verdade (a 3a fica sempre
+# livre) sem travar em "sempre a mesma familia ideal pro tom da cena".
+FAMILY_HISTORY_SIZE = 2
 
 
 def rank_bar_colors(image: Image.Image, bar_top: int) -> list[str]:
@@ -119,12 +138,18 @@ def record_bar_color(color_name: str) -> None:
 def choose_bar_color(image: Image.Image, bar_top: int) -> tuple[str, tuple[int, int, int]]:
     ranked = rank_bar_colors(image, bar_top)
     recent = load_color_history()
-    # Nunca repete nenhuma das ultimas COLOR_HISTORY_SIZE cores usadas -- com
-    # capas seguidas de cena de tom parecido (comum em cenas domesticas
-    # aconchegantes), a 1a opcao seria sempre a mesma; pula pra proxima da
-    # lista (ainda harmoniosa, so nao a ideal) ate achar uma nao usada
-    # recentemente.
-    chosen = next((c for c in ranked if c not in recent), ranked[0])
+    recent_colors = set(recent[-COLOR_HISTORY_SIZE:])
+    recent_families = {COLOR_FAMILY[c] for c in recent[-FAMILY_HISTORY_SIZE:]}
+
+    # 1a tentativa: nem a cor exata nem a familia de matiz apareceram
+    # recentemente -- e o que da variedade de verdade (evita "teal" seguido
+    # de "teal-dark", que de longe parecem a mesma cor). Se nada sobrar
+    # (bucket inteiro ja usado), relaxa pra so evitar a cor exata; por
+    # ultimo, cai na ideal mesmo que repita.
+    chosen = next(
+        (c for c in ranked if c not in recent_colors and COLOR_FAMILY[c] not in recent_families),
+        next((c for c in ranked if c not in recent_colors), ranked[0]),
+    )
     record_bar_color(chosen)
     return chosen, BRAND_COLORS[chosen]
 
