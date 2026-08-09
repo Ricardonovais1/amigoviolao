@@ -9,8 +9,8 @@ slug: 3-formas-de-motivar-as-criancas-nas-aulas-de-violao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/10/CAPA-motivar-criancas.webp
-og_image: /images/blog/2021/10/CAPA-motivar-criancas.webp
+featured_image: /images/blog/3-formas-de-motivar-as-criancas-nas-aulas-de-violao.webp
+og_image: /images/blog/3-formas-de-motivar-as-criancas-nas-aulas-de-violao.webp
 canonical: >-
   https://amigoviolao.com/3-formas-de-motivar-as-criancas-nas-aulas-de-violao
 wpId: 39804

@@ -9,8 +9,8 @@ slug: como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/10/CAPA-tecnica-coracao.webp
-og_image: /images/blog/2021/10/CAPA-tecnica-coracao.webp
+featured_image: /images/blog/como-tocar-violao-do-jeito-certo-toque-com-o-coracao.webp
+og_image: /images/blog/como-tocar-violao-do-jeito-certo-toque-com-o-coracao.webp
 canonical: >-
   https://amigoviolao.com/como-tocar-violao-do-jeito-certo-toque-com-o-coracao
 wpId: 39704

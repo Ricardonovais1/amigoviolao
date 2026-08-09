@@ -9,8 +9,8 @@ slug: 3-erros-ao-ensinar-violao-as-criancas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/10/CAPA-erros-ensinar-violao-criancas.webp
-og_image: /images/blog/2021/10/CAPA-erros-ensinar-violao-criancas.webp
+featured_image: /images/blog/3-erros-ao-ensinar-violao-as-criancas.webp
+og_image: /images/blog/3-erros-ao-ensinar-violao-as-criancas.webp
 canonical: 'https://amigoviolao.com/3-erros-ao-ensinar-violao-as-criancas'
 wpId: 39829
 ---
