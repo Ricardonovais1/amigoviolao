@@ -1,0 +1,106 @@
+{
+  "slug": "jogo-agudo-ou-grave",
+  "title": "Jogo – Agudo ou Grave",
+  "description": "Jogo interativo de percepção de altura: ouça as duas notas e marque a imagem que representa corretamente qual delas é mais aguda e qual é mais grave.",
+  "category": "teoria-musical",
+  "embedHeight": 640,
+  "prompt": "Marque a opção que representa o áudio abaixo:",
+  "questions": [
+    {
+      "audio": "q01.mp3",
+      "imageOptions": [
+        "q01-opt1.webp",
+        "q01-opt2.webp"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "q02.mp3",
+      "imageOptions": [
+        "q02-opt1.webp",
+        "q02-opt2.webp"
+      ],
+      "correct": 0
+    },
+    {
+      "audio": "q03.mp3",
+      "imageOptions": [
+        "q03-opt1.webp",
+        "q03-opt2.webp"
+      ],
+      "correct": 0
+    },
+    {
+      "audio": "q04.mp3",
+      "imageOptions": [
+        "q04-opt1.webp",
+        "q04-opt2.webp"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "q05.mp3",
+      "imageOptions": [
+        "q05-opt1.webp",
+        "q05-opt2.webp"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "q06.mp3",
+      "imageOptions": [
+        "q06-opt1.webp",
+        "q06-opt2.webp"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "q07.mp3",
+      "imageOptions": [
+        "q07-opt1.webp",
+        "q07-opt2.webp"
+      ],
+      "correct": 0
+    },
+    {
+      "audio": "q08.mp3",
+      "imageOptions": [
+        "q08-opt1.webp",
+        "q08-opt2.webp"
+      ],
+      "correct": 0
+    },
+    {
+      "audio": "q09.mp3",
+      "imageOptions": [
+        "q09-opt1.webp",
+        "q09-opt2.webp"
+      ],
+      "correct": 0
+    },
+    {
+      "audio": "q10.mp3",
+      "imageOptions": [
+        "q10-opt1.webp",
+        "q10-opt2.webp"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "q11.mp3",
+      "imageOptions": [
+        "q11-opt1.webp",
+        "q11-opt2.webp"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "q12.mp3",
+      "imageOptions": [
+        "q12-opt1.webp",
+        "q12-opt2.webp"
+      ],
+      "correct": 1
+    }
+  ]
+}

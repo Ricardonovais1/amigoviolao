@@ -1,0 +1,184 @@
+{
+  "slug": "jogo-cifras-basicas",
+  "title": "Jogo – Cifras Básicas",
+  "description": "Jogo interativo de reconhecimento de cifras: identifique o acorde a partir da letra da cifra, ou a cifra a partir do nome do acorde.",
+  "category": "teoria-musical",
+  "embedHeight": 640,
+  "questions": [
+    {
+      "prompt": "Qual acorde é representado pela letra A?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 0
+    },
+    {
+      "prompt": "Qual acorde é representado pela letra B?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 1
+    },
+    {
+      "prompt": "Qual acorde é representado pela letra C?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 2
+    },
+    {
+      "prompt": "Qual acorde é representado pela letra D?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 3
+    },
+    {
+      "prompt": "Qual acorde é representado pela letra E?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 4
+    },
+    {
+      "prompt": "Qual acorde é representado pela letra F?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 5
+    },
+    {
+      "prompt": "Qual acorde é representado pela letra G?",
+      "options": [
+        "Lá",
+        "Si",
+        "Dó",
+        "Ré",
+        "Mi",
+        "Fá",
+        "Sol"
+      ],
+      "correct": 6
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Lá maior?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Am",
+        "Fm"
+      ],
+      "correct": 0
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Si maior?",
+      "options": [
+        "A",
+        "B",
+        "Cm",
+        "E",
+        "Am",
+        "F"
+      ],
+      "correct": 1
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Dó maior?",
+      "options": [
+        "A",
+        "E",
+        "C",
+        "D",
+        "B",
+        "Gm"
+      ],
+      "correct": 2
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Ré maior?",
+      "options": [
+        "D",
+        "Dm",
+        "C",
+        "G",
+        "Cm",
+        "B"
+      ],
+      "correct": 0
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Mi maior?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F",
+        "E"
+      ],
+      "correct": 5
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Fá maior?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "A",
+        "F"
+      ],
+      "correct": 5
+    },
+    {
+      "prompt": "Qual cifra representa o acorde Sol maior?",
+      "options": [
+        "A",
+        "B",
+        "G",
+        "D",
+        "C",
+        "F"
+      ],
+      "correct": 2
+    }
+  ]
+}
