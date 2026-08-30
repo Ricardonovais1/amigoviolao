@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PostCard from "@/components/blog/PostCard";
+import SpotlightGroup from "@/components/SpotlightGroup";
 import CategoryList from "@/components/blog/CategoryList";
 import {
   getAllCategories,
@@ -68,11 +69,11 @@ export default async function CategoryArchive({
         </section>
 
         <div className="mx-auto max-w-6xl px-6 py-12">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <SpotlightGroup className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {posts.map((post) => (
               <PostCard key={post.slug} post={post} />
             ))}
-          </div>
+          </SpotlightGroup>
         </div>
       </main>
       <Footer />

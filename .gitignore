@@ -55,3 +55,6 @@ __pycache__/
 /docs/*.pdf
 
 .vercel
+
+# exportacoes de dados de alunos (migracao Hotmart) -- dados pessoais, nunca commitar
+/nave_*

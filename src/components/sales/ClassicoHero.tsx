@@ -1,10 +1,12 @@
+import Ambient from "../Ambient";
 import Reveal from "../Reveal";
 import AssinaturaRicardo from "./AssinaturaRicardo";
 
 export default function ClassicoHero() {
   return (
-    <section className="bg-dark py-12 md:py-16">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2">
+    <section className="grain relative isolate overflow-hidden bg-dark py-14 md:py-20">
+      <Ambient preset="hero" />
+      <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2">
         <Reveal>
           <h1 className="text-[1.7rem] font-extrabold leading-tight text-white sm:text-[2.15rem]">
             🎼 Pare de aprender conteúdos soltos. Construa uma base sólida para
@@ -17,7 +19,7 @@ export default function ClassicoHero() {
 
           <a
             href="#comprar"
-            className="mt-6 inline-block rounded-full bg-primary px-10 py-4 text-center text-base font-bold text-white transition-[background-color,transform] duration-150 ease-snappy hoverable:bg-primary-dark active:scale-[0.97]"
+            className="sheen mt-6 inline-block rounded-full bg-gradient-to-b from-primary to-primary-dark px-10 py-4 text-center text-base font-bold text-white shadow-cta transition-[transform,box-shadow] duration-200 ease-snappy hoverable:-translate-y-0.5 hoverable:shadow-cta-strong active:scale-[0.97]"
           >
             Quero construir minha base
           </a>

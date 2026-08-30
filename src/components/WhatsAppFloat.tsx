@@ -27,7 +27,7 @@ export default function WhatsAppFloat() {
       rel="noopener noreferrer"
       aria-label="Conversar no WhatsApp"
       className={`fixed left-5 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25d366] text-white shadow-lg transition-transform duration-150 ease-snappy hoverable:scale-110 active:scale-95 ${
-        message ? "bottom-20 md:bottom-6" : "bottom-6"
+        message ? "bottom-24 md:bottom-6" : "bottom-6"
       }`}
     >
       <WhatsAppIcon className="h-7 w-7" />

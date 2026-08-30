@@ -1,7 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type KeyboardEvent,
+} from "react";
 import Link from "next/link";
+import Ambient from "./Ambient";
 import Reveal from "./Reveal";
 
 type TabItem = { title: string; text: string };
@@ -90,62 +98,195 @@ const tabs: Tab[] = [
   },
 ];
 
+type Indicator = { left: number; top: number; width: number; height: number };
+
 export default function HowItWorks() {
   const [active, setActive] = useState(0);
+  const listRef = useRef<HTMLDivElement>(null);
+  const buttonsRef = useRef<(HTMLButtonElement | null)[]>([]);
+  // Enquanto a pílula não foi medida (SSR, antes da hidratação), o botão
+  // ativo carrega o próprio fundo — assim nunca há um estado sem destaque.
+  const [indicator, setIndicator] = useState<Indicator | null>(null);
+
+  const measure = useCallback(() => {
+    const button = buttonsRef.current[active];
+    const list = listRef.current;
+    if (!button || !list) return;
+    setIndicator({
+      left: button.offsetLeft,
+      top: button.offsetTop,
+      width: button.offsetWidth,
+      height: button.offsetHeight,
+    });
+  }, [active]);
+
+  // useEffect (e não useLayoutEffect) para não emitir o aviso de SSR do
+  // React: o botão ativo já pinta o fundo branco no mesmo lugar antes da
+  // medição, então a troca para a pílula não pisca.
+  useEffect(measure, [measure]);
+
+  // A faixa de abas quebra em várias linhas conforme a largura: qualquer
+  // mudança de tamanho reposiciona a pílula.
+  useEffect(() => {
+    const list = listRef.current;
+    if (!list || typeof ResizeObserver === "undefined") return;
+    const observer = new ResizeObserver(measure);
+    observer.observe(list);
+    return () => observer.disconnect();
+  }, [measure]);
+
+  // A troca da fonte de fallback pela Poppins muda a largura dos botões sem
+  // necessariamente mudar a caixa da lista — o ResizeObserver não veria, e a
+  // pílula ficaria desalinhada até o primeiro resize.
+  useEffect(() => {
+    document.fonts?.ready.then(measure);
+  }, [measure]);
+
+  // role="tab" cria a expectativa de navegação por setas (APG). Sem isto, o
+  // teclado ficaria pior do que estava antes dos roles.
+  const handleKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
+    const last = tabs.length - 1;
+    const next = {
+      ArrowRight: active === last ? 0 : active + 1,
+      ArrowLeft: active === 0 ? last : active - 1,
+      Home: 0,
+      End: last,
+    }[event.key];
+
+    if (next === undefined) return;
+    event.preventDefault();
+    setActive(next);
+    buttonsRef.current[next]?.focus();
+  };
 
   return (
-    <section id="como-funciona" className="bg-teal py-20">
-      <div className="mx-auto max-w-4xl px-6 text-center">
+    <section
+      id="como-funciona"
+      className="seam-top grain relative isolate overflow-hidden bg-teal py-24"
+      style={{ "--grain-opacity": "0.07" } as CSSProperties}
+    >
+      <Ambient preset="teal" />
+
+      <div className="relative mx-auto max-w-4xl px-6 text-center">
         <Reveal>
-          <h2 className="text-3xl font-extrabold text-white">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-dark">
+            Um acesso, quatro caminhos
+          </p>
+          <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
             Como funciona?
           </h2>
-          <p className="mt-2 text-lg font-medium text-white/90">
+          <p className="mt-3 text-lg font-medium text-white/90">
             Um único acesso que inclui tudo isso:
           </p>
         </Reveal>
 
-        <Reveal delay={100}>
-          <div className="mt-10 flex flex-wrap justify-center gap-2">
-            {tabs.map((tab, index) => (
-              <button
-                key={tab.label}
-                onClick={() => setActive(index)}
-                className={`rounded-full px-5 py-2 text-sm font-semibold transition-[background-color,color,transform] duration-150 ease-snappy active:scale-[0.97] ${
-                  active === index
-                    ? "bg-white text-teal-text"
-                    : "bg-white/10 text-white hoverable:bg-white/20"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
+        <Reveal delay={120}>
+          <div
+            ref={listRef}
+            role="tablist"
+            aria-label="Públicos dos cursos"
+            onKeyDown={handleKeyDown}
+            className="relative mt-10 flex flex-wrap justify-center gap-2"
+          >
+            {indicator && (
+              <span
+                aria-hidden="true"
+                className="pointer-events-none absolute rounded-full bg-white shadow-[0_8px_20px_-10px_rgba(0,0,0,0.45)] transition-[transform,width,height] duration-300 ease-snappy motion-reduce:transition-none"
+                style={{
+                  width: indicator.width,
+                  height: indicator.height,
+                  transform: `translate3d(${indicator.left}px, ${indicator.top}px, 0)`,
+                  left: 0,
+                  top: 0,
+                }}
+              />
+            )}
+
+            {tabs.map((tab, index) => {
+              const isActive = active === index;
+              return (
+                <button
+                  key={tab.label}
+                  ref={(node) => {
+                    buttonsRef.current[index] = node;
+                  }}
+                  type="button"
+                  role="tab"
+                  id={`como-funciona-aba-${index}`}
+                  aria-selected={isActive}
+                  tabIndex={isActive ? 0 : -1}
+                  aria-controls="como-funciona-painel"
+                  onClick={() => setActive(index)}
+                  className={`relative rounded-full px-5 py-2 text-sm font-semibold transition-[background-color,color,transform] duration-300 ease-snappy active:scale-[0.97] ${
+                    isActive
+                      ? `text-teal-text ${indicator ? "" : "bg-white"}`
+                      : "bg-white/10 text-white hoverable:bg-white/20"
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              );
+            })}
           </div>
         </Reveal>
 
-        <Reveal delay={160}>
+        <Reveal delay={180}>
           <div
+            id="como-funciona-painel"
+            role="tabpanel"
+            aria-labelledby={`como-funciona-aba-${active}`}
             key={active}
-            className="mt-6 rounded-2xl bg-primary p-8 text-left shadow-lg [animation:tab-content-in_220ms_cubic-bezier(0.23,1,0.32,1)_both] motion-reduce:[animation:none]"
+            className="grain relative mt-8 overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-primary to-primary-dark p-8 text-left shadow-panel [animation:tab-content-in_260ms_cubic-bezier(0.23,1,0.32,1)_both] motion-reduce:[animation:none]"
           >
-            <ul className="space-y-3 text-white">
+            {/* Brilho no canto superior: dá volume ao cartão laranja. */}
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute -right-16 -top-20 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.14),transparent_65%)]"
+            />
+
+            <ul className="relative space-y-4 text-white">
               {tabs[active].items.map((item, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="font-bold">{i + 1}.</span>
-                  <span>
+                <li
+                  key={i}
+                  className="flex gap-4 [animation:tab-content-in_320ms_cubic-bezier(0.23,1,0.32,1)_both] motion-reduce:[animation:none]"
+                  style={{ animationDelay: `${80 + i * 70}ms` }}
+                >
+                  <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white text-xs font-bold text-primary-dark">
+                    {i + 1}
+                  </span>
+                  <span className="leading-relaxed">
                     <strong className="font-bold">{item.title}:</strong>{" "}
-                    {item.text}
+                    <span>{item.text}</span>
                   </span>
                 </li>
               ))}
             </ul>
 
-            <div className="mt-8 text-center">
+            <div className="relative mt-9 text-center">
               <Link
                 href={tabs[active].cta.href}
-                className="inline-block rounded-full bg-white px-7 py-3 text-sm font-bold text-primary transition-[background-color,transform] duration-150 ease-snappy hoverable:bg-cream active:scale-[0.97]"
+                className="sheen group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-primary shadow-[0_10px_28px_-12px_rgba(0,0,0,0.5)] transition-[background-color,transform,box-shadow] duration-200 ease-snappy hoverable:-translate-y-0.5 hoverable:bg-cream active:scale-[0.97]"
+                style={
+                  { "--sheen-color": "rgba(239,84,0,0.18)" } as CSSProperties
+                }
               >
                 {tabs[active].cta.label}
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  aria-hidden="true"
+                  className="transition-transform duration-300 ease-snappy [@media(hover:hover)_and_(pointer:fine)]:group-hover:translate-x-1"
+                >
+                  <path
+                    d="M3 8h9m0 0L8.5 4.5M12 8l-3.5 3.5"
+                    stroke="currentColor"
+                    strokeWidth="1.75"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </Link>
             </div>
           </div>

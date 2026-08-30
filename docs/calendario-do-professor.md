@@ -184,9 +184,6 @@ sozinho levava o PDF a 1,2 MB (hoje ~310 KB).
 
 ### Pendências conhecidas
 
-- **Proteção na borda ainda não existe**: hoje só há `noindex` e a exclusão do
-  sitemap. A CloudFront Function e a chave de acesso do Ricardo (`?k=…`)
-  precisam ser criadas no deploy.
 - **Feriado e férias são dois laranjas** (`#F89C2D` e `#EF5400`). Distinguem-se,
   mas não à primeira vista; se virar queixa, a legenda resolve — ou troca-se o
   feriado por um tom mais amarelo.
@@ -200,6 +197,33 @@ sozinho levava o PDF a 1,2 MB (hoje ~310 KB).
   partir de texto solto do professor — geração de texto, não fato datado. Isso
   exige backend e pertence ao app.
 - Rota protegida: `/ferramentas/calendario-do-professor`, `noindex`, fora do
-  sitemap, atrás da CloudFront Function (referer Hotmart + `Sec-Fetch-Dest:
-  iframe`). Acesso do próprio Ricardo por **chave na URL** (`?k=…`) que grava
-  cookie de longa duração — sem login e senha.
+  sitemap, atrás da CloudFront Function (referer `*.hotmart.com` +
+  `Sec-Fetch-Dest: iframe`). Acesso do próprio Ricardo por **chave na URL**
+  (`?k=…`) que grava cookie de longa duração — sem login e senha.
+
+  Implementado em `scripts/cloudfront_ferramentas_gate.py` (staging,
+  distribution `E2Q2YNHFJ1GG9P`). Três peças, não só a function:
+
+  1. **Cache Policy dedicada** (`amigo-violao-ferramentas-gate`) — a Cache
+     Policy padrão do site não encaminha `Referer`/`Sec-Fetch-Dest`/cookies/
+     querystring pra function nenhuma (só `Host`); mudar a policy padrão
+     fragmentaria o cache do site inteiro por Referer, então isso vive numa
+     Cache Behavior própria para `/ferramentas/*`. TTL efetivamente zero
+     (Max-TTL 1s — a API do CloudFront rejeita header/cookie/querystring
+     "whitelist" com Min/Default/Max todos 0).
+  2. **Response Headers Policy dedicada**
+     (`amigo-violao-ferramentas-headers`) — a policy padrão do site manda
+     `X-Frame-Options: DENY` em tudo, o que bloquearia qualquer iframe,
+     inclusive o do Hotmart. Esta troca por
+     `Content-Security-Policy: frame-ancestors https://*.hotmart.com`
+     (equivalente moderno do XFO por domínio; o Chrome nunca implementou
+     `ALLOW-FROM`).
+  3. **A function**: bloqueia com 403 quem não tem o cookie `av_prof` válido
+     nem (Referer de `*.hotmart.com` **e** `Sec-Fetch-Dest: iframe`)
+     simultâneos. `?k=<chave>` seta o cookie (`Max-Age` 1 ano, via
+     `response.cookies`, não `Set-Cookie` em `headers` — o CloudFront rejeita
+     isso) e redireciona sem a querystring.
+
+  Continua sendo o nível "barra o curioso, não o determinado": os headers são
+  forjáveis por quem souber. Nível 2 (signed cookie/URL) e nível 3 (auth real
+  via Supabase + webhook Hotmart) ficam para quando isso valer o esforço.

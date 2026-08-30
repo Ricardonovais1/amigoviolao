@@ -55,7 +55,9 @@ export default function YouTubeVideo({ id, title, duration }: YouTubeVideoProps)
       type="button"
       onClick={() => setPlaying(true)}
       aria-label={`Assistir: ${title}`}
-      className="group absolute inset-0 cursor-pointer transition-transform duration-150 ease-snappy active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
+      /* offset negativo: o botão preenche um container com overflow-hidden,
+         então um anel para fora seria recortado e sumiria. */
+      className="group absolute inset-0 cursor-pointer transition-transform duration-200 ease-snappy focus-ring-inset active:scale-[0.97]"
     >
       <Image
         ref={imgRef}
@@ -66,13 +68,19 @@ export default function YouTubeVideo({ id, title, duration }: YouTubeVideoProps)
         sizes="(min-width: 640px) 50vw, 100vw"
         onError={() => setThumb("hqdefault")}
       />
+      {/* Escurece a thumb no repouso e limpa no hover: o play ganha contraste
+          sem precisar de um overlay opaco. */}
+      <span
+        aria-hidden="true"
+        className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 ease-snappy [@media(hover:hover)_and_(pointer:fine)]:group-hover:opacity-60"
+      />
       {duration && (
-        <span className="absolute left-2 top-2 rounded bg-black/60 px-2 py-0.5 text-xs text-white">
+        <span className="absolute left-2 top-2 rounded-md bg-black/60 px-2 py-0.5 text-xs font-medium text-white backdrop-blur-sm">
           {duration}
         </span>
       )}
       <span className="absolute inset-0 flex items-center justify-center">
-        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white/90 text-teal transition-transform duration-200 ease-snappy [@media(hover:hover)_and_(pointer:fine)]:group-hover:scale-110">
+        <span className="pulse-ring relative flex h-14 w-14 items-center justify-center rounded-full bg-white/90 pl-1 text-teal shadow-[0_10px_25px_-10px_rgba(0,0,0,0.7)] transition-[transform,background-color] duration-300 ease-spring [@media(hover:hover)_and_(pointer:fine)]:group-hover:scale-110 [@media(hover:hover)_and_(pointer:fine)]:group-hover:bg-white">
           ▶
         </span>
       </span>

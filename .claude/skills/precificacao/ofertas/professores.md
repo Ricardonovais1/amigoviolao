@@ -211,8 +211,9 @@ o que saiu subiu para a promessa principal em vez de virar brinde.
   e `totalNote` passa a citar R$ 441.
 - O bloco `CrossSell` com `bonusItems` vira uma seção **Trilhas** (não é mais
   "bônus" nem cross-sell).
-- `HOTMART_PROVIC_CHECKOUT_URL` continua sendo o checkout deste SKU; as outras
-  3 páginas passam a apontar todas para o checkout de **Estudantes**.
+- O checkout deste SKU vem de `checkoutDaPagina("professores")` em
+  `src/lib/ofertas.ts`, apontando para a oferta `off=u486ufop&bid=1786198009168`
+  do produto `D16391337C`, já atribuída à turma Professores.
 - FAQ: as respostas que citam "acesso à NAVE com os bônus" precisam ser
   reescritas para a linguagem de trilhas + 2 turmas.
 

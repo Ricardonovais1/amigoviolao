@@ -11,6 +11,51 @@
   --brand-dark: #212121;
   --brand-charcoal: #3e4548;
   --brand-cream: #e0e6f2;
+
+  /* Built-in CSS easings are too weak for UI motion; these have more punch.
+     Ficam em :root (e não só no @theme) porque o CSS artesanal mais abaixo os
+     referencia por var() fora de qualquer utilitário do Tailwind. */
+  --brand-ease-snappy: cubic-bezier(0.23, 1, 0.32, 1);
+  /* Overshoot leve: só em elementos pequenos (pílulas, ícones), onde "passar
+     do ponto e voltar" lê como capricho e não como bug. */
+  --brand-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Nuances derivadas da paleta base. Existem para dar profundidade sem
+     inventar cores novas: são o laranja/teal da marca clareados, escurecidos
+     ou diluídos, nunca matizes estranhos ao brand. */
+  --brand-primary-light: #ff7a2f;
+  --brand-primary-soft: #fff2e9;
+  --brand-teal-deep: #2f9fa0;
+  --brand-amber: #f0a92e;
+
+  /* Superfícies "quase brancas". Branco puro em bloco deixa a página dura;
+     estas duas alternam entre seções para o olho perceber respiro.
+     NÃO ESCURECER: as eyebrows são text-primary-dark (#c94600) em 12px, o que
+     dá 4,55:1 sobre sand e 4,52:1 sobre mist. O mínimo é 4,50:1 — a folga é de
+     0,4%, então qualquer passo mais escuro aqui reprova AudienceStrip, Courses,
+     Faq e o blog de uma vez. */
+  --surface-sand: #fbf8f5;
+  --surface-mist: #f5f8fc;
+
+  /* Sombras tingidas de marca em vez de preto puro — preto sujo achata,
+     sombra colorida "acende" o card. Mapeadas em @theme como shadow-soft /
+     shadow-lift: a lógica de luz do site mora aqui, num lugar só. */
+  --brand-shadow-soft: 0 1px 2px rgba(33, 33, 33, 0.04),
+    0 10px 30px -18px rgba(33, 33, 33, 0.22);
+  --brand-shadow-lift: 0 2px 6px rgba(239, 84, 0, 0.06),
+    0 22px 45px -22px rgba(239, 84, 0, 0.32);
+  /* Halos dos dois botões que se repetiam quase idênticos em 8 arquivos:
+     o laranja de "quero conhecer" e o verde de checkout. */
+  --brand-shadow-cta: 0 14px 34px -14px rgba(239, 84, 0, 0.95);
+  --brand-shadow-cta-strong: 0 20px 44px -14px rgba(239, 84, 0, 1);
+  --brand-shadow-buy: 0 14px 34px -14px rgba(22, 163, 74, 0.95);
+  --brand-shadow-buy-strong: 0 20px 44px -14px rgba(22, 163, 74, 1);
+  /* Painel que flutua acima do fundo: retrato, cartão de abas, dropdown. */
+  --brand-shadow-panel: 0 24px 60px -28px rgba(33, 33, 33, 0.65);
+
+  /* Grão fino de filme. Um tile SVG único, repetido — custo de pintura
+     desprezível e tira o aspecto "gradiente de computador" dos fundos. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
 }
 
 @theme inline {
@@ -20,15 +65,28 @@
 
   --color-primary: var(--brand-primary);
   --color-primary-dark: var(--brand-primary-dark);
+  --color-primary-light: var(--brand-primary-light);
+  --color-primary-soft: var(--brand-primary-soft);
   --color-teal: var(--brand-teal);
   --color-teal-text: var(--brand-teal-text);
+  --color-teal-deep: var(--brand-teal-deep);
+  --color-amber-star: var(--brand-amber);
   --color-dark: var(--brand-dark);
   --color-charcoal: var(--brand-charcoal);
   --color-cream: var(--brand-cream);
+  --color-sand: var(--surface-sand);
+  --color-mist: var(--surface-mist);
 
-  /* Built-in CSS easings are too weak for UI motion; these have more punch. */
-  --ease-snappy: cubic-bezier(0.23, 1, 0.32, 1);
-  --ease-swift: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-snappy: var(--brand-ease-snappy);
+  --ease-spring: var(--brand-ease-spring);
+
+  --shadow-soft: var(--brand-shadow-soft);
+  --shadow-lift: var(--brand-shadow-lift);
+  --shadow-cta: var(--brand-shadow-cta);
+  --shadow-cta-strong: var(--brand-shadow-cta-strong);
+  --shadow-buy: var(--brand-shadow-buy);
+  --shadow-buy-strong: var(--brand-shadow-buy-strong);
+  --shadow-panel: var(--brand-shadow-panel);
 }
 
 /* Gate hover-triggered motion behind real-hover devices so it doesn't stick on tap. */
@@ -58,6 +116,58 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
+  /* Blobs decorativos são posicionados para fora da caixa da seção; sem isto
+     eles criariam barra de rolagem horizontal em telas estreitas. */
+  overflow-x: clip;
+}
+
+/* Foco visível consistente no site inteiro.
+   Anel de dois tons: nenhuma cor única alcança 3:1 (WCAG 1.4.11) contra todos
+   os fundos do site ao mesmo tempo — laranja some sobre o laranja, escuro some
+   sobre o dark. O núcleo escuro resolve os fundos claros e o halo claro resolve
+   os escuros. O !important existe porque o halo é box-shadow e as utilidades
+   `shadow-*` do Tailwind (inclusive as de hover) têm especificidade maior; um
+   anel de foco não pode perder essa disputa. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--brand-dark);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.92) !important;
+}
+
+/* Controle que preenche um container recortado (botão de play sobre a thumb):
+   o anel precisa ir para dentro, senão o overflow-hidden do pai o engole. Tem
+   de ficar aqui, sem camada — uma utilidade `-outline-offset-*` do Tailwind
+   nasce em @layer utilities e perde para a regra sem camada acima,
+   independentemente de especificidade. */
+.focus-ring-inset:focus-visible {
+  outline-color: #fff;
+  outline-offset: -4px;
+  box-shadow: inset 0 0 0 9px rgba(33, 33, 33, 0.6) !important;
+}
+
+/* Só o fundo: definir `color` aqui apagaria o texto em toda seção escura
+   (branco vira quase-preto sobre um laranja diluído). */
+::selection {
+  background: color-mix(in srgb, var(--brand-primary) 32%, transparent);
+}
+
+/* Barra de rolagem discreta na cor da marca. Só no desktop: no mobile a barra
+   é overlay do sistema e não deve ser tocada.
+   Apenas as propriedades padrão — o Chrome ignora os pseudo-elementos
+   ::-webkit-scrollbar assim que scrollbar-width/color estão declarados, então
+   um bloco webkit aqui seria código morto. */
+@media (min-width: 768px) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--brand-charcoal) 35%, transparent)
+      transparent;
+  }
 }
 
 /* Zoom sutil ao passar o mouse nas imagens (aplicado via classe no <main> da
@@ -89,6 +199,422 @@ body {
   }
   to {
     clip-path: inset(0 0 0 0);
+  }
+}
+
+/* ==========================================================================
+   Ambiente — fundos
+   ==========================================================================
+   Tudo aqui é decorativo: vai em elementos aria-hidden com pointer-events
+   desligado. Os blobs animam só transform (composited), então não disparam
+   layout nem repaint enquanto correm.
+   ========================================================================== */
+
+.ambient {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  /* Isola a pintura dos blobs para não invalidar o resto da seção. */
+  contain: paint;
+}
+
+.ambient-blob {
+  position: absolute;
+  border-radius: 999px;
+  /* Gradiente radial já nasce difuso: dispensa filter: blur(), que é caro em
+     áreas grandes. */
+  background: radial-gradient(
+    circle at center,
+    var(--blob-color, rgba(239, 84, 0, 0.28)),
+    transparent 70%
+  );
+}
+
+/* Sem will-change: são até 19 manchas numa página, várias fora da tela, e
+   animar só transform já é compositado de graça — o hint só custaria memória
+   de GPU. */
+@media (prefers-reduced-motion: no-preference) {
+  .ambient-blob {
+    animation: blob-drift var(--blob-duration, 24s) var(--blob-delay, 0s)
+      ease-in-out infinite alternate;
+  }
+}
+
+@keyframes blob-drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(var(--blob-x, 6%), var(--blob-y, -5%), 0)
+      scale(var(--blob-scale, 1.14));
+  }
+}
+
+/* Grão de filme por cima de fundos escuros ou muito saturados. */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--grain);
+  background-repeat: repeat;
+  opacity: var(--grain-opacity, 0.05);
+  pointer-events: none;
+}
+
+/* Filete de luz no topo de uma seção escura — costura entre blocos de cor,
+   no lugar do corte seco. */
+.seam-top::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--seam-color, rgba(255, 255, 255, 0.22)) 20%,
+    var(--seam-color, rgba(255, 255, 255, 0.22)) 80%,
+    transparent
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ==========================================================================
+   Ambiente — superfícies e bordas
+   ========================================================================== */
+
+/* Hairline em gradiente: 1px de borda que muda de cor ao longo do card.
+   A máscara recorta o miolo, deixando só o anel. */
+.hairline {
+  position: relative;
+}
+
+/* Sem mask-composite o valor inicial é `add`: as duas máscaras viram união e
+   o gradiente pintaria a face inteira do card, em z-index 1, lavando o texto.
+   Melhor não desenhar o anel do que estragar a leitura. */
+@supports (mask-composite: exclude) or (-webkit-mask-composite: xor) {
+.hairline::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: var(
+    --hairline,
+    linear-gradient(
+      145deg,
+      rgba(239, 84, 0, 0.4),
+      rgba(72, 194, 195, 0.3) 45%,
+      rgba(62, 69, 72, 0.1)
+    )
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  /* Acima do conteúdo: em cards com mídia (thumb de vídeo, imagem) o anel
+     ficaria escondido atrás dela sem isto. É 1px na borda, sem eventos. */
+  z-index: 1;
+  transition: opacity 0.3s var(--brand-ease-snappy);
+}
+}
+
+/* Luz que segue o cursor dentro do card. As coordenadas chegam por CSS vars
+   escritas pelo componente Spotlight; sem JS o card simplesmente não acende. */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    var(--spot-size, 320px) circle at var(--spot-x, 50%) var(--spot-y, 0%),
+    var(--spot-color, rgba(239, 84, 0, 0.1)),
+    transparent 62%
+  );
+  opacity: 0;
+  transition: opacity 0.3s var(--brand-ease-snappy);
+  pointer-events: none;
+  z-index: -1;
+}
+@media (hover: hover) and (pointer: fine) {
+  .spotlight:hover::after {
+    opacity: 1;
+  }
+}
+
+/* Varredura de brilho no botão. Roda só no hover e é puramente transform —
+   não repinta o botão. */
+.sheen {
+  position: relative;
+  overflow: hidden;
+}
+.sheen::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60%;
+  width: 40%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--sheen-color, rgba(255, 255, 255, 0.38)),
+    transparent
+  );
+  transform: skewX(-18deg) translateX(-140%);
+  pointer-events: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .sheen:hover::after {
+    transform: skewX(-18deg) translateX(560%);
+    transition: transform 0.85s var(--brand-ease-snappy);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sheen::after {
+    display: none;
+  }
+}
+
+/* Sublinhado que cresce do centro nos links de navegação. */
+.underline-grow {
+  position: relative;
+}
+.underline-grow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s var(--brand-ease-snappy);
+}
+@media (hover: hover) and (pointer: fine) {
+  .underline-grow:hover::after {
+    transform: scaleX(1);
+  }
+}
+.underline-grow:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* Texto em gradiente com deriva lenta. Sem background-clip: text o texto
+   continua na cor herdada, então não há risco de sumir. */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .text-gradient {
+    background-image: linear-gradient(
+      100deg,
+      var(--brand-primary-light),
+      var(--brand-primary) 30%,
+      #ffb27a 50%,
+      var(--brand-primary) 70%,
+      var(--brand-primary-light)
+    );
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  /* Uma passada só, na entrada. Em loop isto era `background-position`
+     repintando o H1 a cada frame — e cor mudando o tempo todo debaixo da
+     manchete que a pessoa está tentando ler. */
+  @media (prefers-reduced-motion: no-preference) {
+    .text-gradient {
+      animation: gradient-pan 2.6s var(--brand-ease-snappy) both;
+    }
+  }
+}
+
+@keyframes gradient-pan {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+/* ==========================================================================
+   Revelação no scroll (componente Reveal)
+   ==========================================================================
+   O estado inicial vive aqui, em CSS, e não em classes condicionais do
+   Tailwind: assim o bloco prefers-reduced-motion zera deslocamento e desfoque
+   de uma vez só, sem depender de !important nem de ordem de classes. O
+   componente só alterna data-visible e escreve as CSS vars da variante.
+   ========================================================================== */
+
+.reveal {
+  opacity: 0;
+  transform: translate3d(var(--reveal-x, 0), var(--reveal-y, 1rem), 0)
+    scale(var(--reveal-scale, 1));
+  transition-property: opacity, transform, filter;
+  transition-duration: var(--reveal-duration, 500ms);
+  transition-timing-function: var(--brand-ease-snappy);
+}
+
+/* filter só entra na variante blur: um `filter` sempre presente criaria
+   stacking context e containing block para descendentes fixos. */
+.reveal[data-blur="true"] {
+  filter: blur(6px);
+}
+
+.reveal[data-visible="true"] {
+  opacity: 1;
+  transform: none;
+  filter: none;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+/* Sob movimento reduzido sobra um fade de 200ms — o substituto recomendado
+   para translação. O seletor de atributo existe para casar a especificidade de
+   `.reveal[data-blur="true"]`; com `.reveal` sozinho o desfoque sobreviveria. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal[data-blur] {
+    transform: none;
+    filter: none;
+    transition-duration: 200ms;
+  }
+  .reveal[data-visible="true"] {
+    transition-delay: 0ms;
+  }
+}
+
+/* ==========================================================================
+   Ambiente — movimento ligado ao scroll
+   ==========================================================================
+   animation-timeline é progressive enhancement: onde não existe, o elemento
+   fica no estado inicial e nenhum layout depende disso.
+   ========================================================================== */
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* Fundo do herói descola do conteúdo conforme a página desce. Aqui
+       scroll(root) é correto: o herói está sempre no topo do documento. */
+    .parallax-bg {
+      animation: parallax-drift linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0 90vh;
+    }
+    /* Conteúdo do herói desvanece ao sair de cena — e só então. Uma faixa em
+       vh (medida do scroll, não do elemento) apagava o CTA principal enquanto
+       ele ainda estava bem visível; `exit` começa a contar quando o bloco de
+       fato passa a deixar a viewport. */
+    .parallax-fade {
+      animation: parallax-out linear both;
+      animation-timeline: view();
+      animation-range: exit 10% exit 100%;
+    }
+  }
+}
+
+@keyframes parallax-drift {
+  to {
+    transform: translate3d(0, 14%, 0) scale(1.12);
+  }
+}
+
+@keyframes parallax-out {
+  to {
+    opacity: 0.25;
+    transform: translate3d(0, -6%, 0);
+  }
+}
+
+/* Cintilância escalonada das estrelas de avaliação. */
+@media (prefers-reduced-motion: no-preference) {
+  .star-twinkle {
+    animation: star-twinkle 3.6s ease-in-out infinite;
+    animation-delay: var(--star-delay, 0s);
+  }
+}
+
+@keyframes star-twinkle {
+  0%,
+  62%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  70% {
+    opacity: 0.7;
+    transform: scale(1.18);
+  }
+}
+
+/* Seta indicando que há conteúdo abaixo do herói. */
+@media (prefers-reduced-motion: no-preference) {
+  .scroll-cue {
+    animation: scroll-cue 2.4s var(--brand-ease-snappy) infinite;
+  }
+}
+
+@keyframes scroll-cue {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+}
+
+/* Ponto que pulsa (badge do herói). Diferente do .pulse-ring: num alvo de 6px
+   uma borda de 2px vira bolha, então aqui o que cresce é o preenchimento. */
+@media (prefers-reduced-motion: no-preference) {
+  .ping {
+    animation: ping 2.6s var(--brand-ease-snappy) infinite;
+  }
+}
+
+@keyframes ping {
+  0% {
+    opacity: 0.65;
+    transform: scale(1);
+  }
+  70%,
+  100% {
+    opacity: 0;
+    transform: scale(2.4);
+  }
+}
+
+/* Halo pulsante atrás do botão de play. */
+@media (prefers-reduced-motion: no-preference) {
+  .pulse-ring::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 2px solid currentColor;
+    animation: pulse-ring 2.6s var(--brand-ease-snappy) infinite;
+    pointer-events: none;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  70%,
+  100% {
+    opacity: 0;
+    transform: scale(1.55);
   }
 }
 

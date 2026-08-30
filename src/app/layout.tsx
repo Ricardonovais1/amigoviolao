@@ -52,6 +52,11 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans text-[#3a3a3a]">
+        {/* Sem JS o IntersectionObserver nunca marca data-visible e a página
+            ficaria em branco: o estado inicial de .reveal é opacity 0. */}
+        <noscript>
+          <style>{`.reveal[data-blur]{opacity:1;transform:none;filter:none}`}</style>
+        </noscript>
         <Analytics />
         <OrganizationJsonLd />
         {children}

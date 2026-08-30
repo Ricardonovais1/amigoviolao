@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Reveal from "../Reveal";
+import Ambient from "../Ambient";
 import { HOTMART_CHECKOUT_URL } from "@/lib/links";
 
 const defaultInclusions = [
@@ -59,8 +60,12 @@ export default function PricingCTA({
   sectionId = "comprar",
 }: PricingCTAProps) {
   return (
-    <section id={sectionId} className="bg-cream py-16">
-      <div className="mx-auto max-w-2xl px-6 text-center">
+    <section
+      id={sectionId}
+      className="relative isolate overflow-hidden bg-cream py-20"
+    >
+      <Ambient preset="light" />
+      <div className="relative mx-auto max-w-2xl px-6 text-center">
         <Reveal>
           {eyebrow && (
             <p className="mb-2 font-bold text-primary">{eyebrow}</p>
@@ -86,7 +91,7 @@ export default function PricingCTA({
           </Reveal>
         )}
 
-        <Reveal delay={80}>
+        <Reveal delay={80} variant="scale">
           {/* Diferença calculada da própria âncora: não há como a economia
               anunciada divergir dos dois preços exibidos logo abaixo. */}
           {anchorPrice > cashPrice && (
@@ -114,7 +119,7 @@ export default function PricingCTA({
         <Reveal delay={140}>
           <a
             href={checkoutUrl}
-            className="mt-6 inline-block w-full rounded-full bg-green-600 px-8 py-4 text-center text-lg font-bold text-white transition-[background-color,transform] duration-150 ease-snappy hoverable:bg-green-700 active:scale-[0.97] sm:w-auto sm:px-16"
+            className="mt-6 sheen inline-block w-full rounded-full bg-gradient-to-b from-green-600 to-green-700 px-8 py-4 text-center text-lg font-bold text-white shadow-buy transition-[transform,box-shadow] duration-200 ease-snappy hoverable:-translate-y-0.5 hoverable:shadow-buy-strong active:scale-[0.97] sm:w-auto sm:px-16"
           >
             {ctaText}
           </a>

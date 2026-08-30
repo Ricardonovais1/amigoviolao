@@ -1,3 +1,4 @@
+import Ambient from "./Ambient";
 import Reveal from "./Reveal";
 import YouTubeVideo from "./YouTubeVideo";
 
@@ -26,16 +27,22 @@ export default function VideoTestimonials({
   const isWide = aspect === "video";
 
   return (
-    <section className="bg-dark py-16">
+    <section className="seam-top grain relative isolate overflow-hidden bg-dark py-20">
+      <Ambient preset="dark" />
+
       <div
-        className={`mx-auto px-6 text-center ${
+        className={`relative mx-auto px-6 text-center ${
           isWide ? "max-w-5xl" : "max-w-6xl"
         }`}
       >
         <Reveal>
-          <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
+            Em vídeo
+          </p>
+          <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
             O que dizem do Amigo Violão
           </h2>
+          <span className="mx-auto mt-5 block h-1 w-16 rounded-full bg-gradient-to-r from-primary to-primary-light" />
         </Reveal>
 
         <div
@@ -46,10 +53,10 @@ export default function VideoTestimonials({
           }`}
         >
           {videos.map((video, i) => (
-            <Reveal key={i} delay={i * 60}>
-              <div>
+            <Reveal key={i} delay={i * 80} variant="scale">
+              <div className="group">
                 <div
-                  className={`relative overflow-hidden rounded-xl bg-dark ${
+                  className={`hairline relative overflow-hidden rounded-2xl bg-dark shadow-panel transition-[transform,box-shadow] duration-300 ease-snappy hoverable:-translate-y-1 ${
                     isWide ? "aspect-video" : "aspect-[9/16]"
                   }`}
                 >
@@ -60,17 +67,17 @@ export default function VideoTestimonials({
                       duration={video.duration}
                     />
                   ) : (
-                    <div className="group absolute inset-0 flex items-center justify-center transition-transform duration-150 ease-snappy active:scale-[0.97]">
+                    <div className="absolute inset-0 flex items-center justify-center transition-transform duration-200 ease-snappy active:scale-[0.97]">
                       <span className="absolute left-2 top-2 rounded bg-black/60 px-2 py-0.5 text-xs text-white">
                         {video.duration}
                       </span>
-                      <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white/90 text-teal transition-transform duration-200 ease-snappy [@media(hover:hover)_and_(pointer:fine)]:group-hover:scale-110">
+                      <span className="pulse-ring relative flex h-14 w-14 items-center justify-center rounded-full bg-white/90 text-teal transition-transform duration-300 ease-spring [@media(hover:hover)_and_(pointer:fine)]:group-hover:scale-110">
                         ▶
                       </span>
                     </div>
                   )}
                 </div>
-                <p className="mt-2 text-lg font-semibold text-primary">
+                <p className="mt-3 text-base font-semibold text-primary transition-colors duration-300 [@media(hover:hover)_and_(pointer:fine)]:group-hover:text-primary-light sm:text-lg">
                   Depoimento de {video.name}
                 </p>
               </div>

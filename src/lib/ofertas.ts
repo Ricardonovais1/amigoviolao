@@ -92,25 +92,17 @@ export function valorDoUpgrade(): number {
  * ofertas diferentes do mesmo produto Hotmart, cada uma nomeada pelo curso
  * carro-chefe, para o comprador reconhecer o que comprou no e-mail e no
  * recibo. Todas entregam a mesma turma.
- *
- * TODO: preencher quando as ofertas forem criadas no Hotmart. Enquanto
- * estiverem vazias, `checkoutDaPagina` devolve o link legado.
  */
 const CHECKOUT: Record<PaginaVenda, string> = {
-  criancas: "",
-  iniciantes: "",
-  classico: "",
-  professores: "",
-};
-
-/** Links atuais, enquanto as ofertas novas não existem. */
-const CHECKOUT_LEGADO: Record<SkuId, string> = {
-  estudantes: "https://pay.hotmart.com/K46456415L",
-  professores: "https://pay.hotmart.com/T4530896P",
+  criancas: "https://pay.hotmart.com/D16391337C?off=qjvbqgvs",
+  iniciantes: "https://pay.hotmart.com/D16391337C?off=ku418bn6",
+  classico: "https://pay.hotmart.com/D16391337C?off=nn1uvh6n",
+  professores:
+    "https://pay.hotmart.com/D16391337C?off=u486ufop&bid=1786198009168",
 };
 
 export function checkoutDaPagina(pagina: PaginaVenda): string {
-  return CHECKOUT[pagina] || CHECKOUT_LEGADO[SKU_DA_PAGINA[pagina]];
+  return CHECKOUT[pagina];
 }
 
 /* ------------------------------------------------------------- composição */

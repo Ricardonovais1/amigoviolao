@@ -124,9 +124,10 @@ grande, e é de graça: o conteúdo já existe.
 
 ## Implicações de código
 
-- Todas as três páginas passam a apontar para o **checkout de Estudantes**.
-  `HOTMART_CHECKOUT_URL` hoje serve a página de Crianças; confirmar se é o
-  produto certo para o SKU unificado ou se um produto novo será criado.
+- As três páginas apontam para ofertas distintas do mesmo produto Hotmart
+  (`D16391337C`), via `checkoutDaPagina` em `src/lib/ofertas.ts`: Crianças
+  `off=qjvbqgvs`, Iniciantes `off=ku418bn6`, Clássico `off=nn1uvh6n`. Ofertas
+  já criadas e atribuídas à turma Estudantes.
 - `PricingCTA` já é prop-driven: cada página passa `anchorPrice={997}`,
   `installmentPrice={67.95}`, `cashPrice={657}`.
 - **JSON-LD com `price: "479.00"`** nas três páginas (`criancas`, `iniciantes`,

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { PostCardData } from "@/lib/blog";
 import { FEATURED_CATEGORY_GROUPS, categoryLabel } from "@/lib/categories";
+import SpotlightGroup from "../SpotlightGroup";
 import PostCard from "./PostCard";
 
 // Client-side blog explorer: minimalist dropdown filter + search, replacing
@@ -181,11 +182,11 @@ export default function BlogExplorer({ posts }: { posts: PostCardData[] }) {
           remova o filtro de categoria.
         </p>
       ) : (
-        <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <SpotlightGroup className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((post) => (
             <PostCard key={post.slug} post={post} />
           ))}
-        </div>
+        </SpotlightGroup>
       )}
     </div>
   );

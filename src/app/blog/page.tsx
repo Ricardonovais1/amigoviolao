@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Ambient from "@/components/Ambient";
 import BlogExplorer from "@/components/blog/BlogExplorer";
 import { getAllPosts, toPostCardData } from "@/lib/blog";
 
@@ -18,19 +19,21 @@ export default function BlogIndex() {
     <>
       <Header />
       <main className="flex-1 bg-dark">
-        <section className="border-b border-white/10">
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-8 px-6 py-14">
+        <section className="grain relative isolate overflow-hidden border-b border-white/10">
+          <Ambient preset="dark" />
+          <div className="relative mx-auto flex max-w-6xl items-center justify-between gap-8 px-6 py-16">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-wide text-primary">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
                 Blog
               </p>
-              <h1 className="mt-2 text-4xl font-extrabold text-white">
-                Aprenda e ensine violão
+              <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+                Aprenda e <span className="text-gradient">ensine violão</span>
               </h1>
-              <p className="mt-3 max-w-2xl text-white/70">
+              <p className="mt-4 max-w-2xl text-white/70">
                 Dicas práticas, métodos e histórias para tocar e ensinar com
                 mais leveza.
               </p>
+              <span className="mt-6 block h-1 w-16 rounded-full bg-gradient-to-r from-primary to-primary-light" />
             </div>
             <div className="hidden shrink-0 items-center gap-4 sm:flex">
               <p className="max-w-xs text-right text-sm text-white/70">
@@ -45,7 +48,7 @@ export default function BlogIndex() {
                 alt="Ricardo Novais"
                 width={112}
                 height={112}
-                className="shrink-0 rounded-full ring-2 ring-white/20"
+                className="no-zoom shrink-0 rounded-full ring-2 ring-primary/40"
               />
             </div>
           </div>
