@@ -61,42 +61,42 @@ const modules = [
   {
     title: "Cordas soltas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-1-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-1-imagem-ilustrativa.webp",
   },
   {
     title: "Leitura gráfica",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-2-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-2-imagem-ilustrativa.webp",
   },
   {
     title: "Melodias pelo braço do violão",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-3-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-3-imagem-ilustrativa.webp",
   },
   {
     title: "Solinhos iniciais",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-4-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-4-imagem-ilustrativa.webp",
   },
   {
     title: "Músicas de acordes",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-5-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-5-imagem-ilustrativa.webp",
   },
   {
     title: "Primeiras peças solo",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-6-imagem-ilustrativa-1.jpg",
+      "/images/legacy/modulo-6-imagem-ilustrativa-1.webp",
   },
   {
     title: "Jogos didáticos",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-7-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-7-imagem-ilustrativa.webp",
   },
   {
     title: "Leitura relativa e absoluta",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-8-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-8-imagem-ilustrativa.webp",
   },
 ];
 
@@ -291,7 +291,7 @@ export default function CursoParaProfessoresPage() {
           highlightColor="primary"
           items={mistakes}
           image={{
-            src: "https://amigoviolao.com/wp-content/uploads/2018/05/Ilustra%C3%A7%C3%A3o-1.png",
+            src: "/images/legacy/ilustracao-1.webp",
             alt: "Ilustração de material de estudo de violão",
             width: 640,
             height: 701,
@@ -308,7 +308,7 @@ export default function CursoParaProfessoresPage() {
           highlightPosition="second"
           paragraph="O que o Professor de Violão credenciado na metodologia Amigo Violão sabe fazer, é identificar as músicas e atividades certas para cada momento de seus alunos. E isso requer conhecimentos de ordem prática e conceitual. Cada aluno trás seus sonhos e desejos, que não devem ser ignorados, mas sim incorporados à didática e às estratégias de aula."
           image={{
-            src: "https://amigoviolao.com/wp-content/uploads/2018/05/Ilustra%C3%A7%C3%A3o-iii.png",
+            src: "/images/legacy/ilustracao-iii.webp",
             alt: "Ilustração de professor ensinando violão",
             width: 640,
             height: 497,

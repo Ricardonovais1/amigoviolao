@@ -78,7 +78,7 @@ export default function Footer() {
 
         <div className="flex items-start sm:justify-end">
           <Image
-            src="https://amigoviolao.com/wp-content/uploads/2021/06/Nave-Amigo-Violao-300x131.png"
+            src="/images/legacy/nave-amigo-violao.webp"
             alt="Nave Amigo Violão"
             width={160}
             height={70}

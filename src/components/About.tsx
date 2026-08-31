@@ -39,7 +39,7 @@ export default function About({
             <div className="rounded-full bg-gradient-to-br from-primary via-charcoal to-teal p-1 shadow-panel">
               <div className="overflow-hidden rounded-full border-4 border-white">
                 <Image
-                  src="https://amigoviolao.com/wp-content/uploads/2018/05/Foto-No-Escrit%C3%B3rio-MENOR-diferente.png"
+                  src="/images/legacy/foto-no-escritorio-menor-diferente.webp"
                   alt="Ricardo Novais"
                   width={600}
                   height={654}

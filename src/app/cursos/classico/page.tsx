@@ -85,22 +85,22 @@ const modules = [
   {
     title: "Leitura de partituras",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/09/Leitura-Hipotese-1024x576.png",
+      "/images/legacy/leitura-hipotese.webp",
   },
   {
     title: "Teoria musical",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/09/Teoria-Hip%C3%B3tese-1024x576.png",
+      "/images/legacy/teoria-hipotese.webp",
   },
   {
     title: "Técnica clássica",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2020/07/T%C3%A9cnica-de-Viol%C3%A3o-Aprender-Viol%C3%A3o-Cl%C3%A1ssico-1024x576.jpg.webp",
+      "/images/legacy/tecnica-de-violao-aprender-violao-classico.webp",
   },
   {
     title: "Repertório",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/09/Repert%C3%B3rio-1024x576.png",
+      "/images/legacy/repertorio.webp",
   },
 ];
 
@@ -176,7 +176,7 @@ export default function CursoDeClassicoPage() {
 
         <WhyLearn
           image={{
-            src: "https://amigoviolao.com/wp-content/uploads/2022/01/Violao-classico.png",
+            src: "/images/legacy/violao-classico.webp",
             alt: "Ilustração de pessoa tocando violão clássico",
             width: 600,
             height: 400,
@@ -190,7 +190,7 @@ export default function CursoDeClassicoPage() {
           highlightColor="charcoal"
           items={obstacles}
           image={{
-            src: "https://amigoviolao.com/wp-content/uploads/2022/02/Copia-de-Sem-nome23.png",
+            src: "/images/legacy/copia-de-sem-nome23.webp",
             alt: "Professor de violão clássico",
             width: 650,
             height: 750,
@@ -202,7 +202,7 @@ export default function CursoDeClassicoPage() {
           highlightPosition="second"
           paragraph="O curso conta com 20 quizes (questionários), onde você poderá exercitar seus conhecimentos, podendo responder a cada um deles quantas vezes quiser. São perguntas de múltipla escolha, preencher lacunas ou de combinação entre colunas. Os questionários fazem parte dos cursos de teoria e leitura."
           image={{
-            src: "https://amigoviolao.com/wp-content/uploads/2018/09/Quizes-1.png",
+            src: "/images/legacy/quizes-1.webp",
             alt: "Exemplos de quizzes do curso",
             width: 876,
             height: 538,

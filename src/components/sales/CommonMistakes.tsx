@@ -22,7 +22,7 @@ export default function CommonMistakes({
   highlightColor = "primary",
   items = defaultMistakes,
   image = {
-    src: "https://amigoviolao.com/wp-content/uploads/2021/12/Criancas-com-violao-NAVE.png",
+    src: "/images/legacy/criancas-com-violao-nave.webp",
     alt: "Ilustração de crianças aprendendo violão",
     width: 600,
     height: 500,

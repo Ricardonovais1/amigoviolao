@@ -2,8 +2,8 @@
 // in the root layout. Mirrors the conventions in blog/ArticleJsonLd.tsx.
 
 const SITE = "https://amigoviolao.com";
-const LOGO =
-  "https://amigoviolao.com/wp-content/uploads/2021/05/cropped-cropped-Logo-Branca-site-Amigo-Violao-2.png.webp";
+// JSON-LD exige URL absoluta — root-relative aqui e o Google descarta o logo.
+const LOGO = `${SITE}/images/logo-amigo-violao-branco.webp`;
 
 export default function OrganizationJsonLd() {
   const json = {

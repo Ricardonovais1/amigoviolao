@@ -23,7 +23,7 @@ wpId: 25198
 
 Receba o acesso a esta tablatura e muitas outras, além de um curso completo e passo-a-passo de Iniciação ao Violão Clássico, clicando abaixo:
 
-## [DOWNLOAD PARTITURA ADELITA – Francisco Tárrega](https://amigoviolao.com/wp-content/uploads/2019/03/ADELITA-Francisco-T%c3%a1rrega-@-amigoviolao.com_.pdf):
+## [DOWNLOAD PARTITURA ADELITA – Francisco Tárrega](/downloads/adelita-francisco-tarrega-amigoviolao-com-pdf.pdf):
 
 [CLIQUE AQUI](https://amigoviolao.com/adelita-francisco-tarrega-aula-de-violao-classico/)
 

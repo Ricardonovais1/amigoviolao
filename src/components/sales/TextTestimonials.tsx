@@ -11,7 +11,7 @@ const testimonials = [
     name: "Cris Aquino",
     role: "Professora de violão",
     photo:
-      "https://amigoviolao.com/wp-content/uploads/2024/11/Cris-Aquino.jpeg.webp",
+      "/images/legacy/cris-aquino.webp",
   },
   {
     quote:
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Flávia Gonzaga",
     role: "Professora de violão",
     photo:
-      "https://amigoviolao.com/wp-content/uploads/2024/11/Flavia-Gonzaga.jpeg.webp",
+      "/images/legacy/flavia-gonzaga.webp",
   },
   {
     quote:

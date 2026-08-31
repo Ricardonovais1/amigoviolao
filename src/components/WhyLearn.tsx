@@ -33,7 +33,7 @@ type WhyLearnProps = {
 
 export default function WhyLearn({
   image = {
-    src: "https://amigoviolao.com/wp-content/uploads/2022/01/Amigo-Violao.png.webp",
+    src: "/images/legacy/amigo-violao.webp",
     alt: "Pessoas aprendendo violão juntas",
     width: 480,
     height: 320,

@@ -5,32 +5,32 @@ const defaultModules = [
   {
     title: "Músicas de cordas soltas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-1-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-1-imagem-ilustrativa.webp",
   },
   {
     title: "Escrita gráfica",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-2-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-2-imagem-ilustrativa.webp",
   },
   {
     title: "Melodias lindas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-3-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-3-imagem-ilustrativa.webp",
   },
   {
     title: "Músicas cifradas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-5-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-5-imagem-ilustrativa.webp",
   },
   {
     title: "Solos de violão",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-6-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-6-imagem-ilustrativa.webp",
   },
   {
     title: "Técnica aplicada em músicas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2018/05/M%C3%B3dulo-4-imagem-ilustrativa.jpg",
+      "/images/legacy/modulo-4-imagem-ilustrativa.webp",
   },
 ];
 

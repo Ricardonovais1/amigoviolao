@@ -106,17 +106,17 @@ const modules = [
   {
     title: "Músicas cifradas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2021/07/Design-sem-nome74.png.webp",
+      "/images/legacy/design-sem-nome74.webp",
   },
   {
     title: "Solos para violão",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2022/01/Copia-de-Sem-nome11.jpg",
+      "/images/legacy/copia-de-sem-nome11.webp",
   },
   {
     title: "Melodias lindas",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2022/01/Copia-de-Sem-nome12.jpg",
+      "/images/legacy/copia-de-sem-nome12.webp",
   },
 ];
 
@@ -173,7 +173,7 @@ export default function CursoParaIniciantesPage() {
         <WhoIsItFor
           audience={audience}
           image={{
-            src: "https://amigoviolao.com/wp-content/uploads/2022/01/Violao-online.png",
+            src: "/images/legacy/violao-online.webp",
             alt: "Ilustração de aula de violão online",
             width: 600,
             height: 400,

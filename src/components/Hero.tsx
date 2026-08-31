@@ -21,7 +21,7 @@ export default function Hero() {
         className="absolute inset-0 opacity-10"
         style={{
           backgroundImage:
-            'url("https://amigoviolao.com/wp-content/uploads/2018/09/Sobreposi%C3%A7%C3%A3o.png")',
+            'url("/images/legacy/sobreposicao.webp")',
           backgroundRepeat: "repeat",
         }}
       />

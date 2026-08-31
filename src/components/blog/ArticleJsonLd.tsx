@@ -5,8 +5,8 @@ import { postPath } from "@/lib/routes";
 // single @graph. Built deterministically from the front-matter by the SEO agent.
 
 const SITE = "https://amigoviolao.com";
-const LOGO =
-  "https://amigoviolao.com/wp-content/uploads/2021/05/cropped-cropped-Logo-Branca-site-Amigo-Violao-2.png.webp";
+// JSON-LD exige URL absoluta — root-relative aqui e o Google descarta o logo.
+const LOGO = `${SITE}/images/logo-amigo-violao-branco.webp`;
 
 export default function ArticleJsonLd({ post }: { post: Post }) {
   const url = post.canonical || `${SITE}${postPath(post.slug)}`;

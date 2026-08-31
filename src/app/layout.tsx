@@ -12,14 +12,17 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
 });
 
+const PRODUCTION = "https://amigoviolao.com";
+const SITE = process.env.SITE_URL || PRODUCTION;
+// Ver src/app/robots.ts: o build da Vercel nunca conta como producao.
+const IS_PRODUCTION = SITE === PRODUCTION && !process.env.VERCEL;
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amigoviolao.com"),
-  // TODO: remover antes do lançamento oficial — impede indexação pelo Google
-  // enquanto o site está em teste no domínio .vercel.app
-  robots: {
-    index: false,
-    follow: false,
-  },
+  metadataBase: new URL(SITE),
+  // Só o build de produção é indexável. Qualquer outro (staging, preview da
+  // Vercel) serve uma cópia idêntica do site e competiria com o domínio
+  // principal por conteúdo duplicado — mesma regra do src/app/robots.ts.
+  ...(IS_PRODUCTION ? {} : { robots: { index: false, follow: false } }),
   title: "Amigo Violão - Cursos de violão online para toda a família",
   description:
     "Ensine ou aprenda violão com leveza e alegria. Cursos para crianças, iniciantes e professores.",
@@ -30,10 +33,10 @@ export const metadata: Metadata = {
     title: "Amigo Violão - Cursos de violão online para toda a família",
     description:
       "Ensine ou aprenda violão com leveza e alegria. Cursos para crianças, iniciantes e professores.",
-    url: "https://amigoviolao.com",
+    url: SITE,
     images: [
       {
-        url: "https://amigoviolao.com/wp-content/uploads/2021/05/cropped-cropped-Logo-Branca-site-Amigo-Violao-2.png.webp",
+        url: "/images/logo-amigo-violao-branco.webp",
       },
     ],
   },

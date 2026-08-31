@@ -58,3 +58,6 @@ __pycache__/
 
 # exportacoes de dados de alunos (migracao Hotmart) -- dados pessoais, nunca commitar
 /nave_*
+
+# backups de DNS gerados por scripts/cloudflare_dns.py
+backups/

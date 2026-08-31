@@ -5,22 +5,22 @@ const defaultItems = [
   {
     title: "Organização do estudo",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2022/01/Copia-de-Materiais-de-apoio-1024x459.jpg",
+      "/images/legacy/copia-de-materiais-de-apoio.webp",
   },
   {
     title: "Curso de improvisação",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2022/01/Copia-de-Copia-de-Materiais-de-apoio-1024x459.jpg",
+      "/images/legacy/copia-de-copia-de-materiais-de-apoio.webp",
   },
   {
     title: "Curso de Guitar Pro",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2022/01/Copia-de-Copia-de-Copia-de-Materiais-de-apoio-1024x459.jpg",
+      "/images/legacy/copia-de-copia-de-copia-de-materiais-de-apoio.webp",
   },
   {
     title: "Tópicos de Violão Popular",
     image:
-      "https://amigoviolao.com/wp-content/uploads/2022/01/Copia-de-Copia-de-Copia-de-Copia-de-Materiais-de-apoio-1024x459.jpg",
+      "/images/legacy/copia-de-copia-de-copia-de-copia-de-materiais-de-apoio.webp",
   },
 ];
 

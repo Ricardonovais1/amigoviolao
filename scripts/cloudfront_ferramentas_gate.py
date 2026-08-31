@@ -23,12 +23,10 @@ Referer). Por isso este script cria:
      omite X-Frame-Options e usa Content-Security-Policy:
      frame-ancestors https://*.hotmart.com no lugar -- e o equivalente
      moderno do XFO ALLOW-FROM (que o Chrome nunca implementou).
-  3. Atualiza a function (DEV -> testa -> publica LIVE) com o gate:
-       - uri comeca com "/ferramentas/": exige cookie av_prof=<chave> OU
-         (Referer *.hotmart.com E Sec-Fetch-Dest: iframe); senao, 403.
-       - "?k=<chave>" seta o cookie (Max-Age 1 ano) e redireciona sem a
-         querystring -- e o acesso do Ricardo fora do Hotmart.
-       - mantem o rewrite de .html existente pra todo o resto, inalterado.
+  3. (NAO mais aqui) O codigo do gate em si vive em
+     scripts/cloudfront_function.py, junto com os 301 da migracao e o
+     rewrite de .html -- fonte unica. Este script so provisiona a
+     infraestrutura que faz Referer/Sec-Fetch-Dest chegarem ate la.
   4. Cria (ou atualiza) a Cache Behavior "/ferramentas/*" ligando as duas
      policies novas + a mesma function.
   5. Invalida "/ferramentas/*" na distribution.
@@ -58,84 +56,6 @@ PATH_PATTERN = "/ferramentas/*"
 
 ACCESS_COOKIE_NAME = "av_prof"
 ACCESS_KEY = "tZT1EwL8eh6MvXkvSfJCScBS"
-
-FUNCTION_CODE = """function handler(event) {
-  var request = event.request;
-  var uri = request.uri;
-  var headers = request.headers;
-  var querystring = request.querystring;
-  var cookies = request.cookies;
-
-  if (uri.indexOf("/ferramentas/") === 0) {
-    var COOKIE_NAME = "%(cookie_name)s";
-    var ACCESS_KEY = "%(access_key)s";
-
-    var hasValidCookie =
-      cookies[COOKIE_NAME] && cookies[COOKIE_NAME].value === ACCESS_KEY;
-
-    if (!hasValidCookie && querystring.k && querystring.k.value === ACCESS_KEY) {
-      var redirectResponse = {
-        statusCode: 302,
-        statusDescription: "Found",
-        headers: {
-          location: { value: uri },
-        },
-        cookies: {},
-      };
-      redirectResponse.cookies[COOKIE_NAME] = {
-        value: ACCESS_KEY,
-        attributes: "Max-Age=31536000; Path=/ferramentas; Secure; HttpOnly; SameSite=Lax",
-      };
-      return redirectResponse;
-    }
-
-    if (!hasValidCookie) {
-      var referer =
-        headers.referer && headers.referer.value ? headers.referer.value : "";
-      var secFetchDest =
-        headers["sec-fetch-dest"] && headers["sec-fetch-dest"].value
-          ? headers["sec-fetch-dest"].value
-          : "";
-
-      if (!isHotmartReferer(referer) || secFetchDest !== "iframe") {
-        return {
-          statusCode: 403,
-          statusDescription: "Forbidden",
-          headers: {
-            "content-type": { value: "text/plain; charset=utf-8" },
-          },
-          body: {
-            encoding: "text",
-            data: "Acesso restrito.",
-          },
-        };
-      }
-    }
-  }
-
-  if (uri === "/") {
-    request.uri = "/index.html";
-  } else if (uri.endsWith("/")) {
-    request.uri = uri.slice(0, -1) + ".html";
-  } else if (!uri.includes(".")) {
-    request.uri += ".html";
-  }
-
-  return request;
-}
-
-function isHotmartReferer(referer) {
-  if (referer.indexOf("https://") !== 0) return false;
-  var rest = referer.slice(8);
-  var slashIdx = rest.indexOf("/");
-  var host = (slashIdx === -1 ? rest : rest.slice(0, slashIdx)).toLowerCase();
-  return (
-    host === "hotmart.com" ||
-    (host.length > 12 && host.slice(-12) === ".hotmart.com")
-  );
-}
-""" % {"cookie_name": ACCESS_COOKIE_NAME, "access_key": ACCESS_KEY}
-
 
 def ensure_cache_policy(c):
     existing = c.list_cache_policies(Type="custom")
@@ -206,108 +126,6 @@ def ensure_response_headers_policy(c):
     policy_id = resp["ResponseHeadersPolicy"]["Id"]
     print("Response Headers Policy criada:", policy_id)
     return policy_id
-
-
-def update_and_publish_function(c):
-    dev = c.get_function(Name=FUNCTION_NAME, Stage="DEVELOPMENT")
-    print("DEV ETag atual:", dev["ETag"])
-
-    updated = c.update_function(
-        Name=FUNCTION_NAME,
-        IfMatch=dev["ETag"],
-        FunctionConfig={
-            "Comment": "Rewrite .html do export estatico + gate de /ferramentas/* pro Hotmart",
-            "Runtime": "cloudfront-js-2.0",
-        },
-        FunctionCode=FUNCTION_CODE.encode("utf-8"),
-    )
-    etag = updated["ETag"]
-    print("DEV atualizado. Novo ETag:", etag)
-
-    def run_test(desc, request_overrides, expect):
-        event = {
-            "version": "1.0",
-            "context": {"eventType": "viewer-request"},
-            "viewer": {"ip": "1.2.3.4"},
-            "request": {
-                "method": "GET",
-                "uri": "/ferramentas/calendario-do-professor",
-                "querystring": {},
-                "headers": {},
-                "cookies": {},
-            },
-        }
-        event["request"].update(request_overrides)
-        resp = c.test_function(
-            Name=FUNCTION_NAME,
-            IfMatch=etag,
-            Stage="DEVELOPMENT",
-            EventObject=json.dumps(event).encode("utf-8"),
-        )
-        test_result = resp["TestResult"]
-        error_msg = test_result.get("FunctionErrorMessage")
-        if error_msg:
-            log = test_result.get("FunctionExecutionLogs") or []
-            print(f"  [ERRO] {desc}: {error_msg}")
-            for line in log:
-                print("    log:", line)
-            raise AssertionError(f"Function lancou erro em '{desc}': {error_msg}")
-
-        output = json.loads(test_result["FunctionOutput"])
-        result = output.get("request", output.get("response"))
-        ok = expect(output)
-        print(f"  [{'OK' if ok else 'FALHOU'}] {desc}: {json.dumps(result)}")
-        if not ok:
-            raise AssertionError(f"Teste falhou: {desc} -> {output}")
-
-    print("Testando cenarios antes de publicar:")
-
-    run_test(
-        "sem referer/cookie -> 403",
-        {},
-        lambda o: o.get("response", {}).get("statusCode") == 403,
-    )
-
-    run_test(
-        "referer hotmart + iframe -> passa e reescreve .html",
-        {
-            "headers": {
-                "referer": {"value": "https://sun.hotmart.com/club/aula-x"},
-                "sec-fetch-dest": {"value": "iframe"},
-            }
-        },
-        lambda o: o.get("request", {}).get("uri") == "/ferramentas/calendario-do-professor.html",
-    )
-
-    run_test(
-        "referer hotmart mas sem sec-fetch-dest -> 403",
-        {"headers": {"referer": {"value": "https://sun.hotmart.com/club/aula-x"}}},
-        lambda o: o.get("response", {}).get("statusCode") == 403,
-    )
-
-    run_test(
-        "?k= correto -> 302 + cookie",
-        {"querystring": {"k": {"value": ACCESS_KEY}}},
-        lambda o: o.get("response", {}).get("statusCode") == 302
-        and ACCESS_COOKIE_NAME in o.get("response", {}).get("cookies", {}),
-    )
-
-    run_test(
-        "cookie av_prof valido -> passa",
-        {"cookies": {ACCESS_COOKIE_NAME: {"value": ACCESS_KEY}}},
-        lambda o: o.get("request", {}).get("uri") == "/ferramentas/calendario-do-professor.html",
-    )
-
-    run_test(
-        "rota fora de /ferramentas/ nao afetada",
-        {"uri": "/cursos/classico"},
-        lambda o: o.get("request", {}).get("uri") == "/cursos/classico.html",
-    )
-
-    print("Todos os testes passaram. Publicando em LIVE...")
-    published = c.publish_function(Name=FUNCTION_NAME, IfMatch=etag)
-    stage = published["FunctionSummary"]["FunctionMetadata"]["Stage"]
-    print("Publicado. Stage:", stage)
 
 
 def ensure_cache_behavior(c, cache_policy_id, response_headers_policy_id):
@@ -381,7 +199,14 @@ def main():
 
     cache_policy_id = ensure_cache_policy(c)
     response_headers_policy_id = ensure_response_headers_policy(c)
-    update_and_publish_function(c)
+    # A function NAO e publicada aqui: o codigo dela e unico e vive em
+    # scripts/cloudfront_function.py. Era exatamente essa duplicacao que
+    # fazia este script apagar os 301 da migracao do WordPress.
+    print(
+        "Lembrete: o codigo da function e unico e vive em "
+        "scripts/cloudfront_function.py -- para publica-lo, rode: "
+        "python scripts/cloudfront_function.py --env staging"
+    )
     ensure_cache_behavior(c, cache_policy_id, response_headers_policy_id)
     invalidate(c)
 

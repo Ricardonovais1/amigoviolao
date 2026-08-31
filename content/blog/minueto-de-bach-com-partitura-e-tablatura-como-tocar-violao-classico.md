@@ -14,6 +14,6 @@ canonical: >-
 wpId: 25219
 ---
 
-## [BAIXE A PARTITURA E A TABLATURA DO MINUETO CLICANDO AQUI.](https://amigoviolao.com/wp-content/uploads/2019/03/Minueto-Bach-@-amigoviolao.com_.pdf)
+## [BAIXE A PARTITURA E A TABLATURA DO MINUETO CLICANDO AQUI.](/downloads/minueto-bach-amigoviolao-com-pdf.pdf)
 
 [▶ Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=UAsoIwIKCIM)

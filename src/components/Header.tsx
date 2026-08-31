@@ -55,7 +55,7 @@ export default function Header() {
           {/* scale em vez de width: animar largura reflui o header sticky a
               cada frame de scroll, enquanto transform é composto. */}
           <Image
-            src="https://amigoviolao.com/wp-content/uploads/2021/05/cropped-cropped-Logo-Branca-site-Amigo-Violao-2.png.webp"
+            src="/images/logo-amigo-violao-branco.webp"
             alt="Amigo Violão"
             width={180}
             height={41}

@@ -16,7 +16,7 @@ type WhoIsItForProps = {
 export default function WhoIsItFor({
   audience = defaultAudience,
   image = {
-    src: "https://amigoviolao.com/wp-content/uploads/2018/05/Ilustra%C3%A7%C3%A3o-1.png",
+    src: "/images/legacy/ilustracao-1.webp",
     alt: "Ilustração de material de estudo de violão",
     width: 640,
     height: 701,

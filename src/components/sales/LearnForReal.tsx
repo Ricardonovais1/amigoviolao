@@ -17,7 +17,7 @@ export default function LearnForReal({
   highlightPosition = "first",
   paragraph = "O jeito Amigo Violão de aprender é o que possibilita iniciantes, inclusive crianças e aqueles com mais dificuldade, chegarem mais rápido e de forma mais prazerosa ao objetivo de tocar violão com os amigos. O segredo está em músicas que te permitem tocar com excelência desde a primeira aula, aquilo que é proposto.",
   image = {
-    src: "https://amigoviolao.com/wp-content/uploads/2021/06/Duple-de-violao-2.png",
+    src: "/images/legacy/duple-de-violao-2.webp",
     alt: "Duas pessoas tocando violão juntas",
     width: 600,
     height: 500,
