@@ -32,11 +32,11 @@ O terceiro comando conserta, também no staging, o mapeamento de erro que fazia
 qualquer URL inexistente responder **200 com a Home**. A distribuição nasce
 **sem aliases** — anexar `amigoviolao.com` exige o certificado ACM já emitido.
 
-Anote o ID da distribuição impresso e:
+Distribuição de produção: **E3FJ0EHZEHRZ2B** (`d322g8534e6zf7.cloudfront.net`).
 
 1. Coloque-o em `ENVIRONMENTS["prod"]["distribution_id"]`, em
    `scripts/cloudfront_function.py`.
-2. `gh secret set CLOUDFRONT_DISTRIBUTION_ID_PROD --body <ID>`
+2. `gh secret set CLOUDFRONT_DISTRIBUTION_ID_PROD --body E3FJ0EHZEHRZ2B`
 3. `python scripts/iam_prod_access.py` — dá à role do GitHub Actions acesso ao
    bucket novo e permite push na `master` (hoje ela só confia na `staging`).
 
@@ -72,7 +72,7 @@ build indexável (`SITE_URL=https://amigoviolao.com`), e ele aborta sozinho se o
 nome no resolvedor local — o domínio ainda aponta para o WordPress:
 
 ```bash
-IP=$(dig +short <distribuicao>.cloudfront.net | head -1)
+IP=$(dig +short d322g8534e6zf7.cloudfront.net | head -1)
 curl -sSI --resolve amigoviolao.com:443:$IP https://amigoviolao.com | head -5
 curl -sSI --resolve amigoviolao.com:443:$IP https://amigoviolao.com/curso-para-criancas/ | head -5   # 301
 curl -sSI --resolve amigoviolao.com:443:$IP https://amigoviolao.com/pagina-que-nao-existe | head -3  # 404
@@ -89,7 +89,7 @@ proxiado, e o corte espera por isso.
 ## 4. O corte
 
 ```bash
-python scripts/cloudflare_dns.py --cutover <distribuicao>.cloudfront.net
+python scripts/cloudflare_dns.py --cutover d322g8534e6zf7.cloudfront.net
 ```
 
 Faz backup da zona inteira em `backups/` antes de tocar em nada, apaga os A/AAAA

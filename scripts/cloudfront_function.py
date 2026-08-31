@@ -47,7 +47,7 @@ ENVIRONMENTS = {
     },
     "prod": {
         "function_name": "amigo-violao-prod-url-rewrite",
-        "distribution_id": "__PROD_DISTRIBUTION_ID__",
+        "distribution_id": "E3FJ0EHZEHRZ2B",
     },
 }
 
