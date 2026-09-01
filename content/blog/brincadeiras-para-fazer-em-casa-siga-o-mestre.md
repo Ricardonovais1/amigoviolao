@@ -26,8 +26,8 @@ tags:
   - educacao-dos-filhos
   - educacao-musical-infantil
   - jogo-musical
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/brincadeiras-para-fazer-em-casa-siga-o-mestre.webp
+og_image: /images/blog/brincadeiras-para-fazer-em-casa-siga-o-mestre.webp
 canonical: 'https://amigoviolao.com/brincadeiras-para-fazer-em-casa-siga-o-mestre'
 wpId: 263
 ---

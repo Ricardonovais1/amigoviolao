@@ -25,8 +25,8 @@ tags:
   - aula-de-violao
   - aula-de-violao-online
   - aula-de-violao-para-criancas
-featured_image: /images/blog/2016/06/Aprender-violao-com-seu-filho.webp
-og_image: /images/blog/2016/06/Aprender-violao-com-seu-filho.webp
+featured_image: /images/blog/5-motivos-especiais-para-voce-aprender-violao-junto-com-o-seu-filhoa.webp
+og_image: /images/blog/5-motivos-especiais-para-voce-aprender-violao-junto-com-o-seu-filhoa.webp
 canonical: >-
   https://amigoviolao.com/5-motivos-especiais-para-voce-aprender-violao-junto-com-o-seu-filhoa
 wpId: 760

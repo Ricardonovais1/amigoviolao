@@ -20,8 +20,8 @@ tags:
   - como-ler-tablatura
   - curso-de-violao
   - entender-tablatura
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/como-ler-tablatura-no-violao.webp
+og_image: /images/blog/como-ler-tablatura-no-violao.webp
 canonical: 'https://amigoviolao.com/como-ler-tablatura-no-violao'
 wpId: 464
 ---

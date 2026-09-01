@@ -22,8 +22,8 @@ tags:
   - como-aprender-tocar-violao
   - curso-de-violao-para-criancas-belo-horizonte
   - educacao-musical-infantil
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/amigo-violao-violao-para-pais-e-filhos.webp
+og_image: /images/blog/amigo-violao-violao-para-pais-e-filhos.webp
 canonical: 'https://amigoviolao.com/amigo-violao-violao-para-pais-e-filhos'
 wpId: 1180
 ---

@@ -9,8 +9,8 @@ slug: tecnica-de-violao-como-tocar-notas-ligadas
 categories:
   - como-tocar-violao
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/tecnica-de-violao-como-tocar-notas-ligadas.webp
+og_image: /images/blog/tecnica-de-violao-como-tocar-notas-ligadas.webp
 canonical: 'https://amigoviolao.com/tecnica-de-violao-como-tocar-notas-ligadas'
 wpId: 3293
 ---

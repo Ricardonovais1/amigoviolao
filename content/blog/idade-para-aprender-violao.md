@@ -21,8 +21,8 @@ tags:
   - metodo-muito-facil-para-violao
   - metodo-muito-facil-violao
   - metodo-violao-criancas
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/idade-para-aprender-violao.webp
+og_image: /images/blog/idade-para-aprender-violao.webp
 canonical: 'https://amigoviolao.com/idade-para-aprender-violao'
 wpId: 367
 ---

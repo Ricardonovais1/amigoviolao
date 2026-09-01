@@ -19,8 +19,8 @@ tags:
   - para-casa
   - rendimento-escolar
   - ricardo-novais
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/baixo-rendimento-na-escola.webp
+og_image: /images/blog/baixo-rendimento-na-escola.webp
 canonical: 'https://amigoviolao.com/baixo-rendimento-na-escola'
 wpId: 12
 ---

@@ -22,8 +22,8 @@ tags:
   - fazer-para-casa-com-os-filhos
   - filho-agitado
   - perfil-auditivo
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/aprendizagem-infantil-4-estilos.webp
+og_image: /images/blog/aprendizagem-infantil-4-estilos.webp
 canonical: 'https://amigoviolao.com/aprendizagem-infantil-4-estilos'
 wpId: 323
 ---

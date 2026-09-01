@@ -17,8 +17,8 @@ tags:
   - percepcao-musical
   - ricardo-novais
   - tres-amigos-ead
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/desenvolvimento-da-crianca-por-que-a-musica-e-importante.webp
+og_image: /images/blog/desenvolvimento-da-crianca-por-que-a-musica-e-importante.webp
 canonical: >-
   https://amigoviolao.com/desenvolvimento-da-crianca-por-que-a-musica-e-importante
 wpId: 4120

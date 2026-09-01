@@ -25,8 +25,8 @@ tags:
   - crianca-com-talento
   - curso-de-violao-para-criancas
   - ensinar-disciplina
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/treinar-violao-em-casa.webp
+og_image: /images/blog/treinar-violao-em-casa.webp
 canonical: 'https://amigoviolao.com/treinar-violao-em-casa'
 wpId: 4117
 ---

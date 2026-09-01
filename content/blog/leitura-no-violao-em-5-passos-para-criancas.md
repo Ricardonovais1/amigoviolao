@@ -12,8 +12,8 @@ categories:
   - como-tocar-violao
   - criancas
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/leitura-no-violao-em-5-passos-para-criancas.webp
+og_image: /images/blog/leitura-no-violao-em-5-passos-para-criancas.webp
 canonical: 'https://amigoviolao.com/leitura-no-violao-em-5-passos-para-criancas'
 wpId: 4072
 ---

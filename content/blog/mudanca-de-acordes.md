@@ -9,8 +9,8 @@ slug: mudanca-de-acordes
 categories:
   - como-tocar-violao
 tags: []
-featured_image: /images/blog/2018/12/victor-schneider-DSC_0210-MENOR.webp
-og_image: /images/blog/2018/12/victor-schneider-DSC_0210-MENOR.webp
+featured_image: /images/blog/mudanca-de-acordes.webp
+og_image: /images/blog/mudanca-de-acordes.webp
 canonical: 'https://amigoviolao.com/mudanca-de-acordes'
 wpId: 1271
 ---

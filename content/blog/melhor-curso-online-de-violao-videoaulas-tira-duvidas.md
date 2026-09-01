@@ -9,8 +9,8 @@ slug: melhor-curso-online-de-violao-videoaulas-tira-duvidas
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.webp
-og_image: /images/blog/2021/07/CAPA-melhor-curso-online-de-violao.webp
+featured_image: /images/blog/melhor-curso-online-de-violao-videoaulas-tira-duvidas.webp
+og_image: /images/blog/melhor-curso-online-de-violao-videoaulas-tira-duvidas.webp
 canonical: >-
   https://amigoviolao.com/melhor-curso-online-de-violao-videoaulas-tira-duvidas
 wpId: 38359

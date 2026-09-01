@@ -16,8 +16,8 @@ tags:
   - como-aprender-tocar-violao
   - curso-de-violao-gratis
   - video-aula-de-violao
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/como-afinar-o-violao-3-formas.webp
+og_image: /images/blog/como-afinar-o-violao-3-formas.webp
 canonical: 'https://amigoviolao.com/como-afinar-o-violao-3-formas'
 wpId: 3205
 ---

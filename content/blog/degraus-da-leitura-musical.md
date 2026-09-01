@@ -7,8 +7,8 @@ slug: degraus-da-leitura-musical
 categories:
   - porque-o-amigo-violao-e-especial
 tags: []
-featured_image: /images/blog/2018/04/5-DEGRAUS-DA-LEITURA1.webp
-og_image: /images/blog/2018/04/5-DEGRAUS-DA-LEITURA1.webp
+featured_image: /images/blog/degraus-da-leitura-musical.webp
+og_image: /images/blog/degraus-da-leitura-musical.webp
 canonical: 'https://amigoviolao.com/degraus-da-leitura-musical'
 wpId: 3557
 ---

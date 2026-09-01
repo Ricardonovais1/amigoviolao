@@ -15,8 +15,8 @@ categories:
   - como-ler-partitura
   - violao-classico
 tags: []
-featured_image: /images/blog/2018/06/Como-Ler-Partitura.webp
-og_image: /images/blog/2018/06/Como-Ler-Partitura.webp
+featured_image: /images/blog/como-ler-partitura-no-violao-1-entendendo-as-notas-2.webp
+og_image: /images/blog/como-ler-partitura-no-violao-1-entendendo-as-notas-2.webp
 canonical: >-
   https://amigoviolao.com/como-ler-partitura-no-violao-1-entendendo-as-notas-2
 wpId: 4604

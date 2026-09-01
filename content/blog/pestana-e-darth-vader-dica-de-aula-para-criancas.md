@@ -11,8 +11,8 @@ categories:
   - como-tocar-violao
   - criancas
 tags: []
-featured_image: 'https://img.youtube.com/vi/28WjNOVWLYc/hqdefault.jpg'
-og_image: 'https://img.youtube.com/vi/28WjNOVWLYc/hqdefault.jpg'
+featured_image: /images/blog/pestana-e-darth-vader-dica-de-aula-para-criancas.webp
+og_image: /images/blog/pestana-e-darth-vader-dica-de-aula-para-criancas.webp
 canonical: 'https://amigoviolao.com/pestana-e-darth-vader-dica-de-aula-para-criancas'
 wpId: 79
 ---

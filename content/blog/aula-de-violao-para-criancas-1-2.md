@@ -21,8 +21,8 @@ tags:
   - curso-de-violao-gratis
   - curso-de-violao-para-criancas
   - metodo-de-violao-para-criancas
-featured_image: 'https://img.youtube.com/vi/BNHDS9fymUw/hqdefault.jpg'
-og_image: 'https://img.youtube.com/vi/BNHDS9fymUw/hqdefault.jpg'
+featured_image: /images/blog/aula-de-violao-para-criancas-1-2.webp
+og_image: /images/blog/aula-de-violao-para-criancas-1-2.webp
 canonical: 'https://amigoviolao.com/aula-de-violao-para-criancas-1-2'
 wpId: 4075
 ---

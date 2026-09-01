@@ -24,8 +24,8 @@ tags:
   - momentos-em-familia
   - playlist-para-criancas
   - trio-amaranto
-featured_image: 'https://img.youtube.com/vi/BWf-eARnf6U/hqdefault.jpg'
-og_image: 'https://img.youtube.com/vi/BWf-eARnf6U/hqdefault.jpg'
+featured_image: /images/blog/momentos-em-familia.webp
+og_image: /images/blog/momentos-em-familia.webp
 canonical: 'https://amigoviolao.com/momentos-em-familia'
 wpId: 201
 ---

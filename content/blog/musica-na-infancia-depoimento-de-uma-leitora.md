@@ -18,8 +18,8 @@ tags:
   - violao
   - violao-infantil
   - violao-na-infancia
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/musica-na-infancia-depoimento-de-uma-leitora.webp
+og_image: /images/blog/musica-na-infancia-depoimento-de-uma-leitora.webp
 canonical: 'https://amigoviolao.com/musica-na-infancia-depoimento-de-uma-leitora'
 wpId: 559
 ---

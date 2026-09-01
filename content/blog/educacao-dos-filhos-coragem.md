@@ -23,8 +23,8 @@ tags:
   - ensinar-em-casa
   - ensinar-pelo-exemplo
   - licoes-de-pai-para-filho
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/educacao-dos-filhos-coragem.webp
+og_image: /images/blog/educacao-dos-filhos-coragem.webp
 canonical: 'https://amigoviolao.com/educacao-dos-filhos-coragem'
 wpId: 247
 ---

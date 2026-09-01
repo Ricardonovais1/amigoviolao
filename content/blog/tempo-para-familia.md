@@ -18,8 +18,8 @@ tags:
   - paisfilhos
   - presenca-dos-pais
   - temo-para-a-familia
-featured_image: /images/blog/2016/06/Pais-gostariam.webp
-og_image: /images/blog/2016/06/Pais-gostariam.webp
+featured_image: /images/blog/tempo-para-familia.webp
+og_image: /images/blog/tempo-para-familia.webp
 canonical: 'https://amigoviolao.com/tempo-para-familia'
 wpId: 775
 ---

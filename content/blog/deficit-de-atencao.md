@@ -21,8 +21,8 @@ tags:
   - filha-agitada
   - filho-agitado
   - hiperatividade
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/deficit-de-atencao.webp
+og_image: /images/blog/deficit-de-atencao.webp
 canonical: 'https://amigoviolao.com/deficit-de-atencao'
 wpId: 349
 ---

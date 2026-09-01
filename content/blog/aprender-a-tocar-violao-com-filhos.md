@@ -21,8 +21,8 @@ tags:
   - curso-de-violao-online
   - curso-online-de-violao
   - cursos-de-arte-para-criancas
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/aprender-a-tocar-violao-com-filhos.webp
+og_image: /images/blog/aprender-a-tocar-violao-com-filhos.webp
 canonical: 'https://amigoviolao.com/aprender-a-tocar-violao-com-filhos'
 wpId: 312
 ---

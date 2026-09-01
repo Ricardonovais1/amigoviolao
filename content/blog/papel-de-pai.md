@@ -21,8 +21,8 @@ tags:
   - pae
   - pai-ausente
   - pai-nao-ajuda
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/papel-de-pai.webp
+og_image: /images/blog/papel-de-pai.webp
 canonical: 'https://amigoviolao.com/papel-de-pai'
 wpId: 416
 ---

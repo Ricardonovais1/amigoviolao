@@ -12,8 +12,8 @@ slug: musica-percussiva-com-cordas-soltas-banda-dos-bichos
 categories:
   - como-tocar-violao
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/musica-percussiva-com-cordas-soltas-banda-dos-bichos.webp
+og_image: /images/blog/musica-percussiva-com-cordas-soltas-banda-dos-bichos.webp
 canonical: >-
   https://amigoviolao.com/musica-percussiva-com-cordas-soltas-banda-dos-bichos
 wpId: 1372

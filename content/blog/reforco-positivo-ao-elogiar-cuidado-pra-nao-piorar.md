@@ -21,8 +21,8 @@ tags:
   - inteligencia
   - inteligencia-emocional
   - mindset
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar.webp
+og_image: /images/blog/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar.webp
 canonical: >-
   https://amigoviolao.com/reforco-positivo-ao-elogiar-cuidado-pra-nao-piorar
 wpId: 595

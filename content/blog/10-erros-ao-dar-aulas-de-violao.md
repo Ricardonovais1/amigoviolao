@@ -14,8 +14,8 @@ slug: 10-erros-ao-dar-aulas-de-violao
 categories:
   - como-ensinar-violao
 tags: []
-featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.webp
-og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao.webp
+featured_image: /images/blog/10-erros-ao-dar-aulas-de-violao.webp
+og_image: /images/blog/10-erros-ao-dar-aulas-de-violao.webp
 canonical: 'https://amigoviolao.com/10-erros-ao-dar-aulas-de-violao'
 wpId: 25151
 ---

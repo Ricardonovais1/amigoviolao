@@ -9,8 +9,8 @@ slug: aprender-violao-classico
 categories:
   - violao-classico
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/aprender-violao-classico.webp
+og_image: /images/blog/aprender-violao-classico.webp
 canonical: 'https://amigoviolao.com/aprender-violao-classico'
 wpId: 31711
 ---

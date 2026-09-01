@@ -26,6 +26,39 @@ matter não aparece em lugar nenhum do site.
 5. **Limpar** — `rm` o `.jpg` intermediário de `public/` (o original limpo já
    está guardado em `content/blog-cover-originals/`), e confira em `/<slug>`.
 
+As cenas já usadas ficam em `content/blog-cover-originals/cenas.json`
+(`slug`, `titulo` da tarja, `cena` em inglês). Consulte antes de inventar uma
+cena nova: é de lá que se refaz uma capa sem ter que redesenhar o conceito, e
+é o que evita repetir a mesma composição em dois posts parecidos.
+
+## Lote grande (dezenas de capas)
+
+Não gere uma a uma pedindo aprovação — vira dezenas de idas e voltas. Gere em
+lotes de ~13, monte uma **folha de contato** (grade das capas já tarjadas, com
+o número e o slug embaixo de cada uma) e mostre uma imagem só por lote.
+Pré-filtre você mesmo antes de mostrar: refaça o que já reprovaria sozinho,
+para o que chega ao Ricardo ser a sua melhor versão.
+
+Os quatro motivos de refação que apareceram de verdade num lote de 77 (≈20%
+precisaram voltar, é o normal, não sinal de problema):
+
+1. **Sujeito pequeno ou baixo demais** — a tarja come 49% e sobra paisagem
+   vazia. É o mais comum de longe. Corrige pedindo "large and filling the
+   upper half of the frame".
+2. **O objeto do post sumiu** — capa de afinação sem violão, metáfora da
+   bicicleta sem bicicleta. Sempre confira se o que dá nome ao post
+   sobreviveu à cena.
+3. **Resultado impróprio** — uma cena de "mãe ouvindo música com os filhos"
+   voltou com a mãe seminua. Num blog de família isso não passa: peça roupa
+   explicitamente ("fully clothed", "modest everyday clothing") ao descrever
+   adulto e criança juntos, e olhe cada imagem antes de publicar.
+4. **Cena genérica demais** — o modelo devolve "duas pessoas numa sala" em vez
+   do que o post trata. Nomeie a ação concreta, não o tema.
+
+O script `fal_generate_image.py` já leva timeout de leitura do Fal de vez em
+quando: num lote, uma falha não pode derrubar as outras — repita a chamada em
+vez de abortar o lote inteiro.
+
 Ao refazer a tarja de uma capa que já existe, rode o passo 2 com
 `--image content/blog-cover-originals/<slug>.jpg --out public/images/blog/<slug>.jpg`.
 Rodar em cima do `.jpg` já com tarja faz o script salvar a versão *já tarjada*
@@ -45,9 +78,9 @@ git-ignored). Se estiver vazia, peça ao usuário para criar uma key em
 https://fal.ai/dashboard/keys e colar lá antes de continuar — não dá para
 gerar nada sem isso.
 
-## Teto de gasto: US$3
+## Teto de gasto: US$5
 
-O script recusa gerar se o gasto acumulado estimado passar de **US$3**
+O script recusa gerar se o gasto acumulado estimado passar de **US$5**
 (rastreado localmente em `scripts/.fal_spend.json`, git-ignored — é só uma
 estimativa local, o valor real é o de https://fal.ai/dashboard/billing).
 Antes de gerar, se quiser conferir o acumulado: `python
@@ -55,7 +88,7 @@ scripts/fal_generate_image.py --show-spend`.
 
 Preço por imagem (16:9 = 1MP, arredondado pra cima): `flux/schnell` $0.003,
 `flux/dev` $0.025, `flux-pro/v1.1` $0.04. Todos irrisórios perto do teto de
-$3 (~1000, ~120 e ~75 imagens respectivamente) — **não economize modelo por
+$5 (~1600, ~200 e ~125 imagens respectivamente) — **não economize modelo por
 causa do teto**, a diferença real é de centavos.
 
 **Use `--model fal-ai/flux-pro/v1.1`, não o default do script.** O default

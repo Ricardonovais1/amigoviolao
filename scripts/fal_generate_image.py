@@ -21,7 +21,7 @@ cima -- nossas imagens (ate 1MP) saem no preco de 1 unidade):
 
 Teto de gasto: por padrao o script recusa gerar se o total acumulado (rastreado
 localmente em scripts/.fal_spend.json, so uma estimativa -- o dashboard do
-Fal.AI e que tem o valor real) passar de US$3. Ajuste com --budget ou confira
+Fal.AI e que tem o valor real) passar de US$5. Ajuste com --budget ou confira
 com --show-spend.
 """
 
@@ -39,7 +39,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ENV_FILE = REPO_ROOT / ".env.local"
 SPEND_LEDGER = Path(__file__).resolve().parent / ".fal_spend.json"
 
-DEFAULT_BUDGET_USD = 3.0
+# Subido de 3 para 5 em 01/09/2026, decisao do Ricardo: as 77 capas restantes do
+# blog nao cabiam em 3 (~100 geracoes contando refacoes, ~US$4 no flux-pro).
+DEFAULT_BUDGET_USD = 5.0
 
 ASPECT_TO_IMAGE_SIZE = {
     "1:1": "square_hd",

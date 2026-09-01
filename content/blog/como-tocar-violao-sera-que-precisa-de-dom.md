@@ -9,8 +9,8 @@ slug: como-tocar-violao-sera-que-precisa-de-dom
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/08/CAPA-Precisa-de-dom.webp
-og_image: /images/blog/2021/08/CAPA-Precisa-de-dom.webp
+featured_image: /images/blog/como-tocar-violao-sera-que-precisa-de-dom.webp
+og_image: /images/blog/como-tocar-violao-sera-que-precisa-de-dom.webp
 canonical: 'https://amigoviolao.com/como-tocar-violao-sera-que-precisa-de-dom'
 wpId: 38387
 ---

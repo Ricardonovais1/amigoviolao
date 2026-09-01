@@ -23,8 +23,8 @@ tags:
   - kodaly
   - leitura-absoluta
   - leitura-grafica
-featured_image: /images/blog/2016/08/child-learning-guitar-chords-imagem-destacada-menor.webp
-og_image: /images/blog/2016/08/child-learning-guitar-chords-imagem-destacada-menor.webp
+featured_image: /images/blog/ensinar-leitura-musical-para-criancas-em-5-passos.webp
+og_image: /images/blog/ensinar-leitura-musical-para-criancas-em-5-passos.webp
 canonical: 'https://amigoviolao.com/ensinar-leitura-musical-para-criancas-em-5-passos'
 wpId: 1246
 ---
