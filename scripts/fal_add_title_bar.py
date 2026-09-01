@@ -86,12 +86,52 @@ COLOR_FAMILY = {
     "charcoal": "dark",
 }
 
+# Contraste minimo entre o texto branco e o PIOR pixel (mais claro) da faixa
+# onde o titulo cai. 3:1 e o piso do WCAG para texto grande, que e o caso aqui
+# (~72px bold). Medido no pior pixel, nao na media: a media esconde um trecho
+# claro da cena passando bem debaixo de uma palavra.
+MIN_TEXT_CONTRAST = 3.0
+
 # Nao repete a cor exata usada nas ultimas N geracoes.
 COLOR_HISTORY_SIZE = 4
 # Nem a familia de matiz (laranja/teal/escuro) usada nas ultimas N geracoes --
 # com so 3 familias, janela 2 garante rotacao de verdade (a 3a fica sempre
 # livre) sem travar em "sempre a mesma familia ideal pro tom da cena".
 FAMILY_HISTORY_SIZE = 2
+
+
+def _relative_luminance(rgb: tuple[int, int, int]) -> float:
+    def channel(v: float) -> float:
+        v /= 255
+        return v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+
+    r, g, b = (channel(c) for c in rgb)
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def white_text_contrast(image: Image.Image, bar_top: int, color_rgb: tuple[int, int, int]) -> float:
+    """Contraste do texto branco contra o pixel mais claro da faixa do titulo,
+    depois de compor a tarja (BAR_OPACITY) sobre a cena. A tarja e translucida,
+    entao a cena por baixo continua influindo -- uma cor de tarja clara em cima
+    de um trecho claro da imagem some com o texto."""
+    h = image.height
+    bar_h = h - bar_top
+    region = image.convert("RGB").crop(
+        (
+            round(image.width * SIDE_PADDING_PCT),
+            bar_top + round(bar_h * 0.42),  # faixa vertical onde as linhas do titulo caem
+            round(image.width * (1 - SIDE_PADDING_PCT)),
+            h - round(bar_h * 0.08),
+        )
+    ).resize((60, 24))
+    worst = max(
+        (
+            tuple(round(BAR_OPACITY * color_rgb[i] + (1 - BAR_OPACITY) * px[i]) for i in range(3))
+            for px in (region.getpixel((x, y)) for x in range(60) for y in range(24))
+        ),
+        key=_relative_luminance,
+    )
+    return 1.05 / (_relative_luminance(worst) + 0.05)
 
 
 def rank_bar_colors(image: Image.Image, bar_top: int) -> list[str]:
@@ -137,18 +177,33 @@ def record_bar_color(color_name: str) -> None:
 
 def choose_bar_color(image: Image.Image, bar_top: int) -> tuple[str, tuple[int, int, int]]:
     ranked = rank_bar_colors(image, bar_top)
+
+    # Legibilidade vem antes de harmonia: descarta as cores que nao sustentam o
+    # texto branco nesta imagem. Na pratica isso elimina quase sempre o "teal"
+    # claro (mede 1.9-2.2:1 contra branco, seja qual for a cena) e as vezes o
+    # "orange" claro. Se nenhuma passar, fica com a de maior contraste em vez de
+    # publicar um titulo ilegivel.
+    legible = [c for c in ranked if white_text_contrast(image, bar_top, BRAND_COLORS[c]) >= MIN_TEXT_CONTRAST]
+    if not legible:
+        legible = [max(ranked, key=lambda c: white_text_contrast(image, bar_top, BRAND_COLORS[c]))]
+    ranked = legible
+
     recent = load_color_history()
     recent_colors = set(recent[-COLOR_HISTORY_SIZE:])
     recent_families = {COLOR_FAMILY[c] for c in recent[-FAMILY_HISTORY_SIZE:]}
 
     # 1a tentativa: nem a cor exata nem a familia de matiz apareceram
     # recentemente -- e o que da variedade de verdade (evita "teal" seguido
-    # de "teal-dark", que de longe parecem a mesma cor). Se nada sobrar
-    # (bucket inteiro ja usado), relaxa pra so evitar a cor exata; por
+    # de "teal-dark", que de longe parecem a mesma cor).
+    #
+    # Se nada sobrar, relaxa a COR EXATA e mantem a familia: repetir
+    # "orange-dark" duas capas depois passa despercebido, mas duas capas
+    # laranja seguidas no grid do /blog nao. O contrario (relaxar a familia
+    # primeiro) e o que fazia um lote de 6 sair com 3 tarjas laranja. Por
     # ultimo, cai na ideal mesmo que repita.
     chosen = next(
         (c for c in ranked if c not in recent_colors and COLOR_FAMILY[c] not in recent_families),
-        next((c for c in ranked if c not in recent_colors), ranked[0]),
+        next((c for c in ranked if COLOR_FAMILY[c] not in recent_families), ranked[0]),
     )
     record_bar_color(chosen)
     return chosen, BRAND_COLORS[chosen]

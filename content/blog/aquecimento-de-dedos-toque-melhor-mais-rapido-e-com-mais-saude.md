@@ -13,8 +13,8 @@ slug: aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude
 categories:
   - como-tocar-violao
 tags: []
-featured_image: /images/blog/2018/11/victor-schneider-DSC_0310-Site2.webp
-og_image: /images/blog/2018/11/victor-schneider-DSC_0310-Site2.webp
+featured_image: /images/blog/aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude.webp
+og_image: /images/blog/aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude.webp
 canonical: >-
   https://amigoviolao.com/aquecimento-de-dedos-toque-melhor-mais-rapido-e-com-mais-saude
 wpId: 4071

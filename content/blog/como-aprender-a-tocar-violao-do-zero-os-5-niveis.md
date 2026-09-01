@@ -9,8 +9,8 @@ slug: como-aprender-a-tocar-violao-do-zero-os-5-niveis
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.webp
-og_image: /images/blog/2021/09/CAPA-como-aprender-a-tocar-violao-do-zero.webp
+featured_image: /images/blog/como-aprender-a-tocar-violao-do-zero-os-5-niveis.webp
+og_image: /images/blog/como-aprender-a-tocar-violao-do-zero-os-5-niveis.webp
 canonical: 'https://amigoviolao.com/como-aprender-a-tocar-violao-do-zero-os-5-niveis'
 wpId: 38652
 ---
