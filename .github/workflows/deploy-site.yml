@@ -64,7 +64,7 @@ jobs:
         # so o build de producao se declara indexavel.
         env:
           SITE_URL: ${{ steps.env.outputs.site_url }}
-          NEXT_PUBLIC_FORMSPREE_ENDPOINT: ${{ secrets.NEXT_PUBLIC_FORMSPREE_ENDPOINT }}
+          NEXT_PUBLIC_CONTACT_ENDPOINT: ${{ secrets.NEXT_PUBLIC_CONTACT_ENDPOINT }}
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
         run: npm run build
 

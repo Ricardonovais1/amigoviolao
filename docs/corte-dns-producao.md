@@ -127,9 +127,7 @@ decidido que não haverá endereço legado.
 
 ## Pendências que não bloqueiam o DNS, mas vão ao ar incompletas
 
-- **Formulário de contato**: sem `NEXT_PUBLIC_FORMSPREE_ENDPOINT` o
-  `ContactForm` retorna `null` — a página `/contato` sobe **sem formulário
-  nenhum**. Criar a conta no Formspree e
-  `gh secret set NEXT_PUBLIC_FORMSPREE_ENDPOINT --body <url>`.
-- **Analytics**: sem `NEXT_PUBLIC_GA_MEASUREMENT_ID` não há medição nenhuma do
-  tráfego a partir do primeiro dia no domínio real.
+- ~~**Analytics**~~ — resolvido: GA4 `G-ZJW6FN4GH1` no ar.
+- **Formulário de contato**: sem `NEXT_PUBLIC_CONTACT_ENDPOINT` o `ContactForm`
+  retorna `null` e a página `/contato` fica só com WhatsApp e e-mail. O
+  endpoint é a Function URL da Lambda — ver `scripts/provision_contato_lambda.py`.
