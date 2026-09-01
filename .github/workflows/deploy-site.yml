@@ -13,6 +13,16 @@ on:
     branches:
       - staging
       - master
+  # Republicar sem commit novo: mudanca de secret (GA4, Brevo) nao dispara push,
+  # e o build embute essas variaveis -- sem isso so um commit vazio resolveria.
+  workflow_dispatch:
+    inputs:
+      ambiente:
+        description: "Ambiente"
+        required: true
+        default: staging
+        type: choice
+        options: [staging, producao]
 
 permissions:
   id-token: write
@@ -28,7 +38,7 @@ jobs:
       - name: Definir ambiente a partir da branch
         id: env
         run: |
-          if [ "${{ github.ref_name }}" = "master" ]; then
+          if [ "${{ github.ref_name }}" = "master" ] || [ "${{ inputs.ambiente }}" = "producao" ]; then
             echo "site_url=https://amigoviolao.com" >> "$GITHUB_OUTPUT"
             echo "bucket=amigo-violao-website-prod" >> "$GITHUB_OUTPUT"
             echo "distribution=${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_PROD }}" >> "$GITHUB_OUTPUT"
