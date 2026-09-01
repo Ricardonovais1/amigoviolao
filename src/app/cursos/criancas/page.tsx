@@ -121,7 +121,7 @@ export default function CursoParaCriancasPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <Header />
+      <Header studentCtas={false} />
       <main className="flex-1 zoom-images">
         <PromoBanner text="⭐ Mais de 10 mil alunos • 🎸 14 cursos inclusos • ⚡ Acesso imediato • 🛡️ 30 dias de garantia" />
         <SalesHero />

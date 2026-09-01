@@ -15,14 +15,23 @@ const defaultParagraphs = [
 export default function About({
   paragraphs = defaultParagraphs,
   whatsappMessage,
+  seam = true,
 }: {
   paragraphs?: string[];
   whatsappMessage?: string;
+  /**
+   * Filete de 1px no topo da seção. Existe para costurar a fronteira com um
+   * bloco de cor diferente; entre dois brancos ele vira um risco solto no meio
+   * da página, que foi o que aconteceu na página de professores.
+   */
+  seam?: boolean;
 }) {
   return (
     <section
       id="sobre"
-      className="seam-top relative isolate overflow-hidden bg-white py-24"
+      className={`relative isolate overflow-hidden bg-white py-24 ${
+        seam ? "seam-top" : ""
+      }`}
       style={{ "--seam-color": "rgba(62,69,72,0.14)" } as CSSProperties}
     >
       <Ambient preset="light" />

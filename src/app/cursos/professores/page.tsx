@@ -276,10 +276,10 @@ export default function CursoParaProfessoresPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <Header />
+      <Header studentCtas={false} />
       <main className="flex-1 zoom-images">
         <PromoBanner
-          text="⭐ Mais de 850 professores • 🎸 Formação + 14 cursos inclusos • ⚡ Acesso imediato • 🛡️ 30 dias de garantia"
+          text="🎸 Formação + 14 cursos inclusos • ⚡ Acesso imediato • 🛡️ 30 dias de garantia"
           color="teal"
         />
         <ProvicHero />
@@ -338,25 +338,21 @@ export default function CursoParaProfessoresPage() {
         <TextTestimonials />
         <ImageTestimonials />
 
-        <div className="bg-white pt-16">
-          <Reveal className="mx-auto max-w-2xl px-6 text-center">
-            <h2 className="text-2xl font-extrabold text-charcoal sm:text-3xl">
-              O curso te ensina a ensinar.
-            </h2>
-            <p className="mt-2 text-foreground/70">
-              Os bônus te ensinam a viver disso — são {formatarInteiroBRL(
-                totalDosBonus("professores"),
-              )}{" "}
-              em ferramentas de carreira que nenhuma outra formação oferece.
-            </p>
-          </Reveal>
-        </div>
-        <About paragraphs={bio} whatsappMessage={WHATSAPP_COURSE_MESSAGES.professores} />
+        {/* A frase "o curso te ensina a ensinar / os bônus te ensinam a viver
+            disso" saiu daqui e foi para dentro do ValueStack, encostada na
+            lista de bônus: solta no meio da página ela prometia bônus que só
+            apareciam duas seções depois. */}
+        <About
+          paragraphs={bio}
+          whatsappMessage={WHATSAPP_COURSE_MESSAGES.professores}
+          seam={false}
+        />
 
         <ValueStack
           heading="Tudo o que você recebe hoje:"
           coreItems={valueStackCoreItems}
           bonuses={valueStackBonuses}
+          bonusesIntro="O curso te ensina a ensinar — os bônus te ensinam a viver disso."
           totalNote={`Somando apenas os bônus, são ${formatarInteiroBRL(
             totalDosBonus("professores"),
           )} em ferramentas que você leva sem pagar nada a mais.`}

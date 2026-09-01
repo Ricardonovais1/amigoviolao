@@ -18,7 +18,16 @@ const ctaClasses =
 const navLinkClasses =
   "underline-grow text-sm font-medium text-white/90 transition-colors hoverable:text-primary";
 
-export default function Header() {
+export default function Header({
+  // As quatro páginas de venda desligam os dois botões de aluno da navbar:
+  // elas já têm o próprio caminho de conversão (CTA do herói, PricingCTA,
+  // FinalCTA e o CTA fixo do mobile), e um "Seja aluno" no topo levava o
+  // visitante de volta para a vitrine de cursos no meio da leitura da oferta.
+  // Fora delas (home, blog, institucionais) os botões continuam.
+  studentCtas = true,
+}: {
+  studentCtas?: boolean;
+}) {
   const [open, setOpen] = useState(false);
   // Antes de rolar, o header é praticamente invisível sobre o herói escuro;
   // ao descer ele ganha corpo, sombra e um filete de marca.
@@ -129,17 +138,21 @@ export default function Header() {
           <Link href="/blog" className={navLinkClasses}>
             Blog
           </Link>
-          <a
-            href={HOTMART_CLUB_LOGIN_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={navLinkClasses}
-          >
-            Já sou aluno
-          </a>
-          <Link href="/#cursos" className={ctaClasses}>
-            Seja aluno
-          </Link>
+          {studentCtas && (
+            <>
+              <a
+                href={HOTMART_CLUB_LOGIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={navLinkClasses}
+              >
+                Já sou aluno
+              </a>
+              <Link href="/#cursos" className={ctaClasses}>
+                Seja aluno
+              </Link>
+            </>
+          )}
         </nav>
 
         <button
@@ -219,22 +232,26 @@ export default function Header() {
             >
               Blog
             </Link>
-            <a
-              href={HOTMART_CLUB_LOGIN_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-              className="rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
-            >
-              Já sou aluno
-            </a>
-            <Link
-              href="/#cursos"
-              onClick={() => setOpen(false)}
-              className={`mt-2 text-center ${ctaClasses}`}
-            >
-              Seja aluno
-            </Link>
+            {studentCtas && (
+              <>
+                <a
+                  href={HOTMART_CLUB_LOGIN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setOpen(false)}
+                  className="rounded-lg px-2 py-2.5 text-sm font-medium text-white/90 transition-colors hoverable:bg-white/5 hoverable:text-primary"
+                >
+                  Já sou aluno
+                </a>
+                <Link
+                  href="/#cursos"
+                  onClick={() => setOpen(false)}
+                  className={`mt-2 text-center ${ctaClasses}`}
+                >
+                  Seja aluno
+                </Link>
+              </>
+            )}
           </nav>
         </div>
       </div>
