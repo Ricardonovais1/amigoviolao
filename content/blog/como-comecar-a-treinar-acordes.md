@@ -11,8 +11,8 @@ categories:
   - como-tocar-violao
   - iniciantes
 tags: []
-featured_image: /images/blog/2018/05/Primeiros-Acordes-cut.webp
-og_image: /images/blog/2018/05/Primeiros-Acordes-cut.webp
+featured_image: /images/blog/como-comecar-a-treinar-acordes.webp
+og_image: /images/blog/como-comecar-a-treinar-acordes.webp
 canonical: 'https://amigoviolao.com/como-comecar-a-treinar-acordes'
 wpId: 3634
 ---

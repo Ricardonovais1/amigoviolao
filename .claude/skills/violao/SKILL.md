@@ -1,13 +1,35 @@
 ---
 name: violao
-description: Gera imagens com Fal.AI (sem assinatura, pay-as-you-go) para o blog do Amigo Violão — capas de post, imagens de apoio. Use quando o usuário pedir uma imagem/capa gerada por IA para um post, ou disser "/violao".
+description: Cria a imagem destacada (capa) de um post do blog do Amigo Violão de ponta a ponta — gera a arte no Fal.AI, aplica a tarja com logo e título, otimiza e aponta o front matter. Use quando pedirem imagem destacada, capa, thumbnail ou imagem de apoio para um post, ou disserem "/violao".
 ---
 
-# Geração de imagens — Amigo Violão
+# Imagem destacada de post — Amigo Violão
 
 Gera imagens via [Fal.AI](https://fal.ai) para o blog, sem depender de
 assinatura (ao contrário do Higgsfield). Cobrança é por imagem gerada
 (pay-as-you-go).
+
+## O fluxo inteiro, em ordem
+
+Uma capa só está pronta quando os 5 passos rodaram. Nunca pare no passo 1: um
+`.jpg` solto em `public/images/blog/` sem tarja, sem `.webp` e sem front
+matter não aparece em lugar nenhum do site.
+
+1. **Gerar a arte** — `fal_generate_image.py`, `flux-pro/v1.1`, 16:9, saída em
+   `public/images/blog/<slug>.jpg`. Mostre pro Ricardo e só siga com aprovação.
+2. **Tarja** — `fal_add_title_bar.py` (logo + título + cor da marca). Salva
+   sozinho a arte limpa em `content/blog-cover-originals/<slug>.jpg`.
+3. **Otimizar** — `optimize_images.py --src public/images/blog` gera o `.webp`.
+4. **Front matter** — aponte **`featured_image` E `og_image`** (os dois, sempre)
+   para `/images/blog/<slug>.webp`. Esquecer o `og_image` deixa o
+   compartilhamento no WhatsApp/Facebook com a capa velha do WordPress.
+5. **Limpar** — `rm` o `.jpg` intermediário de `public/` (o original limpo já
+   está guardado em `content/blog-cover-originals/`), e confira em `/<slug>`.
+
+Ao refazer a tarja de uma capa que já existe, rode o passo 2 com
+`--image content/blog-cover-originals/<slug>.jpg --out public/images/blog/<slug>.jpg`.
+Rodar em cima do `.jpg` já com tarja faz o script salvar a versão *já tarjada*
+como "original" e a arte limpa se perde.
 
 **Estilo-alvo: pintura, não foto.** Deliberadamente pouco comprometido com
 realismo fotográfico — pinceladas grossas visíveis, textura de tinta, um
@@ -66,6 +88,30 @@ python scripts/fal_generate_image.py \
 
 ## Escrevendo o prompt
 
+### Fórmula fixa
+
+Todas as capas de `curso-de-violao-completo` em diante usam este prefixo,
+literalmente, seguido da cena:
+
+```
+A Van Gogh painting, thick swirling impasto brushstrokes covering the entire
+scene including the people's faces, skin and clothes, not just the background,
+post-impressionist, vivid expressive color, <cena>
+```
+
+Não reescreva o prefixo a cada post — é ele que mantém as capas parecendo uma
+série só no grid do `/blog`. O que muda de post pra post é só a `<cena>`.
+
+### Enquadramento: a tarja come a metade de baixo
+
+A tarja cobre os **49% inferiores**. Então rostos, mãos e a ação da cena
+precisam estar na **metade de cima** — o que sobrar embaixo vira fundo atrás
+do texto. Peça isso no prompt quando a cena tender a centralizar
+(ex: "both heads close together in the upper part of the scene"). Nesta
+leva a capa da pestana precisou ser refeita exatamente por isso: os dois
+personagens saíram nas bordas com um vazio no meio, e a tarja engoliu a parte
+que contava a história.
+
 - Escreva em **inglês** — os modelos FLUX respondem melhor.
 - **Lidere a frase com o estilo, não descreva a cena primeiro e o estilo
   depois.** Testado ao vivo: colocar "Van Gogh"/"painterly" no meio ou fim do
@@ -110,6 +156,17 @@ e aluno) num ambiente real e específico — sala de casa, aula, quintal — faz
 algo além de só segurar o instrumento. O violão é parte da cena, não o objeto
 de still-life dela.
 
+**Mas o violão precisa aparecer.** Post sobre medo de partitura virou, na
+primeira tentativa, uma mulher linda estudando partitura ao laptop — sem
+violão nenhum. Cena bonita, capa errada pra um blog de violão. Ao traduzir um
+tema abstrato (medo, motivação, níveis) numa cena, confira se o instrumento
+sobreviveu à tradução.
+
+Quando o tema é abstrato demais pra virar cena de aula, vale a **metáfora**:
+"Como aprender violão do zero? Os 6 níveis" virou um iniciante subindo uma
+trilha de pedra na serra com o violão nas costas, a neblina se abrindo à
+frente — que é a imagem que o próprio texto do post usa.
+
 ## Depois de gerar
 
 1. **Tarja de título**: `python scripts/fal_add_title_bar.py --image <caminho>
@@ -123,6 +180,14 @@ de still-life dela.
    real). `--title` é um título **curto e editorial**, não necessariamente o
    `title` completo do front matter (que geralmente tem sufixo de SEO tipo
    " - Amigo Violão" — não incluir isso na tarja).
+   - **Como encurtar**: pegue a promessa do post e jogue fora o resto. O
+     título de SEO "Curso de violão completo: O que deve conter?" virou
+     "O que um curso de violão deve conter?"; "Dedilhado Violão: Os vários
+     níveis e como aprimorar!" virou "Como aprimorar seu dedilhado". Corte o
+     prefixo de palavra-chave (o que vem antes dos dois-pontos), o sufixo da
+     marca e a exclamação. Mire em 4–7 palavras: a fonte encolhe sozinha se
+     não couber em 2 linhas, mas título espremido em corpo 40 no grid do
+     `/blog` fica ilegível no celular.
    - **Salva sempre uma cópia sem a tarja** em
      `content/blog-cover-originals/<slug>.jpg` (fora de `public/`, nunca é
      servida no site) antes de desenhar por cima. Existe pra nunca mais
@@ -145,6 +210,22 @@ de still-life dela.
      tons de teal). Com só 3 famílias e janela 2, sempre sobra pelo menos uma
      livre — na prática roda em ciclo pelas 3. Force uma cor específica com
      `--bar-color <nome>` se quiser (nesse caso não passa pelo anti-repetição).
+   - **Legibilidade filtra antes da harmonia.** Como a tarja é translúcida
+     (72%), a cena por baixo continua influindo: uma tarja clara sobre um
+     trecho claro da imagem apaga o texto branco. O script mede o contraste
+     do branco contra o **pixel mais claro** da faixa onde o título cai e
+     descarta qualquer cor abaixo de **3:1** (piso do WCAG pra texto grande,
+     que é o caso em ~72px) antes de aplicar a preferência de matiz. Na
+     prática isso barra quase sempre o `teal` claro — ele mede 1,9–2,2:1
+     contra branco, **em qualquer cena**, então nunca deve ser forçado via
+     `--bar-color` numa capa com título.
+   - **O histórico (`.fal_bar_color_history.json`) é versionado de propósito**
+     — não coloque no `.gitignore`. Já esteve ignorado uma vez, o arquivo
+     sumiu junto com o estado, o anti-repetição passou a ver histórico vazio e
+     6 das 9 capas da época saíram todas em teal. Se ele sumir de novo,
+     reconstrua a partir das capas publicadas (abra os `.webp` em
+     `public/images/blog/`, amostre a tarja e anote as últimas 4 na ordem
+     cronológica do `git log`) antes de gerar a próxima.
 2. **Otimize**: `python scripts/optimize_images.py --src public/images/blog`
    converte para `.webp` e redimensiona se estiver largo demais. Mantém o
    `.jpg` original ao lado até alguém atualizar as referências e rodar
@@ -152,9 +233,12 @@ de still-life dela.
    aplicada direto num `.webp` (passo 1 depois de já ter otimizado), pode
    pular este passo.
 3. **Referencie no post**: no front matter do `.md` em `content/blog/`, aponte
-   `featured_image: /images/blog/<slug-do-post>.webp` (caminho público, sem
-   `public/` no início — ver outros posts em `content/blog/` para conferir o
-   padrão).
+   `featured_image:` **e** `og_image:` para `/images/blog/<slug-do-post>.webp`
+   (caminho público, sem `public/` no início — ver outros posts em
+   `content/blog/` para conferir o padrão). Nos posts migrados do WordPress os
+   dois campos vêm preenchidos com a capa antiga (`/images/blog/2021/09/...`);
+   troque os dois. O arquivo antigo fica onde está — outros posts podem
+   referenciá-lo no corpo do texto.
 4. Confira a capa em `/<slug-do-post>` antes de considerar pronto —
    `next.config.ts` não tem os domínios do Fal na whitelist de imagem remota,
    então a imagem **precisa** estar baixada em `public/images/`, não linkada

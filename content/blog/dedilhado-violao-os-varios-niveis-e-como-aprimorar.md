@@ -9,8 +9,8 @@ slug: dedilhado-violao-os-varios-niveis-e-como-aprimorar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.webp
-og_image: /images/blog/2021/08/CAPA-DEDILHADO-VIOLAO.webp
+featured_image: /images/blog/dedilhado-violao-os-varios-niveis-e-como-aprimorar.webp
+og_image: /images/blog/dedilhado-violao-os-varios-niveis-e-como-aprimorar.webp
 canonical: >-
   https://amigoviolao.com/dedilhado-violao-os-varios-niveis-e-como-aprimorar
 wpId: 38534

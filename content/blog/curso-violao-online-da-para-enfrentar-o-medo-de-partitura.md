@@ -9,8 +9,8 @@ slug: curso-violao-online-da-para-enfrentar-o-medo-de-partitura
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2021/09/CAPA-medo-de-partitura.webp
-og_image: /images/blog/2021/09/CAPA-medo-de-partitura.webp
+featured_image: /images/blog/curso-violao-online-da-para-enfrentar-o-medo-de-partitura.webp
+og_image: /images/blog/curso-violao-online-da-para-enfrentar-o-medo-de-partitura.webp
 canonical: >-
   https://amigoviolao.com/curso-violao-online-da-para-enfrentar-o-medo-de-partitura
 wpId: 38609

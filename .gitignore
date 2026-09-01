@@ -45,7 +45,11 @@ next-env.d.ts
 
 # local estimate of Fal.AI spend (not real billing -- see fal.ai/dashboard/billing)
 /scripts/.fal_spend.json
-/scripts/.fal_bar_color_history.json
+
+# .fal_bar_color_history.json NAO entra aqui de proposito: e o estado do
+# anti-repeticao de cor da tarja das capas. Ja foi ignorado uma vez, o
+# arquivo sumiu e as ultimas 6 capas sairam todas em teal -- ele precisa
+# viajar junto com o repo.
 __pycache__/
 
 # scratch previews (skill /violao), never meant to be committed
