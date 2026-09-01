@@ -6,6 +6,16 @@ import Reveal from "../Reveal";
 
 const testimonials = [
   {
+    // Veio do questionário de perfil dela (autorizado para material de
+    // divulgação do PROVIC, que é exatamente esta página). Pontuação
+    // levemente ajustada para leitura; as palavras são dela.
+    quote:
+      "Gostei muito do curso. Adorei a didática do professor Ricardo Novais: os vídeos são muito bem feitos e as músicas são lindas, totalmente apropriadas para o processo de iniciação ao violão. As dicas e técnicas de gamificação do ensino permitem que o violão seja divertido — afinal, são crianças, e para elas o mundo ainda é divertido. Adotei esses processos na minha aula e recebi elogios dos pais e dos próprios alunos, que tocam as músicas do início ao fim com alegria.",
+    name: "Daniele Miranda",
+    role: "Professora certificada Amigo Violão",
+    photo: "/images/professores/daniele-miranda.webp",
+  },
+  {
     quote:
       "Essa metodologia de violão infantil é simplesmente incrível! É um método que acolhe a criança, trazendo o aluno para o universo da música de modo afetivo desde os primeiros contatos com o violão. Melodias com dificuldade gradativa, muito boas de ouvir, ensinar e acompanhar e os jogos que o método oferece são sempre uma ótima pedida, servindo de estímulo e promovendo uma brincadeira sadia e muito divertida. Como professora de violão, super recomendo!",
     name: "Cris Aquino",
