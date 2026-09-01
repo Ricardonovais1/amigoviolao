@@ -15,9 +15,9 @@ entregar nada aqui.
 
 Duas protecoes, ja que a URL e publica:
 
-  - concorrencia reservada baixa: mesmo que alguem resolva martelar o
-    endpoint, o estrago tem teto (e o resto da conta nao fica sem
-    concorrencia disponivel);
+  - teto de concorrencia: a funcao tenta reservar 5 execucoes; em conta com o
+    limite inicial de 10 a AWS recusa a reserva, e tudo bem -- esse limite de
+    conta ja e o teto que a reserva buscava;
   - o campo isca no handler descarta bot sem gastar chamada na Brevo.
 
 Configuracao vem do .env.local (git-ignored):
@@ -148,8 +148,16 @@ def garantir_funcao(lam, role_arn: str, env: dict) -> None:
         )
         print(f"funcao {FUNCAO}: criada")
     esperar_atualizacao(lam)
-    lam.put_function_concurrency(FunctionName=FUNCAO, ReservedConcurrentExecutions=CONCORRENCIA_MAXIMA)
-    print(f"concorrencia reservada: {CONCORRENCIA_MAXIMA}")
+    try:
+        lam.put_function_concurrency(FunctionName=FUNCAO, ReservedConcurrentExecutions=CONCORRENCIA_MAXIMA)
+        print(f"concorrencia reservada: {CONCORRENCIA_MAXIMA}")
+    except lam.exceptions.InvalidParameterValueException:
+        # Contas novas vem com limite de 10 execucoes simultaneas na conta
+        # inteira, e a AWS nao deixa reservar nada que derrube o pool comum
+        # abaixo desse minimo. Sem problema: o teto que eu queria por na funcao
+        # ja existe, so que no nivel da conta -- ninguem consegue fazer esta
+        # Lambda escalar alem de 10 execucoes de qualquer jeito.
+        print("concorrencia reservada: pulada (limite de 10 da conta ja e o teto)")
 
 
 def esperar_atualizacao(lam) -> None:
