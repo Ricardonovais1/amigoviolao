@@ -23,6 +23,8 @@ type ValueStackProps = {
   heading?: string;
   coreItems?: string[];
   bonuses?: Bonus[];
+  /** Uma frase logo acima dos cards de bônus, dizendo o que eles resolvem. */
+  bonusesIntro?: string;
   totalNote?: string;
 };
 
@@ -30,6 +32,7 @@ export default function ValueStack({
   heading = "Tudo o que você recebe hoje:",
   coreItems = defaultCoreItems,
   bonuses = defaultBonuses,
+  bonusesIntro,
   totalNote,
 }: ValueStackProps) {
   // Sem Ambient: PricingCTA vem logo abaixo, no mesmo bg-cream e com o próprio
@@ -60,6 +63,11 @@ export default function ValueStack({
             <p className="mt-10 text-lg font-extrabold uppercase tracking-wide text-primary">
               E mais estes bônus:
             </p>
+            {bonusesIntro && (
+              <p className="mx-auto mt-2 max-w-md text-sm text-foreground/70">
+                {bonusesIntro}
+              </p>
+            )}
           </Reveal>
         )}
 
