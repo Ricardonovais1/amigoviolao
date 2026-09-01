@@ -26,8 +26,8 @@ tags:
   - ricardo-novais
   - tres-amigos
   - tres-amigos-ead
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/aprender-um-instrumento-desde-cedo-kenia-chantal-explica.webp
+og_image: /images/blog/aprender-um-instrumento-desde-cedo-kenia-chantal-explica.webp
 canonical: >-
   https://amigoviolao.com/aprender-um-instrumento-desde-cedo-kenia-chantal-explica
 wpId: 290

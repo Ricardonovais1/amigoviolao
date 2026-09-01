@@ -22,8 +22,8 @@ tags:
   - eu-quero-e-paz
   - importancia-da-familia
   - qual-lado-escolher
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/construcao-da-familia-pro-brasil-nao-virar-ilha.webp
+og_image: /images/blog/construcao-da-familia-pro-brasil-nao-virar-ilha.webp
 canonical: 'https://amigoviolao.com/construcao-da-familia-pro-brasil-nao-virar-ilha'
 wpId: 732
 ---

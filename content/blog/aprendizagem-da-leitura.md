@@ -22,8 +22,8 @@ tags:
   - leitura-musical
   - musicas-faceis-de-ler
   - nucleo-villa-lobos
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/aprendizagem-da-leitura.webp
+og_image: /images/blog/aprendizagem-da-leitura.webp
 canonical: 'https://amigoviolao.com/aprendizagem-da-leitura'
 wpId: 150
 ---

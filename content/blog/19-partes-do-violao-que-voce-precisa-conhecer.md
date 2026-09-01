@@ -25,8 +25,8 @@ tags:
   - partes-da-guitarra
   - partes-do-violao
   - violao-para-iniciantes
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/19-partes-do-violao-que-voce-precisa-conhecer.webp
+og_image: /images/blog/19-partes-do-violao-que-voce-precisa-conhecer.webp
 canonical: 'https://amigoviolao.com/19-partes-do-violao-que-voce-precisa-conhecer'
 wpId: 3193
 ---

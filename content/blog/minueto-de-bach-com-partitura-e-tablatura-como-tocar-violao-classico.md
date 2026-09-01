@@ -7,8 +7,8 @@ slug: minueto-de-bach-com-partitura-e-tablatura-como-tocar-violao-classico
 categories:
   - violao-classico
 tags: []
-featured_image: /images/blog/2019/03/Minueto-de-Bach-1.webp
-og_image: /images/blog/2019/03/Minueto-de-Bach-1.webp
+featured_image: /images/blog/minueto-de-bach-com-partitura-e-tablatura-como-tocar-violao-classico.webp
+og_image: /images/blog/minueto-de-bach-com-partitura-e-tablatura-como-tocar-violao-classico.webp
 canonical: >-
   https://amigoviolao.com/minueto-de-bach-com-partitura-e-tablatura-como-tocar-violao-classico
 wpId: 25219

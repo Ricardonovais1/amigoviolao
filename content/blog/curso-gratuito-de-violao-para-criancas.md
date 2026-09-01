@@ -13,8 +13,8 @@ categories:
 tags:
   - curso-de-violao-para-criancas
   - violao-para-criancas
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/curso-gratuito-de-violao-para-criancas.webp
+og_image: /images/blog/curso-gratuito-de-violao-para-criancas.webp
 canonical: 'https://amigoviolao.com/curso-gratuito-de-violao-para-criancas'
 wpId: 164
 ---

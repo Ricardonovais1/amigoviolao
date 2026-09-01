@@ -21,8 +21,8 @@ tags:
   - ensinar-pelo-exemplo
   - exemplos-de-paia-para-filho
   - pais-e-filhos
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/pais-e-filhos.webp
+og_image: /images/blog/pais-e-filhos.webp
 canonical: 'https://amigoviolao.com/pais-e-filhos'
 wpId: 358
 ---

@@ -20,8 +20,8 @@ tags:
   - som
   - teoria-basica-da-musica
   - teoria-musical
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/entendendo-musica-4-parametros-sonoros.webp
+og_image: /images/blog/entendendo-musica-4-parametros-sonoros.webp
 canonical: 'https://amigoviolao.com/entendendo-musica-4-parametros-sonoros'
 wpId: 567
 ---

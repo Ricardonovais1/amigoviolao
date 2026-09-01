@@ -9,8 +9,8 @@ slug: dar-aulas-de-violao-4-criterios-para-prosperar
 categories:
   - o-professor-e-a-musica
 tags: []
-featured_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp
-og_image: /images/blog/2019/03/Dar-aulas-de-violao-amigo-violao-cut.webp
+featured_image: /images/blog/dar-aulas-de-violao-4-criterios-para-prosperar.webp
+og_image: /images/blog/dar-aulas-de-violao-4-criterios-para-prosperar.webp
 canonical: 'https://amigoviolao.com/dar-aulas-de-violao-4-criterios-para-prosperar'
 wpId: 33146
 ---

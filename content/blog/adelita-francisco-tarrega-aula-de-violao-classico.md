@@ -13,8 +13,8 @@ slug: adelita-francisco-tarrega-aula-de-violao-classico
 categories:
   - violao-classico
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/adelita-francisco-tarrega-aula-de-violao-classico.webp
+og_image: /images/blog/adelita-francisco-tarrega-aula-de-violao-classico.webp
 canonical: 'https://amigoviolao.com/adelita-francisco-tarrega-aula-de-violao-classico'
 wpId: 25198
 ---

@@ -22,8 +22,8 @@ tags:
   - natal-de-2015
   - natal-em-familia
   - natal-nascimento-de-jesus
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/natal-em-familia-presente-que-seu-filho-quer.webp
+og_image: /images/blog/natal-em-familia-presente-que-seu-filho-quer.webp
 canonical: 'https://amigoviolao.com/natal-em-familia-presente-que-seu-filho-quer'
 wpId: 303
 ---

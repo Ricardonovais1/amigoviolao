@@ -22,8 +22,8 @@ tags:
   - diferenca-entre-escutar-e-ouvir
   - escutar-e-ouvir
   - importancia-da-musica
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/apreciacao-musical.webp
+og_image: /images/blog/apreciacao-musical.webp
 canonical: 'https://amigoviolao.com/apreciacao-musical'
 wpId: 478
 ---

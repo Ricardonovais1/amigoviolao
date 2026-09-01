@@ -14,8 +14,8 @@ tags:
   - mapeamento-corporal
   - ricardo-novais
   - tres-amigos-ead
-featured_image: 'https://img.youtube.com/vi/01XK-zB_CNc/hqdefault.jpg'
-og_image: 'https://img.youtube.com/vi/01XK-zB_CNc/hqdefault.jpg'
+featured_image: /images/blog/comportamento-infantil-e-a-musica-5-beneficios.webp
+og_image: /images/blog/comportamento-infantil-e-a-musica-5-beneficios.webp
 canonical: 'https://amigoviolao.com/comportamento-infantil-e-a-musica-5-beneficios'
 wpId: 132
 ---

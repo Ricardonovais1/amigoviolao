@@ -21,8 +21,8 @@ tags:
   - dificuldades-para-aprender-a-ler
   - dificuldades-para-ler
   - filha-agitada
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/crianca-de-7-anos.webp
+og_image: /images/blog/crianca-de-7-anos.webp
 canonical: 'https://amigoviolao.com/crianca-de-7-anos'
 wpId: 533
 ---

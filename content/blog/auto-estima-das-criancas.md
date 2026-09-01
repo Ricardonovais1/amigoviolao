@@ -22,8 +22,8 @@ tags:
   - como-lidar-com-bullying
   - dicas-para-pais-e-maes
   - inteligencia-emocional
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/auto-estima-das-criancas.webp
+og_image: /images/blog/auto-estima-das-criancas.webp
 canonical: 'https://amigoviolao.com/auto-estima-das-criancas'
 wpId: 449
 ---

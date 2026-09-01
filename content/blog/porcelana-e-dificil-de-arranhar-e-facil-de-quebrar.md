@@ -19,8 +19,8 @@ tags:
   - saude-infantil
   - super-protetor
   - super-protetores
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/porcelana-e-dificil-de-arranhar-e-facil-de-quebrar.webp
+og_image: /images/blog/porcelana-e-dificil-de-arranhar-e-facil-de-quebrar.webp
 canonical: >-
   https://amigoviolao.com/porcelana-e-dificil-de-arranhar-e-facil-de-quebrar
 wpId: 639

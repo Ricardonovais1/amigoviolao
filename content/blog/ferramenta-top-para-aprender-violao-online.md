@@ -10,8 +10,8 @@ categories:
   - como-tocar-violao
   - iniciantes
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/ferramenta-top-para-aprender-violao-online.webp
+og_image: /images/blog/ferramenta-top-para-aprender-violao-online.webp
 canonical: 'https://amigoviolao.com/ferramenta-top-para-aprender-violao-online'
 wpId: 3311
 ---

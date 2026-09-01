@@ -19,8 +19,8 @@ tags:
   - curso-de-violao-para-iniciantes
   - primeiros-acordes-violao
   - quero-tocar-violao
-featured_image: /images/blog/2021/08/motivacao-para-tocar.webp
-og_image: /images/blog/2021/08/motivacao-para-tocar.webp
+featured_image: /images/blog/curso-de-violao-iniciantes-como-manter-a-motivacao.webp
+og_image: /images/blog/curso-de-violao-iniciantes-como-manter-a-motivacao.webp
 canonical: >-
   https://amigoviolao.com/curso-de-violao-iniciantes-como-manter-a-motivacao
 wpId: 37810

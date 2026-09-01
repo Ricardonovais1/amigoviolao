@@ -23,8 +23,8 @@ tags:
   - dicas-de-presente
   - instrumentos-para-criancas
   - musica-em-casa
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/brinquedo-educativo.webp
+og_image: /images/blog/brinquedo-educativo.webp
 canonical: 'https://amigoviolao.com/brinquedo-educativo'
 wpId: 214
 ---

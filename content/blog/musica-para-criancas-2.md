@@ -22,8 +22,8 @@ tags:
   - musica-para-criancas-e-adultos
   - primeira-musica-violao
   - ricardo-novais
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/musica-para-criancas-2.webp
+og_image: /images/blog/musica-para-criancas-2.webp
 canonical: 'https://amigoviolao.com/musica-para-criancas-2'
 wpId: 498
 ---

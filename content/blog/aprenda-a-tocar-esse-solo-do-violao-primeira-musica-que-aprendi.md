@@ -9,8 +9,8 @@ slug: aprenda-a-tocar-esse-solo-do-violao-primeira-musica-que-aprendi
 categories:
   - como-tocar-violao
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/aprenda-a-tocar-esse-solo-do-violao-primeira-musica-que-aprendi.webp
+og_image: /images/blog/aprenda-a-tocar-esse-solo-do-violao-primeira-musica-que-aprendi.webp
 canonical: >-
   https://amigoviolao.com/aprenda-a-tocar-esse-solo-do-violao-primeira-musica-que-aprendi
 wpId: 4073

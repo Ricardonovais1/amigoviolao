@@ -9,8 +9,8 @@ slug: coordenacao-motora-2-brincadeiras-para-fazer-em-casa
 categories:
   - uncategorized
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/coordenacao-motora-2-brincadeiras-para-fazer-em-casa.webp
+og_image: /images/blog/coordenacao-motora-2-brincadeiras-para-fazer-em-casa.webp
 canonical: >-
   https://amigoviolao.com/coordenacao-motora-2-brincadeiras-para-fazer-em-casa
 wpId: 542

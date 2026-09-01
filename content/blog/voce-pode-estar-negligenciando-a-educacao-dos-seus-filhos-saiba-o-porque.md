@@ -10,8 +10,8 @@ categories:
   - comportamento-infantil
   - desenvolvimento-da-crianca
 tags: []
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/voce-pode-estar-negligenciando-a-educacao-dos-seus-filhos-saiba-o-porque.webp
+og_image: /images/blog/voce-pode-estar-negligenciando-a-educacao-dos-seus-filhos-saiba-o-porque.webp
 canonical: >-
   https://amigoviolao.com/voce-pode-estar-negligenciando-a-educacao-dos-seus-filhos-saiba-o-porque
 wpId: 679

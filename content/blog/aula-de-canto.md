@@ -24,8 +24,8 @@ tags:
   - aulas-de-canto-sao-paulo
   - curso-de-canto
   - curso-de-musica
-featured_image: 'https://img.youtube.com/vi/pFv9j2MKR0A/hqdefault.jpg'
-og_image: 'https://img.youtube.com/vi/pFv9j2MKR0A/hqdefault.jpg'
+featured_image: /images/blog/aula-de-canto.webp
+og_image: /images/blog/aula-de-canto.webp
 canonical: 'https://amigoviolao.com/aula-de-canto'
 wpId: 392
 ---

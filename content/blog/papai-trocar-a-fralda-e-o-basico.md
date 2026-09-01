@@ -21,8 +21,8 @@ tags:
   - marido-ausente
   - pae
   - pai-ausente
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/papai-trocar-a-fralda-e-o-basico.webp
+og_image: /images/blog/papai-trocar-a-fralda-e-o-basico.webp
 canonical: 'https://amigoviolao.com/papai-trocar-a-fralda-e-o-basico'
 wpId: 628
 ---

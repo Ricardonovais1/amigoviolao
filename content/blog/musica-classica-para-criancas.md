@@ -20,8 +20,8 @@ tags:
   - musica-popular-e-musica-classica
   - o-que-e-musica-boa
   - tres-amigos-ead
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/musica-classica-para-criancas.webp
+og_image: /images/blog/musica-classica-para-criancas.webp
 canonical: 'https://amigoviolao.com/musica-classica-para-criancas'
 wpId: 436
 ---

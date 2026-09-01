@@ -22,8 +22,8 @@ tags:
   - melhorar-relacao-com-os-filhos
   - o-que-voce-vai-ser-quando-crescer
   - programa-para-o-fim-de-semana
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/programacao-para-criancas.webp
+og_image: /images/blog/programacao-para-criancas.webp
 canonical: 'https://amigoviolao.com/programacao-para-criancas'
 wpId: 155
 ---

@@ -20,8 +20,8 @@ tags:
   - violao-infantil-barato
   - violao-infantil-marcas
   - violao-infantil-preco
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/comprar-violao-infantil-veja-como-escolher.webp
+og_image: /images/blog/comprar-violao-infantil-veja-como-escolher.webp
 canonical: 'https://amigoviolao.com/comprar-violao-infantil-veja-como-escolher'
 wpId: 4074
 ---

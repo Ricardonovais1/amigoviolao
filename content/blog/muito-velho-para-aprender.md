@@ -21,8 +21,8 @@ tags:
   - mais-de-20-anos
   - mais-de-30-anos
   - mais-de-40-anos
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/muito-velho-para-aprender.webp
+og_image: /images/blog/muito-velho-para-aprender.webp
 canonical: 'https://amigoviolao.com/muito-velho-para-aprender'
 wpId: 378
 ---

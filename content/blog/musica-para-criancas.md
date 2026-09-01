@@ -20,8 +20,8 @@ tags:
   - palavra-cantada
   - ricardo-novais
   - trio-amaranto
-featured_image: 'https://img.youtube.com/vi/nbgrkRsIjcE/hqdefault.jpg'
-og_image: 'https://img.youtube.com/vi/nbgrkRsIjcE/hqdefault.jpg'
+featured_image: /images/blog/musica-para-criancas.webp
+og_image: /images/blog/musica-para-criancas.webp
 canonical: 'https://amigoviolao.com/musica-para-criancas'
 wpId: 4121
 ---

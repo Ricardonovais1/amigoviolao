@@ -22,8 +22,8 @@ tags:
   - sensorio-motor
   - teoria-de-piaget
   - teoria-piaget
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/entenda-seu-filho-com-a-teoria-de-piaget.webp
+og_image: /images/blog/entenda-seu-filho-com-a-teoria-de-piaget.webp
 canonical: 'https://amigoviolao.com/entenda-seu-filho-com-a-teoria-de-piaget'
 wpId: 425
 ---

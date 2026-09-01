@@ -24,8 +24,8 @@ tags:
   - como-fazer-kazoo
   - instrumentos-de-sucata
   - kazoo
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/brincadeiras-para-fazer-em-casa-kazoo.webp
+og_image: /images/blog/brincadeiras-para-fazer-em-casa-kazoo.webp
 canonical: 'https://amigoviolao.com/brincadeiras-para-fazer-em-casa-kazoo'
 wpId: 4122
 ---

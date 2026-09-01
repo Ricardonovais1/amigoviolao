@@ -11,8 +11,8 @@ categories:
   - professor-de-violao
   - violao-para-criancas
 tags: []
-featured_image: /images/blog/2018/06/victor-schneider-DSC_0165-cut-2.webp
-og_image: /images/blog/2018/06/victor-schneider-DSC_0165-cut-2.webp
+featured_image: /images/blog/ganhar-mais-como-professor-de-violao.webp
+og_image: /images/blog/ganhar-mais-como-professor-de-violao.webp
 canonical: 'https://amigoviolao.com/ganhar-mais-como-professor-de-violao'
 wpId: 1381
 ---

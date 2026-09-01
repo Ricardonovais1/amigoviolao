@@ -23,8 +23,8 @@ tags:
   - criatividade-musical
   - criatividade-na-infancia
   - desenvolver-a-criatividade
-featured_image: ''
-og_image: ''
+featured_image: /images/blog/criatividade-infantil-7dicas.webp
+og_image: /images/blog/criatividade-infantil-7dicas.webp
 canonical: 'https://amigoviolao.com/criatividade-infantil-7dicas'
 wpId: 277
 ---
