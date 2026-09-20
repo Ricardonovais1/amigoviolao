@@ -106,9 +106,7 @@ const CHECKOUT: Record<PaginaVenda, string> = {
   criancas: "https://pay.hotmart.com/D16391337C?off=qjvbqgvs",
   iniciantes: "https://pay.hotmart.com/D16391337C?off=ku418bn6",
   classico: "https://pay.hotmart.com/D16391337C?off=nn1uvh6n",
-  // Ainda sem oferta própria no Hotmart: usa a do Clássico, que é a trilha onde
-  // o curso de Flamenco mora. Trocar pelo `off=` novo quando ele for criado.
-  flamenco: "https://pay.hotmart.com/D16391337C?off=nn1uvh6n",
+  flamenco: "https://pay.hotmart.com/D16391337C?off=s4iia9gp",
   professores:
     "https://pay.hotmart.com/D16391337C?off=u486ufop&bid=1786198009168",
 };

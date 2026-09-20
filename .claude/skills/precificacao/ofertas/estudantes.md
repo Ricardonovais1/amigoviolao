@@ -129,8 +129,7 @@ canibalizaria a porta do Clássico.
 - **Quem ensina**: Cleber, não Ricardo — o herói e o `About` dizem isso.
 - **Prova social**: os depoimentos em vídeo da plataforma (os do Clássico),
   enquanto não houver depoimento específico do curso.
-- **Checkout**: usa a oferta do Clássico (`off=nn1uvh6n`) até existir uma
-  oferta nomeada "Flamenco" no produto `D16391337C`.
+- **Checkout**: oferta própria `off=s4iia9gp` no produto `D16391337C`.
 
 ## Estrutura das páginas
 
@@ -149,7 +148,8 @@ canibalizaria a porta do Clássico.
 
 - As três páginas apontam para ofertas distintas do mesmo produto Hotmart
   (`D16391337C`), via `checkoutDaPagina` em `src/lib/ofertas.ts`: Crianças
-  `off=qjvbqgvs`, Iniciantes `off=ku418bn6`, Clássico `off=nn1uvh6n`. Ofertas
+  `off=qjvbqgvs`, Iniciantes `off=ku418bn6`, Clássico `off=nn1uvh6n`, Flamenco
+  `off=s4iia9gp`. Ofertas
   já criadas e atribuídas à turma Estudantes.
 - `PricingCTA` já é prop-driven: cada página passa `anchorPrice={997}`,
   `installmentPrice={67.95}`, `cashPrice={657}`.
