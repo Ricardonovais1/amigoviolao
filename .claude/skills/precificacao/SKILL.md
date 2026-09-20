@@ -10,18 +10,18 @@ página de venda: todos saem daqui.
 
 A arquitetura de oferta de cada página está em `ofertas/`:
 
-- [ofertas/estudantes.md](ofertas/estudantes.md) — Crianças, Iniciantes, Clássico
+- [ofertas/estudantes.md](ofertas/estudantes.md) — Crianças, Iniciantes, Clássico, Flamenco
 - [ofertas/professores.md](ofertas/professores.md) — Formação de Professor
 
-## Dois SKUs, quatro páginas
+## Dois SKUs, cinco páginas
 
 O catálogo é vendido como **dois produtos**, cada um com sua turma no Hotmart
-Club. As quatro páginas de venda continuam existindo — mas três delas são
+Club. As cinco páginas de venda continuam existindo — mas quatro delas são
 portas de entrada para o mesmo produto.
 
 | SKU | Páginas | Turma |
 |---|---|---|
-| **Estudantes** | `/cursos/criancas`, `/cursos/iniciantes`, `/cursos/classico` | Estudantes |
+| **Estudantes** | `/cursos/criancas`, `/cursos/iniciantes`, `/cursos/classico`, `/cursos/flamenco` | Estudantes |
 | **Professores** | `/cursos/professores` | Professores |
 
 **Professores ⊃ Estudantes**: o SKU docente contém tudo do SKU de estudante,
@@ -81,7 +81,7 @@ A âncora se sustenta em três apoios, nesta ordem de força:
    certa para cada momento do aluno. Qualquer entregável no formato "cronograma
    fechado" enfraquece a oferta inteira. Entrega-se **critério de decisão**,
    nunca roteiro.
-5. **O stack é idêntico nas três páginas de Estudantes** (R$ 391). Mesmo
+5. **O stack é idêntico em todas as páginas de Estudantes** (R$ 391). Mesmo
    produto e mesmo preço com valor percebido diferente é o que quebra a
    confiança de quem compara duas abas.
 
@@ -130,9 +130,9 @@ de diferença e o que impede o professor de comprar a turma mais barata.
 Toda mudança de preço, promoção ou composição precisa preservar:
 
 1. **Professores ⊃ Estudantes** (superconjunto estrito).
-2. **Preço idêntico nas três páginas de Estudantes.** São portas do mesmo
+2. **Preço idêntico em todas as páginas de Estudantes.** São portas do mesmo
    produto, não pacotes diferentes.
-3. **Total de bônus idêntico nas três páginas de Estudantes.**
+3. **Total de bônus idêntico em todas as páginas de Estudantes.**
 4. **Certificação existe só em Professores.** Nenhuma página de estudante a
    promete, nem no FAQ.
 5. **Desconto exibido nos dois SKUs na mesma faixa** (33–38%). Âncoras
@@ -153,7 +153,7 @@ não o invariante.
 - **Nunca anunciar desconto sobre a soma dos cursos** — a âncora é o preço de
   tabela do SKU, não o catálogo somado.
 - **Preço no build sai de `src/lib/ofertas.ts`**, não daqui. Para rodar uma
-  promoção, preencha a constante `PROMOCAO` naquele arquivo: as quatro páginas
+  promoção, preencha a constante `PROMOCAO` naquele arquivo: todas as páginas
   acompanham, com a parcela recalculada pela fórmula. Este markdown é a fonte
   de verdade das *decisões*; aquele módulo é a do *build*.
 - Os checkouts também: `CHECKOUT` em `ofertas.ts` guarda um link por página

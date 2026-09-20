@@ -196,3 +196,75 @@ export const classicoFaqs: FaqItem[] = [
       "Sim! Você pode assistir de três formas: abrindo a plataforma pelo navegador da sua smart TV, transmitindo do celular para a TV via Chromecast ou AirPlay pelo app da Hotmart, ou espelhando a tela do celular. Na tela grande fica muito mais fácil acompanhar as aulas enquanto segura o violão.",
   },
 ];
+
+export const flamencoFaqs: FaqItem[] = [
+  {
+    question: "Funciona mesmo?",
+    answer:
+      "Mais de 10 mil alunos já passaram pela metodologia Amigo Violão, e o canal do Amigo Violão no YouTube tem mais de 80 mil inscritos acompanhando esse trabalho. No flamenco o resultado vem de estudar cada técnica devagar e com precisão, sincronizando as duas mãos — é daí que sai a velocidade, e é assim que o professor Cleber Assumpção conduz o curso inteiro. E você tem 30 dias de garantia para conferir por conta própria.",
+  },
+  {
+    question: "Preciso já tocar violão para fazer este curso?",
+    answer:
+      "Sim. Este é um curso de técnica, pensado para quem já toca e quer ganhar precisão, velocidade e recursos novos de mão direita. Mas o acesso inclui também a Trilha Iniciantes completa, que começa do zero — então quem ainda está nos primeiros acordes começa por lá e chega ao flamenco no seu tempo.",
+  },
+  {
+    question: "Eu toco violão clássico ou popular. Estudar flamenco não vai estragar a minha técnica?",
+    answer:
+      "Não — é o contrário. Quanto mais técnicas de gêneros diferentes você desenvolve, maior o seu domínio do instrumento e a paleta de cores que pode usar na sua própria música, em qualquer estilo. Rasgueos, picado e o trabalho de polegar exercitam movimentos que o violão clássico e o brasileiro quase não pedem, e essa independência volta para tudo o que você já toca.",
+  },
+  {
+    question: "O que vou aprender no curso de Técnicas de Violão Flamenco?",
+    answer:
+      "São 6 módulos: postura, posicionamento das mãos e relaxamento; sonoridade flamenca; técnicas percussivas (rasgueos e golpes); técnicas do polegar, alzapúa e toque alternado de polegar e indicador; arpejos, trêmolo e picado; e toques “a compás” sobre os principais ritmos (palos) flamencos.",
+  },
+  {
+    question: "Quem é o professor?",
+    answer:
+      "Cleber Assumpção, violonista e guitarrista de família de músicos. Estudou violão clássico, tocou choro e seresta, rock e jazz, e conheceu o flamenco ainda adolescente, por uma fita do Paco de Lucía. Chegou ao Amigo Violão como aluno do PROVIC e hoje assina o curso de técnica flamenca da plataforma.",
+  },
+  {
+    question: "O que exatamente está incluído no acesso?",
+    answer:
+      "As 3 Trilhas completas, com 14 cursos entre elas: a Trilha Clássico (Leitura musical, Teoria musical, Técnicas de violão, Peças de violão solo e Técnicas de violão flamenco), a Trilha Iniciantes (Violão para Iniciantes, Cifras facilitadas, Dicionário de Ritmos, Tópicos de violão popular e Universos Pentatônica) e a Trilha Infantil (Violão para Crianças, Músicas Gospel, Melodias de guitarra e Jogos interativos). Mais os bônus, 2 anos de acesso e a comunidade de alunos.",
+  },
+  {
+    question: "O curso dá certificado?",
+    answer:
+      "Não. A certificação de 45 horas existe na Formação de Professor, voltada para quem vai dar aulas e que inclui o método PROVIC e o VEM além destas três trilhas. Se quiser a certificação depois, faz o upgrade pagando só a diferença entre os dois.",
+  },
+  {
+    question: "Quanto tempo leva para estudar todo o conteúdo?",
+    answer:
+      "O curso é denso: há material para um a dois anos de estudo dedicado. Não é um conteúdo para maratonar, e sim para voltar a ele conforme a sua técnica amadurece — por isso o acesso é de 2 anos.",
+  },
+  {
+    question: "Quantas horas de estudo precisa por dia para ter resultados?",
+    answer:
+      "De 30 minutos a 1 hora por dia já traz evolução consistente. O que conta é a qualidade: estudar lento, com atenção ao som e ao movimento de cada nota. Muitas horas mal aproveitadas valem menos que alguns minutos bem estudados.",
+  },
+  {
+    question: "Como é o acesso ao curso?",
+    answer:
+      "Você terá acesso a aulas dentro da plataforma do Amigo Violão, com login e senha, que serão enviados a você após sua inscrição.",
+  },
+  {
+    question: "Por quanto tempo teremos acesso?",
+    answer: "Acesso por 2 anos à plataforma.",
+  },
+  {
+    question: "E a garantia como funciona?",
+    answer:
+      "Você tem direito a 30 dias de garantia após o pagamento. Se por qualquer motivo achar que o curso não é para você, é só pedir o reembolso dentro da própria plataforma e devolvemos 100% do valor.",
+  },
+  {
+    question: "Tem aplicativo para assistir às aulas?",
+    answer:
+      "Sim! O acesso às aulas é feito pela plataforma da Hotmart, que tem aplicativo gratuito para celular e tablet (Android e iOS). É só baixar o app da Hotmart, entrar com o e-mail usado na compra e todo o curso estará lá — dá inclusive para baixar as aulas e assistir sem internet.",
+  },
+  {
+    question: "É possível assistir pela TV?",
+    answer:
+      "Sim! Você pode assistir de três formas: abrindo a plataforma pelo navegador da sua smart TV, transmitindo do celular para a TV via Chromecast ou AirPlay pelo app da Hotmart, ou espelhando a tela do celular. Na tela grande fica muito mais fácil acompanhar as aulas enquanto segura o violão.",
+  },
+];

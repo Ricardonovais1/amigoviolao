@@ -7,6 +7,7 @@ const courses = [
   { title: "Curso para Crianças", href: "/cursos/criancas" },
   { title: "Curso para Iniciantes", href: "/cursos/iniciantes" },
   { title: "Curso de Clássico", href: "/cursos/classico" },
+  { title: "Curso de Flamenco", href: "/cursos/flamenco" },
   { title: "Para Professores", href: "/cursos/professores" },
 ];
 
@@ -29,7 +30,7 @@ export default function Courses() {
           <span className="mx-auto mt-5 block h-1 w-16 rounded-full bg-gradient-to-r from-primary to-primary-light" />
         </Reveal>
 
-        <SpotlightGroup className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <SpotlightGroup className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {courses.map((course, i) => (
             <Reveal key={course.href} delay={i * 80} variant="blur">
               <Link

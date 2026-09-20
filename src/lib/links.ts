@@ -28,6 +28,7 @@ export const WHATSAPP_COURSE_MESSAGES = {
   criancas: `${WHATSAPP_GREETING} Estou buscando informações sobre o curso de violão para crianças.`,
   iniciantes: `${WHATSAPP_GREETING} Estou buscando informações sobre o curso de violão para iniciantes.`,
   classico: `${WHATSAPP_GREETING} Estou buscando informações sobre o curso de violão clássico.`,
+  flamenco: `${WHATSAPP_GREETING} Estou buscando informações sobre o curso de técnicas de violão flamenco.`,
   professores: `${WHATSAPP_GREETING} Estou buscando informações sobre o curso para professores (PROVIC).`,
 } as const;
 

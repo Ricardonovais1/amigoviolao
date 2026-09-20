@@ -4,10 +4,10 @@
  * As decisões (por que a âncora é 997, por que bônus nunca é curso inteiro)
  * estão documentadas na skill `precificacao`, em `.claude/skills/precificacao/`.
  * Aquele markdown não entra no build — este arquivo é o que as páginas leem.
- * Mudou preço aqui, mudou nas quatro páginas.
+ * Mudou preço aqui, mudou em todas as páginas de venda.
  *
  * Regras que este arquivo existe para tornar impossíveis de quebrar:
- *  - as três páginas de estudante vendem o MESMO produto, pelo MESMO preço,
+ *  - as páginas de estudante vendem todas o MESMO produto, pelo MESMO preço,
  *    com o MESMO valor de bônus;
  *  - o desconto exibido nos dois SKUs fica na mesma faixa;
  *  - o upgrade é sempre a diferença dos preços à vista.
@@ -15,13 +15,22 @@
 
 export type SkuId = "estudantes" | "professores";
 
-/** Cada página de venda é uma porta; três delas levam ao mesmo SKU. */
-export type PaginaVenda = "criancas" | "iniciantes" | "classico" | "professores";
+/** Cada página de venda é uma porta; todas menos uma levam ao mesmo SKU. */
+export type PaginaVenda =
+  | "criancas"
+  | "iniciantes"
+  | "classico"
+  | "flamenco"
+  | "professores";
+
+/** As portas do SKU de Estudantes. */
+export type PaginaEstudante = Exclude<PaginaVenda, "professores">;
 
 export const SKU_DA_PAGINA: Record<PaginaVenda, SkuId> = {
   criancas: "estudantes",
   iniciantes: "estudantes",
   classico: "estudantes",
+  flamenco: "estudantes",
   professores: "professores",
 };
 
@@ -97,6 +106,9 @@ const CHECKOUT: Record<PaginaVenda, string> = {
   criancas: "https://pay.hotmart.com/D16391337C?off=qjvbqgvs",
   iniciantes: "https://pay.hotmart.com/D16391337C?off=ku418bn6",
   classico: "https://pay.hotmart.com/D16391337C?off=nn1uvh6n",
+  // Ainda sem oferta própria no Hotmart: usa a do Clássico, que é a trilha onde
+  // o curso de Flamenco mora. Trocar pelo `off=` novo quando ele for criado.
+  flamenco: "https://pay.hotmart.com/D16391337C?off=nn1uvh6n",
   professores:
     "https://pay.hotmart.com/D16391337C?off=u486ufop&bid=1786198009168",
 };
@@ -162,29 +174,24 @@ export const TRILHAS: Trilha[] = [
  * próximo passo. A ordem é explícita porque essa vizinhança não sai de nenhuma
  * regra genérica.
  */
-const ORDEM_DAS_TRILHAS: Record<
-  "criancas" | "iniciantes" | "classico",
-  Trilha["id"][]
-> = {
+const ORDEM_DAS_TRILHAS: Record<PaginaEstudante, Trilha["id"][]> = {
   criancas: ["infantil", "iniciantes", "classico"],
   iniciantes: ["iniciantes", "classico", "infantil"],
   classico: ["classico", "iniciantes", "infantil"],
+  flamenco: ["classico", "iniciantes", "infantil"],
 };
 
 /** A trilha que dá nome e promessa a cada página de estudante. */
-export const TRILHA_CARRO_CHEFE: Record<
-  "criancas" | "iniciantes" | "classico",
-  Trilha["id"]
-> = {
+export const TRILHA_CARRO_CHEFE: Record<PaginaEstudante, Trilha["id"]> = {
   criancas: "infantil",
   iniciantes: "iniciantes",
   classico: "classico",
+  // O curso de Flamenco é um dos cinco da Trilha Clássico.
+  flamenco: "classico",
 };
 
 /** Trilhas na ordem em que a página deve exibi-las: carro-chefe primeiro. */
-export function trilhasDaPagina(
-  pagina: "criancas" | "iniciantes" | "classico",
-): Trilha[] {
+export function trilhasDaPagina(pagina: PaginaEstudante): Trilha[] {
   return ORDEM_DAS_TRILHAS[pagina].map(
     (id) => TRILHAS.find((t) => t.id === id)!,
   );
@@ -218,14 +225,14 @@ const BONUS_COMUNS_ESTUDANTES: Bonus[] = [
 ];
 
 /**
- * Os três bônus específicos valem o mesmo de propósito, e por isso o valor é
- * uma constante só: o total precisa fechar igual nas três páginas. Mesmo
+ * Os bônus específicos valem o mesmo de propósito, e por isso o valor é uma
+ * constante só: o total precisa fechar igual em todas as páginas de estudante. Mesmo
  * produto e mesmo preço com valor percebido diferente é o que quebra a
- * confiança de quem abre duas abas. Mudar aqui muda nas três de uma vez.
+ * confiança de quem abre duas abas. Mudar aqui muda em todas de uma vez.
  */
 const VALOR_BONUS_ESPECIFICO = 147;
 
-const BONUS_ESPECIFICO: Record<"criancas" | "iniciantes" | "classico", Bonus> = {
+const BONUS_ESPECIFICO: Record<PaginaEstudante, Bonus> = {
   criancas: {
     titulo: "Violão para Pais — toque junto com seu filho",
     valor: VALOR_BONUS_ESPECIFICO,
@@ -243,6 +250,14 @@ const BONUS_ESPECIFICO: Record<"criancas" | "iniciantes" | "classico", Bonus> = 
     valor: VALOR_BONUS_ESPECIFICO,
     descricao:
       "Para quem já toca cifra e quer entrar no erudito aproveitando o que sabe, sem recomeçar do zero.",
+  },
+  // Mesmo recorte do Clássico: quem chega pelo Flamenco entra pela mesma
+  // trilha, e bônus novo só entra aqui quando o material existir de verdade.
+  flamenco: {
+    titulo: "Da cifra à partitura",
+    valor: VALOR_BONUS_ESPECIFICO,
+    descricao:
+      "Para quem já toca cifra e quer ler o material de estudo com segurança, aproveitando o que sabe, sem recomeçar do zero.",
   },
 };
 
@@ -272,7 +287,7 @@ export function bonusDaPagina(pagina: PaginaVenda): Bonus[] {
   return [...BONUS_COMUNS_ESTUDANTES, BONUS_ESPECIFICO[pagina]];
 }
 
-/** Soma exibida no "e mais estes bônus". Idêntica nas três páginas de estudante. */
+/** Soma exibida no "e mais estes bônus". Idêntica em todas as páginas de estudante. */
 export function totalDosBonus(pagina: PaginaVenda): number {
   return bonusDaPagina(pagina).reduce((soma, b) => soma + b.valor, 0);
 }
