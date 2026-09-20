@@ -1,6 +1,5 @@
 import Ambient from "../Ambient";
 import Reveal from "../Reveal";
-import YouTubeVideo from "../YouTubeVideo";
 
 const negrito = "font-bold text-white";
 
@@ -36,10 +35,14 @@ export default function FlamencoHero() {
         </Reveal>
 
         <Reveal delay={100}>
-          <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
-            <YouTubeVideo
-              id="vhM-wJZ0AOc"
-              title="Bate-papo com Cleber Assumpção: vale a pena aprender violão flamenco?"
+          <div className="aspect-video w-full overflow-hidden rounded-xl shadow-lg">
+            {/* Vídeo não listado no Vimeo: sem o `h` o player recusa. */}
+            <iframe
+              src="https://player.vimeo.com/video/764760001?h=2e25371efe"
+              title="Curso de Técnicas de Violão Flamenco - Amigo Violão"
+              className="h-full w-full"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
             />
           </div>
         </Reveal>
