@@ -113,14 +113,15 @@ REDIRECT_MAP = {
     "/jornada-do-violao-iniciantes": "/cursos/iniciantes",
     "/cursos-para-iniciantes": "/cursos/iniciantes",
     # Classico: INVIC era a iniciacao ao classico; LIV/LEVI eram os metodos de
-    # leitura musical; Flamenco hoje e um curso dentro do pacote Classico.
+    # leitura musical.
     "/invic-iniciacao-ao-violao-classico": "/cursos/classico",
     "/invic-inicio": "/cursos/classico",
     "/metodo-liv": "/cursos/classico",
     "/metodo-liv-leitura-interativa-ao-violao": "/cursos/classico",
     "/metodo-levi-30-leitura-musical-no-violao-em-30-dias": "/cursos/classico",
-    "/curso-tecnicas-do-violao-flamenco": "/cursos/classico",
     "/solicitar-o-guia-do-violao-classico": "/cursos/classico",
+    # Flamenco: curso da trilha Classico, mas com pagina de venda propria.
+    "/curso-tecnicas-do-violao-flamenco": "/cursos/flamenco",
     # Criancas.
     "/curso-de-violao-querubins": "/cursos/criancas",
     "/violao-para-pais-e-filhos-ricardo-novais": "/cursos/criancas",
@@ -328,6 +329,7 @@ TEST_CASES = [
     ("/curso-para-criancas", APEX, {}, {}, ("301", "/cursos/criancas")),
     ("/curso-para-criancas/", APEX, {}, {}, ("301", "/cursos/criancas")),
     ("/curso-de-classico/", APEX, {}, {}, ("301", "/cursos/classico")),
+    ("/curso-tecnicas-do-violao-flamenco/", APEX, {}, {}, ("301", "/cursos/flamenco")),
     ("/professor-samuel-calazans/", APEX, {}, {}, ("301", "/professores/samuel-calazans")),
     ("/termos-de-servico/", APEX, {}, {}, ("301", "/termos-de-servicos")),
     # Barra final.

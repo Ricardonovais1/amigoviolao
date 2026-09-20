@@ -12,11 +12,25 @@ const defaultParagraphs = [
   "Eu valorizo os alunos que, apesar de terem um professor, são antes de tudo autodidatas, pois buscam o conhecimento.",
 ];
 
+const defaultPhoto = {
+  src: "/images/legacy/foto-no-escritorio-menor-diferente.webp",
+  width: 600,
+  height: 654,
+};
+
 export default function About({
+  name = "Ricardo Novais",
+  photo = defaultPhoto,
   paragraphs = defaultParagraphs,
   whatsappMessage,
   seam = true,
 }: {
+  /**
+   * Quem ensina. O padrão é o Ricardo; a página de Flamenco passa o professor
+   * do curso, Cleber Assumpção.
+   */
+  name?: string;
+  photo?: { src: string; width: number; height: number };
   paragraphs?: string[];
   whatsappMessage?: string;
   /**
@@ -48,10 +62,10 @@ export default function About({
             <div className="rounded-full bg-gradient-to-br from-primary via-charcoal to-teal p-1 shadow-panel">
               <div className="overflow-hidden rounded-full border-4 border-white">
                 <Image
-                  src="/images/legacy/foto-no-escritorio-menor-diferente.webp"
-                  alt="Ricardo Novais"
-                  width={600}
-                  height={654}
+                  src={photo.src}
+                  alt={name}
+                  width={photo.width}
+                  height={photo.height}
                   className="h-auto w-full"
                 />
               </div>
@@ -65,7 +79,7 @@ export default function About({
               Quem ensina
             </p>
             <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-charcoal sm:text-4xl">
-              Ricardo Novais
+              {name}
             </h2>
             <span className="mt-5 block h-1 w-16 rounded-full bg-gradient-to-r from-primary to-primary-light" />
           </Reveal>

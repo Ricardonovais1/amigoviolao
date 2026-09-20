@@ -25,6 +25,7 @@ const STATIC_PATHS: Array<[path: string, priority: number]> = [
   ["/cursos/iniciantes", 0.9],
   ["/cursos/professores", 0.9],
   ["/cursos/classico", 0.9],
+  ["/cursos/flamenco", 0.9],
   ["/professores", 0.7],
   ["/sobre", 0.7],
   ["/quizzes", 0.7],

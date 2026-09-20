@@ -38,12 +38,19 @@ type CourseModulesProps = {
   heading?: string;
   modules?: { title: string; image: string }[];
   columns?: 3 | 4;
+  /**
+   * Legenda com o título sob cada imagem. Desligue quando a arte do módulo já
+   * traz o título escrito (Flamenco): a legenda só repetiria a imagem, e o
+   * título continua acessível pelo `alt`.
+   */
+  captions?: boolean;
 };
 
 export default function CourseModules({
   heading = "Conteúdos do curso de violão para crianças:",
   modules = defaultModules,
   columns = 3,
+  captions = true,
 }: CourseModulesProps) {
   return (
     <section className="bg-cream py-16">
@@ -71,9 +78,11 @@ export default function CourseModules({
                     className="object-cover"
                   />
                 </div>
-                <p className="p-4 font-semibold text-charcoal">
-                  {module.title}
-                </p>
+                {captions && (
+                  <p className="p-4 font-semibold text-charcoal">
+                    {module.title}
+                  </p>
+                )}
               </div>
             </Reveal>
           ))}

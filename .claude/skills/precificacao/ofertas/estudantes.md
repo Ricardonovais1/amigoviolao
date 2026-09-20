@@ -1,7 +1,8 @@
 # Arquitetura de oferta — Estudantes
 
 SKU: **Estudantes** (turma própria no Hotmart Club).
-Páginas: `/cursos/criancas`, `/cursos/iniciantes`, `/cursos/classico`.
+Páginas: `/cursos/criancas`, `/cursos/iniciantes`, `/cursos/classico` — e a
+porta de curso `/cursos/flamenco` (ver "Porta de curso: Flamenco", abaixo).
 
 As três páginas vendem **o mesmo produto**. Não são pacotes diferentes: são
 três portas de entrada, cada uma falando com um público. Quem compra pela
@@ -108,6 +109,28 @@ O bloco de cross-sell das três páginas perde a função: não há o que vender
 mais. Ele vira uma seção **"e você ainda leva"** — as outras duas trilhas
 apresentadas como parte do que já está incluso. É aqui que a oferta fica
 grande, e é de graça: o conteúdo já existe.
+
+## Porta de curso: Flamenco
+
+`/cursos/flamenco` é uma **quarta porta do mesmo SKU**, não um produto avulso.
+Ela existe porque o curso tem professor próprio (Cleber Assumpção, parceiro) e
+público próprio — quem já toca e busca técnica — que a página do Clássico não
+endereça. Vender o curso sozinho a R$ 197 quebraria os invariantes de preço e
+canibalizaria a porta do Clássico.
+
+- **Carro-chefe**: Trilha Clássico (é onde o curso mora); mesma ordem de
+  trilhas do Clássico, com o rótulo "Onde está o Flamenco".
+- **Promessa**: as técnicas do flamenco que levam o seu violão a um outro nível
+  — precisão, velocidade e ritmo para qualquer estilo.
+- **Dor**: quem já toca há anos e estagnou; escala que embola, tensão, mão
+  direita sem independência.
+- **Bônus específico**: o mesmo do Clássico, "Da cifra à partitura" (R$ 147).
+  Só troca por um recorte próprio quando o material existir de verdade.
+- **Quem ensina**: Cleber, não Ricardo — o herói e o `About` dizem isso.
+- **Prova social**: os depoimentos em vídeo da plataforma (os do Clássico),
+  enquanto não houver depoimento específico do curso.
+- **Checkout**: usa a oferta do Clássico (`off=nn1uvh6n`) até existir uma
+  oferta nomeada "Flamenco" no produto `D16391337C`.
 
 ## Estrutura das páginas
 
