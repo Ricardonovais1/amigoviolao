@@ -9,6 +9,7 @@ const courseLinks = [
   { label: "Curso para Crianças", href: "/cursos/criancas" },
   { label: "Curso para Iniciantes", href: "/cursos/iniciantes" },
   { label: "Curso de Clássico", href: "/cursos/classico" },
+  { label: "Curso de Flamenco", href: "/cursos/flamenco" },
   { label: "Para Professores", href: "/cursos/professores" },
 ];
 

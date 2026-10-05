@@ -206,7 +206,27 @@ export const flamencoFaqs: FaqItem[] = [
   {
     question: "Preciso já tocar violão para fazer este curso?",
     answer:
-      "Sim. Este é um curso de técnica, pensado para quem já toca e quer ganhar precisão, velocidade e recursos novos de mão direita. Mas o acesso inclui também a Trilha Iniciantes completa, que começa do zero — então quem ainda está nos primeiros acordes começa por lá e chega ao flamenco no seu tempo.",
+      "Sim, o curso é para quem já toca. Nas palavras do professor Cleber, o mínimo é ter uma base mecânica no instrumento — não precisa ser nada avançado, quem já está iniciado no violão aproveita bem. E o acesso inclui também a Trilha Iniciantes completa, que começa do zero, então quem ainda está nos primeiros acordes começa por lá e chega ao flamenco no seu tempo.",
+  },
+  {
+    question: "Preciso de um violão flamenco para fazer o curso?",
+    answer:
+      "Não. Resposta do próprio professor: não precisa de um violão flamenco específico — dá para fazer o curso inteiro com um violão de náilon comum, sem o menor problema.",
+  },
+  {
+    question: "Preciso instalar golpeador no meu violão?",
+    answer:
+      "No primeiro momento, não. O golpeador (a película que protege o tampo) é interessante para o violão não se danificar com os golpes, mas isso não acontece logo de cara: dá para começar sem ele e pensar em instalar mais para a frente, conforme você for tocando mais percussão.",
+  },
+  {
+    question: "Preciso de unha comprida na mão direita?",
+    answer:
+      "Não tão comprida quanto se imagina — ao contrário do que o pessoal pensa, a maioria dos guitarristas flamencos não usa unha longa. Como no erudito, é uma escolha bem pessoal. Para os rasgueos o que importa é a unha ter uma base firme: endurecer a unha costuma resolver, e em casos específicos vale o mesmo reforço que se usa no violão popular (gel, acrílica). Não há nada de extremamente específico: é o cuidado normal com as unhas que todo violonista precisa ter.",
+  },
+  {
+    question: "Serve para quem toca guitarra, violão de aço ou violão de sete cordas?",
+    answer:
+      "Serve para qualquer um que queira ampliar as ferramentas que tem no instrumento. Não é um curso específico de guitarra elétrica, mas o conteúdo rítmico se aproveita muito bem na guitarra, no violão de aço e no de sete cordas. No sete cordas, aliás, a aplicação é ainda mais direta: o trabalho de polegar e o toque alternado ajudam bastante.",
   },
   {
     question: "Eu toco violão clássico ou popular. Estudar flamenco não vai estragar a minha técnica?",
@@ -216,12 +236,27 @@ export const flamencoFaqs: FaqItem[] = [
   {
     question: "O que vou aprender no curso de Técnicas de Violão Flamenco?",
     answer:
-      "São 6 módulos: postura, posicionamento das mãos e relaxamento; sonoridade flamenca; técnicas percussivas (rasgueos e golpes); técnicas do polegar, alzapúa e toque alternado de polegar e indicador; arpejos, trêmolo e picado; e toques “a compás” sobre os principais ritmos (palos) flamencos.",
+      "São 8 módulos e 54 videoaulas, cerca de 5h30 de vídeo, além da abertura e da aula sobre o violão e as principais posturas. Os módulos são: rasgueos; golpes; arpejos; polegar; alzapúa; trêmolo; picado; e uma introdução aos ritmos (palos) flamencos. Cada módulo traz as considerações do professor, os exercícios em ordem e um estudo para aplicar a técnica.",
+  },
+  {
+    question: "Quais ritmos (palos) flamencos o curso trabalha?",
+    answer:
+      "O último módulo apresenta oito palos, um por aula: tangos, tientos, sevillanas, fandangos de Huelva, alegrías, bulerías, soleá por bulerías e soleá. A rumba não está nesse módulo, mas aparece antes: o professor passa a levada de rumba dentro do módulo de golpes. E alguns estudos de técnica já são escritos sobre esses compassos — o de arpejos, por exemplo, vem em alegrías e em soleá por bulerías.",
+  },
+  {
+    question: "O curso é focado em técnica ou ensina músicas?",
+    answer:
+      "É um curso de técnica, e o professor é direto nisso: os estudos foram criados para desenvolver a técnica, não para trabalhar composições. Eles funcionam como pequenas peças e servem de base para o aluno criar as suas, mas o foco não é repertório. Repertório pronto está em outros cursos da mesma trilha, como o de Peças de violão solo, que vem junto no mesmo acesso.",
+  },
+  {
+    question: "Tem material de apoio para baixar?",
+    answer:
+      "Sim. Todo o conteúdo escrito do curso — os exercícios e os estudos de cada módulo — está em PDF para você baixar, imprimir e estudar com o violão na mão, longe da tela.",
   },
   {
     question: "Quem é o professor?",
     answer:
-      "Cleber Assumpção, violonista e guitarrista de família de músicos. Estudou violão clássico, tocou choro e seresta, rock e jazz, e conheceu o flamenco ainda adolescente, por uma fita do Paco de Lucía. Chegou ao Amigo Violão como aluno do PROVIC e hoje assina o curso de técnica flamenca da plataforma.",
+      "Cleber Assumpção, violonista e guitarrista de família de músicos, professor há cerca de 30 anos. É bacharel em violão pela FAMUSC, em Pindamonhangaba, e teve aulas particulares com Henrique Pinto (violão erudito) e Fernando Corrêa (guitarra jazz); no flamenco, estudou com Fernando de La Rua e com Flávio Rodrigues. Acompanha grupos de dança flamenca em São Paulo, Taubaté e São José dos Campos. Chegou ao Amigo Violão como aluno do PROVIC e hoje assina o curso de técnica flamenca da plataforma.",
   },
   {
     question: "O que exatamente está incluído no acesso?",
@@ -241,7 +276,7 @@ export const flamencoFaqs: FaqItem[] = [
   {
     question: "Quantas horas de estudo precisa por dia para ter resultados?",
     answer:
-      "De 30 minutos a 1 hora por dia já traz evolução consistente. O que conta é a qualidade: estudar lento, com atenção ao som e ao movimento de cada nota. Muitas horas mal aproveitadas valem menos que alguns minutos bem estudados.",
+      "De 30 minutos a 1 hora por dia — padrão que o próprio professor Cleber confirma como o ideal para este curso. O que conta é a qualidade: estudar lento, com atenção ao som e ao movimento de cada nota. Muitas horas mal aproveitadas valem menos que alguns minutos bem estudados.",
   },
   {
     question: "Como é o acesso ao curso?",
