@@ -9,6 +9,8 @@ import PromoBanner from "@/components/sales/PromoBanner";
 import FlamencoHero from "@/components/sales/FlamencoHero";
 import BadgeStrip from "@/components/sales/BadgeStrip";
 import CourseModules from "@/components/sales/CourseModules";
+import CourseCurriculum from "@/components/sales/CourseCurriculum";
+import TeacherInterview from "@/components/sales/TeacherInterview";
 import CommonMistakes from "@/components/sales/CommonMistakes";
 import LearnForReal from "@/components/sales/LearnForReal";
 import PricingCTA from "@/components/sales/PricingCTA";
@@ -76,8 +78,8 @@ const faqJsonLd = {
 };
 
 const badges = [
+  "54 videoaulas em 8 módulos",
   "Técnica a serviço da música",
-  "Estude quando e de onde quiser",
   "Do básico aos palos flamencos",
 ];
 
@@ -109,6 +111,75 @@ const modules = [
   },
 ];
 
+/**
+ * O programa como ele está montado na plataforma, conferido pelo professor.
+ * São 8 módulos e 54 videoaulas — as artes acima, feitas na época do
+ * lançamento, agrupam as mesmas técnicas em 6 cartões temáticos, por isso as
+ * duas seções não batem em número e a de cima não fala em "módulos".
+ */
+const curriculumStats = [
+  { value: "8", label: "módulos" },
+  { value: "54", label: "videoaulas" },
+  { value: "≈ 5h30", label: "de vídeo" },
+  { value: "PDF", label: "material escrito para baixar" },
+];
+
+const curriculumOpening = [
+  "Vídeo de abertura do curso",
+  "O violão e as principais posturas",
+];
+
+const curriculumModules = [
+  {
+    title: "Rasgueos",
+    lessons: "9 videoaulas",
+    description:
+      "Rasgueo de dedos e rasgueo de pulso: as considerações de cada um, os acordes para estudar, as fórmulas e um estudo completo para cada técnica.",
+  },
+  {
+    title: "Golpes",
+    lessons: "8 videoaulas",
+    description:
+      "O golpe abaixo e acima das cordas, em sete exercícios que constroem a percussão no tampo sem atrapalhar o som nem forçar a mão. É aqui também que entra a levada de rumba.",
+  },
+  {
+    title: "Arpejos",
+    lessons: "5 videoaulas",
+    description:
+      "As fórmulas de arpejo e os estudos que as aplicam, entre eles um por alegrías e um por soleá por bulerías.",
+  },
+  {
+    title: "Polegar",
+    lessons: "6 videoaulas",
+    description:
+      "Treze exercícios progressivos de polegar, da mecânica do movimento ao ataque com peso, apoio e precisão.",
+  },
+  {
+    title: "Alzapúa",
+    lessons: "6 videoaulas",
+    description:
+      "Onze exercícios de alzapúa, o toque em que o polegar vai e volta entre a nota solta e o acorde.",
+  },
+  {
+    title: "Trêmolo",
+    lessons: "4 videoaulas",
+    description:
+      "Três exercícios e um estudo de trêmolo, para a mão direita ganhar regularidade e velocidade sem tensão.",
+  },
+  {
+    title: "Picado",
+    lessons: "7 videoaulas",
+    description:
+      "Dezenove exercícios de picado até o estudo final: a escala flamenca saindo seca e limpa, mesmo em andamento rápido.",
+  },
+  {
+    title: "Introdução aos ritmos (palos) flamencos",
+    lessons: "9 videoaulas",
+    description:
+      "Tangos, tientos, sevillanas, fandangos de Huelva, alegrías, bulerías, soleá por bulerías e soleá: o compás de cada um e como tocar dentro dele.",
+  },
+];
+
 // Depoimentos da plataforma (os mesmos da página do Clássico, trilha onde o
 // curso de Flamenco mora). Ainda não há depoimento em vídeo específico dele.
 const videos = [
@@ -117,6 +188,20 @@ const videos = [
   { duration: "01:41", name: "André Horta", youtubeId: "lIEgxkuShzQ" },
   { duration: "01:20", name: "Flávio Bessa", youtubeId: "Bq7yzPSRrq0" },
 ];
+
+// Não são depoimentos de alunos: são gravações do próprio Cleber tocando, do
+// canal dele. Títulos conferidos no YouTube.
+const performances = [
+  { name: "Falseta por Alegrías", youtubeId: "B7_pqr03Wv4" },
+  { name: "Guajiras", youtubeId: "MLKrpSRQ5ok" },
+  { name: "Horizonte Distante", youtubeId: "GXKvwZYZo4M" },
+  { name: "Caravana (Geraldo Azevedo e Alceu Valença)", youtubeId: "wrLbHvUr88Q" },
+  { name: "Gitana", youtubeId: "RSD8K5uHkok" },
+  { name: "Guitarra Flamenca Regis Bonilha", youtubeId: "A5XcLYmwCW4" },
+  { name: "Sons de Carrilhões (João Pernambuco)", youtubeId: "s9xzQlFr8ac" },
+  { name: "Samba do Avião", youtubeId: "a4ZVlkQr0sU" },
+  { name: "Sorri / Smile (Charles Chaplin, versão de Djavan)", youtubeId: "vWRMS3Hcpzk" },
+].map((v) => ({ ...v, caption: v.name }));
 
 const obstacles = [
   "Escalas que embolam quando você tenta tocar rápido;",
@@ -128,7 +213,7 @@ const obstacles = [
 
 const valueStackCoreItems = [
   "As 3 Trilhas completas — Clássico, Iniciantes e Infantil (14 cursos)",
-  "Curso de Técnicas de Violão Flamenco, com 6 módulos, dentro da Trilha Clássico",
+  "Curso de Técnicas de Violão Flamenco: 8 módulos e 54 videoaulas, dentro da Trilha Clássico",
   "Leitura, teoria, técnica e repertório de violão solo na mesma trilha",
   "Acesso por 2 anos, com app para celular, tablet e TV",
   "Suporte da comunidade Amigo Violão",
@@ -141,10 +226,13 @@ const valueStackBonuses = bonus.map((b) => ({
   description: b.descricao,
 }));
 
+// Texto em primeira pessoa, revisado e completado pelo próprio Cleber.
 const bio = [
   "Venho de família de músicos: comecei a tocar em casa, com meu pai e meu avô, entre rodas de choro e seresta, o pop e o rock.",
   "O flamenco entrou na minha vida por uma fita cassete do Paco de Lucía. Foi um impacto gigantesco — e levei anos para entender como aquelas técnicas eram feitas.",
-  "Estudei violão clássico, toquei guitarra, jazz e violão de sete cordas, sempre buscando uma unidade: quanto mais técnicas de gêneros diferentes eu desenvolvo, maior a aquarela de cores que tenho para me expressar.",
+  "Sou bacharel em violão pela FAMUSC, em Pindamonhangaba, onde estudei com o professor Luiz Cláudio Stelzer, e tive aulas particulares com Henrique Pinto, no violão erudito, e com Fernando Corrêa, na guitarra jazz. O flamenco eu estudei com o professor Fernando de La Rua e, depois, com o professor Flávio Rodrigues.",
+  "Toquei guitarra, jazz e violão de sete cordas, sempre buscando uma unidade: quanto mais técnicas de gêneros diferentes eu desenvolvo, maior a aquarela de cores que tenho para me expressar.",
+  "Dou aulas há cerca de 30 anos e acompanho grupos de dança flamenca, com trabalhos em São Paulo, Taubaté e São José dos Campos.",
   "Conheci o Amigo Violão como aluno do PROVIC. Hoje é uma honra somar com a plataforma, ensinando com calma e precisão as técnicas que transformaram o meu violão.",
 ];
 
@@ -168,10 +256,20 @@ export default function CursoDeFlamencoPage() {
         <FlamencoHero />
         <BadgeStrip badges={badges} />
         <CourseModules
-          heading="Os 6 módulos do curso de Técnicas de Violão Flamenco:"
+          heading="As técnicas que você vai dominar:"
           modules={modules}
           columns={3}
           captions={false}
+        />
+
+        <CourseCurriculum
+          heading="O programa completo do curso:"
+          subheading="Oito módulos, uma técnica por vez, do rasgueo ao compás dos palos — cada um com as considerações do professor, os exercícios na ordem e um estudo para aplicar o que foi treinado."
+          stats={curriculumStats}
+          opening={curriculumOpening}
+          modules={curriculumModules}
+          closing="Considerações finais e agradecimentos"
+          note="As 54 videoaulas são as dos oito módulos: o vídeo de abertura, a aula sobre o violão e as posturas e o encerramento vêm além delas. E dá para estudar tudo isso no violão de náilon que você já tem — violão flamenco não é pré-requisito."
         />
 
         <div className="bg-white pb-10 pt-6">
@@ -240,11 +338,33 @@ export default function CursoDeFlamencoPage() {
           name="Cleber Assumpção"
           photo={{
             src: "/images/flamenco/cleber-assumpcao.webp",
-            width: 600,
-            height: 600,
+            width: 800,
+            height: 800,
           }}
           paragraphs={bio}
           whatsappMessage={WHATSAPP_COURSE_MESSAGES.flamenco}
+        />
+        {/* O bate-papo saiu do herói quando o vídeo de apresentação entrou lá;
+            o Cleber pediu para mantê-lo na página, e aqui ele funciona melhor:
+            logo depois da bio, para quem quer ouvir o professor falar. */}
+        <TeacherInterview
+          heading="Vale a pena aprender violão flamenco?"
+          paragraph="Ricardo Novais e Cleber Assumpção conversam sobre o que a técnica flamenca acrescenta a quem já toca — de onde vêm os rasgueos, por que o picado exige tanta precisão e o que muda no violão de quem estuda isso a sério."
+          photo={{
+            src: "/images/flamenco/cleber-violao-abracado.webp",
+            alt: "Cleber Assumpção abraçado ao violão flamenco",
+            width: 1000,
+            height: 816,
+          }}
+          youtubeId="vhM-wJZ0AOc"
+          videoTitle="Bate-papo com Cleber Assumpção: vale a pena aprender violão flamenco?"
+        />
+        <VideoTestimonials
+          videos={performances}
+          aspect="video"
+          columns={3}
+          eyebrow="Ouça o professor"
+          heading="Cleber Assumpção tocando"
         />
         <ValueStack
           coreItems={valueStackCoreItems}

@@ -21,9 +21,9 @@ export default function FlamencoHero() {
               Cleber, e a linha de autoridade precisa dizer isso. */}
           <p className="mt-3 text-sm leading-snug text-white/70">
             Curso de <strong className={negrito}>Cleber Assumpção</strong>,
-            violonista que transita entre o flamenco, o clássico, o choro e o
-            jazz — dentro da plataforma criada por{" "}
-            <strong className={negrito}>Ricardo Novais</strong>.
+            bacharel em violão e professor há 30 anos, que transita entre o
+            flamenco, o clássico, o choro e o jazz — dentro da plataforma criada
+            por <strong className={negrito}>Ricardo Novais</strong>.
           </p>
 
           <a

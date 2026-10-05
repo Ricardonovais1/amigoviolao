@@ -10,19 +10,28 @@ const defaultVideos = [
 ];
 
 type Video = {
-  duration: string;
+  duration?: string;
   name: string;
   youtubeId?: string;
+  /** Substitui o rótulo padrão "Depoimento de {name}". */
+  caption?: string;
 };
 
 type VideoTestimonialsProps = {
   videos?: Video[];
   aspect?: "portrait" | "video";
+  eyebrow?: string;
+  heading?: string;
+  /** Colunas no desktop do formato "video". */
+  columns?: 2 | 3;
 };
 
 export default function VideoTestimonials({
   videos = defaultVideos,
   aspect = "portrait",
+  eyebrow = "Em vídeo",
+  heading = "O que dizem do Amigo Violão",
+  columns = 2,
 }: VideoTestimonialsProps) {
   const isWide = aspect === "video";
 
@@ -37,10 +46,10 @@ export default function VideoTestimonials({
       >
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
-            Em vídeo
+            {eyebrow}
           </p>
           <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
-            O que dizem do Amigo Violão
+            {heading}
           </h2>
           <span className="mx-auto mt-5 block h-1 w-16 rounded-full bg-gradient-to-r from-primary to-primary-light" />
         </Reveal>
@@ -48,7 +57,9 @@ export default function VideoTestimonials({
         <div
           className={`mt-10 grid grid-cols-1 ${
             isWide
-              ? "gap-6 sm:grid-cols-2"
+              ? columns === 3
+                ? "gap-6 sm:grid-cols-2 lg:grid-cols-3"
+                : "gap-6 sm:grid-cols-2"
               : "gap-4 sm:grid-cols-2 lg:grid-cols-4"
           }`}
         >
@@ -63,7 +74,7 @@ export default function VideoTestimonials({
                   {video.youtubeId ? (
                     <YouTubeVideo
                       id={video.youtubeId}
-                      title={`Depoimento de ${video.name}`}
+                      title={video.caption ?? `Depoimento de ${video.name}`}
                       duration={video.duration}
                     />
                   ) : (
@@ -78,7 +89,7 @@ export default function VideoTestimonials({
                   )}
                 </div>
                 <p className="mt-3 text-base font-semibold text-primary transition-colors duration-300 [@media(hover:hover)_and_(pointer:fine)]:group-hover:text-primary-light sm:text-lg">
-                  Depoimento de {video.name}
+                  {video.caption ?? `Depoimento de ${video.name}`}
                 </p>
               </div>
             </Reveal>
