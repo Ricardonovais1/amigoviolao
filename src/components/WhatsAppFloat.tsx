@@ -13,7 +13,8 @@ export default function WhatsAppFloat() {
   const pathname = usePathname();
   // As paginas de quiz sao incorporadas via iframe no Hotmart — nada de
   // botoes flutuantes do site por cima da aula.
-  if (pathname?.startsWith("/quiz")) return null;
+  // A /links (bio do Instagram) já abre com o WhatsApp como botão principal.
+  if (pathname?.startsWith("/quiz") || pathname === "/links") return null;
   const slug = pathname?.match(/^\/cursos\/([^/]+)/)?.[1];
   const message =
     slug && slug in WHATSAPP_COURSE_MESSAGES

@@ -32,6 +32,13 @@ export const WHATSAPP_COURSE_MESSAGES = {
   professores: `${WHATSAPP_GREETING} Estou buscando informações sobre o curso para professores (PROVIC).`,
 } as const;
 
+/**
+ * A página /links é a da bio do Instagram: quem chega ali não está "no site",
+ * por isso a saudação é outra.
+ */
+export const WHATSAPP_AULAS_PARTICULARES =
+  "Olá, Ricardo! Vim pelo Instagram e quero saber sobre as aulas particulares de violão.";
+
 export function whatsappUrl(message: string = WHATSAPP_DEFAULT_MESSAGE) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
