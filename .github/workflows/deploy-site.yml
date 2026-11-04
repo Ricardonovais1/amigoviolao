@@ -13,6 +13,14 @@ on:
     branches:
       - staging
       - master
+  # Encerramento de campanha: o site e estatico e o preco promocional so sai
+  # do ar num build novo (src/lib/ofertas.ts confere a data no build). 03:05
+  # UTC = 00:05 de Brasilia do dia 01/12, logo depois do fim da Black
+  # November. Agendamento so roda da branch padrao (master = producao).
+  # O GitHub pode atrasar o cron em ate ~1h; a faixa do site some sozinha no
+  # navegador, e a oferta no Hotmart tem a propria data de fim.
+  schedule:
+    - cron: "5 3 1 12 *"
   # Republicar sem commit novo: mudanca de secret (GA4, Brevo) nao dispara push,
   # e o build embute essas variaveis -- sem isso so um commit vazio resolveria.
   workflow_dispatch:
