@@ -30,6 +30,7 @@ const STATIC_PATHS: Array<[path: string, priority: number]> = [
   ["/sobre", 0.7],
   ["/quizzes", 0.7],
   ["/contato", 0.5],
+  ["/links", 0.3],
   ["/politica-de-privacidade", 0.2],
   ["/politicas-de-cancelamento", 0.2],
   ["/termos-de-servicos", 0.2],

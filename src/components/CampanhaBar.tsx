@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { CampanhaAtiva } from "@/lib/ofertas";
 import { useTempoRestante } from "./Contagem";
 
@@ -14,7 +15,10 @@ import { useTempoRestante } from "./Contagem";
  */
 export default function CampanhaBar({ campanha }: { campanha: CampanhaAtiva }) {
   const restante = useTempoRestante(campanha.termina);
+  const pathname = usePathname();
   if (restante === 0) return null;
+  // A /links (bio do Instagram) mostra a campanha dentro dela, num selo por curso.
+  if (pathname === "/links") return null;
 
   return (
     <Link

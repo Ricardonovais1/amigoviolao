@@ -52,7 +52,8 @@ export default function BackToTop() {
   }, []);
 
   // Paginas de quiz sao incorporadas via iframe — sem chrome do site.
-  if (pathname?.startsWith("/quiz")) return null;
+  // A /links (bio do Instagram) é uma folha curta, com desenho próprio.
+  if (pathname?.startsWith("/quiz") || pathname === "/links") return null;
 
   // Nas paginas de venda o StickyMobileCTA ocupa o rodape no mobile; sem isto
   // o botao pousa em cima da barra de compra. Mesmo ajuste do WhatsAppFloat.
