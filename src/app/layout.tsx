@@ -5,6 +5,8 @@ import BackToTop from "@/components/BackToTop";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import OrganizationJsonLd from "@/components/OrganizationJsonLd";
 import Analytics from "@/components/Analytics";
+import CampanhaBar from "@/components/CampanhaBar";
+import { campanhaAtiva } from "@/lib/ofertas";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -42,6 +44,8 @@ export const metadata: Metadata = {
   },
 };
 
+const campanha = campanhaAtiva();
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -62,6 +66,7 @@ export default function RootLayout({
         </noscript>
         <Analytics />
         <OrganizationJsonLd />
+        {campanha && <CampanhaBar campanha={campanha} />}
         {children}
         <BackToTop />
         <WhatsAppFloat />

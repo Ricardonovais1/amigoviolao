@@ -367,6 +367,7 @@ export default function CursoParaProfessoresPage() {
           installments={preco.parcelas}
           installmentPrice={preco.parcela}
           cashPrice={preco.aVista}
+          campanha={preco.campanha}
           inclusions={null}
           // "comprar" é o id que o botão do hero e o CTA fixo do mobile
           // procuram. Esta página usava "comprar-final", de quando havia dois

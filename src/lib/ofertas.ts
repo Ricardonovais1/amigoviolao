@@ -58,14 +58,99 @@ const PRECO_PADRAO: Record<SkuId, Preco> = {
   professores: { ancora: 1497, aVista: 937 },
 };
 
+export type Promocao = {
+  /** Nome exibido na faixa do site e no selo do bloco de preço. */
+  nome: string;
+  /** Fim da promoção, com fuso explícito (horário de Brasília). */
+  termina: string;
+  /** Dia do fim, como a faixa do site anuncia ("até 30/11"). */
+  terminaDia: string;
+  /** Rótulo legível do fim, para o HTML estático antes do JS hidratar. */
+  terminaRotulo: string;
+  preco: Record<SkuId, Preco>;
+  /**
+   * Checkout da promoção, um por página. Obrigatório: a página não pode
+   * anunciar R$ 497 e mandar para uma oferta Hotmart que cobra R$ 657. Link
+   * vazio desliga a promoção inteira no build (ver `promocaoVigente`).
+   */
+  checkout: Record<PaginaVenda, string>;
+};
+
 /**
- * Promoção ativa. `null` = preço cheio nas quatro páginas.
+ * Promoção ativa. `null` = preço cheio em todas as páginas.
  *
  * Ao descontar, desconte os DOIS SKUs na mesma proporção: mexer só num deles
  * estreita a diferença de R$ 280 e mata o upgrade. Piso de 30% off sobre o
  * preço à vista — Estudantes R$ 460, Professores R$ 656.
+ *
+ * Black November 2026: 50% sobre o preço riscado, a âncora de sempre. Fica
+ * acima do piso (24% / 20% abaixo do à vista normal) e o "Economize" do
+ * PricingCTA continua saindo da própria âncora.
  */
-const PROMOCAO: Record<SkuId, Preco> | null = null;
+const PROMOCAO: Promocao | null = {
+  nome: "Black November",
+  termina: "2026-11-30T23:59:59-03:00",
+  terminaDia: "30/11",
+  terminaRotulo: "30/11 às 23h59",
+  preco: {
+    estudantes: { ancora: 987, aVista: 497 },
+    professores: { ancora: 1497, aVista: 747 },
+  },
+  // Ofertas Black November no Hotmart, conferidas no checkout em 04/11/2026:
+  // as quatro de Estudantes cobram R$ 497 e a de Professores, R$ 747.
+  checkout: {
+    criancas: "https://pay.hotmart.com/D16391337C?off=c04mxsj9",
+    iniciantes: "https://pay.hotmart.com/D16391337C?off=c93g1mdh",
+    classico: "https://pay.hotmart.com/D16391337C?off=9r4ozms0",
+    flamenco: "https://pay.hotmart.com/D16391337C?off=le11xkh1",
+    professores: "https://pay.hotmart.com/D16391337C?off=6131ddds",
+  },
+};
+
+/**
+ * A promoção só vale no build se ainda não terminou E tiver checkout em todas
+ * as páginas. A data é conferida na hora do build: o site é estático, então o
+ * rebuild agendado para 01/12 (deploy-site.yml) é o que tira o preço do ar.
+ */
+function promocaoVigente(): Promocao | null {
+  if (!PROMOCAO) return null;
+  if (Date.now() > Date.parse(PROMOCAO.termina)) return null;
+  const semCheckout = Object.entries(PROMOCAO.checkout)
+    .filter(([, url]) => !url)
+    .map(([pagina]) => pagina);
+  if (semCheckout.length > 0) {
+    console.warn(
+      `[ofertas] ${PROMOCAO.nome} desligada: falta checkout em ${semCheckout.join(", ")}.`,
+    );
+    return null;
+  }
+  return PROMOCAO;
+}
+
+const PROMOCAO_VIGENTE = promocaoVigente();
+
+/** O que a faixa do site e o selo do preço precisam saber da campanha. */
+export type CampanhaAtiva = Pick<
+  Promocao,
+  "nome" | "termina" | "terminaDia" | "terminaRotulo"
+> & {
+  /** "50% OFF", calculado dos preços — nunca digitado à mão. */
+  desconto: string;
+};
+
+export function campanhaAtiva(): CampanhaAtiva | null {
+  if (!PROMOCAO_VIGENTE) return null;
+  const { nome, termina, terminaDia, terminaRotulo, preco } = PROMOCAO_VIGENTE;
+  const percentuais = Object.values(preco).map(({ ancora, aVista }) =>
+    Math.round((1 - aVista / ancora) * 100),
+  );
+  const menor = Math.min(...percentuais);
+  const maior = Math.max(...percentuais);
+  // Se os SKUs não fecharem no mesmo número redondo, a faixa não pode
+  // prometer o maior para todo mundo.
+  const desconto = menor === maior ? `${menor}% OFF` : `até ${maior}% OFF`;
+  return { nome, termina, terminaDia, terminaRotulo, desconto };
+}
 
 export function precoDoSku(sku: SkuId): {
   ancora: number;
@@ -73,17 +158,16 @@ export function precoDoSku(sku: SkuId): {
   parcelas: number;
   parcela: number;
   descontoPercentual: number;
-  emPromocao: boolean;
+  campanha: CampanhaAtiva | null;
 } {
-  const emPromocao = PROMOCAO !== null;
-  const { ancora, aVista } = (PROMOCAO ?? PRECO_PADRAO)[sku];
+  const { ancora, aVista } = (PROMOCAO_VIGENTE?.preco ?? PRECO_PADRAO)[sku];
   return {
     ancora,
     aVista,
     parcelas: PARCELAS,
     parcela: parcelaDe(aVista),
     descontoPercentual: Math.round((1 - aVista / ancora) * 1000) / 10,
-    emPromocao,
+    campanha: campanhaAtiva(),
   };
 }
 
@@ -112,7 +196,7 @@ const CHECKOUT: Record<PaginaVenda, string> = {
 };
 
 export function checkoutDaPagina(pagina: PaginaVenda): string {
-  return CHECKOUT[pagina];
+  return PROMOCAO_VIGENTE?.checkout[pagina] ?? CHECKOUT[pagina];
 }
 
 /* ------------------------------------------------------------- composição */

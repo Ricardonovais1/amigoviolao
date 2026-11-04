@@ -163,6 +163,7 @@ export default function CursoParaCriancasPage() {
           installments={preco.parcelas}
           installmentPrice={preco.parcela}
           cashPrice={preco.aVista}
+          campanha={preco.campanha}
         />
         <Guarantee />
         <Faq />
