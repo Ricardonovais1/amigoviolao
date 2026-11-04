@@ -241,6 +241,7 @@ export default function CursoDeClassicoPage() {
           installments={preco.parcelas}
           installmentPrice={preco.parcela}
           cashPrice={preco.aVista}
+          campanha={preco.campanha}
         />
         <Guarantee text="Experimente o curso por 30 dias. Se você não gostar por qualquer motivo, é só pedir o reembolso dentro da própria plataforma e devolvemos 100% do valor, sem perguntas e sem burocracia. Todo o risco é nosso." />
         <Faq faqs={classicoFaqs} />

@@ -2,6 +2,8 @@ import Image from "next/image";
 import Reveal from "../Reveal";
 import Ambient from "../Ambient";
 import { HOTMART_CHECKOUT_URL } from "@/lib/links";
+import type { CampanhaAtiva } from "@/lib/ofertas";
+import Contagem from "../Contagem";
 
 const defaultInclusions = [
   "As 3 Trilhas completas — Infantil, Iniciantes e Clássico",
@@ -39,6 +41,8 @@ type PricingCTAProps = {
   cashPrice?: number;
   trustImage?: { src: string; alt: string; width: number; height: number };
   sectionId?: string;
+  /** Campanha que define o preço exibido; liga o selo com a contagem. */
+  campanha?: CampanhaAtiva | null;
 };
 
 export default function PricingCTA({
@@ -58,6 +62,7 @@ export default function PricingCTA({
     height: 87,
   },
   sectionId = "comprar",
+  campanha = null,
 }: PricingCTAProps) {
   return (
     <section
@@ -92,6 +97,20 @@ export default function PricingCTA({
         )}
 
         <Reveal delay={80} variant="scale">
+          {campanha && (
+            <div className="mx-auto mt-8 flex w-fit flex-col items-center rounded-2xl bg-black px-5 py-3 text-white">
+              <p className="text-sm font-extrabold uppercase tracking-wide">
+                {campanha.nome} ·{" "}
+                <span className="text-primary-light">{campanha.desconto}</span>
+              </p>
+              <p className="mt-0.5 text-xs font-medium text-white/80">
+                <Contagem
+                  termina={campanha.termina}
+                  terminaRotulo={campanha.terminaRotulo}
+                />
+              </p>
+            </div>
+          )}
           {/* Diferença calculada da própria âncora: não há como a economia
               anunciada divergir dos dois preços exibidos logo abaixo. */}
           {anchorPrice > cashPrice && (

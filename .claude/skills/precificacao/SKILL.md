@@ -160,6 +160,20 @@ não o invariante.
   (as três portas de Estudantes apontam para ofertas diferentes do mesmo
   produto Hotmart, nomeadas pelo carro-chefe), com fallback para os links
   legados enquanto as ofertas novas não existirem.
+- **Promoção leva checkout próprio.** `PROMOCAO.checkout` exige um link por
+  página; com qualquer um vazio a promoção fica desligada no build, para a
+  página nunca anunciar um preço que o Hotmart não cobra. A data de fim
+  (`termina`) também é conferida no build: o site é estático, então o preço
+  promocional só sai do ar num deploy depois do fim.
+- **"X% OFF" é sobre a âncora**, nunca sobre o à vista. A faixa do site e o
+  selo do preço calculam o rótulo a partir dos preços da promoção.
+
+### Campanhas
+
+| Campanha | Período | Estudantes | Professores | Base do desconto |
+|---|---|---:|---:|---|
+| Black November 2026 | até 30/11/2026 23h59 | 497 (12x 51,40) | 747 (12x 77,26) | 50% sobre a âncora (= 24% / 20% sob o à vista) |
+
 
 ## Base antiga
 
