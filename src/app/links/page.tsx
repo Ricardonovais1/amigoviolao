@@ -108,7 +108,7 @@ export default function LinksPage() {
               {/* eslint-disable-next-line @next/next/no-img-element -- export estático, imagens sem otimização */}
               <img className={styles.logo} src="/images/links/logo-guitplay-fundo-escuro.png" alt="GuitPlay" width={800} height={199} />
               <span>O app do professor de violão: material, prática em casa e acompanhamento.</span>
-              <span className={styles.selo}>Lista de espera</span>
+              <span className={styles.selo}>Começar grátis</span>
             </div>
             <Seta />
           </a>
