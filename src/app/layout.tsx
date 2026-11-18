@@ -5,6 +5,7 @@ import BackToTop from "@/components/BackToTop";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import OrganizationJsonLd from "@/components/OrganizationJsonLd";
 import Analytics from "@/components/Analytics";
+import MetaPixel from "@/components/MetaPixel";
 import CampanhaBar from "@/components/CampanhaBar";
 import { campanhaAtiva } from "@/lib/ofertas";
 
@@ -65,6 +66,10 @@ export default function RootLayout({
           <style>{`.reveal[data-blur]{opacity:1;transform:none;filter:none}`}</style>
         </noscript>
         <Analytics />
+        {/* Só produção: staging e dev contariam visitas falsas nos públicos. */}
+        <MetaPixel
+          ativo={IS_PRODUCTION && process.env.NODE_ENV === "production"}
+        />
         <OrganizationJsonLd />
         {campanha && <CampanhaBar campanha={campanha} />}
         {children}
