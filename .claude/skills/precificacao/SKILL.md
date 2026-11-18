@@ -174,6 +174,11 @@ não o invariante.
 |---|---|---:|---:|---|
 | Black November 2026 | até 30/11/2026 23h59 | 497 (12x 51,40) | 747 (12x 77,26) | 50% sobre a âncora (= 24% / 20% sob o à vista) |
 
+Bônus de campanha (`PROMOCAO.bonus` em `ofertas.ts`, some do site junto com o
+preço): Black November 2026, só Professores, **Mentoria ao vivo** em
+09/12/2026 às 20h, gravada para quem não puder ir, valor R$ 197, sem limite de
+vagas. Decidido em 18/11/2026 para dar gancho aos anúncios sem aumentar o
+desconto, porque 50% em cima de 50% passaria imagem de desespero.
 
 ## Base antiga
 

@@ -74,6 +74,12 @@ export type Promocao = {
    * vazio desliga a promoção inteira no build (ver `promocaoVigente`).
    */
   checkout: Record<PaginaVenda, string>;
+  /**
+   * Bônus que só existe para quem compra durante a campanha. Entra no fim da
+   * lista de bônus do SKU e sai do site junto com o preço, no rebuild depois
+   * do `termina`.
+   */
+  bonus?: Partial<Record<SkuId, Bonus>>;
 };
 
 /**
@@ -104,6 +110,18 @@ const PROMOCAO: Promocao | null = {
     classico: "https://pay.hotmart.com/D16391337C?off=9r4ozms0",
     flamenco: "https://pay.hotmart.com/D16391337C?off=le11xkh1",
     professores: "https://pay.hotmart.com/D16391337C?off=6131ddds",
+  },
+  // Decidido com o Ricardo em 18/11/2026, para a campanha de anúncios de
+  // Professores. Vale para toda compra até 30/11, venha ou não do anúncio.
+  // Sem limite de vagas: não anunciar número de vagas que não existe.
+  bonus: {
+    professores: {
+      titulo:
+        "Mentoria ao vivo: Domine o ensino de violão para crianças e iniciantes",
+      valor: 197,
+      descricao:
+        "Encontro ao vivo comigo em 09/12, às 20h, só para quem comprar até 30/11. Traga suas dúvidas de aula. Quem não puder ir recebe a gravação.",
+    },
   },
 };
 
@@ -365,8 +383,12 @@ const BONUS_PROFESSORES: Bonus[] = [
 ];
 
 export function bonusDaPagina(pagina: PaginaVenda): Bonus[] {
-  if (pagina === "professores") return BONUS_PROFESSORES;
-  return [...BONUS_COMUNS_ESTUDANTES, BONUS_ESPECIFICO[pagina]];
+  const daCampanha = PROMOCAO_VIGENTE?.bonus?.[SKU_DA_PAGINA[pagina]];
+  const fixos =
+    pagina === "professores"
+      ? BONUS_PROFESSORES
+      : [...BONUS_COMUNS_ESTUDANTES, BONUS_ESPECIFICO[pagina]];
+  return daCampanha ? [...fixos, daCampanha] : fixos;
 }
 
 /** Soma exibida no "e mais estes bônus". Idêntica em todas as páginas de estudante. */

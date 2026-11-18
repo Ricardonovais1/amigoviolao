@@ -355,7 +355,7 @@ export default function CursoParaProfessoresPage() {
           bonusesIntro="O curso te ensina a ensinar — os bônus te ensinam a viver disso."
           totalNote={`Somando apenas os bônus, são ${formatarInteiroBRL(
             totalDosBonus("professores"),
-          )} em ferramentas que você leva sem pagar nada a mais.`}
+          )} que você leva sem pagar nada a mais.`}
         />
 
         <PricingCTA
